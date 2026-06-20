@@ -16,6 +16,22 @@ local m_min = math.min
 local m_ceil = math.ceil
 local s_format = string.format
 
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
+
+local function addTooltipLine(tooltip, size, text, ...)
+	if select("#", ...) > 0 then
+		tooltip:AddLine(size, formatUI(text, ...))
+	else
+		tooltip:AddLine(size, tr(text))
+	end
+end
+
 local baseSlots = { "Weapon 1", "Weapon 2", "Weapon 1 Swap", "Weapon 2 Swap", "Helmet", "Body Armour", "Gloves", "Boots", "Amulet", "Ring 1", "Ring 2", "Ring 3", "Belt", "Charm 1", "Charm 2", "Charm 3", "Flask 1", "Flask 2" }
 
 local TradeQueryClass = newClass("TradeQuery", function(self, itemsTab)
@@ -65,7 +81,7 @@ local TradeQueryClass = newClass("TradeQuery", function(self, itemsTab)
 					self:SetNotice(self.controls.pbNotice, "")
 					return
 				end
-				local msg = s_format("Rate limited. Retrying after %s seconds...",  self.backoffFinish - now)
+				local msg = formatUI("Rate limited. Retrying after %s seconds...", self.backoffFinish - now)
 				self:SetNotice(self.controls.pbNotice, colorCodes.WARNING..msg)
 				coroutine.yield()
 			end
@@ -96,7 +112,7 @@ function TradeQueryClass:PullLeagueList()
 		self.hostName .. "api/leagues?type=main&compact=1",
 		function(response, errMsg)
 			if errMsg then
-				self:SetNotice(self.controls.pbNotice, "Error: " .. tostring(errMsg))
+				self:SetNotice(self.controls.pbNotice, colorCodes.NEGATIVE .. formatUI("Error: %s", tostring(errMsg)))
 				return "POE ERROR", "Error: "..errMsg
 			else
 				local json_data = dkjson.decode(response.body)
@@ -139,7 +155,7 @@ function TradeQueryClass:PullPoENinjaCurrencyConversion(league)
 	local now = get_time()
 	-- Limit PoE Ninja Currency Conversion request to 1 per hour
 	if (now - self.lastCurrencyConversionRequest) < 3600 then
-		self:SetNotice(self.controls.pbNotice, "PoE Ninja Rate Limit Exceeded: " .. tostring(3600 - (now - self.lastCurrencyConversionRequest)))
+		self:SetNotice(self.controls.pbNotice, formatUI("PoE Ninja Rate Limit Exceeded: %s", tostring(3600 - (now - self.lastCurrencyConversionRequest))))
 		return
 	end
 
@@ -149,7 +165,7 @@ function TradeQueryClass:PullPoENinjaCurrencyConversion(league)
 		"https://poe.ninja/poe2/api/economy/exchange/current/overview?type=Currency&league=" .. urlEncode(league),
 		function(response, errMsg)
 			if errMsg then
-				self:SetNotice(self.controls.pbNotice, "Error: " .. tostring(errMsg))
+				self:SetNotice(self.controls.pbNotice, colorCodes.NEGATIVE .. formatUI("Error: %s", tostring(errMsg)))
 				return
 			end
 			local json_data = dkjson.decode(response.body)
@@ -258,7 +274,7 @@ function TradeQueryClass:PriceItem()
 				self.clickTime = nil
 				return "Not authenticated"
 			else
-				return "Logging in... (" .. left .. ")"
+				return formatUI("Logging in... (%d)", left)
 			end
 		else
 			return colorCodes.WARNING.."Not authenticated"
@@ -349,9 +365,9 @@ on trade site to work on other leagues and realms)]]
 	end
 	self.controls.fetchCountEdit.tooltipFunc = function(tooltip)
 		tooltip:Clear()
-		tooltip:AddLine(16, "Specify maximum number of item pages to retrieve per search from PoE Trade.")
-		tooltip:AddLine(16, "Each page fetches up to 10 items.")
-		tooltip:AddLine(16, "Acceptable Range is: 1 to 10")
+		addTooltipLine(tooltip, 16, "Specify maximum number of item pages to retrieve per search from PoE Trade.")
+		addTooltipLine(tooltip, 16, "Each page fetches up to 10 items.")
+		addTooltipLine(tooltip, 16, "Acceptable Range is: 1 to 10")
 	end
 
 	-- Stat sort popup button
@@ -366,8 +382,8 @@ on trade site to work on other leagues and realms)]]
 	end)
 	self.controls.StatWeightMultipliersButton.tooltipFunc = function(tooltip)
 		tooltip:Clear()
-		tooltip:AddLine(16, "Sorts the weights by the stats selected multiplied by a value")
-		tooltip:AddLine(16, "Currently sorting by:")
+		addTooltipLine(tooltip, 16, "Sorts the weights by the stats selected multiplied by a value")
+		addTooltipLine(tooltip, 16, "Currently sorting by:")
 		for _, stat in ipairs(self.statSortSelectionList) do
 			tooltip:AddLine(16, s_format("%s: %.2f", stat.label, stat.weightMult))
 		end
@@ -420,7 +436,7 @@ Highest Weight - Displays the order retrieved from trade]]
 		else
 			self.tradeQueryRequests:FetchLeagues(self.pbRealm, function(leagues, errMsg)
 				if errMsg then
-					self:SetNotice(self.controls.pbNotice, "Error while fetching league list: "..errMsg)
+					self:SetNotice(self.controls.pbNotice, colorCodes.NEGATIVE .. formatUI("Error while fetching league list: %s", errMsg))
 					return
 				end
 				local sorted_leagues = { }
@@ -514,7 +530,7 @@ Highest Weight - Displays the order retrieved from trade]]
 			end
 		end)
 		local clickTime = os.time()
-		self.charImportStatus = function() return "Logging in... (" .. m_max(0, (clickTime + 30) - os.time()) .. ")" end
+		self.charImportStatus = function() return formatUI("Logging in... (%d)", m_max(0, (clickTime + 30) - os.time())) end
 	end)
 	self.controls.authenticateButton.shown = function()
 		return self.charImportMode == "AUTHENTICATION"
@@ -576,7 +592,9 @@ Highest Weight - Displays the order retrieved from trade]]
 	self.controls.scrollBar = new("ScrollBarControl", {"TOPRIGHT", self.controls["StatWeightMultipliersButton"],"TOPRIGHT"}, {0, 25, 18, 0}, 50, "VERTICAL", false)
 	self.controls.scrollBar.shown = function() return scrollBarShown end
 
-	self.controls.fullPrice = new("LabelControl", {"BOTTOM", nil, "BOTTOM"}, {0, -row_height - pane_margins_vertical - row_vertical_padding, pane_width - 2 * pane_margins_horizontal, row_height}, "")
+	self.controls.fullPrice = new("LabelControl", {"BOTTOM", nil, "BOTTOM"}, {0, -row_height - pane_margins_vertical - row_vertical_padding, pane_width - 2 * pane_margins_horizontal, row_height}, function()
+		return self:GetTotalPriceLabel()
+	end)
 	self.controls.close = new("ButtonControl", {"BOTTOM", nil, "BOTTOM"}, {0, -pane_margins_vertical, 90, row_height}, "Done", function()
 		main:ClosePopup()
 	end)
@@ -731,22 +749,24 @@ function TradeQueryClass:SetCurrencyConversionButton()
 			self.pbFileTimestampDiff[self.controls.league.selIndex] = get_time() - self.lastCurrencyFileTime[self.controls.league.selIndex]
 		end
 		if self.pbFileTimestampDiff[self.controls.league.selIndex] == nil or self.pbFileTimestampDiff[self.controls.league.selIndex] >= 3600 then
-			tooltip:AddLine(16, "Currency Conversion rates are pulled from PoE Ninja")
-			tooltip:AddLine(16, "Updates are limited to once per hour and not necessary more than once per day")
+			addTooltipLine(tooltip, 16, "Currency Conversion rates are pulled from PoE Ninja")
+			addTooltipLine(tooltip, 16, "Updates are limited to once per hour and not necessary more than once per day")
 		elseif self.pbFileTimestampDiff[self.controls.league.selIndex] ~= nil and self.pbFileTimestampDiff[self.controls.league.selIndex] < 3600 then
-			tooltip:AddLine(16, "Conversion Rates are less than an hour old (" .. tostring(self.pbFileTimestampDiff[self.controls.league.selIndex]) .. " seconds old)")
+			addTooltipLine(tooltip, 16, "Conversion Rates are less than an hour old (%s seconds old)", tostring(self.pbFileTimestampDiff[self.controls.league.selIndex]))
 		end
 	end
 end
 
 -- Method to set the notice message in upper right of PoB Trader pane
 function TradeQueryClass:SetNotice(notice_control, msg)
-	if msg:find("No Matching Results") then
+	if msg:match("^%^") then
+		-- Caller already selected a PoB color escape.
+	elseif msg:find("No Matching Results") then
 		msg = colorCodes.WARNING .. msg
 	elseif msg:find("Error") then
 		msg = colorCodes.NEGATIVE .. msg
 	end
-	notice_control.label = msg
+	notice_control.label = tr(msg)
 end
 
 -- Method to reduce the full output to only the values that were 'weighted'
@@ -826,7 +846,7 @@ function TradeQueryClass:UpdateControlsWithItems(row_idx)
 		sortedItems, errMsg = self:SortFetchResults(row_idx, self.sortModes.StatValue)
 		return
 	elseif errMsg then
-		self:SetNotice(self.controls.pbNotice, "Error: " .. errMsg)
+		self:SetNotice(self.controls.pbNotice, colorCodes.NEGATIVE .. formatUI("Error: %s", errMsg))
 		return
 	else
 		self:SetNotice(self.controls.pbNotice, "")
@@ -835,12 +855,11 @@ function TradeQueryClass:UpdateControlsWithItems(row_idx)
 	self.sortedResultTbl[row_idx] = sortedItems
 	local pb_index = self.sortedResultTbl[row_idx][1].index
 	self.itemIndexTbl[row_idx] = pb_index
-	self.controls["priceButton".. row_idx].tooltipText = "Sorted by " .. self.itemSortSelectionList[self.pbItemSortSelectionIndex]
+	self.controls["priceButton".. row_idx].tooltipText = formatUI("Sorted by %s", self.itemSortSelectionList[self.pbItemSortSelectionIndex])
 	self.totalPrice[row_idx] = {
 		currency = self.resultTbl[row_idx][pb_index].currency,
 		amount = self.resultTbl[row_idx][pb_index].amount,
 	}
-	self.controls.fullPrice.label = "Total Price: " .. self:GetTotalPriceString()
 	self:UpdateDropdownList(row_idx)
 end
 
@@ -851,7 +870,6 @@ function TradeQueryClass:SetFetchResultReturn(row_idx, index)
 			currency = self.resultTbl[row_idx][index].currency,
 			amount = self.resultTbl[row_idx][index].amount,
 		}
-		self.controls.fullPrice.label = "Total Price: " .. self:GetTotalPriceString()
 	end
 end
 
@@ -1041,14 +1059,14 @@ you can add them, copy the link here, and press "Price Item" to evaluate the ite
 			activeSlotRef = self.itemsTab.activeItemSet[slotTbl.nodeId]
 		end
 	end, nil)
-	controls["uri"..row_idx]:SetPlaceholder("Paste trade URL here...")
+	controls["uri"..row_idx]:SetPlaceholder(tr("Paste trade URL here..."))
 	if pbURL and pbURL ~= "" then
 		controls["uri"..row_idx]:SetText(pbURL, true)
 	end
 	controls["uri"..row_idx].tooltipFunc = function(tooltip)
 		tooltip:Clear()
 		if controls["uri"..row_idx].buf:find('^'..self.hostName..'trade2/search/') ~= nil then
-			tooltip:AddLine(16, "Control + click to open in web-browser")
+			addTooltipLine(tooltip, 16, "Control + click to open in web-browser")
 		end
 	end
 	controls["priceButton"..row_idx] = new("ButtonControl", { "TOPLEFT", controls["uri"..row_idx], "TOPRIGHT"}, {8, 0, 100, row_height}, "Price Item",
@@ -1056,7 +1074,7 @@ you can add them, copy the link here, and press "Price Item" to evaluate the ite
 			controls["priceButton"..row_idx].label = "Searching..."
 			self.tradeQueryRequests:SearchWithURL(controls["uri"..row_idx].buf, function(items, errMsg, query)
 				if errMsg then
-					self:SetNotice(controls.pbNotice, "Error: " .. errMsg)
+					self:SetNotice(controls.pbNotice, colorCodes.NEGATIVE .. formatUI("Error: %s", errMsg))
 				else
 					self:SetNotice(controls.pbNotice, "")
 					self.lastQueries[row_idx] = query
@@ -1075,9 +1093,9 @@ you can add them, copy the link here, and press "Price Item" to evaluate the ite
 	controls["priceButton"..row_idx].tooltipFunc = function(tooltip)
 		tooltip:Clear()
 		if not main.api.authToken then
-			tooltip:AddLine(16, "You must log in to use the search feature")
+			addTooltipLine(tooltip, 16, "You must log in to use the search feature")
 		elseif not controls["uri"..row_idx].validURL then
-			tooltip:AddLine(16, "Enter a valid trade URL")
+			addTooltipLine(tooltip, 16, "Enter a valid trade URL")
 		end
 	end
 	local clampItemIndex = function(index)
@@ -1088,7 +1106,6 @@ you can add them, copy the link here, and press "Price Item" to evaluate the ite
 		self.sortedResultTbl[row_idx] = nil
 		self.resultTbl[row_idx] = nil
 		self.totalPrice[row_idx] = nil
-		self.controls.fullPrice.label = "Total Price: " .. self:GetTotalPriceString()
 	end)
 	controls["changeButton"..row_idx].shown = function() return self.resultTbl[row_idx] end
 	controls["resultDropdown"..row_idx] = new("DropDownControl", { "TOPLEFT", controls["changeButton"..row_idx], "TOPRIGHT"}, {8, 0, 325, row_height}, {}, function(index)
@@ -1110,7 +1127,7 @@ you can add them, copy the link here, and press "Price Item" to evaluate the ite
 		tooltip:Clear()
 		self.itemsTab:AddItemTooltip(tooltip, item, activeSlot)
 		tooltip:AddSeparator(10)
-		tooltip:AddLine(16, string.format("^7Price: %s %s", result.amount, result.currency))
+		addTooltipLine(tooltip, 16, "^7Price: %s %s", result.amount, result.currency)
 	end
 	controls["importButton"..row_idx] = new("ButtonControl", { "TOPLEFT", controls["resultDropdown"..row_idx], "TOPRIGHT"}, {8, 0, 100, row_height}, "Import Item", function()
 		self.itemsTab:CreateDisplayItemFromRaw(self.resultTbl[row_idx][self.itemIndexTbl[row_idx]].item_string)
@@ -1154,9 +1171,9 @@ you can add them, copy the link here, and press "Price Item" to evaluate the ite
 			-- we also check the price type so we can prefer instant buyout over
 			-- whisper
 			if itemResult.whisper and (itemResult.priceType ~= "~b/o") then
-				return price and "Whisper for " .. price or "Whisper"
+				return price and formatUI("Whisper for %s", price) or tr("Whisper")
 			else
-				return price and "Search for " .. price or "Search"
+				return price and formatUI("Search for %s", price) or tr("Search")
 			end
 
 		end, function()
@@ -1191,7 +1208,7 @@ you can add them, copy the link here, and press "Price Item" to evaluate the ite
 		local itemResult = self.itemIndexTbl[row_idx] and self.resultTbl[row_idx][self.itemIndexTbl[row_idx]]
 		local text = itemResult.whisper and "Copies the item purchase whisper to the clipboard" or
 			"Opens the search page to show the item"
-		tooltip:AddLine(16, text)
+		addTooltipLine(tooltip, 16, text)
 	end
 end
 
@@ -1232,6 +1249,11 @@ function TradeQueryClass:GetTotalPriceString()
 	return text
 end
 
+function TradeQueryClass:GetTotalPriceLabel()
+	local label = TranslateUI and TranslateUI("Total Price:") or "Total Price:"
+	return label .. " " .. self:GetTotalPriceString()
+end
+
 -- Method to update realms and leagues
 function TradeQueryClass:UpdateRealms()
 	local function setRealmDropList()
@@ -1250,7 +1272,7 @@ function TradeQueryClass:UpdateRealms()
 	for _, realmId in pairs (self.realmIds) do
 		self.tradeQueryRequests:FetchLeagues(realmId, function(leagues, errMsg)
 			if errMsg then
-				self:SetNotice(self.controls.pbNotice, "Using Fallback Error while fetching league list: "..errMsg)
+				self:SetNotice(self.controls.pbNotice, colorCodes.NEGATIVE .. formatUI("Using Fallback Error while fetching league list: %s", errMsg))
 			end
 			self.allLeagues = {}
 			for _, league in ipairs(leagues) do
@@ -1270,7 +1292,7 @@ function TradeQueryClass:UpdateRealms()
 				main.api:ResetDetails()
 				errMsg = errMsg.."\nPlease re-authenticate"
 			end
-			self:SetNotice(self.controls.pbNotice, "Error: " .. tostring(errMsg))
+			self:SetNotice(self.controls.pbNotice, colorCodes.NEGATIVE .. formatUI("Error: %s", tostring(errMsg)))
 		end
 	end)
 end

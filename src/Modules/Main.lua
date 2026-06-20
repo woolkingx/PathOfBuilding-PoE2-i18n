@@ -22,6 +22,15 @@ LoadModule("Modules/ModTools")
 LoadModule("Modules/ItemTools")
 LoadModule("Modules/CalcTools")
 LoadModule("Modules/BuildSiteTools")
+local lang = LoadModule("Modules/Lang")
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or string.format(text, ...)
+end
+
+local function translateUI(text)
+	return TranslateUI and TranslateUI(text) or text
+end
 
 --[[if launch.devMode then
 	for skillName, skill in pairs(data.enchantments.Helmet) do
@@ -115,6 +124,7 @@ function main:Init()
 	self.showFlavourText = true
 	self.showAnimations = true
 	self.showAllItemAffixes = true
+	self.langLocale = lang.defaultLocale
 	self.errorReadingSettings = false
 	
 	if not SetDPIScaleOverridePercent then SetDPIScaleOverridePercent = function(scale) end end
@@ -201,12 +211,21 @@ function main:Init()
 	self.controls.options = new("ButtonControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {0, 0, 68, 20}, "Options", function()
 		self:OpenOptionsPopup()
 	end)
+	self.controls.options.label = function()
+		return lang:Pob("Options")
+	end
 	self.controls.about = new("ButtonControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {72, 0, 68, 20}, "About", function()
 		self:OpenAboutPopup()
 	end)
+	self.controls.about.label = function()
+		return lang:Pob("About")
+	end
 	self.controls.applyUpdate = new("ButtonControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {0, -24, 140, 20}, "^x50E050Update Ready", function()
 		self:OpenUpdatePopup()
 	end)
+	self.controls.applyUpdate.label = function()
+		return "^x50E050"..lang:Pob("Update Ready")
+	end
 	self.controls.applyUpdate.shown = function()
 		return launch.updateAvailable and launch.updateAvailable ~= "none"
 	end
@@ -217,7 +236,7 @@ function main:Init()
 		return not launch.devMode and (not launch.updateAvailable or launch.updateAvailable == "none")
 	end
 	self.controls.checkUpdate.label = function()
-		return launch.updateCheckRunning and launch.updateProgress or "Check for Update"
+		return launch.updateCheckRunning and launch.updateProgress or lang:Pob("Check for Update")
 	end
 	self.controls.checkUpdate.enabled = function()
 		return not launch.updateCheckRunning
@@ -228,7 +247,8 @@ function main:Init()
 	end
 	self.controls.versionLabel = new("LabelControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {148, -2, 0, 16}, "")
 	self.controls.versionLabel.label = function()
-		return "^8Version: "..launch.versionNumber..(launch.versionBranch == "dev" and " (Dev)" or launch.versionBranch == "beta" and " (Beta)" or "")
+		local branch = launch.versionBranch == "dev" and " " .. lang:Pob("(Dev)") or launch.versionBranch == "beta" and " " .. lang:Pob("(Beta)") or ""
+		return FormatUI and FormatUI("^8Version: %s%s", launch.versionNumber, branch) or "^8Version: "..launch.versionNumber..branch
 	end
 	self.controls.devMode = new("LabelControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {0, -26, 0, 20}, colorCodes.NEGATIVE.."Dev Mode")
 	self.controls.devMode.shown = function()
@@ -238,6 +258,9 @@ function main:Init()
 		self.toastMode = "HIDING"
 		self.toastStart = GetTime()
 	end)
+	self.controls.dismissToast.label = function()
+		return lang:Pob("Dismiss")
+	end
 	self.controls.dismissToast.shown = function()
 		return self.toastMode == "SHOWN"
 	end
@@ -246,15 +269,14 @@ function main:Init()
 	self.toastMessages = { }
 
 	if launch.devMode and GetTime() >= 0 and GetTime() < 15000 then
-		t_insert(self.toastMessages, [[
-^xFF7700Warning: ^7Developer Mode active!
+		t_insert(self.toastMessages, translateUI([[^xFF7700Warning: ^7Developer Mode active!
 The program is currently running in developer
 mode, which is not intended for normal use.
 If you are not expecting this, then you may have
 set up the program from the source .zip instead
 of using one of the installers. If that is the case,
 please reinstall using one of the installers from
-the "Releases" section of the GitHub page.]])
+the "Releases" section of the GitHub page.]]))
 	end
 
 	self.onFrameFuncs = {
@@ -372,15 +394,15 @@ function main:OnFrame()
 	self:CallMode("OnFrame", self.inputEvents, self.viewPort)
 
 	if launch.updateErrMsg then
-		t_insert(self.toastMessages, string.format("Update check failed!\n%s", launch.updateErrMsg))
+		t_insert(self.toastMessages, FormatUI and FormatUI("Update check failed!\n%s", launch.updateErrMsg) or string.format("Update check failed!\n%s", launch.updateErrMsg))
 		launch.updateErrMsg = nil
 	end
 	if launch.updateAvailable then
 		if launch.updateAvailable == "none" then
-			t_insert(self.toastMessages, "No update available\nYou are running the latest version.")
+			t_insert(self.toastMessages, translateUI("No update available\nYou are running the latest version."))
 			launch.updateAvailable = nil
 		elseif not self.updateAvailableShown then
-			t_insert(self.toastMessages, "Update Available\nAn update has been downloaded and is ready\nto be applied.")
+			t_insert(self.toastMessages, translateUI("Update Available\nAn update has been downloaded and is ready\nto be applied."))
 			self.updateAvailableShown = true
 		end
 	end
@@ -570,6 +592,9 @@ function main:LoadSettings(ignoreBuild)
 			elseif node.elem == "Misc" then
 				if node.attrib.buildSortMode then
 					self.buildSortMode = node.attrib.buildSortMode
+				end
+				if node.attrib.langLocale then
+					self.langLocale = node.attrib.langLocale
 				end
 				launch.connectionProtocol = tonumber(node.attrib.connectionProtocol)
 				launch.proxyURL = node.attrib.proxyURL
@@ -769,6 +794,7 @@ function main:SaveSettings()
 	t_insert(setXML, sharedItemList)
 	t_insert(setXML, { elem = "Misc", attrib = {
 		buildSortMode = self.buildSortMode,
+		langLocale = self.langLocale,
 		connectionProtocol = tostring(launch.connectionProtocol),
 		proxyURL = launch.proxyURL,
 		buildPath = (self.buildPath ~= self.defaultBuildPath and self.buildPath or nil),
@@ -811,11 +837,13 @@ function main:OpenPathPopup(invalidPath, errMsg, ignoreBuild)
 	local defaultLabelPlacementX = 8
 
 	controls.label = new("LabelControl", { "TOPLEFT", nil, "TOPLEFT" }, { defaultLabelPlacementX, 20, 206, 16 }, function()
-		return "^7User settings path cannot be loaded: ".. errMsg ..
-		"\nCurrent Path: "..invalidPath:gsub("?", "^1?^7").."/Path of Building/"..
-		"\nIf this location is managed by OneDrive, navigate to that folder and manually try" ..
-		"\nto open Settings.xml in a text editor before re-opening Path of Building" ..
-		"\nOtherwise, specify a new location for your Settings.xml:"
+		local path = invalidPath:gsub("?", "^1?^7").."/Path of Building/"
+		return FormatUI and FormatUI("^7User settings path cannot be loaded: %s\nCurrent Path: %s\nIf this location is managed by OneDrive, navigate to that folder and manually try\nto open Settings.xml in a text editor before re-opening Path of Building\nOtherwise, specify a new location for your Settings.xml:", errMsg, path) or
+			"^7User settings path cannot be loaded: ".. errMsg ..
+			"\nCurrent Path: "..path..
+			"\nIf this location is managed by OneDrive, navigate to that folder and manually try" ..
+			"\nto open Settings.xml in a text editor before re-opening Path of Building" ..
+			"\nOtherwise, specify a new location for your Settings.xml:"
 	end)
 	controls.userPath = new("EditControl", { "TOPLEFT", controls.label, "TOPLEFT" }, { 0, 60, 206, 20 }, invalidPath, nil, nil, nil, function(buf)
 		invalidPath = sanitiseText(buf)
@@ -828,7 +856,7 @@ function main:OpenPathPopup(invalidPath, errMsg, ignoreBuild)
 	controls.save = new("ButtonControl", { "TOPLEFT", controls.userPath, "TOPLEFT" }, { 0, 26, 206, 20 }, "Save", function()
 		local res, msg = MakeDir(controls.userPath.buf)
 		if not res and msg ~= "No error" then
-			self:OpenMessagePopup("Error", "Couldn't create '"..controls.userPath.buf.."' : "..msg)
+			self:OpenMessagePopup("Error", FormatUI and FormatUI("Couldn't create '%s' : %s", controls.userPath.buf, msg) or "Couldn't create '"..controls.userPath.buf.."' : "..msg)
 		else
 			self:ChangeUserPath(controls.userPath.buf, ignoreBuild)
 			self:ClosePopup()
@@ -848,6 +876,8 @@ function main:ChangeUserPath(newUserPath, ignoreBuild)
 	self.buildPath = self.defaultBuildPath
 	MakeDir(self.buildPath)
 	self:LoadSettings(ignoreBuild)
+	lang:SetLocale(self.langLocale)
+	self.langLocale = lang:GetLocale()
 	self:LoadSharedItems()
 end
 --- Opens the popup for the "Options" menu
@@ -881,11 +911,12 @@ function main:OpenOptionsPopup(savedState)
 		showFlavourText = self.showFlavourText,
 		showAnimations = self.showAnimations,
 		showAllItemAffixes = self.showAllItemAffixes,
+		langLocale = self.langLocale,
 		dpiScaleOverridePercent = self.dpiScaleOverridePercent
 	}
 
 	-- NOTE: Height needs to be adjusted if more menu options are added
-	local oneColumnHeightReq = 850 -- Min height required to not split menu into two columns
+	local oneColumnHeightReq = 876 -- Min height required to not split menu into two columns
 	local columnWidth = 600
 	
 	local startingY = 20
@@ -914,14 +945,38 @@ function main:OpenOptionsPopup(savedState)
 		local headerBGColor ={ .6, .6, .6}
 		controls["section-"..id .. "-bg"] = new("RectangleOutlineControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + scrollBarWidth + 8, currentY, columnWidth - (scrollBarWidth * 2) - 17, 26 }, headerBGColor, 1)
 		nextRow(.2)
-		controls["section-"..id .. "-label"] = new("LabelControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + columnWidth / 2 - 60, currentY, 0, 16 }, "^7" .. title)
+		controls["section-"..id .. "-label"] = new("LabelControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + columnWidth / 2 - 60, currentY, 0, 16 }, "^7" .. lang:Pob(title))
 		nextRow(1.5)
 	end
 
 	local defaultLabelSpacingPx = -4
 	local defaultLabelPlacementX = columnWidth*0.45
+	local function ui(msgid)
+		return lang:Pob(msgid)
+	end
+	local function refreshLocalizedRuntimeControls()
+		if self.mode == "BUILD" and self.modes.BUILD and self.modes.BUILD.UpdateClassDropdowns then
+			self.modes.BUILD:UpdateClassDropdowns()
+			self.modes.BUILD.buildFlag = true
+		end
+		if self.mode == "LIST" and self.modes.LIST and self.modes.LIST.BuildList then
+			self.modes.LIST:BuildList()
+		end
+	end
 
 	drawSectionHeader("app", "Application options")
+
+	controls.language = new("DropDownControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 150, 18 }, lang:GetLocaleList(), function(index, value)
+		self.langLocale = value.locale
+		lang:SetLocale(self.langLocale)
+		refreshLocalizedRuntimeControls()
+		self:ClosePopup()
+		self:OpenOptionsPopup(savedState)
+	end)
+	controls.languageLabel = new("LabelControl", { "RIGHT", controls.language, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7"..ui("Language:"))
+	controls.language:SelByValue(self.langLocale, "locale")
+
+	nextRow()
 
 	controls.connectionProtocol = new("DropDownControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 100, 18 }, {
 		{ label = "Auto", protocol = 0 },
@@ -930,7 +985,7 @@ function main:OpenOptionsPopup(savedState)
 	}, function(index, value)
 		self.connectionProtocol = value.protocol
 	end)
-	controls.connectionProtocolLabel = new("LabelControl", { "RIGHT", controls.connectionProtocol, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7Connection Protocol:")
+	controls.connectionProtocolLabel = new("LabelControl", { "RIGHT", controls.connectionProtocol, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7"..ui("Connection Protocol:"))
 	controls.connectionProtocol.tooltipText = "Changes which protocol is used when downloading updates and importing builds."
 	controls.connectionProtocol:SelByValue(launch.connectionProtocol, "protocol")
 
@@ -940,7 +995,7 @@ function main:OpenOptionsPopup(savedState)
 		{ label = "SOCKS", scheme = "socks5" },
 		{ label = "SOCKS5H", scheme = "socks5h" },
 	})
-	controls.proxyLabel = new("LabelControl", { "RIGHT", controls.proxyType, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7Proxy server:")
+	controls.proxyLabel = new("LabelControl", { "RIGHT", controls.proxyType, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7"..ui("Proxy server:"))
 	controls.proxyURL = new("EditControl", { "LEFT", controls.proxyType, "RIGHT" }, { 4, 0, 206, 18 })
 
 	if launch.proxyURL then
@@ -966,17 +1021,18 @@ function main:OpenOptionsPopup(savedState)
 		self:ClosePopup()
 		self:OpenOptionsPopup(savedState)
 	end)
-	controls.dpiScaleOverrideLabel = new("LabelControl", { "RIGHT", controls.dpiScaleOverride, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7UI scaling override:")
+	controls.dpiScaleOverrideLabel = new("LabelControl", { "RIGHT", controls.dpiScaleOverride, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7"..ui("UI scaling override:"))
 	controls.dpiScaleOverride.tooltipText = "Overrides Windows DPI scaling inside Path of Building.\nChoose a percentage between 100% and 250% or revert to the system default."
 	controls.dpiScaleOverride:SelByValue(self.dpiScaleOverridePercent, "percent")
 
 	nextRow()
 	controls.buildPath = new("EditControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 290, 18 })
-	controls.buildPathLabel = new("LabelControl", { "RIGHT", controls.buildPath, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7Build save path:")
+	controls.buildPathLabel = new("LabelControl", { "RIGHT", controls.buildPath, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7"..ui("Build save path:"))
 	if self.buildPath ~= self.defaultBuildPath then
 		controls.buildPath:SetText(self.buildPath)
 	end
-	controls.buildPath.tooltipText = "Overrides the default save location for builds.\nThe default location is: '"..self.defaultBuildPath.."'"
+	controls.buildPath.tooltipText = FormatUI and FormatUI("Overrides the default save location for builds.\nThe default location is: '%s'", self.defaultBuildPath) or
+		"Overrides the default save location for builds.\nThe default location is: '"..self.defaultBuildPath.."'"
 
 	nextRow()
 	controls.nodePowerTheme = new("DropDownControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 100, 18 }, {
@@ -986,7 +1042,7 @@ function main:OpenOptionsPopup(savedState)
 	}, function(index, value)
 		self.nodePowerTheme = value.theme
 	end)
-	controls.nodePowerThemeLabel = new("LabelControl", { "RIGHT", controls.nodePowerTheme, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7Node Power colours:")
+	controls.nodePowerThemeLabel = new("LabelControl", { "RIGHT", controls.nodePowerTheme, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7"..ui("Node Power colours:"))
 	controls.nodePowerTheme.tooltipText = "Changes the colour scheme used for the node power display on the passive tree."
 	controls.nodePowerTheme:SelByValue(self.nodePowerTheme, "theme")
 
@@ -999,7 +1055,8 @@ function main:OpenOptionsPopup(savedState)
 		end
 	end)
 	controls.colorPositiveLabel = new("LabelControl", { "RIGHT", controls.colorPositive, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7Hex colour for positive values:")
-	controls.colorPositive.tooltipText = "Overrides the default hex colour for positive values in breakdowns. \nExpected format is 0x000000. " ..
+	controls.colorPositive.tooltipText = FormatUI and FormatUI("Overrides the default hex colour for positive values in breakdowns. \nExpected format is 0x000000. The default value is %s.\nIf updating while inside a build, please re-load the build after saving.", tostring(defaultColorCodes.POSITIVE:gsub('^(^)', '0'))) or
+		"Overrides the default hex colour for positive values in breakdowns. \nExpected format is 0x000000. " ..
 		"The default value is " .. tostring(defaultColorCodes.POSITIVE:gsub('^(^)', '0')) .. ".\nIf updating while inside a build, please re-load the build after saving."
 
 	nextRow()
@@ -1011,7 +1068,8 @@ function main:OpenOptionsPopup(savedState)
 		end
 	end)
 	controls.colorNegativeLabel = new("LabelControl", { "RIGHT", controls.colorNegative, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7Hex colour for negative values:")
-	controls.colorNegative.tooltipText = "Overrides the default hex colour for negative values in breakdowns. \nExpected format is 0x000000. " ..
+	controls.colorNegative.tooltipText = FormatUI and FormatUI("Overrides the default hex colour for negative values in breakdowns. \nExpected format is 0x000000. The default value is %s.\nIf updating while inside a build, please re-load the build after saving.", tostring(defaultColorCodes.NEGATIVE:gsub('^(^)', '0'))) or
+		"Overrides the default hex colour for negative values in breakdowns. \nExpected format is 0x000000. " ..
 		"The default value is " .. tostring(defaultColorCodes.NEGATIVE:gsub('^(^)', '0')) .. ".\nIf updating while inside a build, please re-load the build after saving."
 
 	nextRow()
@@ -1024,7 +1082,8 @@ function main:OpenOptionsPopup(savedState)
 		end
 	end)
 	controls.colorHighlightLabel = new("LabelControl", { "RIGHT", controls.colorHighlight, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7Hex colour for highlight nodes:")
-	controls.colorHighlight.tooltipText = "Overrides the default hex colour for highlighting nodes in passive tree search. \nExpected format is 0x000000. " ..
+	controls.colorHighlight.tooltipText = FormatUI and FormatUI("Overrides the default hex colour for highlighting nodes in passive tree search. \nExpected format is 0x000000. The default value is %s\nIf updating while inside a build, please re-load the build after saving.", tostring(defaultColorCodes.HIGHLIGHT:gsub('^(^)', '0'))) or
+		"Overrides the default hex colour for highlighting nodes in passive tree search. \nExpected format is 0x000000. " ..
 		"The default value is " .. tostring(defaultColorCodes.HIGHLIGHT:gsub('^(^)', '0')) .."\nIf updating while inside a build, please re-load the build after saving."
 
 	nextRow()
@@ -1067,7 +1126,7 @@ function main:OpenOptionsPopup(savedState)
 	-- Build-related Option Section starts
 	drawSectionHeader("build", "Build-related options")
 
-	controls.showThousandsSeparators = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT"}, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7Show thousands separators:", function(state)
+	controls.showThousandsSeparators = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT"}, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7"..ui("Show thousands separators:"), function(state)
 	self.showThousandsSeparators = state
 	end)
 	controls.showThousandsSeparators.state = self.showThousandsSeparators
@@ -1076,16 +1135,16 @@ function main:OpenOptionsPopup(savedState)
 	controls.thousandsSeparator = new("EditControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 30, 20 }, self.thousandsSeparator, nil, "%w", 1, function(buf)
 		self.thousandsSeparator = buf
 	end)
-	controls.thousandsSeparatorLabel = new("LabelControl", { "RIGHT", controls.thousandsSeparator, "LEFT" }, { defaultLabelSpacingPx, 0, 92, 16 }, "^7Thousands separator:")
+	controls.thousandsSeparatorLabel = new("LabelControl", { "RIGHT", controls.thousandsSeparator, "LEFT" }, { defaultLabelSpacingPx, 0, 92, 16 }, "^7"..ui("Thousands separator:"))
 
 	nextRow()
 	controls.decimalSeparator = new("EditControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 30, 20 }, self.decimalSeparator, nil, "%w", 1, function(buf)
 		self.decimalSeparator = buf
 	end)
-	controls.decimalSeparatorLabel = new("LabelControl", { "RIGHT", controls.decimalSeparator, "LEFT" }, { defaultLabelSpacingPx, 0, 92, 16 }, "^7Decimal separator:")
+	controls.decimalSeparatorLabel = new("LabelControl", { "RIGHT", controls.decimalSeparator, "LEFT" }, { defaultLabelSpacingPx, 0, 92, 16 }, "^7"..ui("Decimal separator:"))
 
 	nextRow()
-	controls.titlebarName = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7Show build name in window title:", function(state)
+	controls.titlebarName = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7"..ui("Show build name in window title:"), function(state)
 		self.showTitlebarName = state
 	end)
 
@@ -1094,60 +1153,60 @@ function main:OpenOptionsPopup(savedState)
 		self.defaultGemQuality = m_min(tonumber(gemQuality) or 0, 23)
 	end)
 	controls.defaultGemQuality.tooltipText = "Set the default quality that can be overwritten by build-related quality settings in the skill panel."
-	controls.defaultGemQualityLabel = new("LabelControl", { "RIGHT", controls.defaultGemQuality, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7Default gem quality:")
+	controls.defaultGemQualityLabel = new("LabelControl", { "RIGHT", controls.defaultGemQuality, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7"..ui("Default gem quality:"))
 
 	nextRow()
 	controls.defaultItemQuality = new("EditControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 80, 20 }, self.defaultItemQuality, nil, "%D", 2, function(itemQuality)
 		self.defaultItemQuality = m_min(tonumber(itemQuality) or 0, 20)
 	end)
 	controls.defaultItemQuality.tooltipText = "Set the default quality that will be applied to newly created or pasted items."
-	controls.defaultItemQualityLabel = new("LabelControl", { "RIGHT", controls.defaultItemQuality, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7Default item quality:")
+	controls.defaultItemQualityLabel = new("LabelControl", { "RIGHT", controls.defaultItemQuality, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7"..ui("Default item quality:"))
 
 	nextRow()
 	controls.defaultCharLevel = new("EditControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 80, 20 }, self.defaultCharLevel, nil, "%D", 3, function(charLevel)
 		self.defaultCharLevel = m_min(m_max(tonumber(charLevel) or 1, 1), 100)
 	end)
 	controls.defaultCharLevel.tooltipText = "Set the default level of your builds. If this is higher than 1, manual level mode will be enabled by default in new builds."
-	controls.defaultCharLevelLabel = new("LabelControl", { "RIGHT", controls.defaultCharLevel, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7Default character level:")
+	controls.defaultCharLevelLabel = new("LabelControl", { "RIGHT", controls.defaultCharLevel, "LEFT" }, { defaultLabelSpacingPx, 0, 0, 16 }, "^7"..ui("Default character level:"))
 
 	nextRow()
 	controls.defaultItemAffixQualitySlider = new("SliderControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 200, 20 }, function(value)
 		self.defaultItemAffixQuality = round(value, 2)
 		controls.defaultItemAffixQualityValue.label = (self.defaultItemAffixQuality * 100) .. "%"
 	end)
-	controls.defaultItemAffixQualityLabel = new("LabelControl", { "RIGHT", controls.defaultItemAffixQualitySlider, "LEFT" }, { defaultLabelSpacingPx, 0, 92, 16 }, "^7Default item affix quality:")
+	controls.defaultItemAffixQualityLabel = new("LabelControl", { "RIGHT", controls.defaultItemAffixQualitySlider, "LEFT" }, { defaultLabelSpacingPx, 0, 92, 16 }, "^7"..ui("Default item affix quality:"))
 	controls.defaultItemAffixQualityValue = new("LabelControl", { "LEFT", controls.defaultItemAffixQualitySlider, "RIGHT" }, { -defaultLabelSpacingPx, 0, 92, 16 }, "50%")
 	controls.defaultItemAffixQualitySlider.val = self.defaultItemAffixQuality
 	controls.defaultItemAffixQualityValue.label = (self.defaultItemAffixQuality * 100) .. "%"
 
 	nextRow()
-	controls.showWarnings = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7Show build warnings:", function(state)
+	controls.showWarnings = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7"..ui("Show build warnings:"), function(state)
 		self.showWarnings = state
 	end)
 	controls.showWarnings.state = self.showWarnings
 
 	nextRow()
-	controls.slotOnlyTooltips = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7Show tooltips only for affected slots:", function(state)
+	controls.slotOnlyTooltips = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7"..ui("Show tooltips only for affected slots:"), function(state)
 		self.slotOnlyTooltips = state
 	end, "Shows comparisons in tooltips only for the slot you are currently placing the item in, instead of all slots.")
 	controls.slotOnlyTooltips.state = self.slotOnlyTooltips
 
 	nextRow()
-	controls.migrateAugments = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7Copy augments onto display item:", function(state)
+	controls.migrateAugments = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7"..ui("Copy augments onto display item:"), function(state)
 		self.migrateAugments = state
 	end)
 	controls.migrateAugments.tooltipText = "Apply augments and anoints from current gear when comparing new gear, given they are possible to add to the new item."
 	controls.migrateAugments.state = self.migrateAugments
 	
 	nextRow()
-	controls.notSupportedModTooltips = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7Show tooltip for unsupported mods :", function(state)
+	controls.notSupportedModTooltips = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7"..ui("Show tooltip for unsupported mods :"), function(state)
 		self.notSupportedModTooltips = state
 	end)
 	controls.notSupportedModTooltips.tooltipText = "Show ^8(Not supported in PoB yet) ^7next to unsupported mods\nRequires PoB to restart for it to take effect"
 	controls.notSupportedModTooltips.state = self.notSupportedModTooltips
 	
 	nextRow()
-	controls.invertSliderScrollDirection = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7Invert slider scroll direction:", function(state)
+	controls.invertSliderScrollDirection = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7"..ui("Invert slider scroll direction:"), function(state)
 		self.invertSliderScrollDirection = state
 	end)
 	controls.invertSliderScrollDirection.tooltipText = "Default scroll direction is:\nScroll Up = Move right\nScroll Down = Move left"
@@ -1155,7 +1214,7 @@ function main:OpenOptionsPopup(savedState)
 	
 	if launch.devMode then
 		nextRow()
-		controls.disableDevAutoSave = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7Disable Dev AutoSave:", function(state)
+		controls.disableDevAutoSave = new("CheckBoxControl", { "TOPLEFT", controls.sectionAnchor, "TOPLEFT" }, { currentX + defaultLabelPlacementX, currentY, 20 }, "^7"..ui("Disable Dev AutoSave:"), function(state)
 			self.disableDevAutoSave = state
 		end)
 		controls.disableDevAutoSave.tooltipText = "Do not Autosave builds while on Dev branch"
@@ -1177,7 +1236,7 @@ function main:OpenOptionsPopup(savedState)
 	nextRow(1.5)
 
 	-- lock the Save/Cancel buttons to the bottom so they don't scroll away
-	controls.save = new("ButtonControl", { "BOTTOM", nil, "BOTTOM" }, {-45, -10, 80, 20}, "Save", function()
+	controls.save = new("ButtonControl", { "BOTTOM", nil, "BOTTOM" }, {-45, -10, 80, 20}, ui("Save"), function()
 		launch.connectionProtocol = tonumber(self.connectionProtocol)
 		if controls.proxyURL.buf:match("%w") then
 			launch.proxyURL = controls.proxyType.list[controls.proxyType.selIndex].scheme .. "://" .. controls.proxyURL.buf
@@ -1202,7 +1261,7 @@ function main:OpenOptionsPopup(savedState)
 		main:ClosePopup()
 		main:SaveSettings()
 	end)
-	controls.cancel = new("ButtonControl", { "BOTTOM", nil, "BOTTOM" }, {45, -10, 80, 20}, "Cancel", function()
+	controls.cancel = new("ButtonControl", { "BOTTOM", nil, "BOTTOM" }, {45, -10, 80, 20}, ui("Cancel"), function()
 		self.nodePowerTheme = savedState.nodePowerTheme
 		self.colorPositive = savedState.colorPositive
 		updateColorCode("POSITIVE", self.colorPositive)
@@ -1230,6 +1289,9 @@ function main:OpenOptionsPopup(savedState)
 		self.showFlavourText = savedState.showFlavourText
 		self.showAnimations = savedState.showAnimations
 		self.showAllItemAffixes = savedState.showAllItemAffixes
+		self.langLocale = savedState.langLocale
+		lang:SetLocale(self.langLocale)
+		refreshLocalizedRuntimeControls()
 		self.dpiScaleOverridePercent = savedState.dpiScaleOverridePercent
 		SetDPIScaleOverridePercent(self.dpiScaleOverridePercent)
 		main:ClosePopup()
@@ -1248,7 +1310,7 @@ function main:OpenOptionsPopup(savedState)
 		end
 	end
 
-	local popup = self:OpenPopup(popupWidth, popupHeight, "Options", controls, "save", nil, "cancel", useScrollBar and scrollBarFunc or nil)
+	local popup = self:OpenPopup(popupWidth, popupHeight, lang:Pob("Options"), controls, "save", nil, "cancel", useScrollBar and scrollBarFunc or nil)
 
 	local originalDrawControls = popup.DrawControls
 
@@ -1325,7 +1387,7 @@ function main:OpenUpdatePopup()
 				if #changeList > 0 then
 					t_insert(changeList, { height = 12 })
 				end
-				t_insert(changeList, { height = 20, "^7Version "..ver.." ("..date..")" })
+				t_insert(changeList, { height = 20, formatUI("^7Version %s (%s)", ver, date) })
 			else
 				t_insert(changeList, { height = 14, "^7"..line })
 			end
@@ -1361,7 +1423,7 @@ function main:OpenAboutPopup(helpSectionIndex)
 					t_insert(changeList, { height = textSize / 2 })
 				end
 				t_insert(changeVersionHeights, #changeList * textSize)
-				t_insert(changeList, { height = titleSize, "^7Version "..ver.." ("..date..")" })
+				t_insert(changeList, { height = titleSize, formatUI("^7Version %s (%s)", ver, date) })
 			elseif line:match("^---") then
 				t_insert(changeList, { height = subTitleSize, "^7"..line })
 			else
@@ -1561,7 +1623,7 @@ function main:MoveFolder(name, srcPath, dstPath)
 	-- Create destination folder
 	local res, msg = MakeDir(dstPath..name)
 	if not res then
-		self:OpenMessagePopup("Error", "Couldn't move '"..name.."' to '"..dstPath.."' : "..msg)
+		self:OpenMessagePopup("Error", formatUI("Couldn't move '%s' to '%s': %s", name, dstPath, msg))
 		return
 	end
 
@@ -1582,7 +1644,7 @@ function main:MoveFolder(name, srcPath, dstPath)
 		local dstName = dstPath..name.."/"..fileName
 		local res, msg = os.rename(srcName, dstName)
 		if not res then
-			self:OpenMessagePopup("Error", "Couldn't move '"..srcName.."' to '"..dstName.."': "..msg)
+			self:OpenMessagePopup("Error", formatUI("Couldn't move '%s' to '%s': %s", srcName, dstName, msg))
 			return
 		end
 		if not handle:NextFile() then
@@ -1593,7 +1655,7 @@ function main:MoveFolder(name, srcPath, dstPath)
 	-- Remove source folder
 	local res, msg = RemoveDir(srcPath..name)
 	if not res then
-		self:OpenMessagePopup("Error", "Couldn't delete '"..dstPath..name.."' : "..msg)
+		self:OpenMessagePopup("Error", formatUI("Couldn't delete '%s': %s", dstPath..name, msg))
 		return
 	end
 end
@@ -1602,7 +1664,7 @@ function main:CopyFolder(srcName, dstName)
 	-- Create destination folder
 	local res, msg = MakeDir(dstName)
 	if not res then
-		self:OpenMessagePopup("Error", "Couldn't copy '"..srcName.."' to '"..dstName.."' : "..msg)
+		self:OpenMessagePopup("Error", formatUI("Couldn't copy '%s' to '%s': %s", srcName, dstName, msg))
 		return
 	end
 
@@ -1624,7 +1686,7 @@ function main:CopyFolder(srcName, dstName)
 		local dstName = dstName.."/"..fileName
 		local res, msg = copyFile(srcName, dstName)
 		if not res then
-			self:OpenMessagePopup("Error", "Couldn't copy '"..srcName.."' to '"..dstName.."': "..msg)
+			self:OpenMessagePopup("Error", formatUI("Couldn't copy '%s' to '%s': %s", srcName, dstName, msg))
 			return
 		end
 		if not handle:NextFile() then
@@ -1713,7 +1775,7 @@ function main:OpenNewFolderPopup(path, onClose)
 		local newFolderName = controls.edit.buf
 		local res, msg = MakeDir(path..newFolderName)
 		if not res then
-			main:OpenMessagePopup("Error", "Couldn't create '"..newFolderName.."': "..msg)
+			main:OpenMessagePopup("Error", formatUI("Couldn't create '%s': %s", newFolderName, msg))
 			return
 		end
 		if onClose then
@@ -1736,13 +1798,13 @@ end
 function main:OpenCloudErrorPopup(fileName)
 	local provider, _, status = GetCloudProvider(fileName)
 	ConPrintf('^1Error: file offline "%s" provider: "%s" status: "%s"', fileName or "?", provider, status)
-	fileName = fileName and "\n\n^8'"..fileName.."'" or ""
+	local fileNameText = fileName and "\n\n^8'"..fileName.."'" or ""
 	local version = "^8v"..launch.versionNumber..(launch.versionBranch and " "..launch.versionBranch or "")..(launch.devMode and " (dev)" or "")
-	local title = " ^1Error "
-	provider = provider or "your cloud provider"
+	local title = "^1Error"
+	provider = provider or translateUI("your cloud provider")
 	local statusText = tostring(status) or "nil"
-	local msg = "\n^7Cannot read file.\n\nMake sure "..provider.." is running then restart "..APP_NAME.." and try again."..
-		fileName.."\nstatus: "..statusText.."\n\n"..version
+	local msg = "\n" .. formatUI("^7Cannot read file.\n\nMake sure %s is running then restart %s and try again.%s\nstatus: %s\n\n%s",
+		provider, APP_NAME, fileNameText, statusText, version)
 	local url = "https://github.com/PathOfBuildingCommunity/PathOfBuilding/wiki/CloudError"
 	local controls = { }
 	local numMsgLines = 0

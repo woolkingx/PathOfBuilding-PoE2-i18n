@@ -1,63 +1,126 @@
-# Path of Building 2 Community
-## Welcome to Path of Building 2, an offline build planner for Path of Exile 2!
+# Path of Building 2 — Chinese Localization (i18n)
 
-<p float="middle">
-  <img alt="Tree tab" src="https://github.com/user-attachments/assets/225bf25f-1ac4-4639-b280-565a24d2a2fc" width="48%" />
-  <img alt="Items tab" src="https://github.com/user-attachments/assets/de8e6dc0-1e1a-46c5-b8a4-18877e67d48d" width="48%" />
-</p>
+[繁體中文說明請看 README.zh-TW.md](README.zh-TW.md)
 
-## Download
-Head over to the [Releases](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/releases) page to download the install wizard or portable zip.
+A Chinese localization of
+[Path of Building 2 Community](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2),
+the popular build planner for Path of Exile 2.
 
-## Features
-* Comprehensive offence + defence calculations:
-  * Calculate your skill DPS, damage over time, life/mana/ES totals and much more!
-  * Can factor in auras, buffs, charges, curses, monster resistances and more, to estimate your effective DPS
-  * Also calculates life/mana reservations
-  * Shows a summary of character stats in the side bar, as well as a detailed calculations breakdown tab which can show you how the stats were derived
-  * Supports all skills and support gems, and most passives and item modifiers
-    * Throughout the program, supported modifiers will show in blue and unsupported ones in red
-  * Full support for minions
-  * Support for party play and support builds
-* Passive skill tree planner:
-  * Support for jewels including most radius/conversion and timeless jewels
-  * Features alternate path tracing (mouse over a sequence of nodes while holding shift, then click to allocate them all)
-  * Fully integrated with the offence/defence calculations; see exactly how each node will affect your character!
-  * Can import PathOfExile.com and PoEPlanner.com passive tree links; links shortened with PoEURL.com also work
-* Skill planner:
-  * Add any number of main or supporting skills to your build
-  * Supporting skills (auras, curses, buffs) can be toggled on and off
-  * Automatically applies Socketed Gem modifiers from the item a skill is socketed into
-  * Automatically applies support gems granted by items
-* Item planner:
-  * Add items from in game by copying and pasting them straight into the program!
-  * Automatically adds quality to non-corrupted items
-  * Search the trade site for the most impactful items
-  * Fully integrated with the offence/defence calculations; see exactly how much of an upgrade a given item is!
-  * Contains a searchable database of all uniques that are currently in game (and some that aren't yet!)
-    * You can choose the modifier rolls when you add a unique to your build
-    * Includes all league-specific items and legacy variants
-  * Features an item crafting system:
-    * You can select from any of the game's base item types
-    * You can select prefix/suffix modifiers from lists
-    * Custom modifiers can be added, with Master and Essence modifiers available
-  * Also contains a database of rare item templates:
-    * Allows you to create rare items for your build to approximate the gear you will be using
-    * Choose which modifiers appear on each item, and the rolls for each modifier, to suit your needs
-    * Has templates that should cover the majority of builds
-* Other features:
-  * You can import passive tree, items, and skills from existing characters
-  * Share builds with other users by generating a share code
-  * Automatic updating; most updates will only take a couple of seconds to apply
+- **Traditional Chinese (`zh_TW`)** — fully translated.
+- **Simplified Chinese (`zh_CN`)** — partial demo only, not complete.
 
-## Changelog
-You can find the full version history [here](CHANGELOG.md).
+![Traditional Chinese screenshot](docs/assets/pob2-i18n.png)
 
-## Contribute
-You can find instructions on how to contribute code and bug reports [here](CONTRIBUTING.md).
+## What this really does
 
-## Licence
-[MIT](https://opensource.org/licenses/MIT)
+The hard part of localizing Path of Building was never the difficulty — it was
+the sheer volume: tens of thousands of strings that no single maintainer can
+realistically translate. That's understandable, and it's why upstream never
+shipped translations.
 
-For 3rd-party licences, see [LICENSE](LICENSE.md).
-The licencing information is considered to be part of the documentation.
+This fork solves the part that actually needs a developer: it **adds the i18n
+mechanism** — the framework that lets the program load translated text at
+display boundaries. Once that mechanism exists, the translation itself becomes
+ordinary text-editing work that **any user can do**, in any language, no
+programming required.
+
+Chinese is just the first demonstration. The same mechanism opens the door for
+every other language. The intent is for upstream to adopt the i18n layer so the
+community can fill in translations from there.
+
+---
+
+## For players: just use it
+
+A ready-to-run Windows build is attached to the
+[latest Release](../../releases/latest). Download the `.zip`, unpack it, and run
+Path of Building — no compiling required. Pick the language in the program's
+settings.
+
+The translation is **display-only**: everything you see (UI, items, skills,
+passives, stat lines) is translated, while your builds, import/export codes, and
+trade data stay in the original English so they remain fully compatible with the
+upstream Path of Building.
+
+---
+
+## For translators: how to fix or improve a translation
+
+All wording lives in plain-text **PO files** — the standard translation format.
+You don't need to know Lua or program internals to help; you only edit text.
+
+### Where the text lives
+
+```text
+locale/zh_TW/LC_MESSAGES/    Traditional Chinese
+locale/zh_CN/LC_MESSAGES/    Simplified Chinese (partial)
+
+  pob.po        UI, menus, buttons, tooltips
+  items.po      item names
+  skills.po     skill / gem names
+  passives.po   passive tree nodes
+  stats.po      stat / modifier lines
+```
+
+### How to change a translation
+
+1. Open the relevant `.po` file in any text editor (or a PO editor such as
+   Poedit).
+2. Find the English text under `msgid` and edit the Chinese under `msgstr`:
+
+   ```po
+   msgid "Total Life"
+   msgstr "總生命"
+   ```
+
+3. Save the file.
+
+### How to apply your change
+
+PO files are compiled into the tables the program reads. After editing, run:
+
+```bash
+python3 scripts/compile-lang.py locale/zh_TW/LC_MESSAGES/pob.po src/Data/Lang/zh_TW/pob.lua
+```
+
+Repeat for whichever catalog you edited (`items`, `skills`, `passives`,
+`stats`). To check a file is up to date without writing, add `--check`.
+
+That's the whole loop: **edit the `.po`, run the compile script, done.** Then
+rebuild or rerun the program to see your change.
+
+### Contributing back
+
+Fork this repo, commit your edited `.po` files (and the regenerated `.lua`
+files), and open a pull request. Translation-only changes are welcome.
+
+---
+
+## For developers: building it yourself
+
+This repo ships **source code only** — no compiled binaries or DLLs. You can
+inspect every change and build it yourself, which is the point: nothing to
+trust blindly.
+
+The `release` branch has two commits:
+
+```text
+commit 1  -> pristine upstream clone (b8048682, unmodified English)
+commit 2  -> the localization patch
+```
+
+View the second commit to see the entire localization diff against the clean
+upstream snapshot. The patch is display-layer only; build data, import/export
+payloads, trade values, and calculation internals are untouched.
+
+Helper scripts under `scripts/` cover extraction, compilation, and audits of
+translation coverage. The core one is `compile-lang.py` shown above.
+
+---
+
+## Upstream & license
+
+Original project:
+[PathOfBuildingCommunity/PathOfBuilding-PoE2](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2).
+Upstream owns Path of Building 2 Community; this is an unofficial localization
+fork. License: MIT — see [LICENSE.md](LICENSE.md).

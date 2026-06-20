@@ -111,6 +111,9 @@ end
 
 function TooltipClass:AddLine(size, text, font, background)
 	if text then
+		if type(text) == "string" and TranslateUI then
+			text = TranslateUI(text)
+		end
 		local fontToUse
 		if main.showFlavourText then
 			fontToUse = font or "VAR"

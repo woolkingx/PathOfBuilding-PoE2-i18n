@@ -8,6 +8,10 @@ local dkjson = require "dkjson"
 
 local M = {}
 
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
 -- Helper: get rarity color code for an item
 --- @param item table
 function M.getRarityColor(item)
@@ -395,24 +399,24 @@ function M.drawCopyButtons(cursorX, cursorY, btnStartX, btnY, slotMissing, copyB
 	-- "Buy" button
 	local b3Hover = cursorX >= btn3X and cursorX < btn3X + buyW
 		and cursorY >= btnY and cursorY < btnY + btnH
-	drawBtn(btn3X, buyW, b3Hover, "^7Buy")
+	drawBtn(btn3X, buyW, b3Hover, tr("^7Buy"))
 
 	-- "Copy" button
 	local b1Hover = cursorX >= btn1X and cursorX < btn1X + btnW
 		and cursorY >= btnY and cursorY < btnY + btnH
-	drawBtn(btn1X, btnW, b1Hover, "^7Copy")
+	drawBtn(btn1X, btnW, b1Hover, tr("^7Copy"))
 
 	local b2Hover
 	if slotMissing then
 		-- Show "Missing slot" label instead of Equip button
 		SetDrawColor(1, 1, 1)
-		DrawString(btn2X + equipW / 2, btnY + 1, "CENTER_X", 14, "VAR", "^xBBBBBBMissing slot")
+		DrawString(btn2X + equipW / 2, btnY + 1, "CENTER_X", 14, "VAR", tr("^xBBBBBBMissing slot"))
 		b2Hover = false
 	else
 		-- "Equip" button
 		b2Hover = cursorX >= btn2X and cursorX < btn2X + equipW
 			and cursorY >= btnY and cursorY < btnY + btnH
-		drawBtn(btn2X, equipW, b2Hover, "^7Equip")
+		drawBtn(btn2X, equipW, b2Hover, tr("^7Equip"))
 	end
 
 	return b1Hover, b2Hover, b3Hover, btn2X, btnY, equipW, btnH

@@ -15,6 +15,9 @@ end
 
 function formatCalcStr(str, actor, colData)
 	if not actor then return "" end
+	if not str:find("{", 1, true) and TranslateUI then
+		return TranslateUI(str)
+	end
 	str = str:gsub("{output:([%a%.:]+)}", function(c)
 		local ns, var = c:match("^(%a+)%.(%a+)$")
 		if ns then

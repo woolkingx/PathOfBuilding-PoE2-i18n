@@ -10,6 +10,13 @@ local s_format = string.format
 
 local scopes = { }
 
+local function trStat(text)
+	if type(text) ~= "string" then
+		return text
+	end
+	return TranslateStat and TranslateStat(text) or text
+end
+
 local function getScope(scopeName)
 	if not scopes[scopeName] then
 		local scope = nil
@@ -278,7 +285,7 @@ return function(stats, scopeName, quality)
 			for _, spec in ipairs(desc) do
 				applySpecial(val, spec)
 			end
-			local statDesc = desc.text:gsub("{(%d)}", function(n) 
+			local statDesc = trStat(desc.text):gsub("{(%d)}", function(n)
 				local v = val[tonumber(n)+1]
 				if v.min == v.max then
 					return s_format("%"..v.fmt, v.min)

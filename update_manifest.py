@@ -19,11 +19,11 @@ def _exclude_file(file_patterns: set[str], path: pathlib.Path) -> bool:
 
 def _exclude_directory(directory_names: set[str], path: pathlib.Path) -> bool:
     """Whether to exclude a directory. Doesn't consider any files in directories."""
-    return any(
-        len(path.parts) <= 1
-        or all(a == b for a, b in zip(directory.split("/"), path.parts))
-        for directory in directory_names
-    )
+    for directory in directory_names:
+        directory_parts = tuple(part for part in directory.split("/") if part)
+        if directory_parts and path.parts[:len(directory_parts)] == directory_parts:
+            return True
+    return False
 
 
 def _parse_list_option(config: configparser.ConfigParser, section: str, option: str) -> set[str]:

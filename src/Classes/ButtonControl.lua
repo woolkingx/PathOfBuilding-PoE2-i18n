@@ -75,7 +75,7 @@ function ButtonClass:Draw(viewPort, noTooltip)
 	else
 		SetDrawColor(0.33, 0.33, 0.33)
 	end
-	local label = self:GetProperty("label")
+	local label = self:TranslateLabel(self:GetProperty("label"))
 	if label == "+" then
 		DrawImage(nil, x + width * 0.2, y + height * 0.45, width * 0.6, height * 0.1)
 		DrawImage(nil, x + width * 0.45, y + height * 0.2, width * 0.1, height * 0.6)

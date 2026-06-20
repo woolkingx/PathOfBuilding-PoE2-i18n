@@ -11,7 +11,24 @@ local m_floor = math.floor
 local m_sin = math.sin
 local m_cos = math.cos
 local m_pi = math.pi
+local s_format = string.format
 local band = AND64  -- bit.band
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
+
+local function trItem(text)
+	return TranslateItem and TranslateItem(text) or text
+end
+
+local function trItemName(item)
+	return TranslateItemDisplayName and TranslateItemDisplayName(item) or item.name
+end
+
+local function trSkill(text)
+	return TranslateSkill and TranslateSkill(text) or text
+end
 
 local CalcBreakdownClass = newClass("CalcBreakdownControl", "Control", "ControlHost", function(self, calcsTab)
 	self.Control()
@@ -82,13 +99,14 @@ function CalcBreakdownClass:SetBreakdownData(displayData, pinned)
 			-- This also calculates the width of each column in the table
 			section.width = 4
 			for _, col in pairs(section.colList) do
+				local colLabel = self:TranslateLabel(col.label)
 				for _, row in pairs(section.rowList) do
 					if row[col.key] then
 						local _, num = string.gsub(row[col.key], "%d%d%d%d", "") -- count how many commas will be added
 						if main.showThousandsSeparators and num > 0 then
-							col.width = m_max(col.width or 0, DrawStringWidth(16, "VAR", col.label) + 6, DrawStringWidth(12, "VAR", row[col.key]) + 6 + (4 * num))
+							col.width = m_max(col.width or 0, DrawStringWidth(16, "VAR", colLabel) + 6, DrawStringWidth(12, "VAR", row[col.key]) + 6 + (4 * num))
 						else 
-							col.width = m_max(col.width or 0, DrawStringWidth(16, "VAR", col.label) + 6, DrawStringWidth(12, "VAR", row[col.key]) + 6)
+							col.width = m_max(col.width or 0, DrawStringWidth(16, "VAR", colLabel) + 6, DrawStringWidth(12, "VAR", row[col.key]) + 6)
 						end
 					end
 				end
@@ -98,7 +116,7 @@ function CalcBreakdownClass:SetBreakdownData(displayData, pinned)
 			end
 			section.height = #section.rowList * 14 + 20
 			if section.label then
-				self.contentWidth = m_max(self.contentWidth, 6 + DrawStringWidth(16, "VAR", section.label..":"))
+				self.contentWidth = m_max(self.contentWidth, 6 + DrawStringWidth(16, "VAR", self:TranslateLabel(section.label)..":"))
 				section.height = section.height + 16
 			end
 			if section.footer then
@@ -251,7 +269,7 @@ function CalcBreakdownClass:AddBreakdownSection(sectionData)
 		t_insert(self.sectionList, section)
 		for _, row in pairs(section.rowList) do
 			if row.item then
-				row.sourceLabel = colorCodes[row.item.rarity]..row.item.name
+				row.sourceLabel = colorCodes[row.item.rarity]..trItem(row.item.name)
 				row.sourceLabelTooltip = function(tooltip)
 					self.calcsTab.build.itemsTab:AddItemTooltip(tooltip, row.item, row.source)
 				end
@@ -387,7 +405,7 @@ function CalcBreakdownClass:AddModSection(sectionData, modList)
 		if not modList and not sectionData.modSource then
 			-- No modifier source specified, add the source type to the table
 			row.sourceTooltip = function(tooltip)
-				tooltip:AddLine(16, "Total from "..sourceType..":")
+				tooltip:AddLine(16, formatUI("Total from %s:", sourceType))
 				for _, line in ipairs(sourceTotals[sourceType]) do
 					tooltip:AddLine(14, line)
 				end
@@ -398,7 +416,7 @@ function CalcBreakdownClass:AddModSection(sectionData, modList)
 			local itemId = row.mod.source:match("Item:(%d+):.+")
 			local item = build.itemsTab.items[tonumber(itemId)]
 			if item then
-				row.sourceName = colorCodes[item.rarity]..item.name
+				row.sourceName = colorCodes[item.rarity]..trItemName(item)
 				row.sourceNameTooltip = function(tooltip)
 					local args = row.mod.sourceSlot
 					if row.mod.sourceSlot == "Jewel" and row.mod.sourceSlotNum ~= nil and build.spec.nodes[row.mod.sourceSlotNum] and build.spec.nodes[row.mod.sourceSlotNum].containJewelSocket then
@@ -420,7 +438,7 @@ function CalcBreakdownClass:AddModSection(sectionData, modList)
 			row.sourceName = row.mod.source:match("Many Sources:(.+)")
 		elseif sourceType == "Skill" then
 			-- Extract skill name
-			row.sourceName = build.data.skills[row.mod.source:match("Skill:(.+)")].name
+			row.sourceName = trSkill(build.data.skills[row.mod.source:match("Skill:(.+)")].name)
 		elseif sourceType == "Pantheon" then
 			row.sourceName = row.mod.source:match("Pantheon:(.+)")
 		elseif sourceType == "Spectre" then
@@ -547,13 +565,15 @@ end
 function CalcBreakdownClass:DrawBreakdownTable(viewPort, x, y, section)
 	local cursorX, cursorY = GetCursorPos()
 	if section.label then
+		local sectionLabel = self:TranslateLabel(section.label)
 		-- Draw table label if able
-		DrawString(x + 2, y, "LEFT", 16, "VAR", "^7"..section.label..":")
+		DrawString(x + 2, y, "LEFT", 16, "VAR", "^7"..sectionLabel..":")
 		y = y + 16
 	end
 	local colX = x + 4
 	for index, col in ipairs(section.colList) do
 		if col.width then
+			local colLabel = self:TranslateLabel(col.label)
 			-- Column is present, draw the separator and label
 			col.x = colX
 			if index > 1 then
@@ -562,7 +582,7 @@ function CalcBreakdownClass:DrawBreakdownTable(viewPort, x, y, section)
 				DrawImage(nil, colX - 2, y, 1, section.height - (section.label and 16 or 0) - (section.footer and 12 or 0))
 			end
 			SetDrawColor(1, 1, 1)
-			DrawString(colX, y + 2, "LEFT", 16, "VAR", col.label)
+			DrawString(colX, y + 2, "LEFT", 16, "VAR", colLabel)
 			colX = colX + col.width
 		end
 	end

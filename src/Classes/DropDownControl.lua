@@ -24,10 +24,10 @@ local DropDownClass = newClass("DropDownControl", "Control", "ControlHost", "Too
 						return StripEscapes(listVal.searchFilter)
 					end
 					if listVal.label then
-						return StripEscapes(listVal.label)
+						return StripEscapes(TranslateUI and TranslateUI(listVal.label) or listVal.label)
 					end
 				end
-				return StripEscapes(listVal)
+				return StripEscapes(TranslateUI and TranslateUI(listVal) or listVal)
 			end
 	)
 	self.controls.scrollBar = new("ScrollBarControl", {"TOPRIGHT",self,"TOPRIGHT"}, {-1, 0, 18, 0}, (self.height - 4) * 4)
@@ -305,7 +305,7 @@ function DropDownClass:Draw(viewPort, noTooltip)
 	local selLabel = nil
 	local selDetail = nil
 	if self:IsSearchActive() then
-		selLabel = "Search: " .. self:GetSearchTermPretty()
+		selLabel = (TranslateUI and TranslateUI("Search:") or "Search:") .. " " .. self:GetSearchTermPretty()
 	else
 		local selItem = self.list[self.selIndex]
 		if type(selItem) == "table" then
@@ -315,6 +315,7 @@ function DropDownClass:Draw(viewPort, noTooltip)
 			selLabel = selItem
 		end
 	end
+	selLabel = self:TranslateLabel(selLabel)
 	SetViewport(x + 2, y + 2, width - height, lineHeight)
 	DrawString(0, 0, "LEFT", lineHeight, "VAR", selLabel or "")
 	if selDetail ~= nil then
@@ -375,6 +376,7 @@ function DropDownClass:Draw(viewPort, noTooltip)
 				else 
 					label = listVal
 				end
+				label = self:TranslateLabel(label)
 				DrawString(0, y, "LEFT", lineHeight, "VAR", label)
 				if detail ~= nil then
 					local detail = listVal.detail
@@ -386,7 +388,7 @@ function DropDownClass:Draw(viewPort, noTooltip)
 		end
 		SetDrawColor(1, 1, 1)
 		if self:IsSearchActive() and self:GetMatchCount() == 0 then
-			DrawString(0, 0 , "LEFT", lineHeight, "VAR", "<No matches>")
+			DrawString(0, 0 , "LEFT", lineHeight, "VAR", self:TranslateLabel("<No matches>"))
 		end
 		SetViewport()
 		SetDrawLayer(nil, 0)
@@ -512,6 +514,7 @@ function DropDownClass:CheckDroppedWidth(enable)
 			if type(line) == "table" then
 				line = line.label or ""
 			end
+			line = self:TranslateLabel(line)
 			  -- +10 to stop clipping
 			dWidth = m_max(dWidth, DrawStringWidth(lineHeight, "VAR", line or "") + 10)
 		end

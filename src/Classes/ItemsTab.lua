@@ -15,6 +15,30 @@ local m_ceil = math.ceil
 local m_floor = math.floor
 local m_modf = math.modf
 
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
+
+local function trItem(text)
+	return TranslateItem and TranslateItem(text) or text
+end
+
+local function trItemName(item)
+	return TranslateItemDisplayName and TranslateItemDisplayName(item) or item.name
+end
+
+local function trStat(text)
+	return TranslateStat and TranslateStat(text) or text
+end
+
+local function trPassive(text)
+	return TranslatePassive and TranslatePassive(text) or text
+end
+
 local rarityDropList = {
 	{ label = colorCodes.NORMAL.."Normal", rarity = "NORMAL" },
 	{ label = colorCodes.MAGIC.."Magic", rarity = "MAGIC" },
@@ -695,7 +719,10 @@ holding Shift will put it in the second.]])
 		end
 
 		self.controls["displayItemRune"..i] = drop
-		self.controls["displayItemRuneLabel"..i] = new("LabelControl", {"RIGHT",drop,"LEFT"}, {-4, 0, 0, 14}, "^7Rune #"..i)
+		local runeIndex = i
+		self.controls["displayItemRuneLabel"..i] = new("LabelControl", {"RIGHT",drop,"LEFT"}, {-4, 0, 0, 14}, function()
+			return FormatUI and FormatUI("^7Rune #%d", runeIndex) or "^7Rune #"..runeIndex
+		end)
 	end
 
 	-- Section: Affix Selection
@@ -783,18 +810,18 @@ holding Shift will put it in the second.]])
 			elseif tooltip:CheckForUpdate(modList) then
 				if value.modId or #modList == 1 then
 					local mod = self.displayItem.affixes[value.modId or modList[1]]
-					tooltip:AddLine(16, "^7Affix: "..mod.affix)
+					tooltip:AddLine(16, formatUI("^7Affix: %s", mod.affix))
 					for _, line in ipairs(mod) do
 						tooltip:AddLine(14, "^7"..line)
 					end
 					if mod.level > 1 then
-						tooltip:AddLine(16, "Level: "..mod.level)
+						tooltip:AddLine(16, formatUI("Level: %d", mod.level))
 					end
 					if mod.modTags and #mod.modTags > 0 then
-						tooltip:AddLine(16, "Tags: "..table.concat(mod.modTags, ', '))
+						tooltip:AddLine(16, formatUI("Tags: %s", table.concat(mod.modTags, ', ')))
 					end
 				else
-					tooltip:AddLine(16, "^7"..#modList.." Tiers")
+					tooltip:AddLine(16, formatUI("^7%d Tiers", #modList))
 					local minMod = self.displayItem.affixes[modList[1]]
 					local maxMod = self.displayItem.affixes[modList[#modList]]
 					for l, line in ipairs(minMod) do
@@ -815,10 +842,10 @@ holding Shift will put it in the second.]])
 							end)))
 						end
 					end
-					tooltip:AddLine(16, "Level: "..minMod.level.." to "..maxMod.level)
+					tooltip:AddLine(16, formatUI("Level: %d to %d", minMod.level, maxMod.level))
 					-- Assuming that all mods have the same tags
 					if maxMod.modTags and #maxMod.modTags > 0 then
-						tooltip:AddLine(16, "Tags: "..table.concat(maxMod.modTags, ', '))
+						tooltip:AddLine(16, formatUI("Tags: %s", table.concat(maxMod.modTags, ', ')))
 					end
 				end
 				local mod = self.displayItem.affixes[value.modId or modList[1]]
@@ -835,11 +862,11 @@ holding Shift will put it in the second.]])
 						tooltip:AddLine(18, "")
 						for i, line in ipairs(node.sd) do
 							if line ~= " " and (node.mods[i].extra or not node.mods[i].list) then
-								local line = colorCodes.UNSUPPORTED .. line
+								local line = colorCodes.UNSUPPORTED .. trStat(line)
 								line = main.notSupportedModTooltips and (line .. main.notSupportedTooltipText) or line
 								tooltip:AddLine(18, line)
 							else
-								tooltip:AddLine(18, colorCodes.MAGIC..line)
+								tooltip:AddLine(18, colorCodes.MAGIC..trStat(line))
 							end
 						end
 					end
@@ -860,7 +887,7 @@ holding Shift will put it in the second.]])
 					local clusterInfo = self.build.data.clusterJewelInfoForNotable[notableName]
 					if clusterInfo then
 						tooltip:AddSeparator(14)
-						tooltip:AddLine(20, "^7"..notableName.." can appear on:")
+						tooltip:AddLine(20, formatUI("^7%s can appear on:", notableName))
 						local isFirstSize = true
 						for size, v in pairs(clusterInfo.size) do
 							tooltip:AddLine(18, colorCodes.MAGIC..size..":")
@@ -918,15 +945,15 @@ holding Shift will put it in the second.]])
 				end
 				tooltip:AddSeparator(10)
 				if #modList > 1 then
-					tooltip:AddLine(16, "^7Affix: Tier "..(#modList - isValueInArray(modList, modId) + 1).." ("..mod.affix..")")
+					tooltip:AddLine(16, formatUI("^7Affix: Tier %d (%s)", #modList - isValueInArray(modList, modId) + 1, mod.affix))
 				else
-					tooltip:AddLine(16, "^7Affix: "..mod.affix)
+					tooltip:AddLine(16, formatUI("^7Affix: %s", mod.affix))
 				end
 				for _, line in ipairs(mod) do
 					tooltip:AddLine(14, line)
 				end
 				if mod.level > 1 then
-					tooltip:AddLine(16, "Level: "..mod.level)
+					tooltip:AddLine(16, formatUI("Level: %d", mod.level))
 				end
 			end
 		end
@@ -1523,7 +1550,7 @@ function ItemsTabClass:UpdateSockets()
 	-- Update the state of the active socket controls
 	self.lastSlot = self.slots[baseSlots[#baseSlots]]
 	for index, nodeId in ipairs(self.activeSocketList) do
-		self.sockets[nodeId].label = "Socket #"..index
+		self.sockets[nodeId].label = formatUI("Socket #%d", index)
 		self.lastSlot = self.sockets[nodeId]
 	end
 	self.initSockets = false
@@ -2102,7 +2129,7 @@ function ItemsTabClass:UpdateCustomControls()
 	if item.rarity == "MAGIC" or item.rarity == "RARE" then
 		for index, modLine in ipairs(modLines) do
 			if modLine.custom then
-				local line = itemLib.formatModLine(modLine)
+				local line = itemLib.formatModLine(modLine, nil, true)
 				if line then
 					if not self.controls["displayItemCustomModifierRemove"..i] then
 						self.controls["displayItemCustomModifierRemove"..i] = new("ButtonControl", {"TOPLEFT",self.controls.displayItemSectionCustom,"TOPLEFT"}, {0, i * 22 + 4, 70, 20}, "^7Remove")
@@ -2110,12 +2137,12 @@ function ItemsTabClass:UpdateCustomControls()
 						self.controls["displayItemCustomModifierLabel"..i] = new("LabelControl", {"LEFT",self.controls["displayItemCustomModifierRemove"..i],"RIGHT"}, {5, 0, 0, 16})
 					end
 					self.controls["displayItemCustomModifierRemove"..i].shown = true
-					local label = itemLib.formatModLine(modLine)
+					local label = itemLib.formatModLine(modLine, nil, true)
 					if DrawStringCursorIndex(16, "VAR", label, 330, 10) < #label then
 						label = label:sub(1, DrawStringCursorIndex(16, "VAR", label, 310, 10)) .. "..."
 					end
 					self.controls["displayItemCustomModifier"..i].label = label
-					self.controls["displayItemCustomModifierLabel"..i].label = " ^7Custom:"
+					self.controls["displayItemCustomModifierLabel"..i].label = " " .. tr("^7Custom:")
 					self.controls["displayItemCustomModifierRemove"..i].onClick = function()
 						if index <= #item.explicitModLines then
 							t_remove(item.explicitModLines, index)
@@ -2146,7 +2173,8 @@ function ItemsTabClass:UpdateDisplayItemRangeLines()
 				self.controls["displayItemStackedRangeSlider"..i].val = modLine.range
 			end
 			-- primarily for Against the Darkness // a way to cut down on really long modLines, gsub could be updated for others
-			t_insert(self.controls.displayItemRangeLine.list, (modLine.line:gsub(" Passive Skills in Radius also grant", ":")))
+			local displayLine = trStat(modLine.line):gsub(" Passive Skills in Radius also grant", ":")
+			t_insert(self.controls.displayItemRangeLine.list, displayLine)
 		end
 		self.controls.displayItemRangeLine.selIndex = 1
 		self.controls.displayItemRangeSlider.val = self.displayItem.rangeLineList[1].range
@@ -2177,7 +2205,7 @@ function ItemsTabClass:AddModComparisonTooltip(tooltip, mod)
 	local calcFunc = self.build.calcsTab:GetMiscCalculator()
 	local outputBase = calcFunc({ repSlotName = slotName, repItem = self.displayItem })
 	local outputNew = calcFunc({ repSlotName = slotName, repItem = newItem })
-	self.build:AddStatComparesToTooltip(tooltip, outputBase, outputNew, "\nAdding this mod will give: ")
+	self.build:AddStatComparesToTooltip(tooltip, outputBase, outputNew, formatUI("\nAdding this mod will give:"))
 end
 
 -- Returns the first slot in which the given item is equipped
@@ -2548,13 +2576,13 @@ function ItemsTabClass:AppendAnointTooltip(tooltip, node, actionText)
 	end
 
 	if not actionText then
-		actionText = "Anointing"
+		actionText = tr("Anointing")
 	end
 
 	local header
 	if node then
 		if self.build.spec.allocNodes[node.id] then
-			tooltip:AddLine(14, "^7"..actionText.." "..node.dn.." changes nothing because this node is already allocated on the tree.")
+			tooltip:AddLine(14, formatUI("^7%s %s changes nothing because this node is already allocated on the tree.", actionText, node.dn))
 			return
 		end
 
@@ -2562,15 +2590,15 @@ function ItemsTabClass:AppendAnointTooltip(tooltip, node, actionText)
 		if curAnoints and #curAnoints > 0 then
 			for _, curAnoint in ipairs(curAnoints) do
 				if curAnoint == node.dn then
-					tooltip:AddLine(14, "^7"..actionText.." "..node.dn.." changes nothing because this node is already anointed.")
+					tooltip:AddLine(14, formatUI("^7%s %s changes nothing because this node is already anointed.", actionText, node.dn))
 					return
 				end
 			end
 		end
 
-		header = "^7"..actionText.." "..node.dn.." will give you: "
+		header = formatUI("^7%s %s will give you:", actionText, node.dn)
 	else
-		header = "^7"..actionText.." nothing will give you: "
+		header = formatUI("^7%s nothing will give you:", actionText)
 	end
 	local calcFunc = self.build.calcsTab:GetMiscCalculator()
 	local repSlotName = self.displayItem:GetPrimarySlot()
@@ -2578,7 +2606,7 @@ function ItemsTabClass:AppendAnointTooltip(tooltip, node, actionText)
 	local outputNew = calcFunc({ repSlotName = repSlotName, repItem = self:anointItem(node) })
 	local numChanges = self.build:AddStatComparesToTooltip(tooltip, outputBase, outputNew, header)
 	if node and numChanges == 0 then
-		tooltip:AddLine(14, "^7"..actionText.." "..node.dn.." changes nothing.")
+		tooltip:AddLine(14, formatUI("^7%s %s changes nothing.", actionText, node.dn))
 	end
 end
 
@@ -2588,9 +2616,9 @@ end
 function ItemsTabClass:AppendAddedNotableTooltip(tooltip, node)
 	local calcFunc, calcBase = self.build.calcsTab:GetMiscCalculator()
 	local outputNew = calcFunc({ addNodes = { [node] = true } })
-	local numChanges = self.build:AddStatComparesToTooltip(tooltip, calcBase, outputNew, "^7Allocating "..node.dn.." will give you: ")
+	local numChanges = self.build:AddStatComparesToTooltip(tooltip, calcBase, outputNew, formatUI("^7Allocating %s will give you:", node.dn))
 	if numChanges == 0 then
-		tooltip:AddLine(14, "^7Allocating "..node.dn.." changes nothing.")
+		tooltip:AddLine(14, formatUI("^7Allocating %s changes nothing.", node.dn))
 	end
 end
 
@@ -2909,13 +2937,16 @@ function ItemsTabClass:CorruptDisplayItem() -- todo implement vaal orb new outco
 		if i == 1 then
 			controls.enchant1Label = new("LabelControl", {"TOPRIGHT",nil,"TOPLEFT"}, {95, 55, 0, 16}, function()
 				if enchantNum == 1 then -- update label so 1 doesn't appear in case of 1 enchant.
-					return "^7Enchant:"
+					return TranslateUI and TranslateUI("^7Enchant:") or "^7Enchant:"
 				else
-					return "^7Enchant #1:"
+					return FormatUI and FormatUI("^7Enchant #%d:", 1) or "^7Enchant #1:"
 				end
 			end)
 		else
-			controls["enchant"..i.."Label"] = new("LabelControl", {"TOPRIGHT",nil,"TOPLEFT"}, {95, 35 + i * 20 , 0, 16}, "^7Enchant #"..i..":")
+			local enchantIndex = i
+			controls["enchant"..i.."Label"] = new("LabelControl", {"TOPRIGHT",nil,"TOPLEFT"}, {95, 35 + i * 20 , 0, 16}, function()
+				return FormatUI and FormatUI("^7Enchant #%d:", enchantIndex) or "^7Enchant #"..enchantIndex..":"
+			end)
 		end
 		controls["enchant"..i] = new("DropDownControl", {"TOPLEFT",nil,"TOPLEFT"}, {100, 35 + i * 20, 440, 18}, nil, function()
 			rebuildEnchantControls()
@@ -3180,7 +3211,7 @@ function ItemsTabClass:AddItemSetTooltip(tooltip, itemSet)
 		if not slot.nodeId then
 			local item = self.items[itemSet[slot.slotName].selItemId]
 			if item then
-				tooltip:AddLine(16, s_format("^7%s: %s%s", slot.slotName, colorCodes[item.rarity], item.name))
+				tooltip:AddLine(16, formatUI("^7%s: %s%s", tr(slot.label or slot.slotName), colorCodes[item.rarity], trItemName(item)))
 			end
 		end
 	end
@@ -3231,11 +3262,12 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 	tooltip.color = rarityCode
 	self:SetTooltipHeaderInfluence(tooltip, item)
 	-- Item name
+	local baseName = trItem(item.baseName:gsub(" %(.+%)",""))
 	if item.title then
-		tooltip:AddLine(fontSizeTitle, rarityCode..item.title, "FONTIN SC")
-		tooltip:AddLine(fontSizeTitle, rarityCode..item.baseName:gsub(" %(.+%)",""), "FONTIN SC")
+		tooltip:AddLine(fontSizeTitle, rarityCode..trItem(item.title), "FONTIN SC")
+		tooltip:AddLine(fontSizeTitle, rarityCode..baseName, "FONTIN SC")
 	else
-		tooltip:AddLine(fontSizeTitle, rarityCode..item.namePrefix..item.baseName:gsub(" %(.+%)","")..item.nameSuffix, "FONTIN SC")
+		tooltip:AddLine(fontSizeTitle, rarityCode..item.namePrefix..baseName..item.nameSuffix, "FONTIN SC")
 	end
 	tooltip.runicItem = item.runicItem
 	tooltip:AddSeparator(10)
@@ -3244,19 +3276,19 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 	if dbMode then
 		if item.variantList then
 			if #item.variantList == 1 then
-				tooltip:AddLine(fontSizeBig, "^xFFFF30Variant: "..item.variantList[1], "FONTIN SC")
+				tooltip:AddLine(fontSizeBig, formatUI("^xFFFF30Variant: %s", item.variantList[1]), "FONTIN SC")
 			else
-				tooltip:AddLine(fontSizeBig, "^xFFFF30Variant: "..item.variantList[item.variant].." ("..#item.variantList.." variants)", "FONTIN SC")
+				tooltip:AddLine(fontSizeBig, formatUI("^xFFFF30Variant: %s (%d variants)", item.variantList[item.variant], #item.variantList), "FONTIN SC")
 			end
 		end
 		if item.league then
-			tooltip:AddLine(fontSizeBig, "^xFF5555Exclusive to: "..item.league, "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^xFF5555Exclusive to: %s", item.league), "FONTIN SC")
 		end
 		if item.unreleased then
-			tooltip:AddLine(fontSizeBig, colorCodes.NEGATIVE.."Not yet available", "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, tr(colorCodes.NEGATIVE.."Not yet available"), "FONTIN SC")
 		end
 		if item.source then
-			tooltip:AddLine(fontSizeBig, colorCodes.SOURCE.."Source: "..self:FormatItemSource(item.source), "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI(colorCodes.SOURCE.."Source: %s", self:FormatItemSource(item.source)), "FONTIN SC")
 		end
 		if item.upgradePaths then
 			for _, path in ipairs(item.upgradePaths) do
@@ -3272,14 +3304,14 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 
 	tooltip:AddLine(fontSizeBig, s_format("^x7F7F7F%s", base.weapon and self.build.data.weaponTypeInfo[base.type].label or base.type), "FONTIN SC")
 	if item.quality and item.quality > 0 then
-		tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FQuality: "..colorCodes.MAGIC.."+%d%%", item.quality), "FONTIN SC")
+		tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FQuality: %s+%d%%", colorCodes.MAGIC, item.quality), "FONTIN SC")
 	end
 
 	if item.charmLimit then
-		tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FCharm Slots: "..main:StatColor(item.charmLimit, base.charmLimit).."%d", item.charmLimit), "FONTIN SC")
+		tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FCharm Slots: %s%d", main:StatColor(item.charmLimit, base.charmLimit), item.charmLimit), "FONTIN SC")
 	end
 	if item.spiritValue then
-		tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FSpirit: "..main:StatColor(item.spiritValue, base.spirit).."%d", item.spiritValue), "FONTIN SC")
+		tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FSpirit: %s%d", main:StatColor(item.spiritValue, base.spirit), item.spiritValue), "FONTIN SC")
 	end
 
 	if base.weapon then
@@ -3287,35 +3319,35 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 		local weaponData = item.weaponData[slotNum]
 		local totalDamageTypes = 0
 		if weaponData.PhysicalDPS then
-			tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FPhysical Damage: "..colorCodes.MAGIC.."%d-%d (%.1f DPS)", weaponData.PhysicalMin, weaponData.PhysicalMax, weaponData.PhysicalDPS), "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FPhysical Damage: %s%d-%d (%.1f DPS)", colorCodes.MAGIC, weaponData.PhysicalMin, weaponData.PhysicalMax, weaponData.PhysicalDPS), "FONTIN SC")
 			totalDamageTypes = totalDamageTypes + 1
 		end
 		if weaponData.ElementalDPS then
 			local elemLine
 			for _, var in ipairs({"Fire","Cold","Lightning"}) do
 				if weaponData[var.."DPS"] then
-					elemLine = elemLine and elemLine.."^x7F7F7F, " or "^x7F7F7FElemental Damage: "
+					elemLine = elemLine and elemLine.."^x7F7F7F, " or tr("^x7F7F7FElemental Damage:") .. " "
 					elemLine = elemLine..s_format("%s%d-%d", colorCodes[var:upper()], weaponData[var.."Min"], weaponData[var.."Max"], "FONTIN SC")
 				end
 			end
 			tooltip:AddLine(fontSizeBig, elemLine, "FONTIN SC")
-			tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FElemental DPS: "..colorCodes.MAGIC.."%.1f", weaponData.ElementalDPS), "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FElemental DPS: %s%.1f", colorCodes.MAGIC, weaponData.ElementalDPS), "FONTIN SC")
 			totalDamageTypes = totalDamageTypes + 1
 		end
 		if weaponData.ChaosDPS then
-			tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FChaos Damage: "..colorCodes.CHAOS.."%d-%d "..colorCodes.MAGIC.."(%.1f DPS)", weaponData.ChaosMin, weaponData.ChaosMax, weaponData.ChaosDPS), "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FChaos Damage: %s%d-%d %s(%.1f DPS)", colorCodes.CHAOS, weaponData.ChaosMin, weaponData.ChaosMax, colorCodes.MAGIC, weaponData.ChaosDPS), "FONTIN SC")
 			totalDamageTypes = totalDamageTypes + 1
 		end
 		if totalDamageTypes > 1 then
-			tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FTotal DPS: "..colorCodes.MAGIC.."%.1f", weaponData.TotalDPS), "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FTotal DPS: %s%.1f", colorCodes.MAGIC, weaponData.TotalDPS), "FONTIN SC")
 		end
-		tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FCritical Hit Chance: %s%.2f%%", main:StatColor(weaponData.CritChance, base.weapon.CritChanceBase), weaponData.CritChance), "FONTIN SC")
-		tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FAttacks per Second: %s%.2f", main:StatColor(weaponData.AttackRate, base.weapon.AttackRateBase), weaponData.AttackRate), "FONTIN SC")
+		tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FCritical Hit Chance: %s%.2f%%", main:StatColor(weaponData.CritChance, base.weapon.CritChanceBase), weaponData.CritChance), "FONTIN SC")
+		tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FAttacks per Second: %s%.2f", main:StatColor(weaponData.AttackRate, base.weapon.AttackRateBase), weaponData.AttackRate), "FONTIN SC")
 		if weaponData.ReloadTime then
-			tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FReload Time: %s%.2f", main:StatColor(weaponData.ReloadTime, base.weapon.ReloadTimeBase), weaponData.ReloadTime), "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FReload Time: %s%.2f", main:StatColor(weaponData.ReloadTime, base.weapon.ReloadTimeBase), weaponData.ReloadTime), "FONTIN SC")
 		end
 		if weaponData.range < 120 then
-			tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FWeapon Range: %s%.1f ^x7F7F7Fmetres", main:StatColor(weaponData.range, base.weapon.Range), weaponData.range / 10), "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FWeapon Range: %s%.1f ^x7F7F7Fmetres", main:StatColor(weaponData.range, base.weapon.Range), weaponData.range / 10), "FONTIN SC")
 		end
 	elseif base.armour then
 		-- Armour-specific info
@@ -3326,86 +3358,86 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 		local energyShield = item:GetArmourDataValue("EnergyShield", level)
 		local ward = item:GetArmourDataValue("Ward", level)
 		if base.armour.BlockChance and armourData.BlockChance > 0 then
-			tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FChance to Block: %s%d%%", main:StatColor(armourData.BlockChance, base.armour.BlockChance), armourData.BlockChance), "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FChance to Block: %s%d%%", main:StatColor(armourData.BlockChance, base.armour.BlockChance), armourData.BlockChance), "FONTIN SC")
 		end
 		if armour > 0 then
-			tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FArmour: %s%d", main:StatColor(armour, base.armour.ArmourBase), armour), "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FArmour: %s%d", main:StatColor(armour, base.armour.ArmourBase), armour), "FONTIN SC")
 		end
 		if evasion > 0 then
-			tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FEvasion Rating: %s%d", main:StatColor(evasion, base.armour.EvasionBase), evasion), "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FEvasion Rating: %s%d", main:StatColor(evasion, base.armour.EvasionBase), evasion), "FONTIN SC")
 		end
 		if energyShield > 0 then
-			tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FEnergy Shield: %s%d", main:StatColor(energyShield, base.armour.EnergyShieldBase), energyShield), "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FEnergy Shield: %s%d", main:StatColor(energyShield, base.armour.EnergyShieldBase), energyShield), "FONTIN SC")
 		end
 		if ward > 0 then
-			tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FRunic Ward: %s%d", main:StatColor(ward, base.armour.WardBase), ward), "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FRunic Ward: %s%d", main:StatColor(ward, base.armour.WardBase), ward), "FONTIN SC")
 		end
 	elseif base.flask then
 		-- Flask-specific info
 		local flaskData = item.flaskData
 		if flaskData.lifeTotal then
 			if flaskData.lifeGradual ~= 0 then
-				tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FRecovers %s%d ^x7F7F7FLife over %s%.1f0 ^x7F7F7FSeconds",
+				tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FRecovers %s%d ^x7F7F7FLife over %s%.1f0 ^x7F7F7FSeconds",
 					main:StatColor(flaskData.lifeTotal, base.flask.life), flaskData.lifeGradual,
 					main:StatColor(flaskData.duration, base.flask.duration), flaskData.duration
 					), "FONTIN SC")
 			end
 			if flaskData.lifeInstant ~= 0 then
-				tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FRecovers %s%d ^x7F7F7FLife instantly", main:StatColor(flaskData.lifeTotal, base.flask.life), flaskData.lifeInstant), "FONTIN SC")
+				tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FRecovers %s%d ^x7F7F7FLife instantly", main:StatColor(flaskData.lifeTotal, base.flask.life), flaskData.lifeInstant), "FONTIN SC")
 			end
 		end
 		if flaskData.manaTotal then
 			if flaskData.manaGradual ~= 0 then
-				tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FRecovers %s%d ^x7F7F7FMana over %s%.1f0 ^x7F7F7FSeconds",
+				tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FRecovers %s%d ^x7F7F7FMana over %s%.1f0 ^x7F7F7FSeconds",
 					main:StatColor(flaskData.manaTotal, base.flask.mana), flaskData.manaGradual,
 					main:StatColor(flaskData.duration, base.flask.duration), flaskData.duration
 					), "FONTIN SC")
 			end
 			if flaskData.manaInstant ~= 0 then
-				tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FRecovers %s%d ^x7F7F7FMana instantly", main:StatColor(flaskData.manaTotal, base.flask.mana), flaskData.manaInstant), "FONTIN SC")
+				tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FRecovers %s%d ^x7F7F7FMana instantly", main:StatColor(flaskData.manaTotal, base.flask.mana), flaskData.manaInstant), "FONTIN SC")
 			end
 		end
-		tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FConsumes %s%d ^x7F7F7Fof %s%d ^x7F7F7FCharges on use",
+		tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FConsumes %s%d ^x7F7F7Fof %s%d ^x7F7F7FCharges on use",
 			main:StatColor(flaskData.chargesUsed, base.flask.chargesUsed), flaskData.chargesUsed,
 			main:StatColor(flaskData.chargesMax, base.flask.chargesMax), flaskData.chargesMax
 			), "FONTIN SC")
 		for _, modLine in pairs(item.buffModLines) do
 			if modLine.extra then
-				local line = colorCodes.UNSUPPORTED..modLine.line
+				local line = colorCodes.UNSUPPORTED..trStat(modLine.line)
 				line = main.notSupportedModTooltips and (line .. main.notSupportedTooltipText) or line
 				tooltip:AddLine(fontSizeBig, line, "FONTIN SC")
 			else
-				tooltip:AddLine(fontSizeBig, colorCodes.MAGIC..modLine.line, "FONTIN SC")
+				tooltip:AddLine(fontSizeBig, colorCodes.MAGIC..trStat(modLine.line), "FONTIN SC")
 			end
 		end
 	elseif base.charm then
 		-- Charm-specific info
 		local charmData = item.charmData
 
-		tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FLasts %s%.2f ^x7F7F7FSeconds", main:StatColor(charmData.duration, base.charm.duration), charmData.duration), "FONTIN SC")
-		tooltip:AddLine(fontSizeBig, s_format("^x7F7F7FConsumes %s%d ^x7F7F7Fof %s%d ^x7F7F7FCharges on use",
+		tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FLasts %s%.2f ^x7F7F7FSeconds", main:StatColor(charmData.duration, base.charm.duration), charmData.duration), "FONTIN SC")
+		tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FConsumes %s%d ^x7F7F7Fof %s%d ^x7F7F7FCharges on use",
 			main:StatColor(charmData.chargesUsed, base.charm.chargesUsed), charmData.chargesUsed,
 			main:StatColor(charmData.chargesMax, base.charm.chargesMax), charmData.chargesMax
 		), "FONTIN SC")
 		for _, modLine in pairs(item.buffModLines) do
 			if modLine.extra then
-				local line = colorCodes.UNSUPPORTED..modLine.line
+				local line = colorCodes.UNSUPPORTED..trStat(modLine.line)
 				line = main.notSupportedModTooltips and (line .. main.notSupportedTooltipText) or line
 				tooltip:AddLine(fontSizeBig, line, "FONTIN SC")
 			else
-				tooltip:AddLine(fontSizeBig, colorCodes.MAGIC..modLine.line, "FONTIN SC")
+				tooltip:AddLine(fontSizeBig, colorCodes.MAGIC..trStat(modLine.line), "FONTIN SC")
 			end
 		end
 	elseif item.type == "Jewel" then
 		-- Jewel-specific info
 		if item.limit then
-			tooltip:AddLine(fontSizeBig, "^x7F7F7FLimited to: ^7"..item.limit, "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FLimited to: ^7%s", item.limit), "FONTIN SC")
 		end
 		if item.classRestriction then
-			tooltip:AddLine(fontSizeBig, "^x7F7F7FRequires Class "..(self.build.spec.curClassName == item.classRestriction and colorCodes.POSITIVE or colorCodes.NEGATIVE)..item.classRestriction, "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FRequires Class %s%s", self.build.spec.curClassName == item.classRestriction and colorCodes.POSITIVE or colorCodes.NEGATIVE, item.classRestriction), "FONTIN SC")
 		end
 		if item.jewelRadiusLabel then
-			tooltip:AddLine(fontSizeBig, "^x7F7F7FRadius: ^7"..item.jewelRadiusLabel, "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FRadius: ^7%s", item.jewelRadiusLabel), "FONTIN SC")
 		end
 		if item.jewelRadiusData and slot and item.jewelRadiusData[slot.nodeId] then
 			local radiusData = item.jewelRadiusData[slot.nodeId]
@@ -3417,7 +3449,7 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 				end
 			end
 			if line then
-				tooltip:AddLine(fontSizeBig, "^x7F7F7FAttributes in Radius: "..line, "FONTIN SC")
+				tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FAttributes in Radius: %s", line), "FONTIN SC")
 			end
 		end
 	end
@@ -3433,7 +3465,7 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 			socketString = socketString .. "S "
 		end
 		socketString = socketString:gsub(" $", "")
-		tooltip:AddLine(fontSizeBig, "^x7F7F7FSockets: " .. socketString, "FONTIN SC")
+		tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FSockets: %s", socketString), "FONTIN SC")
 	end
 	if item.jewelSocketCount > 0 then
 		local socketString = ""
@@ -3441,12 +3473,12 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 			socketString = socketString .. "J "
 		end
 		socketString = socketString:gsub(" $", "")
-		tooltip:AddLine(fontSizeBig, "^x7F7F7FSockets: " .. socketString, "FONTIN SC")
+		tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FSockets: %s", socketString), "FONTIN SC")
 	end
 	tooltip:AddSeparator(10)
 
 	if item.talismanTier then
-		tooltip:AddLine(fontSizeBig, "^x7F7F7FTalisman Tier ^xFFFFFF"..item.talismanTier, "FONTIN SC")
+		tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FTalisman Tier ^xFFFFFF%s", item.talismanTier), "FONTIN SC")
 		tooltip:AddSeparator(10)
 	end
 
@@ -3464,7 +3496,7 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 		local node = self.build.spec.nodes[slot.nodeId]
 		if node and node.containJewelSocket then
 			local jewelEffect = node.modList:Sum("INC", nil, "SocketedJewelEffect")
-			extraTooltip = "^x7F7F7FSocketed Jewel Effect: "
+			extraTooltip = tr("^x7F7F7FSocketed Jewel Effect:") .. " "
 			if jewelEffect > 0 then
 				extraTooltip = extraTooltip .. s_format(colorCodes.MAGIC.."+%d%%", jewelEffect)
 				tooltip:AddSeparator(10)
@@ -3501,9 +3533,9 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 								copyModLine.line = copyModLine.line:gsub("%d*%.?%d+", math.abs(newValue), 1) -- Only scale first number in line
 							end
 						end
-						tooltip:AddLine(fontSizeBig, itemLib.formatModLine(copyModLine, dbMode), "FONTIN SC", bg)
+						tooltip:AddLine(fontSizeBig, itemLib.formatModLine(copyModLine, dbMode, true), "FONTIN SC", bg)
 					else
-						tooltip:AddLine(fontSizeBig, itemLib.formatModLine(modLine, dbMode), "FONTIN SC", bg)
+						tooltip:AddLine(fontSizeBig, itemLib.formatModLine(modLine, dbMode, true), "FONTIN SC", bg)
 					end
 
 					-- Show mods from granted Notables
@@ -3511,7 +3543,7 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 						local node = self.build.spec.tree.notableMap[modLine.modList[1].value]
 						if node then
 							for _, stat in ipairs(node.sd) do
-								tooltip:AddLine(fontSizeBig, "^x7F7F7F"..stat, "FONTIN SC")
+								tooltip:AddLine(fontSizeBig, "^x7F7F7F"..trStat(stat), "FONTIN SC")
 							end
 						end
 						-- Add separator only for anoints
@@ -3532,18 +3564,18 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 			for _, name in ipairs(item.jewelData.clusterJewelNotables) do
 				local node = self.build.spec.tree.clusterNodeMap[name]
 				if node then
-					tooltip:AddLine(fontSizeBig, colorCodes.MAGIC .. node.dn, "FONTIN SC")
+					tooltip:AddLine(fontSizeBig, colorCodes.MAGIC .. trPassive(node.dn), "FONTIN SC")
 					for _, stat in ipairs(node.sd) do
-						tooltip:AddLine(fontSizeBig, "^x7F7F7F"..stat, "FONTIN SC")
+						tooltip:AddLine(fontSizeBig, "^x7F7F7F"..trStat(stat), "FONTIN SC")
 					end
 				end
 			end
 		elseif item.jewelData.clusterJewelKeystone then
 			local node = self.build.spec.tree.clusterNodeMap[item.jewelData.clusterJewelKeystone]
 			if node then
-				tooltip:AddLine(fontSizeBig, colorCodes.MAGIC .. node.dn)
+				tooltip:AddLine(fontSizeBig, colorCodes.MAGIC .. trPassive(node.dn))
 				for _, stat in ipairs(node.sd) do
-					tooltip:AddLine(fontSizeBig, "^x7F7F7F"..stat)
+					tooltip:AddLine(fontSizeBig, "^x7F7F7F"..trStat(stat))
 				end
 			end
 		end
@@ -3556,15 +3588,15 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 			tooltip:AddSeparator(10)
 		end
 		if item.mirrored then
-			tooltip:AddLine(fontSizeBig, colorCodes.NEGATIVE.."Mirrored", "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, tr(colorCodes.NEGATIVE.."Mirrored"), "FONTIN SC")
 		end
 		if item.sanctified then
-			tooltip:AddLine(fontSizeBig, colorCodes.FRACTURED.."Sanctified", "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, tr(colorCodes.FRACTURED.."Sanctified"), "FONTIN SC")
 		end
 		if item.doubleCorrupted then
-			tooltip:AddLine(fontSizeBig, colorCodes.NEGATIVE.."Twice Corrupted", "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, tr(colorCodes.NEGATIVE.."Twice Corrupted"), "FONTIN SC")
 		elseif item.corrupted then
-			tooltip:AddLine(fontSizeBig, colorCodes.NEGATIVE.."Corrupted", "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, tr(colorCodes.NEGATIVE.."Corrupted"), "FONTIN SC")
 		end
 		tooltip:AddSeparator(10)
 	end
@@ -3822,9 +3854,9 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 		local output = calcFunc({ toggleFlask = item })
 		local header
 		if self.build.calcsTab.mainEnv.flasks[item] then
-			header = "^7Deactivating this flask will give you:"
+			header = tr("^7Deactivating this flask will give you:")
 		else
-			header = "^7Activating this flask will give you:"
+			header = tr("^7Activating this flask will give you:")
 		end
 		self.build:AddStatComparesToTooltip(tooltip, calcBase, output, header)
 	elseif base.charm then
@@ -3857,9 +3889,9 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 		local output = calcFunc({ toggleCharm = item })
 		local header
 		if self.build.calcsTab.mainEnv.charms[item] then
-			header = "^7Deactivating this charm will give you:"
+			header = tr("^7Deactivating this charm will give you:")
 		else
-			header = "^7Activating this charm will give you:"
+			header = tr("^7Activating this charm will give you:")
 		end
 		self.build:AddStatComparesToTooltip(tooltip, calcBase, output, header)
 	else
@@ -3885,11 +3917,11 @@ function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
 			end
 			local header
 			if item == selItem then
-				header = "^7Removing this item from " .. compareSlot.label .. " will give you:"
+				header = formatUI("^7Removing this item from %s will give you:", compareSlot.label)
 			else
-				header = string.format("^7Equipping this item in %s will give you:%s",
+				header = formatUI("^7Equipping this item in %s will give you:%s",
 					compareSlot.label or compareSlot.slotName,
-					selItem and "\n(replacing " .. colorCodes[selItem.rarity] .. selItem.name .. "^7)" or "")
+					selItem and formatUI("\n(replacing %s%s^7)", colorCodes[selItem.rarity], trItem(selItem.name)) or "")
 			end
 			self.build:AddStatComparesToTooltip(tooltip, calcBase, output, header)
 		end

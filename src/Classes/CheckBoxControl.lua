@@ -8,7 +8,6 @@ local CheckBoxClass = newClass("CheckBoxControl", "Control", "TooltipHost", func
 	self.Control(anchor, rect)
 	self.TooltipHost(tooltipText)
 	self.label = label
-	self.labelWidth = DrawStringWidth(self.width - 4, "VAR", label or "") + 5
 	self.changeFunc = changeFunc
 	self.state = initialState
 	self.checkImage = nil
@@ -23,10 +22,11 @@ function CheckBoxClass:IsMouseOver()
 	local cursorX, cursorY = GetCursorPos()
 
 	-- move x left by label width, increase width by label width
-	local label = self:GetProperty("label")
+	local label = self:TranslateLabel(self:GetProperty("label"))
 	if label then
-		x = x - self.labelWidth
-		width = width + self.labelWidth
+		local labelWidth = DrawStringWidth(self.width - 4, "VAR", label) + 5
+		x = x - labelWidth
+		width = width + labelWidth
 	end
 	return cursorX >= x and cursorY >= y and cursorX < x + width and cursorY < y + height
 end
@@ -89,7 +89,7 @@ function CheckBoxClass:Draw(viewPort, noTooltip)
 	else
 		SetDrawColor(0.33, 0.33, 0.33)
 	end
-	local label = self:GetProperty("label")
+	local label = self:TranslateLabel(self:GetProperty("label"))
 	if label then
 		DrawString(x - 5, y + 2, "RIGHT_X", size - 4, "VAR", label)
 	end

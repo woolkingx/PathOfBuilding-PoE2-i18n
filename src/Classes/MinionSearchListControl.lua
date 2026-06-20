@@ -8,36 +8,40 @@ local t_insert = table.insert
 local t_remove = table.remove
 local s_format = string.format
 
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
 local MinionSearchListClass = newClass("MinionSearchListControl", "MinionListControl", function(self, anchor, rect, data, list, dest, label)
 	self.MinionListControl(anchor, rect, data, list, dest, label)
 	self:sortSourceList()
 	self.unfilteredList = copyTable(list)
 	self.isMutable = false
 
-	self.controls.searchText = new("EditControl", {"BOTTOMLEFT",self,"TOPLEFT"}, {0, -2, 148, 18}, "", "Search", "%c", 100, function(buf)
+	self.controls.searchText = new("EditControl", {"BOTTOMLEFT",self,"TOPLEFT"}, {0, -2, 148, 18}, "", tr("Search"), "%c", 100, function(buf)
 		self:ListFilterChanged(buf, self.controls.searchModeDropDown.selIndex)
 		self:sortSourceList()
 	end, nil, nil, true)	
-	
-	self.controls.searchModeDropDown = new("DropDownControl", {"LEFT",self.controls.searchText,"RIGHT"}, {2, 0, 60, 18}, { "Names", "Skills", "Both"}, function(index, value)
+
+	self.controls.searchModeDropDown = new("DropDownControl", {"LEFT",self.controls.searchText,"RIGHT"}, {2, 0, 60, 18}, { tr("Names"), tr("Skills"), tr("Both")}, function(index, value)
 		self:ListFilterChanged(self.controls.searchText.buf, index)
 		self:sortSourceList()
 	end)
 	self.controls.sortModeDropDown = new("DropDownControl", {"BOTTOMRIGHT", self.controls.searchModeDropDown, "TOPRIGHT"}, {0, -2, self.width, 18}, {
-		"Sort by Names",
-		"Sort by Life + ES",
-		"Sort by Life",
-		"Sort by Energy Shield",
-		"Sort by Attack Speed",
-		"Sort by Base Damage",
-		"Sort by Companion Reservation",
-		"Sort by Spectre Reservation",
-		"Sort by Fire Resistance",
-		"Sort by Cold Resistance",
-		"Sort by Lightning Resistance",
-		"Sort by Chaos Resistance",
-		"Sort by Total Resistance",
-		"Sort by Movement Speed",
+		tr("Sort by Names"),
+		tr("Sort by Life + ES"),
+		tr("Sort by Life"),
+		tr("Sort by Energy Shield"),
+		tr("Sort by Attack Speed"),
+		tr("Sort by Base Damage"),
+		tr("Sort by Companion Reservation"),
+		tr("Sort by Spectre Reservation"),
+		tr("Sort by Fire Resistance"),
+		tr("Sort by Cold Resistance"),
+		tr("Sort by Lightning Resistance"),
+		tr("Sort by Chaos Resistance"),
+		tr("Sort by Total Resistance"),
+		tr("Sort by Movement Speed"),
 	}, function(index, value)
 			self:sortSourceList()
 	end)

@@ -13,6 +13,7 @@ local m_max = math.max
 local m_floor = math.floor
 local band = AND64 -- bit.band
 local b_rshift = bit.rshift
+local s_format = string.format
 --This variable is used to display the Unseen Path nodes in green when unallocated and hovered over
 --When true the checkUnlockConstraint function will return true for the check
 local unseenPathHover = false
@@ -21,6 +22,22 @@ local gemTooltip = LoadModule("Classes/GemTooltip")
 local JEWEL_RADIUS_TINT_NEUTRAL = { 1, 1, 1, 0.7 }
 local JEWEL_RADIUS_TINT_PRIMARY_ONLY = { 1, 0, 0, 0.7 }
 local JEWEL_RADIUS_TINT_COMPARE_ONLY = { 0, 1, 0, 0.7 }
+
+local function translateUI(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function translatePassive(text)
+	return TranslatePassive and TranslatePassive(text) or text
+end
+
+local function translateStat(text)
+	return TranslateStat and TranslateStat(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
 
 local PassiveTreeViewClass = newClass("PassiveTreeView", function(self)
 	self.ring = NewImageHandle()
@@ -1483,6 +1500,14 @@ function PassiveTreeViewClass:DoesNodeMatchSearchParams(build, node)
 	if #needMatches == 0 then
 		return true
 	end
+	local translatedNodeName = translatePassive(node.dn)
+	if translatedNodeName ~= node.dn then
+		err, needMatches = PCall(search, translatedNodeName:lower(), needMatches)
+		if err then return false end
+		if #needMatches == 0 then
+			return true
+		end
+	end
 
 	-- Check node description
 	if not node.sd then
@@ -1494,6 +1519,14 @@ function PassiveTreeViewClass:DoesNodeMatchSearchParams(build, node)
 			if err then return false end
 			if #needMatches == 0 then
 				return true
+			end
+			local translatedLine = translateStat(line)
+			if translatedLine ~= line then
+				err, needMatches = PCall(search, translatedLine:lower(), needMatches)
+				if err then return false end
+				if #needMatches == 0 then
+					return true
+				end
 			end
 			if #needMatches > 0 and node.mods[index].list then
 				-- Then check modifiers
@@ -1552,9 +1585,10 @@ function PassiveTreeViewClass:AddNodeName(tooltip, node, build)
 	if node.unlockConstraint then
 		tooltip.tooltipHeader = "ORACLE_" .. tooltip.tooltipHeader
 	end
-	local nodeName = node.dn
+	local displayName = translatePassive(node.dn)
+	local nodeName = displayName
 	if main.showFlavourText then
-		nodeName = "^xF8E6CA" .. node.dn
+		nodeName = "^xF8E6CA" .. displayName
 	end
 	tooltip.center = true
 	tooltip:AddLine(24, nodeName..(launch.devModeAlt and " ["..node.id.."]" or ""), "FONTIN")
@@ -1565,7 +1599,7 @@ function PassiveTreeViewClass:AddNodeName(tooltip, node, build)
 		local size = band(b_rshift(node.id, 4), 0x3)
 		local large = band(b_rshift(node.id, 6), 0x7)
 		local medium = band(b_rshift(node.id, 9), 0x3)
-		tooltip:AddLine(fontSizeBig, string.format("^7Cluster node index: %d, size: %d, large index: %d, medium index: %d", index, size, large, medium))
+		tooltip:AddLine(fontSizeBig, formatUI("^7Cluster node index: %d, size: %d, large index: %d, medium index: %d", index, size, large, medium))
 	end
 	if node.type == "Socket" and node.nodesInRadius then
 		local attribTotals = { }
@@ -1576,19 +1610,19 @@ function PassiveTreeViewClass:AddNodeName(tooltip, node, build)
 			end
 		end
 		if attribTotals["Str"] >= 40 then
-			tooltip:AddLine(fontSizeBig, "^7Can support "..colorCodes.STRENGTH.."Strength ^7threshold jewels", "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^7Can support %sStrength ^7threshold jewels", colorCodes.STRENGTH), "FONTIN SC")
 		end
 		if attribTotals["Dex"] >= 40 then
-			tooltip:AddLine(fontSizeBig, "^7Can support "..colorCodes.DEXTERITY.."Dexterity ^7threshold jewels", "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^7Can support %sDexterity ^7threshold jewels", colorCodes.DEXTERITY), "FONTIN SC")
 		end
 		if attribTotals["Int"] >= 40 then
-			tooltip:AddLine(fontSizeBig, "^7Can support "..colorCodes.INTELLIGENCE.."Intelligence ^7threshold jewels", "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, formatUI("^7Can support %sIntelligence ^7threshold jewels", colorCodes.INTELLIGENCE), "FONTIN SC")
 		end
 	end
 	if node.type == "Socket" and node.alloc then
 		if node.distanceToClassStart and node.distanceToClassStart > 0 then
 			tooltip:AddSeparator(14)
-			tooltip:AddLine(16, string.format("^7Distance to start: %d", node.distanceToClassStart))
+			tooltip:AddLine(16, formatUI("^7Distance to start: %d", node.distanceToClassStart))
 		end
 	end
 end
@@ -1604,7 +1638,7 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build, incSmallPassi
 		if not cJewel or not cAllocated then return false end
 		if withLabel then
 			tooltip:AddSeparator(14)
-			tooltip:AddLine(14, colorCodes.DEXTERITY .. "Compared build:")
+			tooltip:AddLine(14, translateUI(colorCodes.DEXTERITY .. "Compared build:"))
 		end
 		self.compareSpec.build.itemsTab:AddItemTooltip(tooltip, cJewel, socket)
 		return true
@@ -1621,19 +1655,19 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build, incSmallPassi
 			end
 			if node.distanceToClassStart and node.distanceToClassStart > 0 then
 				tooltip:AddSeparator(14)
-				tooltip:AddLine(16, string.format("^7Distance to start: %d", node.distanceToClassStart))
+				tooltip:AddLine(16, formatUI("^7Distance to start: %d", node.distanceToClassStart))
 			end
 		elseif not addCompareJewelSection(socket, false) then
 			self:AddNodeName(tooltip, node, build)
 		end
 		tooltip:AddSeparator(14)
 		if socket ~= nil and socket:IsEnabled() then
-			tooltip:AddLine(14, colorCodes.TIP.."Tip: Right click this socket to go to the items page and choose the jewel for this socket.")
+			tooltip:AddLine(14, translateUI(colorCodes.TIP.."Tip: Right click this socket to go to the items page and choose the jewel for this socket."))
 		end
 
 		self:AddGlobalNodeWarningsToTooltip(tooltip, node, build)
 
-		tooltip:AddLine(14, colorCodes.TIP.."Tip: Hold Shift or Ctrl to hide this tooltip.")
+		tooltip:AddLine(14, translateUI(colorCodes.TIP.."Tip: Hold Shift or Ctrl to hide this tooltip."))
 		return
 	end
 
@@ -1641,7 +1675,7 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build, incSmallPassi
 	if node.type == "Socket" and not node.alloc then
 		local socket = build.itemsTab:GetSocketAndJewelForNodeID(node.id)
 		if addCompareJewelSection(socket, false) then
-			tooltip:AddLine(14, colorCodes.TIP.."Tip: Hold Shift or Ctrl to hide this tooltip.")
+			tooltip:AddLine(14, translateUI(colorCodes.TIP.."Tip: Hold Shift or Ctrl to hide this tooltip."))
 			return
 		end
 	end
@@ -1652,23 +1686,23 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build, incSmallPassi
 	if launch.devModeAlt then
 		if node.power and node.power.offence then
 			-- Power debugging info
-			tooltip:AddLine(16, string.format("DPS power: %g   Defence power: %g", node.power.offence, node.power.defence))
+			tooltip:AddLine(16, formatUI("DPS power: %g   Defence power: %g", node.power.offence, node.power.defence))
 		end
 	end
 
 	-- add position dev info
 	if launch.devModeAlt then
 		tooltip:AddSeparator(14)
-		tooltip:AddLine(16, string.format("^7Position: %d, %d", node.x, node.y))
-		tooltip:AddLine(16, string.format("Angle: %f", node.angle))
-		tooltip:AddLine(16, string.format("Orbit: %d, Orbit Index: %d", node.orbit, node.orbitIndex))
-		tooltip:AddLine(16, string.format("Group: %d", node.g))
-		tooltip:AddLine(16, string.format("AllocMode: %d", node.allocMode))
+		tooltip:AddLine(16, formatUI("^7Position: %d, %d", node.x, node.y))
+		tooltip:AddLine(16, formatUI("Angle: %f", node.angle))
+		tooltip:AddLine(16, formatUI("Orbit: %d, Orbit Index: %d", node.orbit, node.orbitIndex))
+		tooltip:AddLine(16, formatUI("Group: %d", node.g))
+		tooltip:AddLine(16, formatUI("AllocMode: %d", node.allocMode))
 		tooltip:AddSeparator(14)
 
 		-- add connection info for debugging
 		for _, connection in ipairs(node.connections) do
-			tooltip:AddLine(16, string.format("^7Connection: %d, Orbit: %d", connection.id, connection.orbit))
+			tooltip:AddLine(16, formatUI("^7Connection: %d, Orbit: %d", connection.id, connection.orbit))
 		end
 
 		tooltip:AddSeparator(14)
@@ -1717,11 +1751,11 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build, incSmallPassi
 			end
 
 			if line ~= " " and (node.mods[i].extra or not node.mods[i].list) then
-				local line = colorCodes.UNSUPPORTED..line
+				local line = colorCodes.UNSUPPORTED..translateStat(line)
 				line = main.notSupportedModTooltips and (line .. main.notSupportedTooltipText) or line
 				tooltip:AddLine(fontSizeBig, line, "FONTIN SC")
 			else
-				tooltip:AddLine(fontSizeBig, colorCodes.MAGIC..line, "FONTIN SC")
+				tooltip:AddLine(fontSizeBig, colorCodes.MAGIC..translateStat(line), "FONTIN SC")
 			end
 		end
 	end
@@ -1853,7 +1887,7 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build, incSmallPassi
 		end
 
 		if socket ~= nil and socket:IsEnabled() then
-			tooltip:AddLine(14, colorCodes.TIP.."Tip: Right click this socket to go to the items page and choose the jewel for this socket.")
+			tooltip:AddLine(14, translateUI(colorCodes.TIP.."Tip: Right click this socket to go to the items page and choose the jewel for this socket."))
 		end
 	end
 
@@ -1899,35 +1933,38 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build, incSmallPassi
 				pathOutput = calcFunc({ addNodes = pathNodes })
 			end
 		end
-		local count = build:AddStatComparesToTooltip(tooltip, calcBase, nodeOutput, realloc and "^7Reallocating this node will give you:" or node.alloc and "^7Unallocating this node will give you:" or isGranted and "^7This node is granted by an item. Removing it will give you:" or "^7Allocating this node will give you:")
+		local count = build:AddStatComparesToTooltip(tooltip, calcBase, nodeOutput, realloc and translateUI("^7Reallocating this node will give you:") or node.alloc and translateUI("^7Unallocating this node will give you:") or isGranted and translateUI("^7This node is granted by an item. Removing it will give you:") or translateUI("^7Allocating this node will give you:"))
 		if pathLength > 1 and not isGranted and (#node.intuitiveLeapLikesAffecting == 0 or node.alloc) then
-			count = count + build:AddStatComparesToTooltip(tooltip, calcBase, pathOutput, node.alloc and "^7Unallocating this node and all nodes depending on it will give you:" or "^7Allocating this node and all nodes leading to it will give you:", pathLength)
+			count = count + build:AddStatComparesToTooltip(tooltip, calcBase, pathOutput, node.alloc and translateUI("^7Unallocating this node and all nodes depending on it will give you:") or translateUI("^7Allocating this node and all nodes leading to it will give you:"), pathLength)
 		end
 		if count == 0 then
 			if isGranted then
-				tooltip:AddLine(14, string.format("^7This node is granted by an item. Removing it will cause no changes"))
+				tooltip:AddLine(14, translateUI("^7This node is granted by an item. Removing it will cause no changes"))
 			else
-				tooltip:AddLine(14, string.format("^7No changes from %s this node%s.", node.alloc and "unallocating" or "allocating", node.intuitiveLeapLikesAffecting == 0 and pathLength > 1 and " or the nodes leading to it" or ""))
+				local actionText = node.alloc and translateUI("unallocating") or translateUI("allocating")
+				local pathSuffix = node.intuitiveLeapLikesAffecting == 0 and pathLength > 1 and translateUI(" or the nodes leading to it") or ""
+				tooltip:AddLine(14, formatUI("^7No changes from %s this node%s.", actionText, pathSuffix))
 			end
 		end
-		tooltip:AddLine(14, colorCodes.TIP.."Tip: Press Ctrl+D to disable the display of stat differences.")
+		tooltip:AddLine(14, translateUI(colorCodes.TIP.."Tip: Press Ctrl+D to disable the display of stat differences."))
 	else
 		tooltip:AddSeparator(14)
-		tooltip:AddLine(14, colorCodes.TIP.."Tip: Press Ctrl+D to enable the display of stat differences.")
+		tooltip:AddLine(14, translateUI(colorCodes.TIP.."Tip: Press Ctrl+D to enable the display of stat differences."))
 	end
 
 	-- Pathing distance
 	tooltip:AddSeparator(14)
 	if node.path and #node.path > 0 then
 		if self.traceMode and isValueInArray(self.tracePath, node) then
-			tooltip:AddLine(14, "^7"..#self.tracePath .. " nodes in trace path")
+			tooltip:AddLine(14, formatUI("^7%d nodes in trace path", #self.tracePath))
 			tooltip:AddLine(14, colorCodes.TIP)
 		else
-			tooltip:AddLine(14, "^7"..node.pathDist .. " points to node" .. (#node.intuitiveLeapLikesAffecting > 0 and " ^8(Can be allocated without pathing to it)" or ""))
+			local pathingNote = #node.intuitiveLeapLikesAffecting > 0 and translateUI(" ^8(Can be allocated without pathing to it)") or ""
+			tooltip:AddLine(14, formatUI("^7%d points to node%s", node.pathDist, pathingNote))
 			tooltip:AddLine(14, colorCodes.TIP)
 			if #node.path > 1 then
 				-- Handy hint!
-				tooltip:AddLine(14, "Tip: To reach this node by a different path, hold Shift, then trace the path and click this node")
+				tooltip:AddLine(14, translateUI("Tip: To reach this node by a different path, hold Shift, then trace the path and click this node"))
 			end
 		end
 	end
@@ -1955,12 +1992,12 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build, incSmallPassi
 		end
 		if dependCount > 0 then
 			tooltip:AddSeparator(14)
-			tooltip:AddLine(14, "^7"..dependCount .. " points gained from unallocating these nodes")
-			tooltip:AddLine(14, "^xFFD700"..formatNumSep(dependCount * goldCost) .. " Gold ^7required to unallocate these nodes")
+			tooltip:AddLine(14, formatUI("^7%d points gained from unallocating these nodes", dependCount))
+			tooltip:AddLine(14, formatUI("^xFFD700%s Gold ^7required to unallocate these nodes", formatNumSep(dependCount * goldCost)))
 			tooltip:AddLine(14, colorCodes.TIP)
 		end
 	elseif node.alloc then
-		tooltip:AddLine(14, "^xFFD700"..formatNumSep(#node.depends * goldCost) .. " Gold ^7required to unallocate this node")
+		tooltip:AddLine(14, formatUI("^xFFD700%s Gold ^7required to unallocate this node", formatNumSep(#node.depends * goldCost)))
 		tooltip:AddLine(14, colorCodes.TIP)
 	end
 
@@ -1975,7 +2012,7 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build, incSmallPassi
 					addedSeparator = true
 					tooltip:AddSeparator(14)
 				end
-				tooltip:AddLine(14, colorCodes.WARNING.."Requires allocation of node: "..reqNode.dn)
+				tooltip:AddLine(14, formatUI("%sRequires allocation of node: %s", colorCodes.WARNING, translatePassive(reqNode.dn)))
 			end
 		end
 
@@ -1985,10 +2022,10 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build, incSmallPassi
 	end
 
 	if node.type == "Socket" then
-		tooltip:AddLine(14, colorCodes.TIP.."Tip: Hold Shift or Ctrl to hide this tooltip.")
+		tooltip:AddLine(14, translateUI(colorCodes.TIP.."Tip: Hold Shift or Ctrl to hide this tooltip."))
 	else
-		tooltip:AddLine(14, colorCodes.TIP.."Tip: Hold Ctrl to hide this tooltip.")
-		tooltip:AddLine(14, colorCodes.TIP.."Tip: Press Ctrl+C to copy this node's text.")
+		tooltip:AddLine(14, translateUI(colorCodes.TIP.."Tip: Hold Ctrl to hide this tooltip."))
+		tooltip:AddLine(14, translateUI(colorCodes.TIP.."Tip: Press Ctrl+C to copy this node's text."))
 	end
 end
 
@@ -2026,23 +2063,23 @@ function PassiveTreeViewClass:AddGlobalNodeWarningsToTooltip(tooltip, node, buil
 		return -- No warning needed for non-global nodes
 	end
 
-	local nodeTypeText = node.type == "Keystone" and "keystones" or "jewel sockets"
+	local nodeTypeText = node.type == "Keystone" and translateUI("keystones") or translateUI("jewel sockets")
 	local warningText = ""
 	local tipText = ""
 
 	if not node.alloc and node.path then
 		-- Unallocated global node - check allocation conditions
 		if build.spec.allocMode > 0 then
-			warningText = "Cannot allocate " .. nodeTypeText .. " while weapon set " .. build.spec.allocMode .. " is selected"
-			tipText = "Tip: Switch to main tree (Alt+scroll) to allocate " .. nodeTypeText
+			warningText = formatUI("Cannot allocate %s while weapon set %d is selected", nodeTypeText, build.spec.allocMode)
+			tipText = formatUI("Tip: Switch to main tree (Alt+scroll) to allocate %s", nodeTypeText)
 		elseif self:IsConnectedToWeaponSetNodes(node) then
-			warningText = "Cannot allocate " .. nodeTypeText .. " - connected to weapon set nodes"
-			tipText = "Tip: Deallocate weapon set nodes in the connection path to allow allocation"
+			warningText = formatUI("Cannot allocate %s - connected to weapon set nodes", nodeTypeText)
+			tipText = translateUI("Tip: Deallocate weapon set nodes in the connection path to allow allocation")
 		end
 	elseif node.alloc and node.allocMode == 0 and build.spec.allocMode > 0 then
 		-- Allocated main-tree global node viewed from weapon set
-		warningText = "Cannot deallocate global " .. nodeTypeText .. " from weapon set " .. build.spec.allocMode
-		tipText = "Tip: Switch to main tree (Alt+scroll) to deallocate " .. nodeTypeText
+		warningText = formatUI("Cannot deallocate global %s from weapon set %d", nodeTypeText, build.spec.allocMode)
+		tipText = formatUI("Tip: Switch to main tree (Alt+scroll) to deallocate %s", nodeTypeText)
 	end
 
 	if warningText ~= "" then
@@ -2067,7 +2104,9 @@ function PassiveTreeViewClass:DrawAllocMode(allocMode, viewPort)
 	DrawImage(nil, viewPort.x, viewPort.y + viewPort.height - 20 , viewPort.width, 20)
 
 	SetDrawColor(1, 1, 1, 1)
-	DrawString(viewPort.x + 2, viewPort.y + viewPort.height - 20 + 2, "LEFT", 16, "VAR", string.format("^7Allocating Weapon set %d Mode", allocMode))
+	local allocModeText = FormatUI and FormatUI("^7Allocating Weapon set %d Mode", allocMode) or
+		string.format("^7Allocating Weapon set %d Mode", allocMode)
+	DrawString(viewPort.x + 2, viewPort.y + viewPort.height - 20 + 2, "LEFT", 16, "VAR", allocModeText)
 
 	SetDrawColor(1, 1, 1, 1)
 

@@ -9,9 +9,18 @@ local t_remove = table.remove
 local b_rshift = bit.rshift
 local band = bit.band
 local m_max = math.max
+local s_format = string.format
 local dkjson = require "dkjson"
 
 local tradeHelpers = LoadModule("Classes/TradeHelpers")
+
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
 
 local realmList = {
 	{ label = "PoE2", id = "PoE2", realmCode = "poe2", hostName = "https://www.pathofexile.com/", profileURL = "account/view-profile/" },
@@ -28,10 +37,11 @@ local ImportTabClass = newClass("ImportTab", "ControlHost", "Control", function(
 
 
 	self.charImportMode = "AUTHENTICATION"
-	self.charImportStatus = colorCodes.WARNING.."Not authenticated"
+	self.charImportStatus = tr(colorCodes.WARNING.."Not authenticated")
 	self.controls.sectionCharImport = new("SectionControl", {"TOPLEFT",self,"TOPLEFT"}, {10, 18, 650, 200}, "Character Import")
 	self.controls.charImportStatusLabel = new("LabelControl", {"TOPLEFT",self.controls.sectionCharImport,"TOPLEFT"}, {6, 14, 200, 16}, function()
-		return "^7Character import status: "..(type(self.charImportStatus) == "function" and self.charImportStatus() or self.charImportStatus)
+		local status = type(self.charImportStatus) == "function" and self.charImportStatus() or self.charImportStatus
+		return formatUI("^7Character import status: %s", status)
 	end)
 
 	self.controls.logoutApiButton = new("ButtonControl", {"TOPLEFT",self.controls.charImportStatusLabel,"TOPRIGHT"}, {4, 0, 180, 16}, "^7Logout from Path of Exile API", function()
@@ -43,7 +53,7 @@ local ImportTabClass = newClass("ImportTab", "ControlHost", "Control", function(
 		main.api.tokenExpiry = nil
 		main:SaveSettings()
 		self.charImportMode = "AUTHENTICATION"
-		self.charImportStatus = colorCodes.WARNING.."Not authenticated"
+		self.charImportStatus = tr(colorCodes.WARNING.."Not authenticated")
 	end)
 	self.controls.logoutApiButton.shown = function()
 		return (self.charImportMode == "SELECTCHAR" or self.charImportMode == "GETACCOUNTNAME") and main.api.authToken ~= nil
@@ -57,7 +67,7 @@ local ImportTabClass = newClass("ImportTab", "ControlHost", "Control", function(
 		main.api:FetchAuthToken(function(_, errCode)
 			if main.api.authToken then
 				self.charImportMode = "GETACCOUNTNAME"
-				self.charImportStatus = "Authenticated"
+				self.charImportStatus = tr("Authenticated")
 
 				main.lastToken = main.api.authToken
 				main.lastRefreshToken = main.api.refreshToken
@@ -65,13 +75,13 @@ local ImportTabClass = newClass("ImportTab", "ControlHost", "Control", function(
 				main:SaveSettings()
 				self:DownloadCharacterList()
 			elseif errCode and errCode ~= main.api.ERROR_NO_AUTH then
-				self.charImportStatus = colorCodes.NEGATIVE .. "Authentication failed: " .. errCode
+				self.charImportStatus = formatUI(colorCodes.NEGATIVE.."Authentication failed: %s", errCode)
 			else
-				self.charImportStatus = colorCodes.WARNING.."Not authenticated"
+				self.charImportStatus = tr(colorCodes.WARNING.."Not authenticated")
 			end
 		end)
 		local clickTime = os.time()
-		self.charImportStatus = function() return "Logging in... (" .. m_max(0, (clickTime + 30) - os.time()) .. ")" end
+		self.charImportStatus = function() return formatUI("Logging in... (%d)", m_max(0, (clickTime + 30) - os.time())) end
 	end)
 	self.controls.authenticateButton.shown = function()
 		return self.charImportMode == "AUTHENTICATION"
@@ -170,11 +180,11 @@ local ImportTabClass = newClass("ImportTab", "ControlHost", "Control", function(
 		local subScriptId = buildSites.UploadBuild(self.controls.generateCodeOut.buf, exportWebsite)
 		if subScriptId then
 			self.controls.generateCodeOut:SetText("")
-			self.controls.generateCodeByLink.label = "Creating link..."
+			self.controls.generateCodeByLink.label = tr("Creating link...")
 			launch:RegisterSubScript(subScriptId, function(pasteLink, errMsg)
-				self.controls.generateCodeByLink.label = "Share"
+				self.controls.generateCodeByLink.label = tr("Share")
 				if errMsg then
-					main:OpenMessagePopup(exportWebsite.id, "Error creating link:\n"..errMsg)
+					main:OpenMessagePopup(exportWebsite.id, formatUI("Error creating link:\n%s", errMsg))
 				else
 					self.controls.generateCodeOut:SetText(exportWebsite.codeOut..pasteLink)
 				end
@@ -215,7 +225,7 @@ local ImportTabClass = newClass("ImportTab", "ControlHost", "Control", function(
 			self.controls.importCodeMode.selIndex = 2
 		end
 
-		self.importCodeDetail = colorCodes.NEGATIVE.."Invalid input"
+		self.importCodeDetail = tr(colorCodes.NEGATIVE.."Invalid input")
 		local urlText = buf:gsub("^[%s?]+", ""):gsub("[%s?]+$", "") -- Quick Trim
 		if urlText:match("youtube%.com/redirect%?") or urlText:match("google%.com/url%?") then
 			local nested_url = urlText:gsub(".*[?&]q=([^&]+).*", "%1")
@@ -226,7 +236,7 @@ local ImportTabClass = newClass("ImportTab", "ControlHost", "Control", function(
 			if urlText:match(buildSites.websiteList[j].matchURL) then
 				self.controls.importCodeIn.text = urlText
 				self.importCodeValid = true
-				self.importCodeDetail = colorCodes.POSITIVE.."URL is valid ("..buildSites.websiteList[j].label..")"
+				self.importCodeDetail = formatUI(colorCodes.POSITIVE.."URL is valid (%s)", buildSites.websiteList[j].label)
 				self.importCodeSite = j
 				if buf ~= urlText then
 					self.controls.importCodeIn:SetText(urlText, false)
@@ -239,20 +249,20 @@ local ImportTabClass = newClass("ImportTab", "ControlHost", "Control", function(
 		if launch.devMode and urlText:match("^%{.*%}$") ~= nil then
 			local jsonData, _, errDecode = dkjson.decode(urlText)
 			if errDecode then
-				self.importCodeDetail = colorCodes.NEGATIVE.."Invalid JSON format (decode error)"
+				self.importCodeDetail = tr(colorCodes.NEGATIVE.."Invalid JSON format (decode error)")
 				return
 			end
 			if not jsonData.character then
-				self.importCodeDetail = colorCodes.NEGATIVE.."Invalid JSON format (character missing)"
+				self.importCodeDetail = tr(colorCodes.NEGATIVE.."Invalid JSON format (character missing)")
 				return
 			end
 			jsonData = jsonData.character
 			if not jsonData.equipment or not jsonData.passives then
-				self.importCodeDetail = colorCodes.NEGATIVE.."Invalid JSON format (equipment or passives missing)"
+				self.importCodeDetail = tr(colorCodes.NEGATIVE.."Invalid JSON format (equipment or passives missing)")
 				return
 			end
 			self.importCodeJson = jsonData
-			self.importCodeDetail = colorCodes.POSITIVE.."JSON is valid"
+			self.importCodeDetail = tr(colorCodes.POSITIVE.."JSON is valid")
 			self.importCodeValid = true
 			return
 		end
@@ -265,7 +275,7 @@ local ImportTabClass = newClass("ImportTab", "ControlHost", "Control", function(
 			Copy(xmlText)
 		end
 		self.importCodeValid = true
-		self.importCodeDetail = colorCodes.POSITIVE.."Code is valid"
+		self.importCodeDetail = tr(colorCodes.POSITIVE.."Code is valid")
 		self.importCodeXML = xmlText
 	end
 
@@ -336,7 +346,7 @@ local ImportTabClass = newClass("ImportTab", "ControlHost", "Control", function(
 		importSelectedBuild()
 	end)
 	self.controls.importCodeGo.label = function ()
-		return self.importCodeFetching and "Retrieving paste.." or "Import"
+		return self.importCodeFetching and tr("Retrieving paste..") or tr("Import")
 	end
 	self.controls.importCodeGo.enabled = function()
 		return self.importCodeValid and not self.importCodeFetching
@@ -356,14 +366,14 @@ function ImportTabClass:RefreshAuthStatus()
 			if valid then
 				if self.charImportMode == "AUTHENTICATION" then
 					self.charImportMode = "GETACCOUNTNAME"
-					self.charImportStatus = "Authenticated"
+					self.charImportStatus = tr("Authenticated")
 				end
 				if updateSettings then
 					self:SaveApiSettings()
 				end
 			else
 				self.charImportMode = "AUTHENTICATION"
-				self.charImportStatus = colorCodes.WARNING.."Not authenticated"
+				self.charImportStatus = tr(colorCodes.WARNING.."Not authenticated")
 			end
 		end)
 end
@@ -441,9 +451,9 @@ function ImportTabClass:DownloadCharacterList()
 			return "Standard"
 		end
 	end
-	
+
 	self.charImportMode = "DOWNLOADCHARLIST"
-	self.charImportStatus = "Retrieving character list..."
+	self.charImportStatus = tr("Retrieving character list...")
 	local realm = realmList[self.controls.accountRealm.selIndex]
 	main.api:DownloadCharacterList(realm.realmCode, function(body, errMsg, updateSettings)
 		if updateSettings then
@@ -451,44 +461,44 @@ function ImportTabClass:DownloadCharacterList()
 		end
 		if errMsg == main.api.ERROR_NO_AUTH then
 			self.charImportMode = "AUTHENTICATION"
-			self.charImportStatus = colorCodes.WARNING.."Not authenticated"
+			self.charImportStatus = tr(colorCodes.WARNING.."Not authenticated")
 			return
 		elseif errMsg == "Response code: 401" then
-			self.charImportStatus = colorCodes.NEGATIVE.."Sign-in is required."
+			self.charImportStatus = tr(colorCodes.NEGATIVE.."Sign-in is required.")
 			self.charImportMode = "GETSESSIONID"
 			return
 		elseif errMsg == "Response code: 403" then
-			self.charImportStatus = colorCodes.NEGATIVE.."Account profile is private."
+			self.charImportStatus = tr(colorCodes.NEGATIVE.."Account profile is private.")
 			self.charImportMode = "GETSESSIONID"
 			return
 		elseif errMsg == "Response code: 404" then
-			self.charImportStatus = colorCodes.NEGATIVE.."Account name is incorrect."
+			self.charImportStatus = tr(colorCodes.NEGATIVE.."Account name is incorrect.")
 			self.charImportMode = "GETACCOUNTNAME"
 			return
 		elseif errMsg == "Response code: 429" then
-			self.charImportStatus = function() return colorCodes.NEGATIVE.."Requests are being sent too fast, try again in " .. tostring(m_max(0, body - os.time())) .. " seconds." end
+			self.charImportStatus = function() return formatUI(colorCodes.NEGATIVE.."Requests are being sent too fast, try again in %s seconds.", tostring(m_max(0, body - os.time()))) end
 			self.charImportMode = "GETACCOUNTNAME"
 			return
 		elseif errMsg then
-			self.charImportStatus = colorCodes.NEGATIVE.."Error retrieving character list, try again ("..errMsg:gsub("\n"," ")..")"
+			self.charImportStatus = formatUI(colorCodes.NEGATIVE.."Error retrieving character list, try again (%s)", errMsg:gsub("\n"," "))
 			self.charImportMode = "GETACCOUNTNAME"
 			return
 		end
 		local charList, _pos, errDecode = dkjson.decode(body)
 		if errDecode then
-			self.charImportStatus = colorCodes.NEGATIVE.."Error processing character list, try again later"
+			self.charImportStatus = tr(colorCodes.NEGATIVE.."Error processing character list, try again later")
 			self.charImportMode = "GETACCOUNTNAME"
 			return
 		end
 		charList = charList.characters
 		--ConPrintTable(charList)
 		if #charList == 0 then
-			self.charImportStatus = colorCodes.NEGATIVE.."The account has no characters to import."
+			self.charImportStatus = tr(colorCodes.NEGATIVE.."The account has no characters to import.")
 			self.charImportMode = "GETACCOUNTNAME"
 			return
 		end
 
-		self.charImportStatus = "Character list successfully retrieved."
+		self.charImportStatus = tr("Character list successfully retrieved.")
 		self.charImportMode = "SELECTCHAR"
 		self.lastRealm = realm.id
 		main.lastRealm = realm.id
@@ -557,10 +567,11 @@ function ImportTabClass:BuildCharacterList(league)
 			end
 
 			local detail
+			local displayClass = charClass ~= "?" and tr(charClass) or charClass
 			if league == nil then
-				detail = string.format("%s%s ^x808080lvl %d in %s", classColor, charClass, charLvl, charLeague)
+				detail = formatUI("%s%s ^x808080lvl %d in %s", classColor, displayClass, charLvl, charLeague)
 			else
-				detail = string.format("%s%s ^x808080lvl %d", classColor, charClass, charLvl)
+				detail = formatUI("%s%s ^x808080lvl %d", classColor, displayClass, charLvl)
 			end
 			t_insert(self.controls.charSelect.list, {
 				label = charName,
@@ -586,7 +597,7 @@ end
 
 function ImportTabClass:DownloadCharacter(callback)
 	self.charImportMode = "IMPORTING"
-	self.charImportStatus = "Retrieving character data..."
+	self.charImportStatus = tr("Retrieving character data...")
 	local realm = realmList[self.controls.accountRealm.selIndex]
 	local charSelect = self.controls.charSelect
 	local charData = charSelect.list[charSelect.selIndex].char
@@ -598,18 +609,18 @@ function ImportTabClass:DownloadCharacter(callback)
 		if errMsg then
 			if errMsg == main.api.ERROR_NO_AUTH then
 				self.charImportMode = "AUTHENTICATION"
-				self.charImportStatus = colorCodes.WARNING.."Not authenticated"
+				self.charImportStatus = tr(colorCodes.WARNING.."Not authenticated")
 				return
 			elseif errMsg == "Response code: 429" then
-				self.charImportStatus = function() return colorCodes.NEGATIVE.."Requests are being sent too fast, try again in " .. tostring(m_max(0, body - os.time())) .. " seconds." end
+				self.charImportStatus = function() return formatUI(colorCodes.NEGATIVE.."Requests are being sent too fast, try again in %s seconds.", tostring(m_max(0, body - os.time()))) end
 				self.charImportMode = "GETACCOUNTNAME"
 				return
 			else
-				self.charImportStatus = colorCodes.NEGATIVE.."Error importing character data, try again ("..errMsg:gsub("\n"," ")..")"
+				self.charImportStatus = formatUI(colorCodes.NEGATIVE.."Error importing character data, try again (%s)", errMsg:gsub("\n"," "))
 				return
 			end
 		elseif body == "false" then
-			self.charImportStatus = colorCodes.NEGATIVE.."Failed to retrieve character data, try again."
+			self.charImportStatus = tr(colorCodes.NEGATIVE.."Failed to retrieve character data, try again.")
 			return
 		end
 		self.lastCharacterHash = common.sha1(charData.name)
@@ -625,7 +636,7 @@ function ImportTabClass:DownloadCharacter(callback)
 		--out:close()
 
 		if errParsing then
-			self.charImportStatus = colorCodes.NEGATIVE.."Error processing character data, try again later."
+			self.charImportStatus = tr(colorCodes.NEGATIVE.."Error processing character data, try again later.")
 			return
 		end
 		fullCharData = fullCharData.character
@@ -746,7 +757,7 @@ end
 
 function ImportTabClass:ImportPassiveTreeAndJewels(charData)
 	local charPassiveData = charData.passives
-	self.charImportStatus = colorCodes.POSITIVE.."Passive tree and jewels successfully imported."
+	self.charImportStatus = tr(colorCodes.POSITIVE.."Passive tree and jewels successfully imported.")
 	self.build.spec.jewel_data = copyTable(charPassiveData.jewel_data)
 	--ConPrintTable(charPassiveData)
 	if self.controls.charImportTreeClearJewels.state then
@@ -944,7 +955,7 @@ function ImportTabClass:ImportItemsAndSkills(charData)
 		end
 		wipeTable(self.build.skillsTab.socketGroupList)
 	end
-	self.charImportStatus = colorCodes.POSITIVE.."Items and skills successfully imported."
+	self.charImportStatus = tr(colorCodes.POSITIVE.."Items and skills successfully imported.")
 	--ConPrintTable(charItemData)
 	for _, itemData in ipairs(charItemData) do
 		self:ImportItem(itemData)
