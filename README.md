@@ -19,10 +19,18 @@ realistically translate. That's understandable, and it's why upstream never
 shipped translations.
 
 This fork solves the part that actually needs a developer: it **adds the i18n
-mechanism** — the framework that lets the program load translated text at
-display boundaries. Once that mechanism exists, the translation itself becomes
-ordinary text-editing work that **any user can do**, in any language, no
-programming required.
+mechanism** — covering all three sides that a real localization needs:
+
+- **Display** — UI, items, skills, passives, and stat lines render in the chosen
+  language.
+- **Input** — the input fields are patched so you can **type Chinese (CJK)
+  directly** into search and name boxes — the base engine couldn't accept this
+  before.
+- **Search** — searching also matches the translated text, so you can find an
+  item or skill by its Chinese name.
+
+Once that mechanism exists, the translation itself becomes ordinary text-editing
+work that **any user can do**, in any language, no programming required.
 
 Chinese is just the first demonstration. The same mechanism opens the door for
 every other language. The intent is for upstream to adopt the i18n layer so the
@@ -37,10 +45,11 @@ A ready-to-run Windows build is attached to the
 Path of Building — no compiling required. Pick the language in the program's
 settings.
 
-The translation is **display-only**: everything you see (UI, items, skills,
-passives, stat lines) is translated, while your builds, import/export codes, and
-trade data stay in the original English so they remain fully compatible with the
-upstream Path of Building.
+The Chinese layer is **localization-only, not a data change**: the interface,
+items, skills, passives and stat lines are shown in Chinese (and you can type and
+search in Chinese), while your builds, import/export codes, and trade data stay
+in the original English so they remain fully compatible with the upstream Path of
+Building.
 
 ---
 
