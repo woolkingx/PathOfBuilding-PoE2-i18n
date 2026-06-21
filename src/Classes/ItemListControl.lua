@@ -5,6 +5,23 @@
 --
 local pairs = pairs
 local t_insert = table.insert
+local s_format = string.format
+
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function trItem(text)
+	return TranslateItem and TranslateItem(text) or text
+end
+
+local function trItemName(item)
+	return TranslateItemDisplayName and TranslateItemDisplayName(item) or item.name
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
 
 local ItemListClass = newClass("ItemListControl", "ListControl", function(self, anchor, rect, itemsTab, forceTooltip)
 	self.ListControl(anchor, rect, 16, "VERTICAL", true, itemsTab.itemOrderList, forceTooltip)
@@ -118,14 +135,14 @@ function ItemListClass:GetRowValue(column, index, itemId)
 		if used == "" then
 			local slot, itemSet = self.itemsTab:GetEquippedSlotForItem(item)
 			if not slot then
-				used = "  ^9(Unused)"
+				used = "  ^9(" .. tr("Unused") .. ")"
 			elseif itemSet then
-				used = "  ^9(Used in '" .. (itemSet.title or "Default") .. "')"
+				used = "  ^9(" .. formatUI("Used in '%s'", itemSet.title or tr("Default")) .. ")"
 			end
 		else
-			used = "  ^9(Used in '" .. used .. "')"
+			used = "  ^9(" .. formatUI("Used in '%s'", used) .. ")"
 		end
-		return colorCodes[item.rarity] .. item.name .. used
+		return colorCodes[item.rarity] .. trItemName(item) .. used
 	end
 end
 
@@ -199,8 +216,8 @@ function ItemListClass:OnSelDelete(index, itemId)
 	local item = self.itemsTab.items[itemId]
 	local equipSlot, equipSet = self.itemsTab:GetEquippedSlotForItem(item)
 	if equipSlot then
-		local inSet = equipSet and (" in set '"..(equipSet.title or "Default").."'") or ""
-		main:OpenConfirmPopup("Delete Item", item.name.." is currently equipped in "..equipSlot.label..inSet..".\nAre you sure you want to delete it?", "Delete", function()
+		local inSet = equipSet and formatUI(" in set '%s'", equipSet.title or tr("Default")) or ""
+		main:OpenConfirmPopup("Delete Item", formatUI("%s is currently equipped in %s%s.\nAre you sure you want to delete it?", trItemName(item), equipSlot.label, inSet), "Delete", function()
 			self.itemsTab:DeleteItem(item)
 			self.selIndex = nil
 			self.selValue = nil
@@ -208,8 +225,8 @@ function ItemListClass:OnSelDelete(index, itemId)
 	else
 		local equipSet = self:FindEquippedItemSocket(itemId, true)
 		if equipSet then
-			local inSet = equipSet and (" in set '"..(equipSet.title or "Default").."'") or ""
-			main:OpenConfirmPopup("Delete Item", item.name.." is currently equipped in a Socket"..inSet..".\nAre you sure you want to delete it?", "Delete", function()
+			local inSet = equipSet and formatUI(" in set '%s'", equipSet) or ""
+			main:OpenConfirmPopup("Delete Item", formatUI("%s is currently equipped in a Socket%s.\nAre you sure you want to delete it?", trItemName(item), inSet), "Delete", function()
 				self.itemsTab:DeleteItem(item)
 				self.selIndex = nil
 				self.selValue = nil
@@ -217,7 +234,7 @@ function ItemListClass:OnSelDelete(index, itemId)
 		else
 			local equipTree = self:FindSocketedJewel(itemId, true)
 			if equipTree then
-				main:OpenConfirmPopup("Delete Item", item.name.." is currently equipped in passive tree '"..equipTree.."'.\nAre you sure you want to delete it?", "Delete", function()
+				main:OpenConfirmPopup("Delete Item", formatUI("%s is currently equipped in passive tree '%s'.\nAre you sure you want to delete it?", trItemName(item), equipTree), "Delete", function()
 					self.itemsTab:DeleteItem(item)
 					self.selIndex = nil
 					self.selValue = nil

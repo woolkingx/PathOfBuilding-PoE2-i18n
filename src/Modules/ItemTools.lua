@@ -325,10 +325,13 @@ function itemLib.applyRange(line, range, valueScalar, baseValueScalar)
 	end
 end
 
-function itemLib.formatModLine(modLine, dbMode)
+function itemLib.formatModLine(modLine, dbMode, translateStats)
 	local line = (not dbMode and modLine.range and itemLib.applyRange(modLine.line, modLine.range, modLine.valueScalar, modLine.corruptedRange)) or modLine.line
 	if itemLib.isZeroValueLine(line) then -- Hack to hide 0-value modifiers
 		return
+	end
+	if translateStats and type(line) == "string" then
+		line = TranslateStat and TranslateStat(line) or line
 	end
 	local colorCode
 	if modLine.extra then

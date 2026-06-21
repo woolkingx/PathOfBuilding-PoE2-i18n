@@ -175,7 +175,7 @@ function ListClass:Draw(viewPort, noTooltip)
 		end
 	end
 
-	local label = self:GetProperty("label") 
+	local label = self:TranslateLabel(self:GetProperty("label"))
 	if label then
 		DrawString(x + self.labelPositionOffset[1], y - 20 + self.labelPositionOffset[2], "LEFT", 16, self.font, label)
 	end
@@ -290,7 +290,7 @@ function ListClass:Draw(viewPort, noTooltip)
 				SetDrawColor(0.15, 0.15, 0.15)
 				DrawImage(nil, colOffset + 1, 2, colWidth - 2, 16)
 			end
-			local label = self:GetColumnProperty(column, "label")
+			local label = self:TranslateLabel(self:GetColumnProperty(column, "label"))
 			if label and #label > 0 then
 				SetDrawColor(1, 1, 1)
 				DrawString(colOffset + colWidth/2, 4, "CENTER_X", 12, "VAR", label)
@@ -299,7 +299,7 @@ function ListClass:Draw(viewPort, noTooltip)
 	end
 	if #self.list == 0 and self.defaultText then
 		SetDrawColor(1, 1, 1)
-		DrawString(2, 2, "LEFT", 14, self.font, self.defaultText)
+		DrawString(2, 2, "LEFT", 14, self.font, self:TranslateLabel(self.defaultText))
 	end
 	if self.selDragIndex then
 		local lineY = rowHeight * (self.selDragIndex - 1) - scrollOffsetV

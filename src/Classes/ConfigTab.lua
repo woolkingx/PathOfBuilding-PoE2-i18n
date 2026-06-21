@@ -12,6 +12,14 @@ local s_upper = string.upper
 
 local varList = LoadModule("Modules/ConfigOptions")
 
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or string.format(text, ...)
+end
+
 local ConfigTabClass = newClass("ConfigTab", "UndoHandler", "ControlHost", "Control", function(self, build)
 	self.UndoHandler()
 	self.ControlHost()
@@ -231,7 +239,7 @@ local ConfigTabClass = newClass("ConfigTab", "UndoHandler", "ControlHost", "Cont
 				for i, tooltipFunc in ipairs(tooltipFuncs) do
 					local curTooltipText = type(tooltipFunc) == "string" and tooltipFunc or tooltipFunc(self.modList, self.build)
 					if curTooltipText then
-						out = (out and out .. "\n" or "") .. curTooltipText
+						out = (out and out .. "\n" or "") .. tr(curTooltipText)
 					end
 				end
 				return out
@@ -252,7 +260,7 @@ local ConfigTabClass = newClass("ConfigTab", "UndoHandler", "ControlHost", "Cont
 					end
 				end))
 				t_insert(tooltipFuncs, listOrSingleIfTooltip(varData.ifNode, function(ifOption)
-					return "This option is specific to '"..self.build.spec.nodes[ifOption].dn.."'."
+					return formatUI("This option is specific to '%s'.", self.build.spec.nodes[ifOption].dn)
 				end))
 			end
 			if varData.ifOption then
@@ -627,7 +635,7 @@ local ConfigTabClass = newClass("ConfigTab", "UndoHandler", "ControlHost", "Cont
 					local cur = self.configSets[self.activeConfigSetId].input[varData.var]
 					local def = self:GetDefaultState(varData.var, type(cur))
 					if not shown and cur ~= nil and cur ~= def then
-						tooltip:AddLine(14, colorCodes.NEGATIVE.."This config option is conditional with missing source and is invalid.")
+						tooltip:AddLine(14, tr(colorCodes.NEGATIVE.."This config option is conditional with missing source and is invalid."))
 					end
 				end
 			end

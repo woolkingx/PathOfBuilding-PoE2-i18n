@@ -5,30 +5,39 @@
 --
 
 local t_insert = table.insert
+local s_format = string.format
+
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
 
 local BuildSetListClass = newClass("BuildSetListControl", "ListControl", function(self, anchor, rect, buildMode)
 	self.ListControl(anchor, rect, 16, "VERTICAL", true, buildMode.loadoutsList)
 	self.buildMode = buildMode
 	self.buildSetService = new("BuildSetService", buildMode)
-	self.controls.new = new("ButtonControl", { "BOTTOMLEFT", self, "TOP" }, { -190, -4, 60, 18 }, "New",
+	self.controls.new = new("ButtonControl", { "BOTTOMLEFT", self, "TOP" }, { -190, -4, 60, 18 }, tr("New"),
 		function()
 			self:NewLoadout()
 		end)
-	self.controls.rename = new("ButtonControl", { "LEFT", self.controls.new, "RIGHT" }, { 5, 0, 60, 18 }, "Rename",
+	self.controls.rename = new("ButtonControl", { "LEFT", self.controls.new, "RIGHT" }, { 5, 0, 60, 18 }, tr("Rename"),
 		function()
 			self:RenameLoadout(self.selValue.title)
 		end)
 	self.controls.rename.enabled = function()
 		return self.selValue ~= nil
 	end
-	self.controls.copy = new("ButtonControl", { "LEFT", self.controls.rename, "RIGHT" }, { 5, 0, 60, 18 }, "Copy",
+	self.controls.copy = new("ButtonControl", { "LEFT", self.controls.rename, "RIGHT" }, { 5, 0, 60, 18 }, tr("Copy"),
 		function()
 			self:CopyLoadout(self.selValue.title)
 		end)
 	self.controls.copy.enabled = function()
 		return self.selValue ~= nil
 	end
-	self.controls.delete = new("ButtonControl", { "LEFT", self.controls.copy, "RIGHT" }, { 5, 0, 60, 18 }, "Delete",
+	self.controls.delete = new("ButtonControl", { "LEFT", self.controls.copy, "RIGHT" }, { 5, 0, 60, 18 }, tr("Delete"),
 		function()
 			self:DeleteLoadout(self.selIndex, self.selValue)
 		end)
@@ -36,7 +45,7 @@ local BuildSetListClass = newClass("BuildSetListControl", "ListControl", functio
 		return self.selValue ~= nil and #self.list > 1
 	end
 	self.controls.custom = new("ButtonControl", { "LEFT", self.controls.delete, "RIGHT" }, { 5, 0, 120, 18 },
-		"New/Copy Custom",
+		tr("New/Copy Custom"),
 		function()
 			if self.selValue == nil then
 				self:CustomLoadout({
@@ -55,7 +64,7 @@ end)
 
 function BuildSetListClass:RenameLoadout(loadoutName)
 	self:BasicLoadoutPopup({
-		popupTitle = "Rename Loadout",
+		popupTitle = tr("Rename Loadout"),
 		defaultName = loadoutName,
 		saveCallback = function(newName)
 			self.buildSetService:RenameLoadout(loadoutName or "Default", newName)
@@ -65,7 +74,7 @@ end
 
 function BuildSetListClass:CopyLoadout(loadoutName)
 	self:BasicLoadoutPopup({
-		popupTitle = "Copy Loadout",
+		popupTitle = tr("Copy Loadout"),
 		defaultName = loadoutName,
 		saveCallback = function(newName)
 			self.buildSetService:CopyLoadout(loadoutName or "Default", newName)
@@ -75,7 +84,7 @@ end
 
 function BuildSetListClass:CustomLoadout(build)
 	local function getList(setList, orderList, activeId)
-		local newSetList = { "^7New" }
+		local newSetList = { tr("^7New") }
 		local activeIndex = 1
 		for index, setId in ipairs(orderList) do
 			local set = setList[setId]
@@ -89,19 +98,19 @@ function BuildSetListClass:CustomLoadout(build)
 	local controls = {}
 	local specNameLookup = self.buildSetService:SpecNameLookup()
 	local buildName = build.specId > 0 and self.buildMode.treeTab.specList[build.specId].title or "New Loadout"
-	controls.label = new("LabelControl", nil, { 0, 20, 0, 16 }, "^7Enter name for this loadout:")
+	controls.label = new("LabelControl", nil, { 0, 20, 0, 16 }, tr("^7Enter name for this loadout:"))
 	controls.edit = new("EditControl", nil, { 0, 40, 350, 20 }, buildName, nil, nil, 100, function(buf)
 		controls.save.enabled = specNameLookup[buf] == nil and buf:match("%S")
 	end)
 
 	local treeList = self.buildMode.treeTab:GetSpecList()
-	t_insert(treeList, 1, "^7New")
+	t_insert(treeList, 1, tr("^7New"))
 	controls.treeDropDown = new("DropDownControl", nil, { 0, 90, 350, 20 }, treeList, function(index)
 
 	end)
 	controls.treeDropDown:SetSel(build.specId + 1)
 	controls.treeLabel = new("LabelControl", { "BOTTOMLEFT", controls.treeDropDown, "TOPLEFT" }, { 4, -4, 0, 16 },
-		"^7Copy from Tree:")
+		tr("^7Copy from Tree:"))
 
 	local skillList, activeSkillIndex = getList(self.buildMode.skillsTab.skillSets,
 		self.buildMode.skillsTab.skillSetOrderList, build.skillSetId)
@@ -110,7 +119,7 @@ function BuildSetListClass:CustomLoadout(build)
 	end)
 	controls.skillDropDown:SetSel(activeSkillIndex)
 	controls.skillLabel = new("LabelControl", { "BOTTOMLEFT", controls.skillDropDown, "TOPLEFT" }, { 4, -4, 0, 16 },
-		"^7Copy from Skill Set:")
+		tr("^7Copy from Skill Set:"))
 
 	local itemList, activeItemIndex = getList(self.buildMode.itemsTab.itemSets, self.buildMode.itemsTab.itemSetOrderList,
 		build.itemSetId)
@@ -119,7 +128,7 @@ function BuildSetListClass:CustomLoadout(build)
 	end)
 	controls.itemDropDown:SetSel(activeItemIndex)
 	controls.itemLabel = new("LabelControl", { "BOTTOMLEFT", controls.itemDropDown, "TOPLEFT" }, { 4, -4, 0, 16 },
-		"^7Copy from Item Set:")
+		tr("^7Copy from Item Set:"))
 
 	local configList, activeConfigIndex = getList(self.buildMode.configTab.configSets,
 		self.buildMode.configTab.configSetOrderList, build.configSetId)
@@ -128,9 +137,9 @@ function BuildSetListClass:CustomLoadout(build)
 	end)
 	controls.configDropDown:SetSel(activeConfigIndex)
 	controls.configLabel = new("LabelControl", { "BOTTOMLEFT", controls.configDropDown, "TOPLEFT" }, { 4, -4, 0, 16 },
-		"^7Copy from Config Set:")
+		tr("^7Copy from Config Set:"))
 
-	controls.save = new("ButtonControl", nil, { -45, 270, 80, 20 }, "Save", function()
+	controls.save = new("ButtonControl", nil, { -45, 270, 80, 20 }, tr("Save"), function()
 		local treeIndex = controls.treeDropDown.selIndex
 		local itemIndex = controls.itemDropDown.selIndex
 		local skillIndex = controls.skillDropDown.selIndex
@@ -149,15 +158,15 @@ function BuildSetListClass:CustomLoadout(build)
 		main:ClosePopup()
 	end)
 	controls.save.enabled = false
-	controls.cancel = new("ButtonControl", nil, { 45, 270, 80, 20 }, "Cancel", function()
+	controls.cancel = new("ButtonControl", nil, { 45, 270, 80, 20 }, tr("Cancel"), function()
 		main:ClosePopup()
 	end)
-	main:OpenPopup(370, 300, "Create Custom Loadout", controls, "save", "edit", "cancel")
+	main:OpenPopup(370, 300, tr("Create Custom Loadout"), controls, "save", "edit", "cancel")
 end
 
 function BuildSetListClass:NewLoadout()
 	self:BasicLoadoutPopup({
-		popupTitle = "New Loadout",
+		popupTitle = tr("New Loadout"),
 		defaultName = "New Loadout",
 		saveCallback = function(newName)
 			self.buildSetService:NewLoadout(newName)
@@ -168,13 +177,10 @@ end
 function BuildSetListClass:GetRowValue(column, index, spec)
 	if column == 1 then
 		local used = spec:CountAllocNodes()
-		return (spec.treeVersion ~= latestTreeVersion and ("[" .. treeVersions[spec.treeVersion].display .. "] ") or "")
-			.. (spec.title or "Default")
-			..
-			" (" ..
-			(spec.curAscendClassName ~= "None" and spec.curAscendClassName or spec.curClassName) ..
-			", " .. used .. " points)"
-			.. (index == self.buildMode.activeLoadout and "  ^9(Current)" or "")
+		local treeLabel = (spec.treeVersion ~= latestTreeVersion and ("[" .. treeVersions[spec.treeVersion].display .. "] ") or "") .. (spec.title or "Default")
+		local classLabel = spec.curAscendClassName ~= "None" and spec.curAscendClassName or spec.curClassName
+		local row = formatUI("%s (%s, %d points)", treeLabel, classLabel, used)
+		return index == self.buildMode.activeLoadout and formatUI("%s  ^9(Current)", row) or row
 	end
 end
 
@@ -186,8 +192,8 @@ end
 
 function BuildSetListClass:DeleteLoadout(index, spec)
 	if #self.list > 1 then
-		main:OpenConfirmPopup("Delete Loadout", "Are you sure you want to delete '" .. (spec.title or "Default") .. "'?",
-			"Delete", function()
+		main:OpenConfirmPopup(tr("Delete Loadout"), formatUI("Are you sure you want to delete '%s'?", spec.title or "Default"),
+			tr("Delete"), function()
 				self.buildSetService:DeleteLoadout(index, self.list, spec)
 				self.selIndex = nil
 				self.selValue = nil
@@ -215,7 +221,7 @@ function BuildSetListClass:BasicLoadoutPopup(options)
 	local controls = {}
 
 	controls.label = new("LabelControl", nil, { 0, 20, 0, 16 },
-		"^7Enter name for this loadout:")
+		tr("^7Enter name for this loadout:"))
 
 	local specNameLookup = self.buildSetService:SpecNameLookup()
 	controls.edit = new("EditControl", nil, { 0, 40, 350, 20 },
@@ -223,14 +229,14 @@ function BuildSetListClass:BasicLoadoutPopup(options)
 			controls.save.enabled = specNameLookup[buf] == nil and buf:match("%S")
 		end)
 
-	controls.save = new("ButtonControl", nil, { -45, 70, 80, 20 }, "Save", function()
+	controls.save = new("ButtonControl", nil, { -45, 70, 80, 20 }, tr("Save"), function()
 		options.saveCallback(controls.edit.buf)
 		self:ResetList()
 		main:ClosePopup()
 	end)
 	controls.save.enabled = false
 
-	controls.cancel = new("ButtonControl", nil, { 45, 70, 80, 20 }, "Cancel", function()
+	controls.cancel = new("ButtonControl", nil, { 45, 70, 80, 20 }, tr("Cancel"), function()
 		main:ClosePopup()
 	end)
 

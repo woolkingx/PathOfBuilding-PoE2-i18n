@@ -9,6 +9,18 @@ local s_format = string.format
 
 local M = {}
 
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
+
+local function trItem(text)
+	return TranslateItem and TranslateItem(text) or text
+end
+
+local function trItemName(item)
+	return TranslateItemDisplayName and TranslateItemDisplayName(item) or item.name
+end
+
 -- Format a modifier value with its type for display
 function M.FormatCalcModValue(value, modType)
 	if modType == "BASE" then
@@ -281,7 +293,7 @@ function M.DrawCalcsTooltip(tooltip, primaryBuild, primaryLabel, colData, rowLab
 							end
 							return false
 						end)
-						tooltip:AddLine(12, colorCodes.POSITIVE .. "  " .. primaryLabel .. " only:")
+						tooltip:AddLine(12, formatUI("%s  %s only:", colorCodes.POSITIVE, primaryLabel))
 						for _, row in ipairs(pOnly) do
 							local displayValue, sourceType, sourceName, modName = M.FormatModRow(row, sectionData, primaryBuild)
 							local line = s_format("    ^7%-10s ^7%-6s ^7%s%s", displayValue, sourceType, sourceName, modName)
@@ -297,7 +309,7 @@ function M.DrawCalcsTooltip(tooltip, primaryBuild, primaryLabel, colData, rowLab
 							end
 							return false
 						end)
-						tooltip:AddLine(12, colorCodes.WARNING .. "  " .. compareLabel .. " only:")
+						tooltip:AddLine(12, formatUI("%s  %s only:", colorCodes.WARNING, compareLabel))
 						for _, row in ipairs(cOnly) do
 							local displayValue, sourceType, sourceName, modName = M.FormatModRow(row, sectionData, compareEntry)
 							local line = s_format("    ^7%-10s ^7%-6s ^7%s%s", displayValue, sourceType, sourceName, modName)
@@ -325,7 +337,7 @@ local function resolveModSource(mod, build)
 		local itemId = mod.source:match("Item:(%d+):.+")
 		local item = build.itemsTab and build.itemsTab.items[tonumber(itemId)]
 		if item then
-			sourceName = colorCodes[item.rarity] .. item.name
+			sourceName = colorCodes[item.rarity] .. trItemName(item)
 		end
 	elseif sourceType == "Tree" then
 		local nodeId = mod.source:match("Tree:(%d+)")

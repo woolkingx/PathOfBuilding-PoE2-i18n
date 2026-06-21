@@ -4,92 +4,102 @@
 -- Item set list control.
 --
 local t_insert = table.insert
+local s_format = string.format
+
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
 
 local ItemSetListClass = newClass("ItemSetListControl", "ListControl", function(self, anchor, rect, itemsTab)
 	self.ListControl(anchor, rect, 16, "VERTICAL", true, itemsTab.itemSetOrderList)
 	self.itemsTab = itemsTab
 	self.itemSetService = new("ItemSetService", itemsTab)
-	self.controls.copy = new("ButtonControl", {"BOTTOMLEFT",self,"TOP"}, {2, -4, 60, 18}, "Copy", function()
+	self.controls.copy = new("ButtonControl", {"BOTTOMLEFT",self,"TOP"}, {2, -4, 60, 18}, tr("Copy"), function()
 		self:CopyItemSet(self.selValue)
 	end)
 	self.controls.copy.enabled = function()
 		return self.selValue ~= nil
 	end
-	self.controls.delete = new("ButtonControl", {"LEFT",self.controls.copy,"RIGHT"}, {4, 0, 60, 18}, "Delete", function()
+	self.controls.delete = new("ButtonControl", {"LEFT",self.controls.copy,"RIGHT"}, {4, 0, 60, 18}, tr("Delete"), function()
 		self:OnSelDelete(self.selIndex, self.selValue)
 	end)
 	self.controls.delete.enabled = function()
 		return self.selValue ~= nil and #self.list > 1
 	end
-	self.controls.rename = new("ButtonControl", {"BOTTOMRIGHT",self,"TOP"}, {-2, -4, 60, 18}, "Rename", function()
+	self.controls.rename = new("ButtonControl", {"BOTTOMRIGHT",self,"TOP"}, {-2, -4, 60, 18}, tr("Rename"), function()
 		self:RenameItemSet(self.selValue)
 	end)
 	self.controls.rename.enabled = function()
 		return self.selValue ~= nil
 	end
-	self.controls.new = new("ButtonControl", {"RIGHT",self.controls.rename,"LEFT"}, {-4, 0, 60, 18}, "New", function()
+	self.controls.new = new("ButtonControl", {"RIGHT",self.controls.rename,"LEFT"}, {-4, 0, 60, 18}, tr("New"), function()
 		self:CreateItemSet()
 	end)
 end)
 
 function ItemSetListClass:CreateItemSet()
 	local controls = {}
-	controls.label = new("LabelControl", nil, { 0, 20, 0, 16 }, "^7Enter name for new item set:")
+	controls.label = new("LabelControl", nil, { 0, 20, 0, 16 }, tr("^7Enter name for new item set:"))
 	controls.edit = new("EditControl", nil, { 0, 40, 350, 20 }, "New Item Set", nil, nil, 100, function(buf)
 		controls.save.enabled = buf:match("%S")
 	end)
-	controls.save = new("ButtonControl", nil, { -45, 70, 80, 20 }, "Save", function()
+	controls.save = new("ButtonControl", nil, { -45, 70, 80, 20 }, tr("Save"), function()
 		self.itemSetService:NewItemSet(controls.edit.buf)
 		main:ClosePopup()
 	end)
 	controls.save.enabled = false
-	controls.cancel = new("ButtonControl", nil, { 45, 70, 80, 20 }, "Cancel", function()
+	controls.cancel = new("ButtonControl", nil, { 45, 70, 80, 20 }, tr("Cancel"), function()
 		main:ClosePopup()
 	end)
-	main:OpenPopup(370, 100, "Create Item Set", controls, "save", "edit", "cancel")
+	main:OpenPopup(370, 100, tr("Create Item Set"), controls, "save", "edit", "cancel")
 end
 
 function ItemSetListClass:CopyItemSet(selValue)
 	local itemSet = self.itemsTab.itemSets[selValue]
 	local controls = {}
-	controls.label = new("LabelControl", nil, { 0, 20, 0, 16 }, "^7Enter name for this item set:")
+	controls.label = new("LabelControl", nil, { 0, 20, 0, 16 }, tr("^7Enter name for this item set:"))
 	controls.edit = new("EditControl", nil, { 0, 40, 350, 20 }, itemSet.title or "Default", nil, nil, 100, function(buf)
 		controls.save.enabled = buf:match("%S")
 	end)
-	controls.save = new("ButtonControl", nil, { -45, 70, 80, 20 }, "Save", function()
+	controls.save = new("ButtonControl", nil, { -45, 70, 80, 20 }, tr("Save"), function()
 		self.itemSetService:CopyItemSet(selValue, controls.edit.buf)
 		main:ClosePopup()
 	end)
 	controls.save.enabled = false
-	controls.cancel = new("ButtonControl", nil, { 45, 70, 80, 20 }, "Cancel", function()
+	controls.cancel = new("ButtonControl", nil, { 45, 70, 80, 20 }, tr("Cancel"), function()
 		main:ClosePopup()
 	end)
-	main:OpenPopup(370, 100, "Copy Item Set", controls, "save", "edit", "cancel")
+	main:OpenPopup(370, 100, tr("Copy Item Set"), controls, "save", "edit", "cancel")
 end
 
 function ItemSetListClass:RenameItemSet(selValue)
 	local itemSet = self.itemsTab.itemSets[selValue]
 	local controls = {}
 	local setName = itemSet.title or "Default"
-	controls.label = new("LabelControl", nil, { 0, 20, 0, 16 }, "^7Enter name for this item set:")
+	controls.label = new("LabelControl", nil, { 0, 20, 0, 16 }, tr("^7Enter name for this item set:"))
 	controls.edit = new("EditControl", nil, { 0, 40, 350, 20 }, setName, nil, nil, 100, function(buf)
 		controls.save.enabled = buf:match("%S")
 	end)
-	controls.save = new("ButtonControl", nil, { -45, 70, 80, 20 }, "Save", function()
+	controls.save = new("ButtonControl", nil, { -45, 70, 80, 20 }, tr("Save"), function()
 		self.itemSetService:RenameItemSet(selValue, controls.edit.buf)
 		main:ClosePopup()
 	end)
 	controls.save.enabled = false
-	controls.cancel = new("ButtonControl", nil, { 45, 70, 80, 20 }, "Cancel", function()
+	controls.cancel = new("ButtonControl", nil, { 45, 70, 80, 20 }, tr("Cancel"), function()
 		main:ClosePopup()
 	end)
-	main:OpenPopup(370, 100, setName and "Rename Item Set" or "Set Name", controls, "save", "edit", "cancel")
+	main:OpenPopup(370, 100, setName and tr("Rename Item Set") or tr("Set Name"), controls, "save", "edit", "cancel")
 end
 
 function ItemSetListClass:GetRowValue(column, index, itemSetId)
 	local itemSet = self.itemsTab.itemSets[itemSetId]
 	if column == 1 then
-		return (itemSet.title or "Default") .. (itemSetId == self.itemsTab.activeItemSetId and "  ^9(Current)" or "")
+		local title = itemSet.title or "Default"
+		return itemSetId == self.itemsTab.activeItemSetId and formatUI("%s  ^9(Current)", title) or title
 	end
 end
 
@@ -136,9 +146,8 @@ end
 function ItemSetListClass:OnSelDelete(index, itemSetId)
 	local itemSet = self.itemsTab.itemSets[itemSetId]
 	if #self.list > 1 then
-		main:OpenConfirmPopup("Delete Item Set",
-			"Are you sure you want to delete '" ..
-			(itemSet.title or "Default") .. "'?\nThis will not delete any items used by the set.", "Delete", function()
+		main:OpenConfirmPopup(tr("Delete Item Set"),
+			formatUI("Are you sure you want to delete '%s'?\nThis will not delete any items used by the set.", itemSet.title or "Default"), tr("Delete"), function()
 				self.itemSetService:DeleteItemSet(itemSetId, index)
 				self.selIndex = nil
 				self.selValue = nil

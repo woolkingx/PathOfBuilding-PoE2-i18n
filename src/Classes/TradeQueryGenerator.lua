@@ -11,6 +11,10 @@ local s_format = string.format
 local t_insert = table.insert
 local tradeHelpers = LoadModule("Classes/TradeHelpers")
 
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
 -- string are an any type while tables require all fields to be matched with type and subType require both to be matched exactly. [1] type, [2] subType, subType is optional and must be nil if not present.
 local tradeCategoryNames = {
 	["Ring"] = { "Ring" },
@@ -1066,17 +1070,17 @@ Remove: anoints are completely ignored, and removed from items.]]
 	end
 
 	for i, stat in ipairs(statWeights) do
-		controls["sortStatType"..tostring(i)] = new("LabelControl", {"TOPLEFT",lastItemAnchor,"BOTTOMLEFT"}, {0, i == 1 and 5 or 3, 70, 16}, i < (#statWeights < 6 and 10 or 5) and s_format("^7%.2f: %s", stat.weightMult, stat.label) or ("+ "..tostring(#statWeights - 4).." Additional Stats"))
+		controls["sortStatType"..tostring(i)] = new("LabelControl", {"TOPLEFT",lastItemAnchor,"BOTTOMLEFT"}, {0, i == 1 and 5 or 3, 70, 16}, i < (#statWeights < 6 and 10 or 5) and s_format("^7%.2f: %s", stat.weightMult, stat.label) or ("+ "..tostring(#statWeights - 4).." "..tr("Additional Stats")))
 		lastItemAnchor = controls["sortStatType"..tostring(i)]
 		popupHeight = popupHeight + 19
 		if i == 1 then
-			controls.sortStatLabel = new("LabelControl", {"RIGHT",lastItemAnchor,"LEFT"}, {-5, 0, 0, 16}, "^7Stat to Sort By:")
+			controls.sortStatLabel = new("LabelControl", {"RIGHT",lastItemAnchor,"LEFT"}, {-5, 0, 0, 16}, tr("^7Stat to Sort By:"))
 		elseif i == 5 then
 			-- tooltips do not actually work for labels
 			lastItemAnchor.tooltipFunc = function(tooltip)
 				tooltip:Clear()
-				tooltip:AddLine(16, "Sorts the weights by the stats selected multiplied by a value")
-				tooltip:AddLine(16, "Currently sorting by:")
+				tooltip:AddLine(16, tr("Sorts the weights by the stats selected multiplied by a value"))
+				tooltip:AddLine(16, tr("Currently sorting by:"))
 				for i, stat in ipairs(statWeights) do
 					if i > 4 then
 						tooltip:AddLine(16, s_format("%s: %.2f", stat.label, stat.weightMult))

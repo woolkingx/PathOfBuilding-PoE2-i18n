@@ -9,6 +9,26 @@ local s_format = string.format
 local m_min = math.min
 local m_max = math.max
 
+local function translateUI(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
+
+local function trSkill(text)
+	return TranslateSkill and TranslateSkill(text) or text
+end
+
+local function trItem(text)
+	return TranslateItem and TranslateItem(text) or text
+end
+
+local function statSectionLabel(text)
+	return "^7" .. translateUI(text)
+end
+
 local CompareEntryClass = newClass("CompareEntry", "ControlHost", function(self, xmlText, label)
 	self.ControlHost()
 
@@ -325,8 +345,8 @@ function CompareEntryClass:RefreshSkillSelectControls(controls, mainGroup, suffi
 	for i, activeSkill in ipairs(displaySkillList) do
 		local explodeSource = activeSkill.activeEffect.srcInstance.explodeSource
 		local explodeSourceName = explodeSource and (explodeSource.name or explodeSource.dn)
-		local colourCoded = explodeSourceName and ("From "..colorCodes[explodeSource.rarity or "NORMAL"]..explodeSourceName)
-		t_insert(controls.mainSkill.list, { val = i, label = colourCoded or activeSkill.activeEffect.grantedEffect.name })
+		local colourCoded = explodeSourceName and (translateUI("From").." "..colorCodes[explodeSource.rarity or "NORMAL"]..trItem(explodeSourceName))
+		t_insert(controls.mainSkill.list, { val = i, label = colourCoded or trSkill(activeSkill.activeEffect.grantedEffect.name) })
 	end
 	controls.mainSkill.enabled = #displaySkillList > 1
 	controls.mainSkill.selIndex = mainActiveSkill
@@ -415,7 +435,7 @@ function CompareEntryClass:RefreshMinionControls(controls, activeSkill, activeEf
 	wipeTable(controls.mainSkillMinionSkill.list)
 	if activeSkill.minion then
 		for _, minionSkill in ipairs(activeSkill.minion.activeSkillList) do
-			t_insert(controls.mainSkillMinionSkill.list, minionSkill.activeEffect.grantedEffect.name)
+			t_insert(controls.mainSkillMinionSkill.list, trSkill(minionSkill.activeEffect.grantedEffect.name))
 		end
 		controls.mainSkillMinionSkill.selIndex = activeEffect.srcInstance["skillMinionSkill" .. suffix] or 1
 		controls.mainSkillMinionSkill.shown = true
@@ -453,11 +473,11 @@ function CompareEntryClass:AddStatComparesToTooltip(tooltip, baseOutput, compare
 	local count = 0
 	if self.calcsTab and self.calcsTab.mainEnv and self.calcsTab.mainEnv.player and self.calcsTab.mainEnv.player.mainSkill then
 		if self.calcsTab.mainEnv.player.mainSkill.minion and baseOutput.Minion and compareOutput.Minion then
-			count = count + self:CompareStatList(tooltip, self.minionDisplayStats, self.calcsTab.mainEnv.minion, baseOutput.Minion, compareOutput.Minion, header.."\n^7Minion:", nodeCount)
+			count = count + self:CompareStatList(tooltip, self.minionDisplayStats, self.calcsTab.mainEnv.minion, baseOutput.Minion, compareOutput.Minion, header.."\n"..statSectionLabel("Minion:"), nodeCount)
 			if count > 0 then
-				header = "^7Player:"
+				header = statSectionLabel("Player:")
 			else
-				header = header.."\n^7Player:"
+				header = header.."\n"..statSectionLabel("Player:")
 			end
 		end
 		count = count + self:CompareStatList(tooltip, self.displayStats, self.calcsTab.mainEnv.player, baseOutput, compareOutput, header, nodeCount)
@@ -520,7 +540,7 @@ function CompareEntryClass:CompareStatList(tooltip, statList, actor, baseOutput,
 						valStr = number:gsub("0+$", ""):gsub("%.$", "") .. suffix
 					end
 					valStr = formatNumSep(valStr)
-					local line = s_format("%s%s %s", color, valStr, statData.label)
+					local line = s_format("%s%s %s", color, valStr, translateUI(statData.label))
 					if statData.compPercent and statVal1 ~= 0 and statVal2 ~= 0 then
 						local pc = statVal1 / statVal2 * 100 - 100
 						line = line .. s_format(" (%+.1f%%)", pc)
@@ -566,7 +586,7 @@ do
 		end
 		if req[1] then
 			local fontSizeBig = main.showFlavourText and 18 or 16
-			tooltip:AddLine(fontSizeBig, "^x7F7F7FRequires "..table.concat(req, "^x7F7F7F, "), "FONTIN SC")
+			tooltip:AddLine(fontSizeBig, "^x7F7F7F"..formatUI("Requires %s", table.concat(req, "^x7F7F7F, ")), "FONTIN SC")
 			tooltip:AddSeparator(10)
 		end
 		wipeTable(req)

@@ -1,5 +1,32 @@
 # Changelog
 
+## PathOfBuilding-PoE2-i18n release draft (2026/06/20)
+
+This fork starts from upstream commit
+`b8048682ee361e5435e09d5507d45185c1d4be49`
+(`Update Uniques to 0.5 (#2116)`) and adds a Traditional Chinese (`zh_TW`)
+display localization layer, plus a partial Simplified Chinese (`zh_CN`) demo.
+
+### Added
+
+- Added `zh_TW` PO catalogs for UI, items, skills, passives, and stats.
+- Added a partial `zh_CN` PO catalog (`pob.po` only) as a demonstration; the
+  other zh_CN catalogs are not yet translated.
+- Added generated `src/Data/Lang/zh_TW/*.lua` runtime translation tables.
+- Added runtime translation helpers in `src/Modules/Lang.lua`.
+- Added display-only translation routes for UI chrome, dropdown rows, tooltips,
+  item/skill/passive labels, stat descriptions, and calculation labels.
+- Added CJK font/runtime support for Traditional Chinese rendering.
+- Added extraction, compile, and audit scripts for repeatable i18n validation.
+
+### Boundary
+
+- Raw build data, import/export payloads, trade API values, parser inputs, and
+  calculation internals remain English/raw.
+- Translation is applied at display boundaries only.
+- `zh_TW` is the primary, fully translated locale.
+- `zh_CN` ships as a partial demonstration only and is not a complete locale.
+
 ## [v0.19.0](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/tree/v0.19.0) (2026/06/05)
 
 [Full Changelog](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/compare/v0.18.0...v0.19.0)

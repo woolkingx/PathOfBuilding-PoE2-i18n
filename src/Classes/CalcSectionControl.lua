@@ -231,21 +231,22 @@ function CalcSectionClass:Draw(viewPort, noTooltip)
 	local primary = true
 	local lineY = y
 	for _, subSec in ipairs(self.subSection) do
+		local subSecLabel = self:TranslateLabel(subSec.label)
 		-- Draw line above label
 		SetDrawColor(self.colour)
 		DrawImage(nil, x + 2, lineY, width - 4, 2)
 		SetDrawColor(0.10, 0.10, 0.10)
 		-- Draw label
 		if not self.enabled then
-			DrawString(x + 3, lineY + 3, "LEFT", 16, "VAR BOLD", "^8"..subSec.label)
+			DrawString(x + 3, lineY + 3, "LEFT", 16, "VAR BOLD", "^8"..subSecLabel)
 		else
 			local textColor = "^7"
 			if self.calcsTab:SearchMatch(subSec.label) then
 				textColor = colorCodes.HIGHLIGHT
 			end
-			DrawString(x + 3, lineY + 3, "LEFT", 16, "VAR BOLD", textColor..subSec.label..":")
+			DrawString(x + 3, lineY + 3, "LEFT", 16, "VAR BOLD", textColor..subSecLabel..":")
 			if subSec.data.extra then
-				local x = x + 3 + DrawStringWidth(16, "VAR BOLD", subSec.label) + 10
+				local x = x + 3 + DrawStringWidth(16, "VAR BOLD", subSecLabel) + 10
 				DrawString(x, lineY + 3, "LEFT", 16, "VAR", "^7"..formatCalcStr(subSec.data.extra, actor))
 			end
 		end
@@ -274,12 +275,13 @@ function CalcSectionClass:Draw(viewPort, noTooltip)
 						textColor = rowData.color
 					end
 					if rowData.label then
+						local rowLabel = self:TranslateLabel(rowData.label)
 						SetDrawColor(rowData.bgCol or "^0")
 						DrawImage(nil, x + 2, lineY + 2, 130, 18)
 						if self.calcsTab:SearchMatch(rowData.label) then
 							textColor = colorCodes.HIGHLIGHT
 						end
-						DrawString(x + 132, lineY + 2, "RIGHT_X", 16, "VAR", textColor..rowData.label..":")
+						DrawString(x + 132, lineY + 2, "RIGHT_X", 16, "VAR", textColor..rowLabel..":")
 					end
 					for colour, colData in ipairs(rowData) do
 						-- Draw column separator at the left end of the cell

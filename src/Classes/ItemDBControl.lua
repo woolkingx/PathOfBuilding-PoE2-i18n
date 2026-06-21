@@ -6,9 +6,29 @@
 local pairs = pairs
 local ipairs = ipairs
 local t_insert = table.insert
+local s_format = string.format
 local m_max = math.max
 local m_floor = math.floor
 
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
+
+local function trItem(text)
+	return TranslateItem and TranslateItem(text) or text
+end
+
+local function trItemName(item)
+	return TranslateItemDisplayName and TranslateItemDisplayName(item) or item.name
+end
+
+local function itemSearchText(item)
+	return GetLocalizedItemSearchText and GetLocalizedItemSearchText(item) or GetLocalizedSearchText and GetLocalizedSearchText("items", type(item) == "table" and item.name or item) or item
+end
+
+local function escapeSearchPattern(text)
+	return text:lower():gsub("([%(%)%.%%%+%-%*%?%[%]%^%$])", "%%%1")
+end
 
 local ItemDBClass = newClass("ItemDBControl", "ListControl", function(self, anchor, rect, itemsTab, db, dbType)
 	self.ListControl(anchor, rect, 16, "VERTICAL", false)
@@ -137,12 +157,12 @@ function ItemDBClass:DoesItemMatchFilters(item)
 			return false
 		end
 	end
-	local searchStr = self.controls.search.buf:lower():gsub("[%-%.%+%[%]%$%^%%%?%*]", "%%%0")
+	local searchStr = escapeSearchPattern(self.controls.search.buf)
 	if searchStr:match("%S") then
 		local found = false
 		local mode = self.controls.searchMode.selIndex
 		if mode == 1 or mode == 2 then
-			local err, match = PCall(string.matchOrPattern, item.name:lower(), searchStr)
+			local err, match = PCall(string.matchOrPattern, itemSearchText(item):lower(), searchStr)
 			if not err and match then
 				found = true
 			end
@@ -253,7 +273,7 @@ function ItemDBClass:ListBuilder()
 			item.measuredPower = item.measuredPower or -math.huge
 			local now = GetTime()
 			if now - start > 50 then
-				self.defaultText = "^7Sorting... ("..m_floor(itemIndex/#list*100).."%)"
+				self.defaultText = formatUI("^7Sorting... (%d%%)", m_floor(itemIndex/#list*100))
 				coroutine.yield()
 				start = now
 			end
@@ -315,7 +335,7 @@ end
 
 function ItemDBClass:GetRowValue(column, index, item)
 	if column == 1 then
-		return colorCodes[item.rarity] .. item.name
+		return colorCodes[item.rarity] .. trItemName(item)
 	end
 end
 

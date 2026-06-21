@@ -9,6 +9,14 @@ local s_format = string.format
 local t_insert = table.insert
 local m_max = math.max
 
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
+
 local PartyTabClass = newClass("PartyTab", "ControlHost", "Control", function(self, build)
 	self.ControlHost()
 	self.Control()
@@ -56,17 +64,16 @@ local PartyTabClass = newClass("PartyTab", "ControlHost", "Control", function(se
 		bufferHeightRight = 434,
 	}
 
-	local notesDesc = [[^7To import a build it must be exported with "Export support" enabled in the import/export tab
-	Auras with the highest effect will take priority, your curses will take priority over a support's
-	
-	All of these effects can be found in the Calcs tab]]
-	
-	self.controls.notesDesc = new("LabelControl", {"TOPLEFT",self,"TOPLEFT"}, {8, 8, 150, theme.stringHeight}, notesDesc)
+	local notesDesc = "To import a build it must be exported with \"Export support\" enabled in the import/export tab\n" ..
+		"Auras with the highest effect will take priority, your curses will take priority over a support's\n\n" ..
+		"All of these effects can be found in the Calcs tab"
+
+	self.controls.notesDesc = new("LabelControl", {"TOPLEFT",self,"TOPLEFT"}, {8, 8, 150, theme.stringHeight}, "^7"..notesDesc)
 	self.controls.notesDesc.width = function()
 		local width = self.width / 2 - 16
 		if width ~= self.controls.notesDesc.lastWidth then
 			self.controls.notesDesc.lastWidth = width
-			self.controls.notesDesc.label = table.concat(main:WrapString(notesDesc, theme.stringHeight, width - 50), "\n")
+			self.controls.notesDesc.label = "^7"..table.concat(main:WrapString(tr(notesDesc), theme.stringHeight, width - 50), "\n")
 		end
 		return width
 	end
@@ -123,7 +130,7 @@ local PartyTabClass = newClass("PartyTab", "ControlHost", "Control", function(se
 			return
 		end
 
-		self.importCodeDetail = colorCodes.NEGATIVE.."Invalid input"
+		self.importCodeDetail = tr(colorCodes.NEGATIVE.."Invalid input")
 		local urlText = buf:gsub("^[%s?]+", ""):gsub("[%s?]+$", "") -- Quick Trim
 		if urlText:match("youtube%.com/redirect%?") or urlText:match("google%.com/url%?") then
 			local nested_url = urlText:gsub(".*[?&]q=([^&]+).*", "%1")
@@ -134,7 +141,7 @@ local PartyTabClass = newClass("PartyTab", "ControlHost", "Control", function(se
 			if urlText:match(buildSites.websiteList[j].matchURL) then
 				self.controls.importCodeIn.text = urlText
 				self.importCodeValid = true
-				self.importCodeDetail = colorCodes.POSITIVE.."URL is valid ("..buildSites.websiteList[j].label..")"
+				self.importCodeDetail = formatUI(colorCodes.POSITIVE.."URL is valid (%s)", buildSites.websiteList[j].label)
 				self.importCodeSite = j
 				if buf ~= urlText then
 					self.controls.importCodeIn:SetText(urlText, false)
@@ -151,7 +158,7 @@ local PartyTabClass = newClass("PartyTab", "ControlHost", "Control", function(se
 			Copy(xmlText)
 		end
 		self.importCodeValid = true
-		self.importCodeDetail = colorCodes.POSITIVE.."Code is valid"
+		self.importCodeDetail = tr(colorCodes.POSITIVE.."Code is valid")
 		self.importCodeXML = xmlText
 	end
 	

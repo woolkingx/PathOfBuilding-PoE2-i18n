@@ -17,6 +17,14 @@ local m_modf = math.modf
 local s_format = string.format
 local m_huge = math.huge
 
+local function trItem(text)
+	return TranslateItem and TranslateItem(text) or text
+end
+
+local function trItemName(item)
+	return TranslateItemDisplayName and TranslateItemDisplayName(item) or item.name
+end
+
 --- getCachedOutputValue
 ---  retrieves a value specified by key from a cached version of skill
 ---  specified by @uuid or if not found in cache computes teh cache.
@@ -1757,7 +1765,7 @@ function calcs.perform(env, skipEHP)
 						}
 						if reqSource.source == "Item" then
 							local item = reqSource.sourceItem
-							row.sourceName = colorCodes[item.rarity]..item.name
+							row.sourceName = colorCodes[item.rarity]..trItemName(item)
 							row.sourceNameTooltip = function(tooltip)
 								env.build.itemsTab:AddItemTooltip(tooltip, item, reqSource.sourceSlot)
 							end

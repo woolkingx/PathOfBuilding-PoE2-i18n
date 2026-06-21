@@ -15,6 +15,9 @@ function TooltipHostClass:DrawTooltip(x, y, width, height, viewPort, ...)
 	else
 		local tooltipText = self.Object:GetProperty("tooltipText")
 		if tooltipText then
+			if type(tooltipText) == "string" and TranslateUI then
+				tooltipText = TranslateUI(tooltipText)
+			end
 			self.tooltip:Clear()
 			self.tooltip:AddLine(14, tooltipText)
 			self.tooltip:Draw(x, y, width, height, viewPort)

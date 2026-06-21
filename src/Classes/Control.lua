@@ -51,6 +51,13 @@ function ControlClass:GetProperty(name)
 	end
 end
 
+function ControlClass:TranslateLabel(label)
+	if type(label) == "string" and TranslateUI then
+		return TranslateUI(label)
+	end
+	return label
+end
+
 function ControlClass:SetAnchor(point, other, otherPoint, x, y, collapse)
 	self.anchor.point = point
 	self.anchor.other = other

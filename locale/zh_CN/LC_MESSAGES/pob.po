@@ -1,0 +1,6148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Path of Building PoE2 UI from PoeCharm zh-rCN\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# different Ammo Types Shot past 10s"
+msgstr "过去10秒内射出的不同弹药类型数量"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# different Grenade Types Shot past 10s"
+msgstr "过去10秒内射出的不同榴弹类型数量"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Active Arrows:"
+msgstr "激活的箭矢数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of active Brands:"
+msgstr "激活的烙印数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Active Spectral Wolves:"
+msgstr "激活的【幽狼】数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Barkskin Stacks:"
+msgstr "【树皮御体】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Bleeds on enemy (if not average):"
+msgstr "敌人身上的流血层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Blitz Charges (if not maximum):"
+msgstr "【疾电球】数量 (如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Blood Charges (if not maximum):"
+msgstr "【赤炼球】数量 (如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Brands attached to the enemy:"
+msgstr "附着于敌人的烙印数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Casts currently waiting:"
+msgstr "当前即将施放的法术层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Challenger Charges (if not maximum):"
+msgstr "【挑战球】数量 (如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Corpses Consumed Recently:"
+msgstr "近期消耗灵柩数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Corrosion Stacks:"
+msgstr "【腐蚀】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Crab Barriers (if not maximum):"
+msgstr "【深海屏障】层数(如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Endurance Charges (if not maximum):"
+msgstr "【耐力球】数量 (如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Endurance Charges lost Recently:"
+msgstr "近期失去耐力球数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Enemies affected:"
+msgstr "影响的敌人数量:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Enemies Killed by Minions Recently:"
+msgstr "召唤物近期击杀数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Enemies Killed by Totems Recently:"
+msgstr "图腾近期击杀敌人数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Enemies Killed Recently:"
+msgstr "近期击杀敌人数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Ensnare Stacks:"
+msgstr "【圈套】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Fortification Stacks (if not maximum):"
+msgstr "【护体】层数（若非最大值）"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Fragile Regrowth Stacks:"
+msgstr "【脆弱重生】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Frenzy Charges (if not maximum):"
+msgstr "【狂怒球】数量 (如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Ghost Shrouds (if not maximum):"
+msgstr "【鬼影缠身】层数 (如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Grasping Vines affecting enemy:"
+msgstr "敌人所受【缓速蔓藤】数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Hits Suppressed Recently:"
+msgstr "近期压制击中次数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Impales on enemy (if not maximum):"
+msgstr "敌人身上的【穿刺】层数(如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Inspiration Charges (if not maximum):"
+msgstr "【启迪球】数量 (如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Intensity:"
+msgstr "【法术凝聚】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of linked Targets:"
+msgstr "被羁绊链接的目标数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Mines Detonated Recently:"
+msgstr "近期引爆地雷数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Mines per throw:"
+msgstr "每次投掷地雷数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Minions in your Presence:"
+msgstr "你存在范围内的召唤物数量:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Nearby Allies:"
+msgstr "附近的友军数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Nearby Bleeding Enemies:"
+msgstr "周围流血敌人数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Nearby Corpses:"
+msgstr "附近的灵枢数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of nearby Enemies:"
+msgstr "附近的敌人数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Nearby Non-Golem Minions:"
+msgstr "附近非魔像召唤物数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of nearby Rare or Unique Enemies:"
+msgstr "附近的稀有或传奇敌人数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Non-Instant Spells Cast Recently:"
+msgstr "近期非立即施放法术施放数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Overlapping Beams:"
+msgstr "重叠的波束数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Overlapping Pods:"
+msgstr "同时击中的孢囊数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Poison on You:"
+msgstr "你所受【中毒】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Poisons applied Recently:"
+msgstr "近期施加【中毒】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Poisons on enemy (if not average):"
+msgstr "敌人身上的中毒层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Power Charges (if not maximum):"
+msgstr "【暴击球】数量 (如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Rampage Kills:"
+msgstr "【暴走】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Recently Applied Ailments:"
+msgstr "近期施加异常状态数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Rupture stacks?"
+msgstr "敌人的【残破】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of seconds Affected by a Warcry Buff:"
+msgstr "受到战吼增益时长:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Shotgunning Projectiles:"
+msgstr "具有霰弹效应的投射物数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Siphoning Charges (if not maximum):"
+msgstr "【轮回球】数量 (如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Skills Used Recently:"
+msgstr "近期使用技能数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Soul Eater Stacks:"
+msgstr "【噬魂者】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Spider's Web Stacks:"
+msgstr "蜘蛛网层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Spiders:"
+msgstr "毒蛛数量:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Spirit Charges:"
+msgstr "【精神球】数量:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Summoned Totems (if not maximum):"
+msgstr "召唤的图腾数量(如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Tailwind Stacks:"
+msgstr "流顺之风(锐眼)层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of times Skill has Chained:"
+msgstr "技能已连锁数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of times Skill has Forked:"
+msgstr "技能已分叉数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of times Skill has Pierced:"
+msgstr "技能已穿透数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of times you have been Hit Recently:"
+msgstr "你近期被击中次数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Traps per throw:"
+msgstr "每次投掷陷阱数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Traps Triggered Recently:"
+msgstr "近期触发陷阱数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Trauma Stacks:"
+msgstr "【内伤】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Virulence Stacks:"
+msgstr "【毒力】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Warcries Used Recently:"
+msgstr "近期使用战吼数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Withered Stacks on you:"
+msgstr "你身上的【凋零】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "# of Withered Stacks:"
+msgstr "【凋零】层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "#% of Curse Expired on enemy:"
+msgstr "敌人身上诅咒持续时间削减%:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "% chance for second proj to hit:"
+msgstr "二阶段投射物击中几率:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "%Inc Armour from Tree"
+msgstr "护甲加成(天赋)"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "%Inc ES from Tree"
+msgstr "ES 加成(天赋)"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "%Inc Evasion from Tree"
+msgstr "闪避加成(天赋)"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "%Inc Mana from Tree"
+msgstr "魔力加成(天赋)"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "(Disabled)"
+msgstr "^9(禁用)"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "-- Select Metric --"
+msgstr "-- 选择参数 --"
+
+#. Source: PoeCharm2 zh-rCN/CalcsTab.csv
+msgid "Active Mines:"
+msgstr "启用地雷数"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Add"
+msgstr "添加"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Add Modifier to Item"
+msgstr "添加词缀到物品"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Add modifier..."
+msgstr "添加词缀..."
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Added Passives:"
+msgstr "增加天赋:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Ahuana (Immortal Ambition)"
+msgstr "阿华纳（不朽野望）"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Ailment calculation mode:"
+msgstr "异常状态计算模式:"
+
+#. Source: PoeCharm2 zh-rCN/CalcOffence.csv
+msgid "Ailment Threshold"
+msgstr "异常状态阈值"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Akoya (Chainbreaker)"
+msgstr "阿克雅（破枷除锁）"
+
+#. Source: PoeCharm2 zh-rCN/ItemListControl.csv
+msgid "All items:"
+msgstr "所有物品:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Amount of stacks of ^x3F6DB3Hoarfrost ^7applied to the enemy."
+msgstr "^7对敌人施加的^xB97123【白霜】^7的层数"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Amulet"
+msgstr "项链"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Anoint 2..."
+msgstr "涂油2..."
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Anoint 3..."
+msgstr "涂油3..."
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Anoint 4..."
+msgstr "涂油4..."
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Anoint Item"
+msgstr "给物品涂油"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Anoint..."
+msgstr "涂油..."
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Any"
+msgstr "任意"
+
+#. Source: PoeCharm2 zh-rCN/ItemDBControl.csv
+msgid "Any requirements"
+msgstr "不限条件"
+
+#. Source: PoeCharm2 zh-rCN/ItemDBControl.csv
+msgid "Any source"
+msgstr "任意来源"
+
+#. Source: PoeCharm2 zh-rCN/ItemDBControl.csv
+msgid "Anywhere"
+msgstr "任意位置"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "AoE Radius"
+msgstr "范围效果半径"
+
+#. Source: PoeCharm2 zh-rCN/PartyTab.csv
+msgid "Append"
+msgstr "附加"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Arcane Cloak:"
+msgstr "【奥术斗篷】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you always moving?"
+msgstr "是否处于移动状态?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you animating Lingering Blades?"
+msgstr "是否幻化了【徘徊之刃】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you Bleeding?"
+msgstr "你在【流血】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you Blinded?"
+msgstr "你被【致盲】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you Channelling Cyclone?"
+msgstr "你在引导【旋风斩】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you Channelling?"
+msgstr "你在持续吟唱?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you Elusive?"
+msgstr "你有【灵巧】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you Focused?"
+msgstr "你有【专注】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you Fortified?"
+msgstr "你有【护体】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you Immune to Curses?"
+msgstr "你免疫【诅咒】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you in a Bloodstorm?"
+msgstr "是否处于血姿态?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you in a Sandstorm?"
+msgstr "是否处于沙姿态?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you in dodge roll?"
+msgstr "你是否处于翻滚闪避状态?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you in Her Embrace?"
+msgstr "你有【她的拥抱】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you Insane?"
+msgstr "你是否处于错乱状态?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you Leeching?"
+msgstr "你在【偷取】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you on Caustic Ground?"
+msgstr "你在【腐蚀地面】上?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you on Consecrated Ground?"
+msgstr "你在【奉献地面】上?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you on Fungal Ground?"
+msgstr "你在【真菌地表】上?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you out of Life Flask uses?"
+msgstr "你的生命药水使用完了吗?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you Poisoned?"
+msgstr "你在【中毒】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you Sprinting?"
+msgstr "你是否在冲刺?"
+
+#. Source: PoeCharm2 zh-rCN/ItemListControl.csv
+msgid "Are you sure you want to delete all items in this build?"
+msgstr "你确定要删除这个构筑中的所有物品么?"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Are you sure you want to delete all socket groups in this build?"
+msgstr "确定要删除 BD 中的所有插槽么?"
+
+#. Source: PoeCharm2 zh-rCN/BuildListControl.csv
+msgid "Are you sure you want to delete build:"
+msgstr "你是否确定要删除构筑:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you surrounded?"
+msgstr "你是否被包围?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Are you Unbound?"
+msgstr "你有奔放之怒?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Armour calculation mode:"
+msgstr "护甲计算模式:"
+
+#. Source: PoeCharm2 zh-rCN/CalcSections.csv
+msgid "Armour:"
+msgstr "护甲:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Asenath (Dance with Death)"
+msgstr "安赛娜丝（与亡共舞）"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Aspect of the Avian:"
+msgstr "【鸟之势】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Aspect of the Cat:"
+msgstr "【猫之势】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Aspect of the Crab:"
+msgstr "【蟹之势】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Aspect of the Spider:"
+msgstr "【蛛之势】:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Attack Dodge Chance"
+msgstr "攻击躲避几率"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Attack Rate"
+msgstr "攻击速率"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Augyre rotating buff:"
+msgstr "【占星】的轮换buff:"
+
+#. Source: PoeCharm2 zh-rCN/PartyTab.csv
+msgid "Auras"
+msgstr "光环"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Avarius (Power of Purpose)"
+msgstr "阿瓦留斯（决心之力）"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Average"
+msgstr "平均"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Average Damage"
+msgstr "平均伤害"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Average Hit"
+msgstr "平均击中"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Awakened Maximum"
+msgstr "觉醒最大"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Balbala (The Traitor)"
+msgstr "巴巴拉（叛徒）"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Banner Skills:"
+msgstr "旗帜技能:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Banner Valour:"
+msgstr "旗帜勇气量:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Barkskin:"
+msgstr "【树皮御体】:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Base"
+msgstr "基础"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Base:"
+msgstr "基础:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Belt"
+msgstr "腰带"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Blade Vortex blade count:"
+msgstr "【飞刃风暴】飞刀数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Bladestorm:"
+msgstr "【剑刃风暴】:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Bleed DPS"
+msgstr "流血 DPS"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Block Chance"
+msgstr "攻击格挡几率"
+
+#. Source: PoeCharm2 zh-rCN/CalcSections.csv
+msgid "Block:"
+msgstr "格挡:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Blocked a Hit from a Unique enemy in the past 10s?"
+msgstr "你过去 10 秒内有格挡传奇敌人击中?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Blood Sacrament:"
+msgstr "【赤色誓言】:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Body Armour"
+msgstr "胸甲"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Boots"
+msgstr "鞋子"
+
+#. Source: PoeCharm2 zh-rCN/ItemDBControl.csv
+msgid "Boss Item"
+msgstr "Boss物品"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Boss Skill Preset"
+msgstr "Boss技能预设"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Brand Skills:"
+msgstr "烙印技能:"
+
+#. Source: PoeCharm2 zh-rCN/CalcOffence.csv
+msgid "Brittle Effect"
+msgstr "易碎效果"
+
+#. Source: PoeCharm2 zh-rCN/CalcsTab.csv
+msgid "Buffed"
+msgstr "有增益效果"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Build file is empty or unreadable."
+msgstr "构筑文件为空或不可读"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Build Import"
+msgstr "构筑导入"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Build Sharing"
+msgstr "分享构筑"
+
+#. Source: PoeCharm2 zh-rCN/PowerReportListControl.csv
+msgid "Building Tree..."
+msgstr "构建树中……"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Burst"
+msgstr "瞬时"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Bypass CD?"
+msgstr "是否重置冷却时间?"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Cadiro (Supreme Decadence)"
+msgstr "卡迪罗（无上衰败）"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Carrion Golem:"
+msgstr "【腐化魔像】:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Caspiro (Supreme Ostentation)"
+msgstr "卡斯皮罗（无上宣示）"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Cast on Frostbolt?"
+msgstr "以【寒冰弹】施放?"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Cast Rate"
+msgstr "施法速率"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Causes Damage with Arc Hits to be rolled twice, and the maximum roll used."
+msgstr "以电弧击中造成的伤害会掷骰两次，取最大值实行."
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Chance To Ignore PDR Mode:"
+msgstr "无视物理减免几率:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Changed Stance recently?"
+msgstr "近期是否变更姿态?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Channeling for # seconds:"
+msgstr "持续吟唱时长:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Chaos Res. Over Max"
+msgstr "混沌抗性(溢出)"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Chaos Resist"
+msgstr "混沌抗性"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Character Import"
+msgstr "角色导入"
+
+#. Source: PoeCharm2 zh-rCN/CalcSections.csv
+msgid "Charges:"
+msgstr "充能球:"
+
+#. Source: PoeCharm2 zh-rCN/CalcOffence.csv
+msgid "Chill Effect"
+msgstr "冰缓效果"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Chilling"
+msgstr "^x3F6DB3冰缓"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Choose character to import data from:"
+msgstr "选择角色后导入数据:"
+
+#. Source: PoeCharm2 zh-rCN/PartyTab.csv
+msgid "Clear"
+msgstr "清除"
+
+#. Source: PoeCharm2 zh-rCN/PowerReportListControl.csv
+msgid "Click to focus node on tree"
+msgstr "单击可聚焦于树上的此节点"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Cold Res. Over Max"
+msgstr "冰霜抗性(溢出)"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Cold Resist"
+msgstr "冰霜抗性"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Cold Snap:"
+msgstr "【霜暴】:"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Combined DPS"
+msgstr "结合DPS"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Compare Power Report"
+msgstr "比较强度报告"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Compare with:"
+msgstr "比较于:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigTab.csv
+msgid "Config set:"
+msgstr "配置集:"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Config:"
+msgstr "配置:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Configure the radius of an enemy hitbox to calculate some area overlapping (shotgunning) effects."
+msgstr "配置单个敌人的受击体积(hitbox)用以计算一些范围(霰弹)效应."
+
+#. Source: PoeCharm2 zh-rCN/BuildListControl.csv
+msgid "Confirm Delete"
+msgstr "确认删除"
+
+#. Source: PoeCharm2 zh-rCN/BuildListControl.csv
+msgid "Confirm Folder Delete"
+msgstr "文件夹删除确认"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Conflux Buff:"
+msgstr "汇流增益效果:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Conqueror:"
+msgstr "征服者:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Consecrated Path of Endurance:"
+msgstr "【强韧之奉献之路】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Consumed 12 Steel Shards Recently?"
+msgstr "你近期消耗12钢刃碎片?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Consumed a corpse in the past 2s?"
+msgstr "过去2秒内有消耗灵柩?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Consumed a corpse Recently?"
+msgstr "近期有消耗灵柩?"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Conversion"
+msgstr "转换"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Converted Damage"
+msgstr "转换伤害"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Cooldown calculation mode:"
+msgstr "冷却时间计算模式:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Copy"
+msgstr "复制"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Copy and use"
+msgstr "复制并使用"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Copy Next Trade URL"
+msgstr "复制下一个交易URL"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Copy Trade URL"
+msgstr "复制交易URL"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Copy tree"
+msgstr "复制天赋树"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Corrupt..."
+msgstr "腐化..."
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Corrupted"
+msgstr "已污染"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Corrupted Item"
+msgstr "腐化物品"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Corrupted Maximum"
+msgstr "腐化最大"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Corrupting Cry:"
+msgstr "【腐化战吼】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Count Skill Reservation towards eHP?"
+msgstr "将技能保留计入有效生命值?"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Count:"
+msgstr "倍率:"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Craft Item"
+msgstr "创建物品"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Craft item..."
+msgstr "制作物品..."
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Create"
+msgstr "创建"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Create Custom Item from Text"
+msgstr "从文本创建自定义物品"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Create custom..."
+msgstr "创建自定义物品..."
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Creating link..."
+msgstr "创建链接中……"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Crits Only"
+msgstr "仅暴击"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Cruelty:"
+msgstr "【凌厉】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Crushed enemies have 15% reduced Physical Damage Reduction."
+msgstr "被【碾压】的敌人的物理减伤减少15%。"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Current"
+msgstr "当前"
+
+#. Source: PoeCharm2 zh-rCN/ItemDBControl.csv
+msgid "Current attributes"
+msgstr "当前属性"
+
+#. Source: PoeCharm2 zh-rCN/ItemDBControl.csv
+msgid "Current level"
+msgstr "当前等级"
+
+#. Source: PoeCharm2 zh-rCN/ItemDBControl.csv
+msgid "Current useable"
+msgstr "当前可用"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Curse Duration Expired on enemy:"
+msgstr "敌人身上诅咒结束前存在时间:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Curse overlaps:"
+msgstr "魔蛊重叠数:"
+
+#. Source: PoeCharm2 zh-rCN/PartyTab.csv
+msgid "Curses"
+msgstr "诅咒"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Custom"
+msgstr "自定义"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Custom PvP Damage multiplier percent:"
+msgstr "Custom PvP Damage multiplier percent:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Cyclone:"
+msgstr "【旋风斩】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Damage % (if not maximum):"
+msgstr "伤害百分比(如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Damage mitigated:"
+msgstr "伤害缓和:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Damage over Time"
+msgstr "持续伤害"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Dark Pact:"
+msgstr "【暗夜血契】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Debilitated enemies deal 10% less damage."
+msgstr "【疲惫】的敌人造成的伤害总降10%"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Decay DPS"
+msgstr "腐蚀 DPS"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Default gem level:"
+msgstr "默认技能宝石等级:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Defiance:"
+msgstr "【抗争】层数:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Delete All"
+msgstr "删除全部"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Delete all equipped items when importing."
+msgstr "导入时删除现有装备"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Delete all existing jewels when importing."
+msgstr "导入时删除现有珠宝"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Delete all existing skills when importing."
+msgstr "导入时删除现有技能"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Delete equipment:"
+msgstr "删除装备"
+
+#. Source: PoeCharm2 zh-rCN/ItemListControl.csv
+msgid "Delete Item"
+msgstr "删除物品"
+
+#. Source: PoeCharm2 zh-rCN/SharedItemSetListControl.csv
+msgid "Delete Item Set"
+msgstr "删除物品集"
+
+#. Source: reviewed translation batch
+#: src/Classes/SharedItemSetListControl.lua:98 popup
+msgid "Are you sure you want to delete '%s' from the shared item set list?"
+msgstr "你确定要从共享物品集清单中删除 '%s' 吗？"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Delete jewels:"
+msgstr "删除珠宝:"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Delete skills:"
+msgstr "删除技能"
+
+#. Source: PoeCharm2 zh-rCN/ItemListControl.csv
+msgid "Delete Unused"
+msgstr "删除未使用物品"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Delirious Effect:"
+msgstr "亢奋效果:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Desired Nodes"
+msgstr "所需节点"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Determines whether modifiers that depend on the highest damage type apply."
+msgstr "确定取决于最高伤害类型的修正是否应用。"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Dexterity Required"
+msgstr "敏捷需求"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Disable Emperor's Vigilance Bypass"
+msgstr "禁用【皇帝的警戒】的规避效果"
+
+#. Source: PoeCharm2 zh-rCN/PartyTab.csv
+msgid "Disable Party Effects"
+msgstr "禁用队伍效果"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Distance to enemy:"
+msgstr "与敌人的距离:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have a Charm active?"
+msgstr "你是否有一个护符处于激活状态?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have a Flask active?"
+msgstr "你在【使用药剂】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have a Totem summoned?"
+msgstr "你有召唤图腾?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Adrenaline?"
+msgstr "你有【肾上腺素】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Alchemist's Genius?"
+msgstr "你有【炼金奇才】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Arcane Surge?"
+msgstr "你有【秘术增强】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Avatar Of Fire?"
+msgstr "你有【火之化身】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Chaotic Might?"
+msgstr "你有【混沌之力】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Convergence?"
+msgstr "你有【汇聚】效果?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Divinity?"
+msgstr "你有【神性】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Everlasting Sacrifice?"
+msgstr "你有【永恒献祭】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Fanaticism?"
+msgstr "你有【欣喜若狂】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Iron Reflexes?"
+msgstr "你有【霸体】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Lifetap?"
+msgstr "你有【赤炼】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Manastorm's Buff?"
+msgstr "^xFFFFFF你有【魔力风暴】的增益?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Onslaught?"
+msgstr "你有【猛攻】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Phasing?"
+msgstr "你有【迷踪】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Quicksand Hourglass?"
+msgstr "你是否拥有流沙沙漏?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Soul Gain Prevention?"
+msgstr "你有【阻灵术】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Unholy Might?"
+msgstr "你有【不洁之力】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you have Vaal Arc's Lucky Buff?"
+msgstr "你有瓦尔电弧的【幸运】增益?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you use Blitz Charges?"
+msgstr "你有【疾电球】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you use Challenger Charges?"
+msgstr "你有【挑战球】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you use Endurance Charges?"
+msgstr "你有【耐力球】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you use Frenzy Charges?"
+msgstr "你有【狂怒球】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you use Ghost Shrouds?"
+msgstr "你有【鬼影缠身】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you use Power Charges?"
+msgstr "你有【暴击球】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do you use Siphoning Charges?"
+msgstr "你有【轮回球】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do your hits always Heavy Stun?"
+msgstr "你的击中是否总是造成沉重眩晕?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do your minions have Chaotic Might?"
+msgstr "你的召唤物有【混沌之力】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do your minions have Onslaught?"
+msgstr "你的召唤物是否有【猛攻】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do your minions have Unholy Might?"
+msgstr "你的召唤物有【不洁之力】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do your Minions use Endur. Charges?"
+msgstr "你的召唤物有【耐力球】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do your Minions use Frenzy Charges?"
+msgstr "你的召唤物有【狂怒球】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Do your Minions use Power Charges?"
+msgstr "你的召唤物有【暴击球】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Does enemy have Open Weakness?"
+msgstr "敌人是否有暴露弱点(亚马逊)？"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Dominus (Inner Conviction)"
+msgstr "多米纳斯（内在信念）"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Don't disable items"
+msgstr "不禁用物品"
+
+#. Source: PoeCharm2 zh-rCN/Build.csv
+msgid "Don't Save"
+msgstr "不保存"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Done"
+msgstr "完成"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Doom Blast Trigger Source:"
+msgstr "触发【末日爆炸】的魔蛊:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Doom Blast:"
+msgstr "【末日爆炸】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Doom on Hex:"
+msgstr "魔蛊的厄运层数:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Doryani (Corrupted Soul)"
+msgstr "多里亚尼（腐化的灵魂）"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "DoT DPS"
+msgstr "持续伤 DPS"
+
+#. Source: PoeCharm2 zh-rCN/CalcSections.csv
+msgid "Duration:"
+msgstr "持续时间:"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Edit Item Text"
+msgstr "编辑物品文本"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Edit..."
+msgstr "编辑..."
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Effect of Blind (if not maximum):"
+msgstr "【致盲】效果(如果不是最大值):"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Effect of Elusive (if not average):"
+msgstr "【灵巧】效果强度(如果不是平均值):"
+
+#. Source: PoeCharm2 zh-rCN/CalcsTab.csv
+msgid "Effective DPS"
+msgstr "有效DPS"
+
+#. Source: PoeCharm2 zh-rCN/CalcBreakdown.csv
+msgid "Effective DPS modifier:"
+msgstr "有效DPS修正:"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Effective Hit Pool"
+msgstr "击中伤有效生命值"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "EHP calc unlucky:"
+msgstr "有效生命值计算时不幸:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Elemental Resistance penalty:"
+msgstr "元素抗性惩罚:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Embrace Madness:"
+msgstr "【疯狂之拥】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enable Anger Aura:"
+msgstr "开启【愤怒光环】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enable any buff skills that your spectres have."
+msgstr "启用你灵体拥有的增益技能。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enable any curse skills that your spectres have."
+msgstr "启用你灵体拥有的诅咒技能。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enable buffs:"
+msgstr "启用增益:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enable curses:"
+msgstr "启用诅咒:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enable Hatred Aura:"
+msgstr "开启【憎恨光环】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enable Wrath Aura:"
+msgstr "开启【奋锐光环】:"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Enabled:"
+msgstr "启用:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Endgame (-60%)"
+msgstr "终局(-60%)"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemies are Pacified after 60% of Pacify's duration has expired"
+msgstr "敌人会在宁心诅咒持续时间消减60%后被止心"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemies on your Fungal Ground have -10% to all Resistances."
+msgstr "你所创造【真菌地表】上的敌人-10%全部抗性。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy Base Armour:"
+msgstr "敌人基础护甲:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy Block Chance:"
+msgstr "敌人格挡几率:"
+
+#. Source: PoeCharm2 zh-rCN/PartyTab.csv
+msgid "Enemy Conditions"
+msgstr "敌人情况"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy critical strike chance:"
+msgstr "敌人暴击几率:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy critical strike multiplier:"
+msgstr "敌人暴击伤害加成:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy Damage Type:"
+msgstr "敌人伤害类型:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy in Your Presence Duration"
+msgstr "敌人在你视野内持续时间"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy Level:"
+msgstr "敌人等级:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy Max Resistance is always 75%"
+msgstr "敌人最大抗性总是75%"
+
+#. Source: PoeCharm2 zh-rCN/PartyTab.csv
+msgid "Enemy Modifiers"
+msgstr "敌人修正"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy Open Weakness Presence?"
+msgstr "存在范围内是否有带有暴露弱点(亚马逊)的敌人?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy Phys. Damage Reduction:"
+msgstr "敌人物理伤害减免:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy radius:"
+msgstr "敌人范围:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy size preset:"
+msgstr "预设敌人体积:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy Skill Physical Damage:"
+msgstr "敌人技能物理伤害:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy Skill Physical Overwhelm:"
+msgstr "敌人技能物理压制:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Enemy Skill Roll Range %:"
+msgstr "敌人技能掷骰范围:"
+
+#. Source: reviewed notable-db residual UI chrome
+#: src/Classes/NotableDBControl.lua:65 control-constructor
+msgid "Emotions:"
+msgstr "情绪:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Enter folder name:"
+msgstr "请输入文件夹名称:"
+
+#. Source: PoeCharm2 zh-rCN/SharedItemSetListControl.csv
+msgid "Enter name for this item set:"
+msgstr "输入此物品集的名称:"
+
+#. Source: PoeCharm2 zh-rCN/Build.csv
+msgid "Enter name for this loadout:"
+msgstr "为此装备配置输入名字:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Enter name for this passive tree:"
+msgstr "输入此天赋树的名称:"
+
+#. Source: PoeCharm2 zh-rCN/Build.csv
+msgid "Enter new build name:"
+msgstr "输入新构筑的名称:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Enter passive tree link:"
+msgstr "输入天赋树链接:"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Equipped items:"
+msgstr "已装备物品:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Essence"
+msgstr "精华"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Evasion Rating"
+msgstr "闪避值"
+
+#. Source: PoeCharm2 zh-rCN/CalcSections.csv
+msgid "Evasion:"
+msgstr "闪避:"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Expanded mode"
+msgstr "展开模式"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Export Support"
+msgstr "导出支援"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Export Tree"
+msgstr "导出天赋树"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Failed to get PoEURL link. Try again later."
+msgstr "获取PoEURL链接失败。请稍后重试。"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Failed to import build for comparison."
+msgstr "导入构筑以比较失败。"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Fallback Nodes"
+msgstr "备选节点"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Fallback Weight Mode:"
+msgstr "备选权重模式:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Filter Nodes:"
+msgstr "过滤节点:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Final"
+msgstr "最终"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Final (all hits use final)"
+msgstr "最终(所有击中使用最终)"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Final only"
+msgstr "仅最终"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Find a Timeless Jewel"
+msgstr "寻找一个永恒珠宝"
+
+#. Source: PoeCharm2 zh-rCN/TradeQuery.csv
+msgid "Find best"
+msgstr "寻找最佳"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Find Timeless Jewel"
+msgstr "寻找永恒珠宝"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Fire Res. Over Max"
+msgstr "火焰抗性(溢出)"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Fire Resist"
+msgstr "火焰抗性"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Flame Wall:"
+msgstr "【烈焰之墙】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Flicker Strike:"
+msgstr "【闪现打击】:"
+
+#. Source: PoeCharm2 zh-rCN/Build.csv
+msgid "Folder:"
+msgstr "文件夹:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Fresh Meat:"
+msgstr "【鲜肉】："
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "From"
+msgstr "来自"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Frost Shield:"
+msgstr "【冰霜护盾】:"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Full DPS"
+msgstr "最终总和DPS"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Gained a Frenzy Charge Recently?"
+msgstr "你近期有获得【狂怒球】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Gained a Power Charge Recently?"
+msgstr "你近期有获得【暴击球】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Gamblesprint Movement Speed"
+msgstr "【博运步伐】移动速度"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Gem"
+msgstr "技能宝石"
+
+#. Source: PoeCharm2 zh-rCN/CalcSections.csv
+msgid "Gem Level:"
+msgstr "宝石等级:"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Gem name:"
+msgstr "技能宝石名称:"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Gem Options"
+msgstr "技能宝石选项"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Generate"
+msgstr "生成"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Generate a code to share this build with other Path of Building users:"
+msgstr "生成POB代码以分享给其他POE玩家:"
+
+#. Source: PoeCharm2 zh-rCN/TradeQuery.csv
+msgid "Get Currency Conversion Rates"
+msgstr "获取通货兑换比率"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Glorious Madness Stacks"
+msgstr "【疯狂荣光】层数:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Gloves"
+msgstr "手套"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Greater Harbinger of Time:"
+msgstr "【召唤高等时空先驱者】:"
+
+#. Source: PoeCharm2 zh-rCN/Main.csv
+msgid "Green & Blue"
+msgstr "^x33FF77绿 ^7& ^x7070FF蓝"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Harbinger of Time:"
+msgstr "【召唤时空先驱者】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Has a Minion Died Recently?"
+msgstr "你近期有召唤物死亡?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Has Ravenous consumed a corpse?"
+msgstr "近期以贪噬消耗过灵柩?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Attacked Recently?"
+msgstr "你近期有攻击?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you been Crit Recently?"
+msgstr "你近期被暴击?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you been Hit by an Attack Recently?"
+msgstr "你近期被攻击击中?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you been Hit Recently?"
+msgstr "你近期被击中?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you been Stunned Recently?"
+msgstr "你近期有被击晕?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Blocked a Spell Recently?"
+msgstr "你近期有格挡法术?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Blocked an Attack Recently?"
+msgstr "你近期有格挡攻击?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Blocked Recently?"
+msgstr "你近期有格挡?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Cast a Spell in the last second?"
+msgstr "你过去1秒内有施放法术?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Cast a Spell Recently?"
+msgstr "你近期有施放法术?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you cast Dash Recently?"
+msgstr "你近期有使用技能【冲刺】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Crit Recently?"
+msgstr "你近期有造成暴击?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Cursed an enemy Recently?"
+msgstr "你近期有诅咒敌人?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you dealt a Non-Crit Recently?"
+msgstr "你近期有造成非暴击?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Hit Recently with Your Weapon?"
+msgstr "你在近期有用你的武器击中?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Hit Recently?"
+msgstr "你近期有击中?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Hit with a Spell Recently?"
+msgstr "你近期有用法术击中?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Killed in the last 3 Seconds?"
+msgstr "你3秒内有击杀?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Killed Recently?"
+msgstr "你近期有击杀?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Linked recently?"
+msgstr "你近期有进行羁绊链接?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you stopped taking DoT recently?"
+msgstr "你近期停止受到持续伤害?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Stunned an enemy Recently?"
+msgstr "你近期有击晕敌人?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Summoned a Totem Recently?"
+msgstr "你近期内有召唤图腾?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you Suppressed Recently?"
+msgstr "你近期有压制？"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you taken a Savage Hit Recently?"
+msgstr "你近期被【残暴打击】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you taken Spell Damage Recently?"
+msgstr "你近期受到法术伤害?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you thrown a Trap or Mine Recently?"
+msgstr "你近期有投掷陷阱或地雷?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you used a Brand Skill recently?"
+msgstr "你近期有使用烙印技能?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you used a Minion Skill Recently?"
+msgstr "你近期有使用召唤物技能?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you used a Movement Skill Recently?"
+msgstr "你近期有使用位移技能?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you used a Skill Recently?"
+msgstr "你近期有使用技能?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you used a Travel Skill Recently?"
+msgstr "你近期有使用旅行技能?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you used a Vaal Skill Recently?"
+msgstr "你近期有使用瓦尔技能?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have you used a Warcry Recently?"
+msgstr "你近期有使用战吼?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have your Herald Skills Crit Recently?"
+msgstr "你的捷技能近期有暴击?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have your Minions been created Recently?"
+msgstr "你的召唤物是否是近期内创造的?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have your Minions Killed Recently?"
+msgstr "你的召唤物近期有击杀?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have your Skills Crit Recently?"
+msgstr "你的技能近期有暴击?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have your Totems Hit Recently?"
+msgstr "你的图腾近期有击中?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have your Totems Hit with a Spell Recently?"
+msgstr "你的图腾近期有用法术击中?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Have your Totems Killed Recently?"
+msgstr "你的图腾近期有击杀?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Heartstopper Mode:"
+msgstr "凝心者模式"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Helmet"
+msgstr "头部"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Herald of Agony:"
+msgstr "【苦痛之捷】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Herald of Ash:"
+msgstr "【灰烬之捷】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Hex:"
+msgstr "魔蛊:"
+
+#. Source: PoeCharm2 zh-rCN/NotesTab.csv
+msgid "Hide Color Codes"
+msgstr "隐藏颜色代码"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Highest damage type Override:"
+msgstr "最高伤害类型覆盖:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Hit"
+msgstr "击中"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Hit Chance"
+msgstr "命中率"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Hit DPS"
+msgstr "击中DPS"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Hit Rate"
+msgstr "击中速率"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "How many spells cast in the last 8 seconds?"
+msgstr "过去8秒内施放了多少法术?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Ice Nova:"
+msgstr "【冰霜新星】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "If you have a guaranteed source of Blind, the strongest one will apply."
+msgstr "如果你有可靠的【致盲】效果来源，将会应用最大效果强度。"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Ignite DPS"
+msgstr "点燃 DPS"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Igniting"
+msgstr "^xB97123点燃"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Ignore items and skills in weapon swap."
+msgstr "忽略另一套武器以及上面的技能"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Ignore Jewel Limits"
+msgstr "忽略珠宝限制"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Ignore Skill Hit Damage?"
+msgstr "忽略技能击中伤害?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Ignore the effects of things which disable items, like Bringer of Rain"
+msgstr "忽略那些使物品失效的效果，比如祭礼之雨"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Ignore the limits on jewels"
+msgstr "忽略珠宝的限制"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Ignore weapon swap:"
+msgstr "忽略武器切换"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Impaled an enemy recently?"
+msgstr "近期有【穿刺】敌人?"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Import Comparison Build"
+msgstr "导入比较用构筑"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Import Error"
+msgstr "导入出错"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Import from Folder"
+msgstr "从文件夹导入"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Import from:"
+msgstr "导入自:"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Import to a new build"
+msgstr "导入至新构筑"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Import to this build"
+msgstr "导入至当前构筑"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Import Tree"
+msgstr "导入天赋树"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Import..."
+msgstr "导入..."
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Import:"
+msgstr "导入:"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Importing the passive tree will overwrite your current tree."
+msgstr "导入新的天赋树将覆盖你当前的天赋树"
+
+#. Source: PoeCharm2 zh-rCN/CalcsTab.csv
+msgid "In Combat"
+msgstr "战斗状态"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Include in Full DPS:"
+msgstr "计入最终总和DPS:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Infusion consumed recently?"
+msgstr "近期是否消耗过灌注?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Infusion:"
+msgstr "【灌注】:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Intelligence Required"
+msgstr "智慧需求"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Intensify:"
+msgstr "【法术凝聚】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is a Companion in your Presence?"
+msgstr "你存在范围内是否有同伴?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is Avian's Flight active?"
+msgstr "【鸟之斗魄】激活状态?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is Avian's Might active?"
+msgstr "【鸟之力量】激活状态?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is Banner Planted?"
+msgstr "旗帜已放置?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is Bastion of Hope active?"
+msgstr "【希望壁垒】激活?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is Cat's Agility active?"
+msgstr "【猫之敏捷】激活状态?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is Cat's Stealth active?"
+msgstr "【猫之隐匿】激活状态?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is Champion's Intimidate active?"
+msgstr "冠军的威吓启用?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is Embrace Madness active?"
+msgstr "【疯狂之拥】是否激活?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is enemy Armour Broken?"
+msgstr "敌人是否被破甲?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is Fresh Meat active?"
+msgstr "【鲜肉】是否激活?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is Infusion active?"
+msgstr "是否激活【灌注】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is Magmatic Strikes active?"
+msgstr "【熔岩打击】激活?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is Pendulum of Destruction active?"
+msgstr "【毁灭之钟】激活?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is Slipstream active?:"
+msgstr "【激流】是否激活?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the Bleed Aggravated?"
+msgstr "该流血是否已被恶化加剧?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy a Boss?"
+msgstr "敌人是否是BOSS?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy at Close Range?"
+msgstr "敌人是否处于【近距离】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Bleeding?"
+msgstr "敌人是否【流血】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Blinded?"
+msgstr "敌人是否被【致盲】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy covered in Ash?"
+msgstr "敌人是否【灰烬缠身】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy covered in Frost?"
+msgstr "敌人是否【冰霜缠身】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Critically Weak"
+msgstr "敌人是否有暴击弱点?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Crushed?"
+msgstr "敌人是否被【碾压】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Cursed?"
+msgstr "敌人是否【受诅咒】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Dazed?"
+msgstr "敌人是否被目眩?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Debilitated?"
+msgstr "敌人是否【疲惫】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Heavy Stunned?"
+msgstr "敌人是否被沉重眩晕?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Hindered?"
+msgstr "敌人是否被【缓速】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Immobilised?"
+msgstr "敌人是否被禁锢?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy in RF or Scorching Ray:"
+msgstr "敌人是否在正义之火或灼热光纤中:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy in the Frost Shield area?"
+msgstr "敌人是否在【寒霜护盾】范围内?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy in your Link beams?"
+msgstr "敌人在你的羁绊光束中?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Intimidated?"
+msgstr "敌人是否被【威吓】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Maimed?"
+msgstr "敌人是否【瘫痪】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy marked with Signal Prey?"
+msgstr "敌人被【掠食信标】标记?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Moving?"
+msgstr "敌人是否在【移动】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy near you Linked target?"
+msgstr "敌人是否靠近你的羁绊对象?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy near you?"
+msgstr "敌人在你附近?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy on Consecrated Ground?"
+msgstr "敌人是否在【奉献地面】上?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy on Fungal Ground?"
+msgstr "敌人是否在【真菌地表】上?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy on Profane Ground?"
+msgstr "敌人是否在【渎神地面】上?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Pacified?"
+msgstr "敌人被【止心】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Pinned?"
+msgstr "敌人是否被钉身?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Poisoned?"
+msgstr "敌人是否【中毒】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Stunned?"
+msgstr "敌人是否【眩晕】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Taunted?"
+msgstr "敌人是否被【嘲讽】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Is the enemy Unnerved?"
+msgstr "敌人是否被【恐惧】?"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Item"
+msgstr "物品"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Item set:"
+msgstr "物品集:"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Items and Skills"
+msgstr "物品和技能"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Items:"
+msgstr "物品:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Jewel Socket:"
+msgstr "珠宝插槽:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Jewel Type:"
+msgstr "珠宝类型:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Kaom (Strength of Blood)"
+msgstr "冈姆（鲜血之力）"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Killed a poisoned enemy in the last 2 Seconds?"
+msgstr "你2秒内有击杀中毒的敌人?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Killed a Rare or Unique enemy Recently?"
+msgstr "近期有击杀稀有或传奇敌人?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Killed enemy affected by your DoT Recently?"
+msgstr "你的持续伤害效果近期有击杀敌人?"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Large"
+msgstr "大"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Last 25% of attached duration?"
+msgstr "烙印剩余25%附着持续时间?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Last 50% of attached duration?"
+msgstr "烙印剩余50%附着持续时间?"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "League:"
+msgstr "联盟:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Level:"
+msgstr "等级:"
+
+#. Source: PoeCharm2 zh-rCN/CalcSections.csv
+msgid "Life:"
+msgstr "生命:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Lightning Res. Over Max"
+msgstr "闪电抗性(溢出)"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Lightning Resist"
+msgstr "闪电抗性"
+
+#. Source: PoeCharm2 zh-rCN/PartyTab.csv
+msgid "Link Skills"
+msgstr "羁绊技能"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Link Skills:"
+msgstr "羁绊技能:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Linked To Minion?"
+msgstr "是否羁绊链接了召唤物?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Lost a Non-Vaal Guard Skill buff recently?"
+msgstr "你近期失去了一个非瓦尔技能的增益?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Lost an Endurance Charge in the past 8s?"
+msgstr "过去8秒内有失去耐力球?"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Magic"
+msgstr "魔法的"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Mana Regen"
+msgstr "魔力再生"
+
+#. Source: PoeCharm2 zh-rCN/CalcSections.csv
+msgid "Mana:"
+msgstr "魔力:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Manabond:"
+msgstr "【缚魔电殛】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigTab.csv
+msgid "Manage Config Sets"
+msgstr "管理配置集"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Manage Item Sets"
+msgstr "管理物品集"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Manage Passive Trees"
+msgstr "管理天赋树"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Manage Skill Sets"
+msgstr "管理技能集"
+
+#. Source: PoeCharm2 zh-rCN/CalcsTab.csv
+msgid "Manage Spectres..."
+msgstr "管理灵体..."
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Manage..."
+msgstr "管理..."
+
+#. Source: PoeCharm2 zh-rCN/Build.csv
+msgid "Manual"
+msgstr "手动"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Match Character Level"
+msgstr "匹配角色等级"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Max Effect"
+msgstr "最大效果"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Max Hit"
+msgstr "最大击中"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Maxarius (Transcendence)"
+msgstr "玛萨留斯（超然飞升）"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Maximum"
+msgstr "最大值"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Maximum is limited by the number of Projectiles."
+msgstr "最大值受投射物数量限制。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Meat Shield:"
+msgstr "【肉盾】:"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Medium"
+msgstr "中"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Metric:"
+msgstr "参数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Minimum"
+msgstr "最小值"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Minimum Node Weight:"
+msgstr "最小节点权重:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Mirrored"
+msgstr "已复制"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Modifier:"
+msgstr "修正:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Modifiers"
+msgstr "词缀"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Molten Shell:"
+msgstr "【熔岩护盾】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Momentum:"
+msgstr "【动量】:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Movement Speed Modifier"
+msgstr "移动速度加成"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Multi-part area skills:"
+msgstr "多重效果区域技能:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Names"
+msgstr "名字"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Nasima (Second Sight)"
+msgstr "娜斯玛（慧眼）"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "New"
+msgstr "新建"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "New Folder"
+msgstr "新建文件夹"
+
+#. Source: PoeCharm2 zh-rCN/Build.csv
+msgid "New Folder..."
+msgstr "新建文件夹..."
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "No"
+msgstr "否"
+
+#. Source: PoeCharm2 zh-rCN/ItemDBControl.csv
+msgid "No items found that match those filters."
+msgstr "^7没有找到与这些过滤器匹配的物品。"
+
+#. Source: reviewed notable-db residual UI chrome
+#: src/Classes/NotableDBControl.lua:245 control-default-text
+msgid "No notables found that match those filters."
+msgstr "没有找到符合这些过滤条件的核心天赋。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "No summoned Totems in the past 2 seconds?"
+msgstr "你2秒内没有召唤图腾?"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Node Distance:"
+msgstr "节点距离:"
+
+#. Source: PoeCharm2 zh-rCN/PowerReportListControl.csv
+msgid "Node Name"
+msgstr "节点名称"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Normal"
+msgstr "一般"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Normal Maximum"
+msgstr "通常最大"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Note: this code can be very long; you can use 'Share' to shrink it."
+msgstr "注意:这个代码可能会很长;你可以用“分享”来缩短它。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Number of recently applied ailments"
+msgstr "近期施加的异常状态的数量"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Number of seconds the enemy has been in your presence."
+msgstr "敌人出现在你在你视野内的秒数。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Number of times you've Blocked in the past 10s"
+msgstr "过去10秒内你格挡的次数"
+
+#. Source: PoeCharm2 zh-rCN/ItemDBControl.csv
+msgid "Obtainable"
+msgstr "可获得"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Only non-instant spells you cast count"
+msgstr "仅计算非立即施放法术"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Only the number of different spells you cast count"
+msgstr "只计算你施放的不同法术的数量"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Open"
+msgstr "打开"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Overkill damage:"
+msgstr "溢出伤害:"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Overlay comparison"
+msgstr "覆盖层比较"
+
+#. Source: PoeCharm2 zh-rCN/PartyTab.csv
+msgid "Party Member Stats"
+msgstr "队伍成员统计数据"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Passive Tree and Jewels"
+msgstr "天赋树和珠宝"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Passive tree link:"
+msgstr "天赋树链接:"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Passive tree:"
+msgstr "天赋树:"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Paste a build code or URL to import as comparison:"
+msgstr "粘贴一个构筑代码或网址以供导入作为比较对象:"
+
+#. Source: PoeCharm2 zh-rCN/PowerReportListControl.csv
+msgid "Per Point"
+msgstr "每点"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Perforate:"
+msgstr "【凿击】:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Phys. Damage Reduction"
+msgstr "物理伤害减免"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Physical Aegis:"
+msgstr "物理庇护:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Plague Bearer:"
+msgstr "【瘟疫使徒】:"
+
+#. Source: PoeCharm2 zh-rCN/PowerReportListControl.csv
+msgid "Points"
+msgstr "点数"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Poison DPS"
+msgstr "中毒 DPS"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Predator:"
+msgstr "【掠食】:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Prefix"
+msgstr "前缀"
+
+#. Source: PoeCharm2 zh-rCN/TradeQuery.csv
+msgid "Price Item"
+msgstr "给物品定价"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Pride Aura Effect:"
+msgstr "【尊严】光环效果:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Pride:"
+msgstr "【尊严】:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Primary Node Weight:"
+msgstr "主节点权重:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "PvP Tvalue override (ms):"
+msgstr "PvP Tvalue override (ms):"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Quality:"
+msgstr "品质:"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Radius"
+msgstr "范围"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Rage Vortex:"
+msgstr "【怒火旋涡】:"
+
+#. Source: PoeCharm2 zh-rCN/CalcSections.csv
+msgid "Rage:"
+msgstr "怒火:"
+
+#. Source: PoeCharm2 zh-rCN/Build.csv
+msgid "Raise Spectre gem for their buffs and curses to activate"
+msgstr "^7召唤灵体技能石导致的增益与诅咒"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Raise Spectre:"
+msgstr "【召唤灵体】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Raise Spiders:"
+msgstr "【召唤毒蛛】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Raise Zombie:"
+msgstr "【魔卫复苏】:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Rakiata (Tempered by War)"
+msgstr "拉凯尔塔（战争锤炼）"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Random element mode:"
+msgstr "随机元素模式:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Rare"
+msgstr "稀有的"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Rare Templates"
+msgstr "稀有模板物品"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Rarity:"
+msgstr "稀有度:"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Re-import Current"
+msgstr "重导入当前"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Reaper Consumed recently?"
+msgstr "【追命死灵】近期是否消耗了其他召唤生物?"
+
+#. Source: PoeCharm2 zh-rCN/PartyTab.csv
+msgid "Rebuild All"
+msgstr "重建全部"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Recharge rate:"
+msgstr "回复速度:"
+
+#. Source: PoeCharm2 zh-rCN/Main.csv
+msgid "Red & Green"
+msgstr "^xE05030红 ^7& ^x33FF77绿"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Relic"
+msgstr "废墟"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Remove"
+msgstr "移除"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Rename"
+msgstr "重命名"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Repeat Mode:"
+msgstr "重复模式:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Required"
+msgstr "必要的"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Reservation"
+msgstr "保留"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Reserved Darkness:"
+msgstr "保留的黑暗值(夏乌拉侍僧):"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Reset"
+msgstr "重置"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Resist"
+msgstr "抗性"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Resolving PoEURL link..."
+msgstr "处理PoEURL链接中……"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Resource gain calculation mode:"
+msgstr "资源获取计算模式:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Ring 1"
+msgstr "戒指 1"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Ring 2"
+msgstr "戒指 2"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Ruthless Support Mode:"
+msgstr "【无情】辅助宝石模式:"
+
+#. Source: PoeCharm2 zh-rCN/CalcOffence.csv
+msgid "Sap Effect"
+msgstr "精疲力尽效果"
+
+#. Source: PoeCharm2 zh-rCN/Build.csv
+msgid "Save Changes"
+msgstr "保存变更"
+
+#. Source: PoeCharm2 zh-rCN/CalcOffence.csv
+msgid "Scorch Effect"
+msgstr "灼烧效果"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Search"
+msgstr "搜索"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Search for Node:"
+msgstr "搜索节点:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Search Results:"
+msgstr "搜索结果:"
+
+#. Source: PoeCharm2 zh-rCN/TradeQuery.csv
+msgid "Searching..."
+msgstr "搜索中……"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Secondary Node Weight:"
+msgstr "次节点权重:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Seconds of chill on enemy?"
+msgstr "^7敌人^x3F6DB3【冰缓】^7时长?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Seconds of freeze on enemy?"
+msgstr "^7敌人^x3F6DB3【冰冻】^7时长?"
+
+#. Source: PoeCharm2 zh-rCN/ExtBuildListControl.csv
+msgid "See All"
+msgstr "查看全部"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Set Name"
+msgstr "设定名称"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Sets the EHP calc to not apply gain on block and suppress effects"
+msgstr "有效生命值的计算不再考虑格挡和压制时的获取"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Sets the number of enemies affected by Siphoning Trap."
+msgstr "设定受【虹吸陷阱】影响的敌人数量。"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "Share"
+msgstr "分享"
+
+#. Source: PoeCharm2 zh-rCN/SharedItemListControl.csv
+msgid "Shared items:"
+msgstr "共享物品:"
+
+#: src/Classes/SharedItemListControl.lua:13 control-default-text
+msgid "This is a list of items that will be shared between all of\n"
+"your builds.\n"
+"You can add items to this list by dragging them from\n"
+"one of the other lists."
+msgstr "这是一个将在所有构筑之间共享的物品列表。\n"
+"你可以从其他列表拖拽物品到该列表中。"
+
+#. Source: reviewed translation batch
+#: src/Classes/SharedItemListControl.lua:67 popup
+msgid "Are you sure you want to remove '%s' from the shared item list?"
+msgstr "你确定要从共享物品列表中移除 '%s' 吗？"
+
+#. Source: reviewed translation batch
+#: src/Classes/SharedItemSetListControl.lua:14 control-default-text
+msgid "This is a list of item sets that will be shared\nbetween all of your builds.\nYou can add sets to this list by dragging them\nfrom the build's set list."
+msgstr "这是一个将在所有构筑之间共享的物品组清单。\n你可以从构筑的物品组清单拖曳物品组到这个清单。"
+
+#. Source: PoeCharm2 zh-rCN/CalcOffence.csv
+msgid "Shock Effect"
+msgstr "感电效果"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Shock Stacks"
+msgstr "^xADAA47【感电】^7叠层"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Shocking"
+msgstr "^xADAA47感电"
+
+#. Source: PoeCharm2 zh-rCN/PartyTab.csv
+msgid "Show Advanced Info"
+msgstr "显示进阶信息"
+
+#. Source: PoeCharm2 zh-rCN/NotesTab.csv
+msgid "Show Color Codes"
+msgstr "显示颜色代码"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Show only differences"
+msgstr "仅显示差异"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Show support gems:"
+msgstr "显示辅助宝石:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Shrapnel Ballista:"
+msgstr "【散射弩炮】:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Shrink with PoEURL"
+msgstr "用PoEURL缩短"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Shrinking..."
+msgstr "缩短中……"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Sigil of Power:"
+msgstr "【威能法印】:"
+
+#. Source: PoeCharm2 zh-rCN/PoBArchivesProvider.csv
+msgid "Similar Builds"
+msgstr "近似构筑"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Siphoning Trap:"
+msgstr "【虹吸陷阱】:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Skill"
+msgstr "技能"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Skill gems:"
+msgstr "技能宝石:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Skill is targeting the Branded enemy"
+msgstr "技能正作用于已被烙印附着的敌人"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Skill set:"
+msgstr "技能集:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Skill types"
+msgstr "技能类型"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Skill:"
+msgstr "技能:"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Small"
+msgstr "小"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Socket Groups:"
+msgstr "插槽组:"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Socketed in:"
+msgstr "插槽位置:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Sort"
+msgstr "排序"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Sort by Name"
+msgstr "排序(名称)"
+
+#. Source: PoeCharm2 zh-rCN/SkillsTab.csv
+msgid "Sort gems by DPS:"
+msgstr "技能宝石排序(DPS):"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Source Name"
+msgstr "来源名称"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Source:"
+msgstr "来源:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Spawned a corpse Recently?"
+msgstr "近期有产生灵柩?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Spectral Wolf:"
+msgstr "【召唤幽狼】:"
+
+#. Source: PoeCharm2 zh-rCN/Build.csv
+msgid "Spectres in your Library must be assigned to an active"
+msgstr "^7你灵体库中的灵体必须激活一名"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Speed"
+msgstr "速度"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Spell Block Chance"
+msgstr "法术格挡几率"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Spell Dodge Chance"
+msgstr "法术躲避几率"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Spell Suppression Chance"
+msgstr "法术压制几率"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Split"
+msgstr "已分裂"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Staff"
+msgstr "长杖"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Stages:"
+msgstr "叠层数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Stance Skills:"
+msgstr "姿态技能:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Stance:"
+msgstr "姿态:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Standard Boss"
+msgstr "标准Boss"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Start"
+msgstr "开始"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Stat"
+msgstr "状态"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Steel Shards consumed:"
+msgstr "消耗的钢刃碎片数:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Steel Skills:"
+msgstr "钢刃技能:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Steel Wards:"
+msgstr "【破碎铁刃】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Storm Rain of the Conduit:"
+msgstr "【引雷之暴雨箭】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Storm Rain:"
+msgstr "【暴雨箭】:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Strength Required"
+msgstr "力量需求"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Stunned while Casting Recently?"
+msgstr "你近期有在施法时被晕眩?"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Suffix"
+msgstr "后缀"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Summon Elemental Relic:"
+msgstr "【召唤元素遗物】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Summon Holy Relic:"
+msgstr "【召唤圣物】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Summon Lightning Golem:"
+msgstr "【召唤闪电魔像】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Summon Reaper:"
+msgstr "【召唤追命死灵】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Summoned Golem in past 10 Seconds?"
+msgstr "过去10秒内召唤了魔像?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Summoned Golem in past 8 Seconds?"
+msgstr "过去8秒内召唤了魔像?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Summoned Spectre in past 8 Seconds?"
+msgstr "过去8秒内是否召唤了【灵体】?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Summoned Zombie in past 8 Seconds?"
+msgstr "过去8秒内是否召唤了【魔卫】?"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Support gems:"
+msgstr "辅助宝石:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Taunted an enemy Recently?"
+msgstr "近期有嘲讽敌人?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "The amount of valour consumed for the placed banner"
+msgstr "放置旗帜所消耗的勇气量"
+
+#. Source: PoeCharm2 zh-rCN/BuildListControl.csv
+msgid "The folder is not empty."
+msgstr "此文件夹不是空的。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "The total life of your Spectres that can be taken before yours (used by jinxed juju)"
+msgstr "可被你的灵体在你之前代为承受的最大生命值(伤害)(为厄运护符所用)"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "The total life of your Totems (excluding Vaal Rejuvenation Totem) that can be taken before yours (used by totem mastery)"
+msgstr "可被你的图腾(包括瓦尔·回春图腾)在你之前代为承受的最大生命值(伤害)(为图腾专精所用)"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "The total life of your Vaal Rejuvenation Totems that can be taken before yours"
+msgstr "可被你的瓦尔·回春图腾在你之前代为承受的最大生命值(伤害)"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Thirst for Blood:"
+msgstr "【鲜血渴求】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This also implies that you are channelling"
+msgstr "这也意味着你在持续吟唱"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This also implies that you are Poisoned."
+msgstr "这也意味着你【中毒】了。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This also implies that you have been Hit Recently."
+msgstr "这也意味着你近期被击中。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This also implies that you have Blocked Recently."
+msgstr "这也意味着你近期有格挡。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This also implies that you have Hit Recently."
+msgstr "这也意味着你的近期有击中。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This also implies that you have Killed Recently."
+msgstr "这也意味着你近期有击杀。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This also implies that you have used a Skill Recently."
+msgstr "这也意味着你近期有使用技能。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This also implies that you have used a Skill Recently.."
+msgstr "这也意味着你近期有使用技能。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This also implies that you Totems have Hit Recently."
+msgstr "这也意味着你的图腾近期有击中。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This also implies that your Minions have Killed Recently."
+msgstr "这也意味着你的召唤物近期有击杀。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This also implies that your Skills have Crit Recently."
+msgstr "这也意味着你的技能近期有暴击。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This also implies that your Totems have Killed Recently."
+msgstr "这也意味着你的图腾近期有击杀。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This also implies you have 'Consumed a corpse Recently'"
+msgstr "这也意味着你'近期有消耗灵柩'"
+
+#. Source: PoeCharm2 zh-rCN/BuildListControl.csv
+msgid "This cannot be undone."
+msgstr "该行动无法被撤销。"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "This is an older tree version, which may not be fully compatible with the current game version."
+msgstr "此天赋树为旧版,可能与当前的游戏版本不完全兼容。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This multiplies the damage of a given skill in pvp, for instance any with damage multiplier specific to pvp (from skill or support or item like sire of shards)"
+msgstr "This multiplies the damage of a given skill in pvp, for instance any with damage multiplier specific to pvp (from skill or support or item like sire of shards)"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This option enables the Everlasting Sacrifice buff that grants +5% to all maximum resists."
+msgstr "这个选项启用【永恒献祭】赋予+5%全部抗性上限的增益。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This option is specific to Arborix."
+msgstr "此选项为【阿伯瑞斯】特有。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This option is specific to Augyre."
+msgstr "此选项为【占星】特有。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This option is specific to Oni-Goroshi."
+msgstr "这是【鬼弑·查兰之剑】的特有选项。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This option is specific to Vulconus."
+msgstr "此选项为【火神锻台】特有。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This option prevents EE from being reset by the hit damage of your main skill."
+msgstr "此选项可防止【元素之相】(EE)被你主技能的击中伤害重置。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This option sets the Movement Speed from Gamblesprint boots."
+msgstr "这个选项设置来自【博运步伐】靴子的移动速度。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This option sets whether an enemy is between you and your linked target."
+msgstr "这个选项设置敌人是否在你和你连接的目标之间。"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This will enable the Fanaticism buff itself. (Grants 75% more cast speed, reduced skill cost, and increased area of effect)"
+msgstr "这将使【欣喜若狂】buff生效。(使得施法速度总增75%，技能消耗减少75%，效果范围提高75%)"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This will override the number of Mines per throw"
+msgstr "这将覆盖原本的每次投掷地雷数"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "This will override the number of Traps per throw"
+msgstr "这将覆盖原本的每次投掷陷阱数"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Time spent stationary"
+msgstr "静止时长"
+
+#. Source: PoeCharm2 zh-rCN/ImportTab.csv
+msgid "To import a build, enter URL or code here:"
+msgstr "要导入构筑，请在此处输入URL或代码:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Tornado Shot:"
+msgstr "【龙卷射击】:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Total"
+msgstr "总计"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Total Damage per Ignite"
+msgstr "每次点燃总伤害"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Total Damage per Poison"
+msgstr "每次中毒总伤害"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Total DPS inc. Ignite"
+msgstr "总+点燃 DPS"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Total DPS inc. Poison"
+msgstr "总+中毒 DPS"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Total Life"
+msgstr "最大生命"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Total life pool of Sentinel of Radiance"
+msgstr "光辉哨兵总生命池"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Total Mana"
+msgstr "最大魔力"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Total Spectre Life:"
+msgstr "灵体最大生命:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Total Totem Life:"
+msgstr "图腾最大生命:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Total Vaal Rejuvenation Totem Life:"
+msgstr "瓦尔·回春图腾总生命值"
+
+#. Source: PoeCharm2 zh-rCN/CalcSections.csv
+msgid "Totem Duration"
+msgstr "图腾持续时间:"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Totem Placement Time"
+msgstr "图腾放置间隔"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Toxic Rain:"
+msgstr "【毒雨】:"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Trade for these items"
+msgstr "交易这些物品"
+
+#. Source: PoeCharm2 zh-rCN/TradeQuery.csv
+msgid "Trader"
+msgstr "交易器"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Trap Cooldown"
+msgstr "陷阱冷却"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Trap Throwing Time"
+msgstr "陷阱投郑间隔"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Trauma:"
+msgstr "【内伤】:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Tree Converted"
+msgstr "天赋树转换完成"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Tree set:"
+msgstr "天赋树集:"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+msgid "Tree:"
+msgstr "天赋树:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Tvalue in milliseconds. This overrides the Tvalue of a given skill, for instance any with fixed Tvalues, or modified Tvalues"
+msgstr "Tvalue in milliseconds. This overrides the Tvalue of a given skill, for instance any with fixed Tvalues, or modified Tvalues"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Type"
+msgstr "类型"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Type:"
+msgstr "类型:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Uber Pinnacle Boss"
+msgstr "终极巅峰头目"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Unbound Avatar:"
+msgstr "【荒野之象】:"
+
+#. Source: PoeCharm2 zh-rCN/CalcsTab.csv
+msgid "Unbuffed"
+msgstr "无增益效果"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Unhinge:"
+msgstr "【精神失常】:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Unique"
+msgstr "传奇的"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Uniques"
+msgstr "传奇"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Unknown Passive Tree Version"
+msgstr "未知天赋树版本"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Unlucky"
+msgstr "不幸"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Unnerved enemies take 10% increased Spell Damage."
+msgstr "被【恐惧】的敌人承受的法术伤害提高10%。"
+
+#. Source: PoeCharm2 zh-rCN/ItemDBControl.csv
+msgid "Unobtainable"
+msgstr "不可获得"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Unreserved Life"
+msgstr "未保留生命"
+
+#. Source: PoeCharm2 zh-rCN/Unsorted.csv
+msgid "Unreserved Mana"
+msgstr "未保留魔力"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Untyped"
+msgstr "非类型"
+
+#. Source: PoeCharm2 zh-rCN/Main.csv
+msgid "Update Available"
+msgstr "有可用更新"
+
+#. Source: PoeCharm2 zh-rCN/ItemDBControl.csv
+msgid "Upgraded"
+msgstr "来自升级"
+
+#. Source: PoeCharm2 zh-rCN/CalcSections.csv
+msgid "Uptime"
+msgstr "覆盖时间"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Use this option to disable the skill reservation factoring into eHP calculations"
+msgstr "使用此选项禁用有效生命值计算中的技能保留因素"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Used a Warcry in the past 8 seconds?"
+msgstr "过去8秒内有使用战吼?"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Vaal Molten Shell:"
+msgstr "【瓦尔熔岩护盾】:"
+
+#. Source: PoeCharm2 zh-rCN/ItemDBControl.csv
+msgid "Vendor Recipe"
+msgstr "商人配方"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Very Unlucky"
+msgstr "非常不幸"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Victario (Supreme Grandstanding)"
+msgstr "维多里奥（无上之秀）"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Vigilant Strike:"
+msgstr "【戒备打击】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Voltaxic Burst:"
+msgstr "【雷电魔爆】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Vortex:"
+msgstr "【漩涡】:"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Warcry Power:"
+msgstr "战吼威力:"
+
+#. Source: PoeCharm2 zh-rCN/PartyTab.csv
+msgid "Warcry Skills"
+msgstr "战吼技能"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "Warcry Skills:"
+msgstr "战吼技能:"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Ward"
+msgstr "结界"
+
+#. Source: PoeCharm2 zh-rCN/CalcSections.csv
+msgid "Ward:"
+msgstr "结界:"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Weapon 1"
+msgstr "武器1"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Weapon 1 (Swap)"
+msgstr "武器 1 (互换)"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Weapon 2"
+msgstr "武器2"
+
+#. Source: PoeCharm2 zh-rCN/GUI.csv
+msgid "Weapon 2 (Swap)"
+msgstr "武器 2 (互换)"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Weapon Range"
+msgstr "武器范围"
+
+#. Source: PoeCharm2 zh-rCN/ItemsTab.csv
+msgid "Weapon Set:"
+msgstr "武器集:"
+
+#. Source: PoeCharm2 zh-rCN/TreeTab.csv
+msgid "Xibaqua (Divine Flesh)"
+msgstr "夏巴夸亚（神圣血肉）"
+
+#. Source: PoeCharm2 zh-rCN/ConfigOptions.csv
+msgid "You are surrounded if there are at least 5 Enemies within 3 metres of you"
+msgstr "如果你周围 3 米范围内至少有 5 名敌人,则你被视为被包围"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:970 tooltip-text
+msgid "Changes which protocol is used when downloading updates and importing builds."
+msgstr "更改下载更新和导入构筑时使用的协议。"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1006 tooltip-text
+msgid ""
+"Overrides Windows DPI scaling inside Path of Building.\n"
+"Choose a percentage between 100% and 250% or revert to the system default."
+msgstr ""
+"覆写 Path of Building 内的 Windows DPI 缩放。\n"
+"选择 100% 到 250% 之间的百分比，或恢复为系统默认值。"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1015 tooltip-text
+msgid ""
+"Overrides the default save location for builds.\n"
+"The default location is: '%s'"
+msgstr ""
+"覆写构筑的默认保存位置。\n"
+"默认位置为：'%s'"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1026 tooltip-text
+msgid "Changes the colour scheme used for the node power display on the passive tree."
+msgstr "更改被动天赋树上节点强度显示使用的配色。"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1038 tooltip-text
+msgid ""
+"Overrides the default hex colour for positive values in breakdowns. \n"
+"Expected format is 0x000000. The default value is %s.\n"
+"If updating while inside a build, please re-load the build after saving."
+msgstr ""
+"覆写明细中正面数值的默认十六进制颜色。\n"
+"预期格式为 0x000000。默认值为 %s。\n"
+"若在构筑中更新，保存后请重新载入该构筑。"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1050 tooltip-text
+msgid ""
+"Overrides the default hex colour for negative values in breakdowns. \n"
+"Expected format is 0x000000. The default value is %s.\n"
+"If updating while inside a build, please re-load the build after saving."
+msgstr ""
+"覆写明细中负面数值的默认十六进制颜色。\n"
+"预期格式为 0x000000。默认值为 %s。\n"
+"若在构筑中更新，保存后请重新载入该构筑。"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1063 tooltip-text
+msgid ""
+"Overrides the default hex colour for highlighting nodes in passive tree search. \n"
+"Expected format is 0x000000. The default value is %s\n"
+"If updating while inside a build, please re-load the build after saving."
+msgstr ""
+"覆写被动天赋树搜索中高亮节点的默认十六进制颜色。\n"
+"预期格式为 0x000000。默认值为 %s\n"
+"若在构筑中更新，保存后请重新载入该构筑。"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1080 tooltip-text
+msgid "If updating while inside a build, please re-load the build after saving."
+msgstr "若在构筑中更新，保存后请重新载入该构筑。"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1091 tooltip-text
+msgid "Display all item affix slots as a stacked list instead of hiding them in dropdowns"
+msgstr "将所有物品词缀栏位显示为堆叠列表，而不是隐藏在下拉菜单中"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1132 tooltip-text
+msgid "Set the default quality that can be overwritten by build-related quality settings in the skill panel."
+msgstr "设置可由技能面板中构筑相关品质设置覆写的默认品质。"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1139 tooltip-text
+msgid "Set the default quality that will be applied to newly created or pasted items."
+msgstr "设置应用到新建或粘贴物品的默认品质。"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1146 tooltip-text
+msgid "Set the default level of your builds. If this is higher than 1, manual level mode will be enabled by default in new builds."
+msgstr "设置构筑的默认等级。若高于 1，新构筑默认启用手动等级模式。"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1175 tooltip-text
+msgid "Apply augments and anoints from current gear when comparing new gear, given they are possible to add to the new item."
+msgstr "比较新装备时，若可添加到新物品，则套用当前装备上的增幅与涂油。"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1182 tooltip-text
+msgid ""
+"Show ^8(Not supported in PoB yet) ^7next to unsupported mods\n"
+"Requires PoB to restart for it to take effect"
+msgstr ""
+"在不支持的词缀旁显示 ^8(PoB 尚未支持) ^7\n"
+"需要重启 PoB 才会生效"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1189 tooltip-text
+msgid ""
+"Default scroll direction is:\n"
+"Scroll Up = Move right\n"
+"Scroll Down = Move left"
+msgstr ""
+"默认滚动方向为：\n"
+"向上滚动 = 向右移动\n"
+"向下滚动 = 向左移动"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1197 tooltip-text
+msgid "Do not Autosave builds while on Dev branch"
+msgstr "在 Dev 分支时不要自动保存构筑"
+
+#. Source: reviewed Main path popup chrome
+#: src/Modules/Main.lua:833 label
+msgid ""
+"User settings path cannot be loaded: %s\n"
+"Current Path: %s\n"
+"If this location is managed by OneDrive, navigate to that folder and manually try\n"
+"to open Settings.xml in a text editor before re-opening Path of Building\n"
+"Otherwise, specify a new location for your Settings.xml:"
+msgstr ""
+"无法载入用户设置路径：%s\n"
+"当前路径：%s\n"
+"如果此位置由 OneDrive 管理，请前往该文件夹并手动尝试\n"
+"在文本编辑器中打开 Settings.xml，然后再重新打开 Path of Building\n"
+"否则，请为 Settings.xml 指定新的位置："
+
+#. Source: reviewed Main path popup chrome
+#: src/Modules/Main.lua:852 popup-message
+msgid "Couldn't create '%s' : %s"
+msgstr "无法创建 '%s'：%s"
+
+#. Source: reviewed Main options tooltip chrome
+#: src/Modules/Main.lua:1168 tooltip-text
+msgid "Shows comparisons in tooltips only for the slot you are currently placing the item in, instead of all slots."
+msgstr "只在当前放置物品的栏位提示中显示比较，而不是所有栏位。"
+
+#. Source: reviewed ConfigTab tooltip boundary
+#: src/Classes/ConfigTab.lua:263 conditional-tooltip
+msgid "This option is specific to '%s'."
+msgstr "此选项专属于 '%s'。"
+
+#. Source: reviewed ConfigTab tooltip boundary
+#: src/Classes/ConfigTab.lua:638 conditional-tooltip
+msgid "This config option is conditional with missing source and is invalid."
+msgstr "此配置选项有条件限制，但缺少来源，因此无效。"
+
+#. Source: reviewed ConfigTab toggle chrome
+#: src/Classes/ConfigTab.lua:60 button-label
+msgid "Hide Ineligible Configurations"
+msgstr "隐藏不符合条件的配置"
+
+#. Source: reviewed ConfigTab toggle chrome
+#: src/Classes/ConfigTab.lua:60 button-label
+msgid "Show All Configurations"
+msgstr "显示所有配置"
+
+#. Source: reviewed PartyTab notes chrome
+#: src/Classes/PartyTab.lua:59 label
+msgid ""
+"To import a build it must be exported with \"Export support\" enabled in the import/export tab\n"
+"Auras with the highest effect will take priority, your curses will take priority over a support's\n"
+"\n"
+"All of these effects can be found in the Calcs tab"
+msgstr ""
+"若要导入构筑，必须在导入/导出页签启用 \"Export support\" 后导出\n"
+"效果最高的光环会优先套用，你的诅咒会优先于辅助者的诅咒\n"
+"\n"
+"所有这些效果都可以在计算页签找到"
+
+#. Source: reviewed PartyTab import chrome
+#: src/Classes/PartyTab.lua:73 label
+msgid "Enter a build code/URL below:"
+msgstr "在下方输入构筑代码/URL："
+
+#. Source: reviewed PartyTab import chrome
+#: src/Classes/PartyTab.lua:126 status-label
+msgid "Invalid input"
+msgstr "输入无效"
+
+#. Source: reviewed PartyTab import chrome
+#: src/Classes/PartyTab.lua:137 status-label
+msgid "URL is valid (%s)"
+msgstr "URL 有效（%s）"
+
+#. Source: reviewed PartyTab import chrome
+#: src/Classes/PartyTab.lua:154 status-label
+msgid "Code is valid"
+msgstr "代码有效"
+
+#. Source: reviewed PartyTab import chrome
+#: src/Classes/PartyTab.lua:297 tooltip-text
+msgid ""
+"Destination for Import/clear\n"
+"Currently Links Skills do not export"
+msgstr ""
+"导入/清除的目标\n"
+"目前连结技能不会导出"
+
+#. Source: reviewed PartyTab import chrome
+#: src/Classes/PartyTab.lua:298 button-label
+msgid "Import"
+msgstr "导入"
+
+#. Source: reviewed PartyTab import chrome
+#: src/Classes/PartyTab.lua:327 tooltip-text
+msgid "This sets the import button to append to the current party lists instead of replacing them (curses will still replace)"
+msgstr "这会让导入按钮附加到当前队伍列表，而不是替换它们（诅咒仍会替换）"
+
+#. Source: reviewed PartyTab import chrome
+#: src/Classes/PartyTab.lua:341 tooltip-text
+msgid "Clears all the party tab imported data"
+msgstr "清除所有队伍页签导入数据"
+
+#. Source: reviewed PartyTab import chrome
+#: src/Classes/PartyTab.lua:344 tooltip-text
+msgid ""
+"This shows the advanced info like what stats each aura/curse etc are adding, as well as enables the ability to edit them without a re-export\n"
+"Do not edit any boxes unless you know what you are doing, use copy/paste or import instead"
+msgstr ""
+"这会显示进阶信息，例如各光环/诅咒等加入了哪些属性，也允许不重新导出就编辑它们\n"
+"除非你知道自己在做什么，否则不要编辑任何栏位；请改用复制/粘贴或导入"
+
+#. Source: reviewed PartyTab import chrome
+#: src/Classes/PartyTab.lua:357 tooltip-text
+msgid ""
+"Removes the effects of the supports, without removing the data\n"
+"Use \"rebuild all\" to apply the effects again"
+msgstr ""
+"移除辅助者的效果，但不移除数据\n"
+"使用 \"全部重建\" 可再次套用效果"
+
+#. Source: reviewed PartyTab import chrome
+#: src/Classes/PartyTab.lua:374 tooltip-text
+msgid "Reparse all the inputs incase they have been disabled or they have changed since loading the build or importing"
+msgstr "重新解析所有输入，以处理它们在载入构筑或导入后被停用或已变更的情况"
+
+#. Source: reviewed TreeTab top tooltip chrome
+#: src/Classes/TreeTab.lua:77 tooltip-line
+msgid "Class: %s"
+msgstr "职业：%s"
+
+#. Source: reviewed TreeTab top tooltip chrome
+#: src/Classes/TreeTab.lua:78 tooltip-line
+msgid "Ascendancy: %s"
+msgstr "升华：%s"
+
+#. Source: reviewed TreeTab top tooltip chrome
+#: src/Classes/TreeTab.lua:79 tooltip-line
+msgid "Points used: %d"
+msgstr "已使用点数：%d"
+
+#. Source: reviewed TreeTab top tooltip chrome
+#: src/Classes/TreeTab.lua:81 tooltip-line
+msgid "Jewel sockets: %d"
+msgstr "珠宝插槽：%d"
+
+#. Source: reviewed TreeTab top tooltip chrome
+#: src/Classes/TreeTab.lua:87 tooltip-line
+msgid "Switching to this tree will give you:"
+msgstr "切换到此天赋树将带来："
+
+#. Source: reviewed TreeTab top tooltip chrome
+#: src/Classes/TreeTab.lua:108 tooltip-line
+msgid "%s Gold ^7required to switch to this tree."
+msgstr "需要 %s Gold ^7才能切换到此天赋树。"
+
+#. Source: reviewed TreeTab top tooltip chrome
+#: src/Classes/TreeTab.lua:110 tooltip-line
+msgid "%d Passive node to be refunded."
+msgstr "需退还 %d 个被动天赋点。"
+
+#. Source: reviewed TreeTab top tooltip chrome
+#: src/Classes/TreeTab.lua:110 tooltip-line
+msgid "%d Passive nodes to be refunded."
+msgstr "需退还 %d 个被动天赋点。"
+
+#. Source: reviewed TreeTab top tooltip chrome
+#: src/Classes/TreeTab.lua:113 tooltip-line
+msgid "%d Ascendancy node to be refunded."
+msgstr "需退还 %d 个升华天赋点。"
+
+#. Source: reviewed TreeTab top tooltip chrome
+#: src/Classes/TreeTab.lua:113 tooltip-line
+msgid "%d Ascendancy nodes to be refunded."
+msgstr "需退还 %d 个升华天赋点。"
+
+#. Source: reviewed TreeTab top tooltip chrome
+#: src/Classes/TreeTab.lua:118 tooltip-line
+msgid "Game Version: %s"
+msgstr "游戏版本：%s"
+
+#. Source: reviewed TreeTab search chrome
+#: src/Classes/TreeTab.lua:190 tooltip-text
+msgid ""
+"Uses Lua pattern matching for complex searches.\n"
+"Prefix your search with \"oil:\" to search by anoint recipe.\n"
+"To search for multiple terms: (increased.fire.damage|increased.area.of.effect|etc)"
+msgstr ""
+"使用 Lua 模式匹配进行复杂搜索。\n"
+"搜索前加上 \"oil:\" 可按涂油配方搜索。\n"
+"搜索多个词时可使用：(increased.fire.damage|increased.area.of.effect|etc)"
+
+#. Source: reviewed TreeTab search chrome
+#: src/Classes/TreeTab.lua:240 tooltip-text
+msgid "Limit of Node distance to search (lower = faster)"
+msgstr "限制要搜索的节点距离（越低越快）"
+
+#. Source: reviewed TreeTab power report chrome
+#: src/Classes/TreeTab.lua:259 tooltip-text
+msgid ""
+"When enabled, an estimate of the offensive and defensive strength of\n"
+"each unallocated passive is calculated and displayed visually.\n"
+"Offensive power shows as %s, defensive power as %s."
+msgstr ""
+"启用后，会计算每个未配置被动天赋的攻击与防御强度估算，\n"
+"并以视觉方式显示。\n"
+"攻击强度显示为 %s，防御强度显示为 %s。"
+
+#. Source: reviewed TreeTab power report chrome
+#: src/Classes/TreeTab.lua:296 toast
+msgid "Building Power Report... (%d%%)"
+msgstr "正在建立强度报告... (%d%%)"
+
+#. Source: reviewed TreeTab power report chrome
+#: src/Classes/TreeTab.lua:296 toast
+msgid "Building Power Report..."
+msgstr "正在建立强度报告..."
+
+#. Source: reviewed TreeTab conversion chrome
+#: src/Classes/TreeTab.lua:612 popup-message
+msgid ""
+"The tree has been converted to %s.\n"
+"Note that some or all of the passives may have been de-allocated due to changes in the tree.\n"
+"\n"
+"You can switch back to the old tree using the tree selector at the bottom left."
+msgstr ""
+"天赋树已转换为 %s。\n"
+"请注意，由于天赋树变更，部分或全部被动天赋可能已被取消配置。\n"
+"\n"
+"你可以使用左下角的天赋树选择器切回旧天赋树。"
+
+#. Source: reviewed TreeTab load chrome
+#: src/Classes/TreeTab.lua:510 popup-message
+msgid ""
+"The build you are trying to load uses an unrecognised version of the passive skill tree.\n"
+"You may need to update the program before loading this build."
+msgstr ""
+"你尝试载入的构筑使用了无法识别的被动技能树版本。\n"
+"载入此构筑前可能需要更新程序。"
+
+#. Source: reviewed TreeTab conversion chrome
+#: src/Classes/TreeTab.lua:667 label
+msgid ""
+"Warning: some or all of the passives may be de-allocated due to changes in the tree.\n"
+"\n"
+"Convert will replace your current tree.\n"
+"Copy + Convert will backup your current tree.\n"
+msgstr ""
+"警告：由于天赋树变更，部分或全部被动天赋可能会被取消配置。\n"
+"\n"
+"转换会替换当前天赋树。\n"
+"复制 + 转换会备份当前天赋树。\n"
+
+#. Source: reviewed TreeTab conversion chrome
+#: src/Classes/TreeTab.lua:681 popup-title
+msgid "Convert to Version %s"
+msgstr "转换到版本 %s"
+
+#. Source: reviewed TreeTab conversion chrome
+#: src/Classes/TreeTab.lua:674 button-label
+#: src/Classes/TreeTab.lua:689 button-label
+msgid "Convert"
+msgstr "转换"
+
+#. Source: reviewed TreeTab conversion chrome
+#: src/Classes/TreeTab.lua:676 button-label
+msgid "Copy + Convert"
+msgstr "复制 + 转换"
+
+#. Source: reviewed TreeTab conversion chrome
+#: src/Classes/TreeTab.lua:679 button-label
+#: src/Classes/TreeTab.lua:693 button-label
+msgid "Cancel"
+msgstr "取消"
+
+#. Source: reviewed TreeTab conversion chrome
+#: src/Classes/TreeTab.lua:686 label
+msgid ""
+"Warning: some or all of the passives may be de-allocated due to changes in the tree.\n"
+"\n"
+"Convert will replace all trees that are not Version %s.\n"
+"This action cannot be undone.\n"
+msgstr ""
+"警告：由于天赋树变更，部分或全部被动天赋可能会被取消配置。\n"
+"\n"
+"转换会替换所有不是版本 %s 的天赋树。\n"
+"此操作无法撤销。\n"
+
+#. Source: reviewed TreeTab conversion chrome
+#: src/Classes/TreeTab.lua:694 popup-title
+msgid "Convert all to Version %s"
+msgstr "全部转换到版本 %s"
+
+#. Source: reviewed TreeTab top chrome
+#: src/Classes/TreeTab.lua:126 checkbox-label
+msgid "Compare:"
+msgstr "比较："
+
+#. Source: reviewed TreeTab top chrome
+#: src/Classes/TreeTab.lua:149 button-label
+msgid "Reset Tree"
+msgstr "重置天赋树"
+
+#. Source: reviewed TreeTab top chrome
+#: src/Classes/TreeTab.lua:176 label
+msgid "Version:"
+msgstr "版本："
+
+#. Source: reviewed TreeTab power report chrome
+#: src/Classes/TreeTab.lua:202 checkbox-label
+msgid "Show Node Power:"
+msgstr "显示节点强度："
+
+#. Source: reviewed TreeTab power report chrome
+#: src/Classes/TreeTab.lua:210 dropdown-label
+msgid "All"
+msgstr "全部"
+
+#. Source: reviewed TreeTab power report chrome
+#: src/Classes/TreeTab.lua:271 button-label
+msgid "Hide Power Report"
+msgstr "隐藏强度报告"
+
+#. Source: reviewed TreeTab power report chrome
+#: src/Classes/TreeTab.lua:271 button-label
+msgid "Show Power Report"
+msgstr "显示强度报告"
+
+#. Source: reviewed PowerReportList chrome
+#: src/Classes/PowerReportListControl.lua:38 dropdown-label
+msgid "Show Unallocated"
+msgstr "显示未配置"
+
+#. Source: reviewed PowerReportList chrome
+#: src/Classes/PowerReportListControl.lua:38 dropdown-label
+msgid "Show Unallocated & Clusters"
+msgstr "显示未配置与星团"
+
+#. Source: reviewed PowerReportList chrome
+#: src/Classes/PowerReportListControl.lua:38 dropdown-label
+msgid "Show Allocated"
+msgstr "显示已配置"
+
+#. Source: reviewed PowerReportList chrome
+#: src/Classes/PowerReportListControl.lua:54 status-label
+msgid "\"%s\" not supported.  Select a specific stat from the dropdown."
+msgstr "不支持 \"%s\"。请从下拉菜单选择特定属性。"
+
+#. Source: PoeCharm2 zh-rCN/NotesTab.csv
+#: src/Classes/NotesTab.lua:17 label
+msgid ""
+"You can use Ctrl +/- (or Ctrl+Scroll) to zoom in and out and Ctrl+0 to reset.\n"
+"This field also supports different colors.  Using the caret symbol (^) followed by a Hex code or a number (0-9) will set the color.\n"
+"Below are some common color codes PoB uses:\t"
+msgstr ""
+"你可以使用 Ctrl +/- (或 Ctrl+滚轮) 来缩放大小，并使用 Ctrl+0 来重置。\n"
+"此区域也支持不同颜色。使用后面跟着十六进制代码或数字 (0-9) 的插入符 (^) 可以设定颜色。\n"
+"下方是一些 PoB 使用的常见颜色:\t"
+
+#. Source: reviewed NotesTab chrome
+#: src/Classes/NotesTab.lua:21 button-label
+msgid "NORMAL"
+msgstr "普通"
+
+#. Source: reviewed NotesTab chrome
+#: src/Classes/NotesTab.lua:22 button-label
+msgid "MAGIC"
+msgstr "魔法"
+
+#. Source: reviewed NotesTab chrome
+#: src/Classes/NotesTab.lua:23 button-label
+msgid "RARE"
+msgstr "稀有"
+
+#. Source: reviewed NotesTab chrome
+#: src/Classes/NotesTab.lua:24 button-label
+msgid "UNIQUE"
+msgstr "传奇"
+
+#. Source: reviewed NotesTab chrome
+#: src/Classes/NotesTab.lua:25 button-label
+msgid "FIRE"
+msgstr "火焰"
+
+#. Source: reviewed NotesTab chrome
+#: src/Classes/NotesTab.lua:26 button-label
+msgid "COLD"
+msgstr "冰霜"
+
+#. Source: reviewed NotesTab chrome
+#: src/Classes/NotesTab.lua:27 button-label
+msgid "LIGHTNING"
+msgstr "闪电"
+
+#. Source: reviewed NotesTab chrome
+#: src/Classes/NotesTab.lua:28 button-label
+msgid "CHAOS"
+msgstr "混沌"
+
+#. Source: reviewed NotesTab chrome
+#: src/Classes/NotesTab.lua:29 button-label
+msgid "STRENGTH"
+msgstr "力量"
+
+#. Source: reviewed NotesTab chrome
+#: src/Classes/NotesTab.lua:30 button-label
+msgid "DEXTERITY"
+msgstr "敏捷"
+
+#. Source: reviewed NotesTab chrome
+#: src/Classes/NotesTab.lua:31 button-label
+msgid "INTELLIGENCE"
+msgstr "智慧"
+
+#. Source: reviewed NotesTab chrome
+#: src/Classes/NotesTab.lua:32 button-label
+msgid "DEFAULT"
+msgstr "默认"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+#: src/Classes/CompareTab.lua:1521 edit-prompt
+msgid "Name (optional)"
+msgstr "名称(可选)"
+
+#. Source: reviewed CompareTab import chrome
+#: src/Classes/CompareTab.lua:1536 status-label
+msgid "Downloading..."
+msgstr "下载中..."
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+#: src/Classes/CompareTab.lua:1544 status-label
+msgid "Failed to decode build data"
+msgstr "无法解码构筑数据"
+
+#. Source: PoeCharm2 zh-rCN/CompareTab.csv
+#: src/Classes/CompareTab.lua:1560 status-label
+msgid "Invalid build code"
+msgstr "构筑代码无效"
+
+#. Source: reviewed CompareTab import chrome
+#: src/Classes/CompareTab.lua:1602 popup-message
+msgid "Couldn't open '%s'."
+msgstr "无法打开 '%s'。"
+
+#. Source: reviewed CompareTab import chrome
+#: src/Classes/CompareTab.lua:1670 button-label
+msgid "Close"
+msgstr "关闭"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/SkillSetListControl.lua:55 popup-title
+msgid "Create Skill Set"
+msgstr "创建技能集"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/SkillSetListControl.lua:74 popup-title
+msgid "Copy Skill Set"
+msgstr "复制技能集"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/SkillSetListControl.lua:93 popup-title
+msgid "Rename Skill Set"
+msgstr "重命名技能集"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/SkillSetListControl.lua:117 popup-title
+msgid "Delete Skill Set"
+msgstr "删除技能集"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/SkillSetListControl.lua:43 label
+msgid "Enter name for new skill set:"
+msgstr "输入新技能集名称:"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/SkillSetListControl.lua:62 label
+#: src/Classes/SkillSetListControl.lua:81 label
+msgid "Enter name for this skill set:"
+msgstr "输入此技能集名称:"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/ConfigSetListControl.lua:49 popup-title
+msgid "Create Config Set"
+msgstr "创建配置集"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/ConfigSetListControl.lua:67 popup-title
+msgid "Copy Config Set"
+msgstr "复制配置集"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/ConfigSetListControl.lua:86 popup-title
+msgid "Rename Config Set"
+msgstr "重命名配置集"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/ConfigSetListControl.lua:111 popup-title
+msgid "Delete Config Set"
+msgstr "删除配置集"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/ConfigSetListControl.lua:37 label
+msgid "Enter name for new config set:"
+msgstr "输入新配置集名称:"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/ConfigSetListControl.lua:55 label
+#: src/Classes/ConfigSetListControl.lua:74 label
+msgid "Enter name for this config set:"
+msgstr "输入此配置集名称:"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/ItemSetListControl.lua:49 popup-title
+msgid "Create Item Set"
+msgstr "创建物品集"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/ItemSetListControl.lua:67 popup-title
+msgid "Copy Item Set"
+msgstr "复制物品集"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/ItemSetListControl.lua:86 popup-title
+msgid "Rename Item Set"
+msgstr "重命名物品集"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/ItemSetListControl.lua:37 label
+msgid "Enter name for new item set:"
+msgstr "输入新物品集名称:"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/PassiveSpecListControl.lua:19 popup-title
+msgid "Copy Tree"
+msgstr "复制天赋树"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/PassiveSpecListControl.lua:31 popup-title
+msgid "Rename Tree"
+msgstr "重命名天赋树"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/PassiveSpecListControl.lua:38 popup-title
+msgid "New Tree"
+msgstr "新建天赋树"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/PassiveSpecListControl.lua:98 popup-title
+msgid "Delete Tree"
+msgstr "删除天赋树"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/BuildSetListControl.lua:39 button-label
+msgid "New/Copy Custom"
+msgstr "新建/复制自定义"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/BuildSetListControl.lua:58 popup-title
+msgid "Rename Loadout"
+msgstr "重命名配置方案"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/BuildSetListControl.lua:68 popup-title
+msgid "Copy Loadout"
+msgstr "复制配置方案"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/BuildSetListControl.lua:160 popup-title
+msgid "New Loadout"
+msgstr "新建配置方案"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/BuildSetListControl.lua:155 popup-title
+msgid "Create Custom Loadout"
+msgstr "创建自定义配置方案"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/BuildSetListControl.lua:189 popup-title
+msgid "Delete Loadout"
+msgstr "删除配置方案"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/BuildSetListControl.lua:104 label
+msgid "Copy from Tree:"
+msgstr "从天赋树复制:"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/BuildSetListControl.lua:113 label
+msgid "Copy from Skill Set:"
+msgstr "从技能集复制:"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/BuildSetListControl.lua:122 label
+msgid "Copy from Item Set:"
+msgstr "从物品集复制:"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/BuildSetListControl.lua:131 label
+msgid "Copy from Config Set:"
+msgstr "从配置集复制:"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/SkillSetListControl.lua:118 popup-message
+#: src/Classes/ConfigSetListControl.lua:112 popup-message
+#: src/Classes/PassiveSpecListControl.lua:98 popup-message
+#: src/Classes/BuildSetListControl.lua:189 popup-message
+#: src/Classes/SkillListControl.lua:165 popup-message
+msgid "Are you sure you want to delete '%s'?"
+msgstr "确定要删除 '%s' 吗?"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/ItemSetListControl.lua:140 popup-message
+msgid ""
+"Are you sure you want to delete '%s'?\n"
+"This will not delete any items used by the set."
+msgstr ""
+"确定要删除 '%s' 吗?\n"
+"这不会删除该物品集使用的任何物品。"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/SkillSetListControl.lua:22 button-label
+#: src/Classes/ConfigSetListControl.lua:16 button-label
+#: src/Classes/ItemSetListControl.lua:18 button-label
+#: src/Classes/PassiveSpecListControl.lua:24 button-label
+#: src/Classes/BuildSetListControl.lua:31 button-label
+msgid "Delete"
+msgstr "删除"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/SkillSetListControl.lua:47 button-label
+#: src/Classes/ConfigSetListControl.lua:41 button-label
+#: src/Classes/ItemSetListControl.lua:41 button-label
+#: src/Classes/PassiveSpecListControl.lua:53 button-label
+#: src/Classes/BuildSetListControl.lua:133 button-label
+#: src/Classes/BuildSetListControl.lua:226 button-label
+msgid "Save"
+msgstr "保存"
+
+#. Source: reviewed set/list popup chrome
+#: src/Classes/Build.lua:1116 button-label
+msgid "Manage Loadouts"
+msgstr "管理配置方案"
+
+#. Source: reviewed set/list row chrome
+#: src/Classes/SkillSetListControl.lua:99 row-label
+#: src/Classes/ConfigSetListControl.lua:93 row-label
+#: src/Classes/ItemSetListControl.lua:92 row-label
+#: src/Classes/PassiveSpecListControl.lua:79 row-label
+#: src/Classes/BuildSetListControl.lua:176 row-label
+msgid "%s  ^9(Current)"
+msgstr "%s  ^9(当前)"
+
+#. Source: reviewed set/list row chrome
+#: src/Classes/PassiveSpecListControl.lua:78 row-label
+#: src/Classes/BuildSetListControl.lua:175 row-label
+msgid "%s (%s, %d points)"
+msgstr "%s (%s, %d 点)"
+
+#. Source: reviewed build popup chrome
+#: src/Modules/Build.lua:259 popup-title
+msgid "Class Change"
+msgstr "职业变更"
+
+#. Source: reviewed build popup chrome
+#: src/Modules/Build.lua:259 popup-button
+msgid "Continue"
+msgstr "继续"
+
+#. Source: reviewed build popup chrome
+#: src/Modules/Build.lua:268 popup-button
+msgid "Connect Path"
+msgstr "连接路径"
+
+#. Source: reviewed build popup chrome
+#: src/Modules/Build.lua:259 popup-message
+msgid ""
+"Changing class to %s will reset your passive tree.\n"
+"This can be avoided by connecting one of the %s starting nodes to your tree."
+msgstr ""
+"将职业改为 %s 会重置你的天赋树。\n"
+"可以通过将其中一个 %s 起始节点连接到你的天赋树来避免。"
+
+#. Source: reviewed build conversion chrome
+#: src/Modules/Build.lua:1446 button-label
+msgid "Convert to %s"
+msgstr "转换为 %s"
+
+#. Source: reviewed build conversion chrome
+#: src/Modules/Build.lua:1453 popup-title
+msgid "Game Version"
+msgstr "游戏版本"
+
+#. Source: reviewed build conversion chrome
+#: src/Modules/Build.lua:1432 label
+msgid ""
+"Info:^7 You are trying to load a build created for a version of Path of Exile that is\n"
+"not supported by us. You will have to convert it to the current game version to load it.\n"
+"To use a build newer than the current supported game version, you may have to update.\n"
+"To use a build older than the current supported game version, we recommend loading it\n"
+"in an older version of Path of Building Community instead.\n"
+msgstr ""
+"信息:^7 你正在加载由不受支持的 Path of Exile 版本创建的构筑。\n"
+"你必须将其转换为当前游戏版本才能加载。\n"
+"若要使用比当前支持版本更新的构筑，可能需要更新程序。\n"
+"若要使用比当前支持版本更旧的构筑，建议改用较旧版本的 Path of Building Community 加载。\n"
+
+#. Source: reviewed build conversion chrome
+#: src/Modules/Build.lua:1439 label
+msgid ""
+"Warning:^7 Converting a build to a different game version may have side effects.\n"
+"For example, if the passive tree has changed, then some passives may be deallocated.\n"
+"You should create a backup copy of the build before proceeding.\n"
+msgstr ""
+"警告:^7 将构筑转换到不同游戏版本可能会有副作用。\n"
+"例如，如果天赋树发生变化，部分天赋可能会被取消分配。\n"
+"继续前应先创建该构筑的备份副本。\n"
+
+#. Source: reviewed build save chrome
+#: src/Modules/Build.lua:1462 label
+msgid ""
+"This build has unsaved changes.\n"
+"Do you want to save them now?"
+msgstr ""
+"此构筑有未保存的变更。\n"
+"要立即保存吗?"
+
+#. Source: reviewed build save chrome
+#: src/Modules/Build.lua:1463 label
+msgid ""
+"This build has unsaved changes.\n"
+"Do you want to save them before exiting?"
+msgstr ""
+"此构筑有未保存的变更。\n"
+"要在退出前保存吗?"
+
+#. Source: reviewed build save chrome
+#: src/Modules/Build.lua:1464 label
+msgid ""
+"This build has unsaved changes.\n"
+"Do you want to save them before updating?"
+msgstr ""
+"此构筑有未保存的变更。\n"
+"要在更新前保存吗?"
+
+#. Source: reviewed build save chrome
+#: src/Modules/Build.lua:1506 popup-title
+msgid "Save As"
+msgstr "另存为"
+
+#. Source: reviewed build save chrome
+#: src/Modules/Build.lua:2467 popup-message
+msgid ""
+"Couldn't save the build file:\n"
+"%s\n"
+"Make sure the save folder exists and is writable."
+msgstr ""
+"无法保存构筑文件:\n"
+"%s\n"
+"请确认保存文件夹存在且可写。"
+
+#. Source: reviewed folder popup chrome
+#: src/Modules/Main.lua:1763 popup-message
+msgid "Couldn't create '%s': %s"
+msgstr "无法创建 '%s': %s"
+
+#. Source: reviewed spectre library chrome
+#: src/Modules/Build.lua:1745 popup-title
+msgid "Beast Library"
+msgstr "野兽库"
+
+#. Source: reviewed spectre library chrome
+#: src/Modules/Build.lua:1749 popup-title
+msgid "Spectre Library"
+msgstr "幽魂库"
+
+#. Source: reviewed spectre library chrome
+#: src/Modules/Build.lua:1667 list-label
+msgid "Beasts in Build:"
+msgstr "构筑中的野兽:"
+
+#. Source: reviewed spectre library chrome
+#: src/Modules/Build.lua:1667 list-label
+msgid "Spectres in Build:"
+msgstr "构筑中的幽魂:"
+
+#. Source: reviewed spectre library chrome
+#: src/Modules/Build.lua:1671 list-label
+msgid "Available Beasts:"
+msgstr "可用野兽:"
+
+#. Source: reviewed spectre library chrome
+#: src/Modules/Build.lua:1671 list-label
+msgid "Available Spectres:"
+msgstr "可用幽魂:"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:67 tooltip
+msgid "^7Spectre Reservation: %s%d"
+msgstr "^7幽魂保留: %s%d"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:68 tooltip
+msgid "^7Companion Reservation: %s%s%%"
+msgstr "^7同伴保留: %s%s%%"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:69 tooltip
+msgid "^7Category: %s"
+msgstr "^7类别: %s"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:70 tooltip
+msgid "^7Life Multiplier: x%.2f"
+msgstr "^7生命倍数: x%.2f"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:72 tooltip
+msgid "^7Energy Shield: %d%% of base Life"
+msgstr "^7能量护盾: 基础生命的%d%%"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:73 tooltip
+msgid "^7Armour Multiplier: x%.2f"
+msgstr "^7护甲倍率: x%.2f"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:74 tooltip
+msgid "^7Evasion Multiplier: x%.2f"
+msgstr "^7闪避倍率: x%.2f"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:77 tooltip
+msgid "^7Resistances: %s%d ^7/ %s%d ^7/ %s%d ^7/ %s%d"
+msgstr "^7抗性: %s%d ^7/ %s%d ^7/ %s%d ^7/ %s%d"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:84 tooltip
+msgid "^7Base Damage: x%.2f"
+msgstr "^7基础伤害: x%.2f"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:85 tooltip
+msgid "^7Base Attack Speed: %.2f"
+msgstr "^7基础攻击速度: %.2f"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:86 tooltip
+msgid "^7Base Movement Speed: %.2f"
+msgstr "^7基础移动速度: %.2f"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:92 tooltip
+msgid "^7Skill: %s%s"
+msgstr "^7技能: %s%s"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:104 tooltip
+msgid "^7Spawn: %s"
+msgstr "^7出现: %s"
+
+#. Source: reviewed minion list chrome
+#: src/Classes/MinionListControl.lua:106 tooltip
+msgid "^7%s%s"
+msgstr "^7%s%s"
+
+#. Source: reviewed spectre library chrome
+#: src/Modules/Build.lua:1729 checkbox-label
+msgid "Show All Beasts"
+msgstr "显示所有野兽"
+
+#. Source: reviewed spectre library chrome
+#: src/Modules/Build.lua:1729 checkbox-label
+msgid "Show All Spectres"
+msgstr "显示所有幽魂"
+
+#. Source: reviewed spectre library chrome
+#: src/Modules/Build.lua:1730 label
+msgid "Show All Beasts:"
+msgstr "显示所有野兽:"
+
+#. Source: reviewed spectre library chrome
+#: src/Modules/Build.lua:1730 label
+msgid "Show All Spectres:"
+msgstr "显示所有幽魂:"
+
+#. Source: reviewed spectre library chrome
+#: src/Modules/Build.lua:1747 label
+msgid "Beasts in your Library must be assigned to an active"
+msgstr "你库中的野兽必须分配给启用中的"
+
+#. Source: reviewed spectre library chrome
+#: src/Modules/Build.lua:1748 label
+msgid "Companion gem for their buffs and curses to activate"
+msgstr "Companion 宝石，才能启用其增益和诅咒"
+
+#. Source: reviewed spectre stat-box chrome
+#: src/Modules/Build.lua:1759 label
+msgid "Minion Stats"
+msgstr "召唤生物属性"
+
+#. Source: reviewed spectre stat-box chrome
+#: src/Modules/Build.lua:1767 draw-label
+msgid "Monster Stats"
+msgstr "怪物属性"
+
+#. Source: reviewed spectre library chrome
+#: src/Modules/Build.lua:1889 list-label
+msgid "Spawns:"
+msgstr "出现地点:"
+
+#. Source: reviewed spectre stat-box chrome
+#: src/Modules/Build.lua:1779 draw-label
+msgid "LIFE"
+msgstr "生命"
+
+#. Source: reviewed spectre stat-box chrome
+#: src/Modules/Build.lua:1797 draw-label
+msgid "ENERGY SHIELD"
+msgstr "能量护盾"
+
+#. Source: reviewed spectre stat-box chrome
+#: src/Modules/Build.lua:1815 draw-label
+msgid "ARMOUR"
+msgstr "护甲"
+
+#. Source: reviewed spectre stat-box chrome
+#: src/Modules/Build.lua:1833 draw-label
+msgid "EVASION"
+msgstr "闪避"
+
+#. Source: reviewed spectre stat-box chrome
+#: src/Modules/Build.lua:1851 draw-label
+msgid "BLOCK"
+msgstr "格挡"
+
+#. Source: reviewed spectre stat-box chrome
+#: src/Modules/Build.lua:1869 draw-label
+msgid "RESISTS"
+msgstr "抗性"
+
+#. Source: reviewed spectre stat-box chrome
+#: src/Modules/Build.lua:1887 draw-label
+msgid "MOVEMENT SPEED"
+msgstr "移动速度"
+
+#. Source: reviewed main app-shell chrome
+#: src/Modules/Main.lua:266 toast
+msgid ""
+"Warning: ^7Developer Mode active!\n"
+"The program is currently running in developer\n"
+"mode, which is not intended for normal use.\n"
+"If you are not expecting this, then you may have\n"
+"set up the program from the source .zip instead\n"
+"of using one of the installers. If that is the case,\n"
+"please reinstall using one of the installers from\n"
+"the \"Releases\" section of the GitHub page."
+msgstr ""
+"警告: ^7开发者模式已启用!\n"
+"程序当前正在开发者模式下运行，\n"
+"这并非普通使用场景。\n"
+"如果你没有预期看到这个状态，可能是\n"
+"从 source .zip 设置了程序，\n"
+"而不是使用安装程序。如果是这样，\n"
+"请使用 GitHub 页面“Releases”区域中的\n"
+"某个安装程序重新安装。"
+
+#. Source: reviewed main app-shell chrome
+#: src/Modules/Main.lua:402 toast
+msgid ""
+"No update available\n"
+"You are running the latest version."
+msgstr ""
+"没有可用更新\n"
+"你正在运行最新版本。"
+
+#. Source: reviewed main app-shell chrome
+#: src/Modules/Main.lua:405 toast
+msgid ""
+"Update Available\n"
+"An update has been downloaded and is ready\n"
+"to be applied."
+msgstr ""
+"有可用更新\n"
+"更新已下载完成，并已准备好\n"
+"应用。"
+
+#. Source: reviewed main changelog chrome
+#: src/Modules/Main.lua:1379 text-list
+#: src/Modules/Main.lua:1415 text-list
+msgid "Version %s (%s)"
+msgstr "版本 %s (%s)"
+
+#. Source: reviewed main file-operation chrome
+#: src/Modules/Main.lua:1615 popup-message
+#: src/Modules/Main.lua:1636 popup-message
+msgid "Couldn't move '%s' to '%s': %s"
+msgstr "无法将 '%s' 移动到 '%s': %s"
+
+#. Source: reviewed main file-operation chrome
+#: src/Modules/Main.lua:1647 popup-message
+msgid "Couldn't delete '%s': %s"
+msgstr "无法删除 '%s': %s"
+
+#. Source: reviewed main file-operation chrome
+#: src/Modules/Main.lua:1656 popup-message
+#: src/Modules/Main.lua:1678 popup-message
+msgid "Couldn't copy '%s' to '%s': %s"
+msgstr "无法将 '%s' 复制到 '%s': %s"
+
+#. Source: reviewed main cloud-error chrome
+#: src/Modules/Main.lua:1794 fallback-provider
+msgid "your cloud provider"
+msgstr "你的云服务提供商"
+
+#. Source: reviewed main cloud-error chrome
+#: src/Modules/Main.lua:1796 popup-message
+msgid ""
+"Cannot read file.\n"
+"\n"
+"Make sure %s is running then restart %s and try again.%s\n"
+"status: %s\n"
+"\n"
+"%s"
+msgstr ""
+"无法读取文件。\n"
+"\n"
+"请确认 %s 正在运行，然后重新启动 %s 再试一次。%s\n"
+"状态: %s\n"
+"\n"
+"%s"
+
+#. Source: reviewed main cloud-error chrome
+#: src/Modules/Main.lua:1804 button-label
+msgid "Help (web)"
+msgstr "帮助（网页）"
+
+#. Source: reviewed CompareTab tooltip chrome
+#: src/Classes/CompareTab.lua:248 tooltip
+msgid "Re-import character from the game server:"
+msgstr "从游戏服务器重新导入角色:"
+
+#. Source: reviewed CompareTab tooltip chrome
+#: src/Classes/CompareTab.lua:251 tooltip
+msgid "Re-import the currently selected character."
+msgstr "重新导入当前选中的角色。"
+
+#. Source: reviewed CompareTab tooltip chrome
+#: src/Classes/CompareTab.lua:253 tooltip
+msgid "Refreshes passive tree, jewels, items, and skills."
+msgstr "刷新天赋树、珠宝、物品和技能。"
+
+#. Source: reviewed CompareTab tooltip chrome
+#: src/Classes/CompareTab.lua:255 tooltip
+msgid "No character selected."
+msgstr "尚未选择角色。"
+
+#. Source: reviewed CompareTab tooltip chrome
+#: src/Classes/CompareTab.lua:256 tooltip
+msgid "Go to Import/Export Build tab and select a character first."
+msgstr "请先前往导入/导出构筑标签页并选择角色。"
+
+#. Source: reviewed CompareTab tooltip chrome
+#: src/Classes/CompareTab.lua:1046 tooltip
+msgid "Select a metric to calculate power report"
+msgstr "选择用于计算强度报告的指标"
+
+#. Source: reviewed CompareTab empty-state chrome
+#: src/Classes/CompareTab.lua:1821 draw-label
+msgid "No comparison build loaded."
+msgstr "尚未加载比较构筑。"
+
+#. Source: reviewed CompareTab empty-state chrome
+#: src/Classes/CompareTab.lua:1823 draw-label
+msgid "Click %sImport...^7 above to import a build to compare against."
+msgstr "点击上方的 %s导入...^7 以导入要比较的构筑。"
+
+#. Source: reviewed CompareTab summary chrome
+#: src/Classes/CompareTab.lua:3193 draw-label
+msgid "Difference"
+msgstr "差异"
+
+#. Source: reviewed CompareTab item chrome
+#: src/Classes/CompareTab.lua:3487 draw-label
+msgid "(empty)"
+msgstr "(空)"
+
+#. Source: reviewed CompareTab item chrome
+#: src/Classes/CompareTab.lua:3864 draw-label
+msgid "-- Jewels --"
+msgstr "-- 珠宝 --"
+
+#. Source: reviewed CompareTab item chrome
+#: src/Classes/CompareTab.lua:3869 draw-label
+msgid "%s  (tree missing allocated node)"
+msgstr "%s  (天赋树缺少已分配节点)"
+
+#. Source: reviewed CompareTab config chrome
+#: src/Classes/CompareTab.lua:4894 draw-label
+msgid "No configuration options to display."
+msgstr "没有可显示的配置选项。"
+
+#. Source: reviewed PassiveTreeView tooltip chrome
+#: src/Classes/PassiveTreeView.lua:1625 tooltip
+msgid "Compared build:"
+msgstr "比较构筑:"
+
+#. Source: reviewed PassiveTreeView tooltip chrome
+#: src/Classes/PassiveTreeView.lua:1640 tooltip
+#: src/Classes/PassiveTreeView.lua:1865 tooltip
+msgid "Tip: Right click this socket to go to the items page and choose the jewel for this socket."
+msgstr "提示: 右键点击此插槽以切换到物品页面，并为此插槽选择珠宝。"
+
+#. Source: reviewed PassiveTreeView tooltip chrome
+#: src/Classes/PassiveTreeView.lua:1645 tooltip
+#: src/Classes/PassiveTreeView.lua:1653 tooltip
+#: src/Classes/PassiveTreeView.lua:1988 tooltip
+msgid "Tip: Hold Shift or Ctrl to hide this tooltip."
+msgstr "提示: 按住 Shift 或 Ctrl 可隐藏此提示。"
+
+#. Source: reviewed PassiveTreeView stat-diff chrome
+#: src/Classes/PassiveTreeView.lua:1907 tooltip
+msgid "Reallocating this node will give you:"
+msgstr "重新分配此节点会给予你:"
+
+#. Source: reviewed PassiveTreeView stat-diff chrome
+#: src/Classes/PassiveTreeView.lua:1907 tooltip
+msgid "Unallocating this node will give you:"
+msgstr "取消分配此节点会给予你:"
+
+#. Source: reviewed PassiveTreeView stat-diff chrome
+#: src/Classes/PassiveTreeView.lua:1907 tooltip
+msgid "This node is granted by an item. Removing it will give you:"
+msgstr "此节点由物品提供。移除它会给予你:"
+
+#. Source: reviewed PassiveTreeView stat-diff chrome
+#: src/Classes/PassiveTreeView.lua:1907 tooltip
+msgid "Allocating this node will give you:"
+msgstr "分配此节点会给予你:"
+
+#. Source: reviewed PassiveTreeView stat-diff chrome
+#: src/Classes/PassiveTreeView.lua:1909 tooltip
+msgid "Unallocating this node and all nodes depending on it will give you:"
+msgstr "取消分配此节点及所有依赖它的节点会给予你:"
+
+#. Source: reviewed PassiveTreeView stat-diff chrome
+#: src/Classes/PassiveTreeView.lua:1909 tooltip
+msgid "Allocating this node and all nodes leading to it will give you:"
+msgstr "分配此节点及所有通往它的节点会给予你:"
+
+#. Source: reviewed PassiveTreeView stat-diff chrome
+#: src/Classes/PassiveTreeView.lua:1914 tooltip
+msgid "This node is granted by an item. Removing it will cause no changes"
+msgstr "此节点由物品提供。移除它不会产生变化"
+
+#. Source: reviewed PassiveTreeView stat-diff chrome
+#: src/Classes/PassiveTreeView.lua:1918 tooltip
+msgid "No changes from %s this node%s."
+msgstr "%s此节点%s不会产生变化。"
+
+#. Source: reviewed PassiveTreeView stat-diff chrome
+#: src/Classes/PassiveTreeView.lua:1916 action
+msgid "unallocating"
+msgstr "取消分配"
+
+#. Source: reviewed PassiveTreeView stat-diff chrome
+#: src/Classes/PassiveTreeView.lua:1916 action
+msgid "allocating"
+msgstr "分配"
+
+#. Source: reviewed PassiveTreeView stat-diff chrome
+#: src/Classes/PassiveTreeView.lua:1917 suffix
+msgid " or the nodes leading to it"
+msgstr "或通往它的节点"
+
+#. Source: reviewed PassiveTreeView stat-diff chrome
+#: src/Classes/PassiveTreeView.lua:1921 tooltip
+msgid "Tip: Press Ctrl+D to disable the display of stat differences."
+msgstr "提示: 按 Ctrl+D 可停用属性差异显示。"
+
+#. Source: reviewed PassiveTreeView stat-diff chrome
+#: src/Classes/PassiveTreeView.lua:1924 tooltip
+msgid "Tip: Press Ctrl+D to enable the display of stat differences."
+msgstr "提示: 按 Ctrl+D 可启用属性差异显示。"
+
+#. Source: reviewed PassiveTreeView pathing chrome
+#: src/Classes/PassiveTreeView.lua:1931 tooltip
+msgid "%d nodes in trace path"
+msgstr "追踪路径中有 %d 个节点"
+
+#. Source: reviewed PassiveTreeView pathing chrome
+#: src/Classes/PassiveTreeView.lua:1935 tooltip
+msgid "%d points to node%s"
+msgstr "到节点需要 %d 点%s"
+
+#. Source: reviewed PassiveTreeView pathing chrome
+#: src/Classes/PassiveTreeView.lua:1934 suffix
+msgid " ^8(Can be allocated without pathing to it)"
+msgstr " ^8(可不经路径分配)"
+
+#. Source: reviewed PassiveTreeView pathing chrome
+#: src/Classes/PassiveTreeView.lua:1939 tooltip
+msgid "Tip: To reach this node by a different path, hold Shift, then trace the path and click this node"
+msgstr "提示: 若要通过不同路径到达此节点，请按住 Shift，然后追踪路径并点击此节点"
+
+#. Source: reviewed PassiveTreeView unlock chrome
+#: src/Classes/PassiveTreeView.lua:1987 tooltip
+msgid "%sRequires allocation of node: %s"
+msgstr "%s需要分配节点: %s"
+
+#. Source: reviewed PassiveTreeView tooltip chrome
+#: src/Classes/PassiveTreeView.lua:1990 tooltip
+msgid "Tip: Hold Ctrl to hide this tooltip."
+msgstr "提示: 按住 Ctrl 可隐藏此提示。"
+
+#. Source: reviewed PassiveTreeView tooltip chrome
+#: src/Classes/PassiveTreeView.lua:1991 tooltip
+msgid "Tip: Press Ctrl+C to copy this node's text."
+msgstr "提示: 按 Ctrl+C 可复制此节点文字。"
+
+#. Source: reviewed PassiveTreeView weapon-set chrome
+#: src/Classes/PassiveTreeView.lua:2030 node-type
+msgid "keystones"
+msgstr "关键天赋"
+
+#. Source: reviewed PassiveTreeView weapon-set chrome
+#: src/Classes/PassiveTreeView.lua:2030 node-type
+msgid "jewel sockets"
+msgstr "珠宝插槽"
+
+#. Source: reviewed PassiveTreeView weapon-set chrome
+#: src/Classes/PassiveTreeView.lua:2036 tooltip
+msgid "Cannot allocate %s while weapon set %d is selected"
+msgstr "无法分配%s，因为当前选中武器组 %d"
+
+#. Source: reviewed PassiveTreeView weapon-set chrome
+#: src/Classes/PassiveTreeView.lua:2037 tooltip
+msgid "Tip: Switch to main tree (Alt+scroll) to allocate %s"
+msgstr "提示: 切换到主天赋树 (Alt+滚轮) 以分配%s"
+
+#. Source: reviewed PassiveTreeView weapon-set chrome
+#: src/Classes/PassiveTreeView.lua:2039 tooltip
+msgid "Cannot allocate %s - connected to weapon set nodes"
+msgstr "无法分配%s - 已连接到武器组节点"
+
+#. Source: reviewed PassiveTreeView weapon-set chrome
+#: src/Classes/PassiveTreeView.lua:2040 tooltip
+msgid "Tip: Deallocate weapon set nodes in the connection path to allow allocation"
+msgstr "提示: 取消分配连接路径中的武器组节点，以允许分配"
+
+#. Source: reviewed PassiveTreeView weapon-set chrome
+#: src/Classes/PassiveTreeView.lua:2044 tooltip
+msgid "Cannot deallocate global %s from weapon set %d"
+msgstr "无法取消分配全局%s，因为当前位于武器组 %d"
+
+#. Source: reviewed PassiveTreeView weapon-set chrome
+#: src/Classes/PassiveTreeView.lua:2045 tooltip
+msgid "Tip: Switch to main tree (Alt+scroll) to deallocate %s"
+msgstr "提示: 切换到主天赋树 (Alt+滚轮) 以取消分配%s"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:1455 tooltip
+msgid "Enable this option to exclude nodes that you do not have allocated on your active passive skill tree."
+msgstr "启用此选项可排除你当前启用的天赋树上未分配的节点。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:1456 tooltip
+msgid "This can be useful if you're never going to path towards those excluded nodes and don't care what happens to them."
+msgstr "如果你永远不会走向那些被排除的节点，并且不在意它们会变成什么，这会很有用。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:1481 tooltip
+msgid "Protect allocated nodes during search."
+msgstr "搜索时保护已分配的节点。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:1482 tooltip
+msgid "This can be useful if transforming certain notables would break your build."
+msgstr "如果转换某些核心天赋会破坏你的构筑，这会很有用。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:1493 tooltip
+msgid "This controls the maximum amount of points that need to be spent to grab a node before its filtered out"
+msgstr "这会控制取得节点前最多需要花费多少点数，超过就会被过滤掉"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:1882 tooltip
+msgid "Click this button to generate new fallback node weights, replacing your old ones."
+msgstr "点击此按钮可生成新的备用节点权重，并替换旧权重。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:1895 tooltip
+msgid "This contains a list of your desired nodes along with their primary, secondary, and minimum weights."
+msgstr "这包含你想要的节点列表，以及它们的主要、次要和最低权重。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:1896 tooltip
+#: src/Classes/TreeTab.lua:1909 tooltip
+msgid "This list can be updated manually or by selecting the node you want to update via the search dropdown list and then moving the node weight sliders."
+msgstr "此列表可手动更新，也可从搜索下拉列表选择要更新的节点，然后移动节点权重滑块。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:1908 tooltip
+msgid "This contains a list of your fallback nodes along with their primary, secondary, and minimum weights."
+msgstr "这包含你的备用节点列表，以及它们的主要、次要和最低权重。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:1910 tooltip
+msgid "Fallback node weights are only used when no matching entry exists in the desired nodes list, allowing you to override or disable specific automatic weights."
+msgstr "只有当想要的节点列表中没有匹配项时，才会使用备用节点权重，让你覆盖或停用特定自动权重。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:1911 tooltip
+msgid "Fallback node weights typically contain automatically generated stat weights based on your current build."
+msgstr "备用节点权重通常包含基于当前构筑自动生成的属性权重。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:1912 tooltip
+msgid "Any manual changes made to your fallback nodes are lost when you click the generate button, as it completely replaces them."
+msgstr "点击生成按钮时，备用节点的任何手动更改都会丢失，因为它会完全替换它们。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:2068 tooltip
+msgid "Click to generate and copy a trade URL for searching for jewels in this list."
+msgstr "点击以生成并复制交易 URL，用于搜索此列表中的珠宝。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:2069 tooltip
+msgid "Paste the URL in a web browser to search."
+msgstr "将 URL 粘贴到网页浏览器中搜索。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:2071 tooltip
+msgid "You can click to select a row so that search begins from there."
+msgstr "你可以点击选择一行，让搜索从该处开始。"
+
+#. Source: reviewed TreeTab timeless-jewel chrome
+#: src/Classes/TreeTab.lua:2072 tooltip
+msgid "After selecting a row You can also shift+click on another row to select a range of rows to search."
+msgstr "选择一行后，也可以 Shift+点击另一行，以选择要搜索的行范围。"
+
+#. Source: reviewed common list tooltip chrome
+#: src/Classes/GemSelectControl.lua:18 tooltip
+msgid "Prefix tag searches with a colon and exclude tags with a dash. e.g. :fire:lightning:-cold:area"
+msgstr "标签搜索前加上冒号，并用减号排除标签。例如：:fire:lightning:-cold:area"
+
+#. Source: reviewed common list tooltip chrome
+#: src/Classes/GemSelectControl.lua:489 tooltip
+msgid "Selecting this gem will give you:"
+msgstr "选择此宝石将带来:"
+
+#. Source: reviewed common list tooltip chrome
+#: src/Classes/GemSelectControl.lua:526 tooltip
+msgid "Only show Support gems"
+msgstr "只显示辅助宝石"
+
+#. Source: reviewed common list tooltip chrome
+#: src/Classes/GemSelectControl.lua:530 tooltip
+msgid "Only show Active gems"
+msgstr "只显示主动宝石"
+
+#. Source: reviewed common list tooltip chrome
+#: src/Classes/TimelessJewelListControl.lua:74 tooltip
+msgid "Double click to add this jewel to your build."
+msgstr "双击以将此珠宝添加到你的构筑。"
+
+#. Source: reviewed common list tooltip chrome
+#: src/Classes/TimelessJewelListControl.lua:76 tooltip
+msgid "%s %s was successfully added to your build."
+msgstr "%s %s 已成功添加到你的构筑。"
+
+#. Source: reviewed common list tooltip chrome
+#: src/Classes/TimelessJewelListControl.lua:90 tooltip
+msgid "Node List:"
+msgstr "节点列表:"
+
+#. Source: reviewed common list tooltip chrome
+#: src/Classes/TimelessJewelListControl.lua:96 tooltip
+msgid "Combined Node Weight: %s"
+msgstr "合计节点权重: %s"
+
+#. Source: reviewed common list tooltip chrome
+#: src/Classes/TradeStatWeightMultiplierListControl.lua:32 tooltip
+msgid "Double click to modify this stats weight multiplier."
+msgstr "双击以修改此属性权重倍率。"
+
+#. Source: reviewed TradeHelpers action chrome
+#: src/Classes/TradeHelpers.lua:402 draw-string
+msgid "Buy"
+msgstr "购买"
+
+#. Source: reviewed TradeHelpers action chrome
+#: src/Classes/TradeHelpers.lua:411 draw-string
+msgid "Missing slot"
+msgstr "缺少插槽"
+
+#. Source: reviewed TradeHelpers action chrome
+#: src/Classes/TradeHelpers.lua:419 draw-string
+msgid "Equip"
+msgstr "装备"
+
+#. Source: reviewed TradeQueryGenerator sort chrome
+#: src/Classes/TradeQueryGenerator.lua:1073 control-constructor
+msgid "Additional Stats"
+msgstr "额外属性"
+
+#. Source: reviewed TradeQueryGenerator sort chrome
+#: src/Classes/TradeQueryGenerator.lua:1077 control-constructor
+msgid "Stat to Sort By:"
+msgstr "排序依据属性:"
+
+#. Source: reviewed TradeQueryGenerator sort chrome
+#: src/Classes/TradeQueryGenerator.lua:1082 tooltip-line
+msgid "Sorts the weights by the stats selected multiplied by a value"
+msgstr "按所选属性乘以数值后的权重排序"
+
+#. Source: reviewed TradeQueryGenerator sort chrome
+#: src/Classes/TradeQueryGenerator.lua:1083 tooltip-line
+msgid "Currently sorting by:"
+msgstr "当前排序依据:"
+
+#. Source: reviewed SkillsTab residual tooltip chrome
+#: src/Classes/SkillsTab.lua:225 stat-compare-header
+msgid "Disabling this group will give you:"
+msgstr "禁用此插槽组将带来:"
+
+#. Source: reviewed SkillsTab residual tooltip chrome
+#: src/Classes/SkillsTab.lua:225 stat-compare-header
+msgid "Enabling this group will give you:"
+msgstr "启用此插槽组将带来:"
+
+#. Source: reviewed SkillsTab residual tooltip chrome
+#: src/Classes/SkillsTab.lua:890 quality-tooltip-header
+msgid "At +20% Quality:"
+msgstr "+20% 品质时:"
+
+#. Source: reviewed SkillsTab residual tooltip chrome
+#: src/Classes/SkillsTab.lua:937 stat-compare-header
+msgid "Setting to 20 quality will give you:"
+msgstr "品质设置为 20 将带来:"
+
+#. Source: reviewed SkillsTab residual tooltip chrome
+#: src/Classes/SkillsTab.lua:977 stat-compare-header
+msgid "Disabling this gem will give you:"
+msgstr "禁用此宝石将带来:"
+
+#. Source: reviewed SkillsTab residual tooltip chrome
+#: src/Classes/SkillsTab.lua:977 stat-compare-header
+msgid "Enabling this gem will give you:"
+msgstr "启用此宝石将带来:"
+
+#. Source: reviewed SkillsTab residual tooltip chrome
+#: src/Classes/SkillsTab.lua:1322 inactive-weapon-set-note
+msgid "Note: this group is disabled because it is socketed in the inactive weapon set."
+msgstr "注意: 此插槽组已禁用，因为它镶嵌在未启用的武器组中。"
+
+#. Source: reviewed SkillsTab residual tooltip chrome
+#: src/Classes/SkillsTab.lua:1334 tooltip-heading
+msgid "Active Skill #%d:"
+msgstr "主动技能 #%d:"
+
+#. Source: reviewed SkillsTab residual tooltip chrome
+#: src/Classes/SkillsTab.lua:1351 tooltip-heading
+msgid "Active Skill #%d's Main Minion Skill:"
+msgstr "主动技能 #%d 的主要召唤物技能:"
+
+#. Source: reviewed SkillsTab residual tooltip chrome
+#: src/Classes/SkillsTab.lua:1370 tooltip-heading
+msgid "Inactive Gems:"
+msgstr "未启用宝石:"
+
+#. Source: reviewed SkillsTab residual tooltip chrome
+#: src/Classes/SkillsTab.lua:1376 reason-tag
+msgid "(Unsupported)"
+msgstr "(不支持)"
+
+#. Source: reviewed SkillsTab residual tooltip chrome
+#: src/Classes/SkillsTab.lua:1382 reason-tag
+msgid "(Superseded)"
+msgstr "(已被取代)"
+
+#. Source: reviewed SkillsTab residual tooltip chrome
+#: src/Classes/SkillsTab.lua:1384 reason-tag
+msgid "(Cannot apply to any of the active skills)"
+msgstr "(无法应用于任何主动技能)"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:20 dropdown-option
+msgid "Instant Buyout"
+msgstr "即时一口价"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:21 dropdown-option
+msgid "Instant Buyout & In Person"
+msgstr "即时一口价和面对面"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:22 dropdown-option
+msgid "In Person (Online)"
+msgstr "面对面（在线）"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:315 control-constructor
+msgid "Realm:"
+msgstr "领域:"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:333 control-constructor
+msgid "Listed:"
+msgstr "在线状态:"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:363 formatted-control-label
+msgid "Category: %s"
+msgstr "类别: %s"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:368 formatted-control-label
+msgid "Use specific base: %s"
+msgstr "使用特定底材: %s"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:368 fallback-label
+msgid "Unknown"
+msgstr "未知"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:373 control-constructor
+msgid "Item Level:"
+msgstr "物品等级:"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:374 edit-prompt
+msgid "Min"
+msgstr "最小"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:375 edit-prompt
+msgid "Max"
+msgstr "最大"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:435 control-constructor
+msgid "Open URL"
+msgstr "打开 URL"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:439 tooltip
+msgid "The URL is also copied to the clipboard."
+msgstr "URL 也会复制到剪贴板。"
+
+#. Source: reviewed CompareBuySimilar popup chrome
+#: src/Classes/CompareBuySimilar.lua:452 popup-title
+msgid "Buy Similar"
+msgstr "购买相似物品"
+
+#. Source: reviewed SkillListControl UI chrome
+#: src/Classes/SkillListControl.lua:91 row-label
+msgid "(Active)"
+msgstr "(启用)"
+
+#. Source: reviewed SkillListControl UI chrome
+#: src/Classes/SkillListControl.lua:95 row-label
+msgid "(FullDPS)"
+msgstr "(全DPS)"
+
+#. Source: reviewed SkillListControl UI chrome
+#: src/Classes/SkillListControl.lua:91 row-label
+msgid "(Forced Active)"
+msgstr "(强制启用)"
+
+#. Source: reviewed SkillListControl UI chrome
+#: src/Classes/SkillListControl.lua:154 popup-title
+#: src/Classes/SkillListControl.lua:165 popup-title
+msgid "Delete Socket Group"
+msgstr "删除插槽组"
+
+#. Source: reviewed SkillListControl UI chrome
+#: src/Classes/SkillListControl.lua:154 popup-message
+msgid "This socket group cannot be deleted as it is created by an equipped item."
+msgstr "此插槽组无法删除，因为它是由已装备物品创建的。"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:44 dynamic-label
+msgid "Character import status: %s"
+msgstr "角色导入状态: %s"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:70 status-text
+#: src/Classes/ImportTab.lua:369 status-text
+msgid "Authenticated"
+msgstr "已验证"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:40 status-text
+#: src/Classes/ImportTab.lua:56 status-text
+#: src/Classes/ImportTab.lua:80 status-text
+#: src/Classes/ImportTab.lua:376 status-text
+#: src/Classes/ImportTab.lua:464 status-text
+#: src/Classes/ImportTab.lua:611 status-text
+msgid "Not authenticated"
+msgstr "未验证"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:84 status-text
+msgid "Logging in... (%d)"
+msgstr "登录中... (%d)"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:78 status-text
+msgid "Authentication failed: %s"
+msgstr "验证失败: %s"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:187 popup-message
+msgid ""
+"Error creating link:\n"
+"%s"
+msgstr ""
+"创建链接时出错:\n"
+"%s"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:252 status-text
+msgid "Invalid JSON format (decode error)"
+msgstr "JSON 格式无效（解码错误）"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:256 status-text
+msgid "Invalid JSON format (character missing)"
+msgstr "JSON 格式无效（缺少角色）"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:261 status-text
+msgid "Invalid JSON format (equipment or passives missing)"
+msgstr "JSON 格式无效（缺少装备或天赋）"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:265 status-text
+msgid "JSON is valid"
+msgstr "JSON 有效"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:349 dynamic-label
+msgid "Retrieving paste.."
+msgstr "正在获取粘贴内容.."
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:456 status-text
+msgid "Retrieving character list..."
+msgstr "正在获取角色列表..."
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:467 status-text
+msgid "Sign-in is required."
+msgstr "需要登录。"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:471 status-text
+msgid "Account profile is private."
+msgstr "账号个人资料为私密。"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:475 status-text
+msgid "Account name is incorrect."
+msgstr "账号名称不正确。"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:479 status-text
+#: src/Classes/ImportTab.lua:614 status-text
+msgid "Requests are being sent too fast, try again in %s seconds."
+msgstr "请求发送过快，请在 %s 秒后重试。"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:483 status-text
+msgid "Error retrieving character list, try again (%s)"
+msgstr "获取角色列表时出错，请重试（%s）"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:489 status-text
+msgid "Error processing character list, try again later"
+msgstr "处理角色列表时出错，请稍后重试"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:496 status-text
+msgid "The account has no characters to import."
+msgstr "该账号没有可导入的角色。"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:501 status-text
+msgid "Character list successfully retrieved."
+msgstr "角色列表获取成功。"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:599 status-text
+msgid "Retrieving character data..."
+msgstr "正在获取角色数据..."
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:618 status-text
+msgid "Error importing character data, try again (%s)"
+msgstr "导入角色数据时出错，请重试（%s）"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:622 status-text
+msgid "Failed to retrieve character data, try again."
+msgstr "无法获取角色数据，请重试。"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:638 status-text
+msgid "Error processing character data, try again later."
+msgstr "处理角色数据时出错，请稍后重试。"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:759 status-text
+msgid "Passive tree and jewels successfully imported."
+msgstr "天赋树和珠宝导入成功。"
+
+#. Source: reviewed ImportTab dynamic chrome
+#: src/Classes/ImportTab.lua:957 status-text
+msgid "Items and skills successfully imported."
+msgstr "物品和技能导入成功。"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:22 control-constructor
+msgid "Skills"
+msgstr "技能"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:22 control-constructor
+msgid "Both"
+msgstr "全部"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Names"
+msgstr "按名称排序"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Life + ES"
+msgstr "按生命+能量护盾排序"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Life"
+msgstr "按生命排序"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Energy Shield"
+msgstr "按能量护盾排序"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Attack Speed"
+msgstr "按攻击速度排序"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Base Damage"
+msgstr "按基础伤害排序"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Companion Reservation"
+msgstr "按同伴保留排序"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Spectre Reservation"
+msgstr "按幽魂保留排序"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Fire Resistance"
+msgstr "按火焰抗性排序"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Cold Resistance"
+msgstr "按冰霜抗性排序"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Lightning Resistance"
+msgstr "按闪电抗性排序"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Chaos Resistance"
+msgstr "按混沌抗性排序"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Total Resistance"
+msgstr "按总抗性排序"
+
+#. Source: reviewed minion search chrome
+#: src/Classes/MinionSearchListControl.lua:26 control-constructor
+msgid "Sort by Movement Speed"
+msgstr "按移动速度排序"
+
+#. Source: reviewed build-list residual UI chrome
+#: src/Classes/BuildListControl.lua:77 dynamic-label
+msgid "Enter the new name for this folder:"
+msgstr "输入此文件夹的新名称:"
+
+#. Source: reviewed build-list residual UI chrome
+#: src/Classes/BuildListControl.lua:77 dynamic-label
+msgid "Enter the new name for this build:"
+msgstr "输入此构筑的新名称:"
+
+#. Source: reviewed build-list residual UI chrome
+#: src/Classes/BuildListControl.lua:109 message
+#: src/Classes/BuildListControl.lua:128 message
+msgid "Couldn't rename '%s' to '%s': %s"
+msgstr "无法将 '%s' 重命名为 '%s': %s"
+
+#. Source: reviewed build-list residual UI chrome
+#: src/Classes/BuildListControl.lua:121 message
+msgid "Couldn't copy build: %s"
+msgstr "无法复制构筑: %s"
+
+#. Source: reviewed build-list residual UI chrome
+#: src/Classes/BuildListControl.lua:143 popup-title
+msgid "Copy Folder"
+msgstr "复制文件夹"
+
+#. Source: reviewed build-list residual UI chrome
+#: src/Classes/BuildListControl.lua:143 popup-title
+msgid "Copy Build"
+msgstr "复制构筑"
+
+#. Source: reviewed build-list residual UI chrome
+#: src/Classes/BuildListControl.lua:143 popup-title
+msgid "Rename Folder"
+msgstr "重命名文件夹"
+
+#. Source: reviewed build-list residual UI chrome
+#: src/Classes/BuildListControl.lua:143 popup-title
+msgid "Rename Build"
+msgstr "重命名构筑"
+
+#. Source: reviewed build-list residual UI chrome
+#: src/Classes/BuildListControl.lua:149 confirm-message
+msgid ""
+"The folder is not empty.\n"
+"Are you sure you want to delete folder:\n"
+"%s\n"
+"This cannot be undone."
+msgstr ""
+"此文件夹不是空的。\n"
+"确定要删除文件夹:\n"
+"%s\n"
+"此操作无法撤销。"
+
+#. Source: reviewed build-list residual UI chrome
+#: src/Classes/BuildListControl.lua:170 confirm-message
+msgid ""
+"Are you sure you want to delete build:\n"
+"%s\n"
+"This cannot be undone."
+msgstr ""
+"确定要删除构筑:\n"
+"%s\n"
+"此操作无法撤销。"
+
+#. Source: reviewed build-list residual UI chrome
+#: src/Classes/BuildListControl.lua:109 popup-title
+#: src/Classes/BuildListControl.lua:121 popup-title
+#: src/Classes/BuildListControl.lua:128 popup-title
+#: src/Classes/BuildListControl.lua:162 popup-title
+msgid "Error"
+msgstr "错误"
+
+#. Source: reviewed build-list residual UI chrome
+#: src/Modules/Main.lua:1704 button-label
+msgid "Ok"
+msgstr "确定"
+
+#. Source: reviewed build-list residual UI chrome
+#: src/Classes/BuildListControl.lua:190 row-chrome
+msgid "%sLevel %d %s"
+msgstr "%s等级 %d %s"
+
+#. Source: reviewed item-db residual UI chrome
+#: src/Classes/ItemDBControl.lua:31 control-constructor
+msgid "Any league"
+msgstr "任意联盟"
+
+#. Source: reviewed item-db residual UI chrome
+#: src/Classes/ItemDBControl.lua:31 control-constructor
+msgid "No league"
+msgstr "无联盟"
+
+#. Source: reviewed item-db residual UI chrome
+#: src/Classes/ItemDBControl.lua:32 control-constructor
+msgid "Any type"
+msgstr "任意类型"
+
+#. Source: reviewed item-db residual UI chrome
+#: src/Classes/ItemDBControl.lua:32 control-constructor
+msgid "Armour"
+msgstr "护甲"
+
+#. Source: reviewed item-db residual UI chrome
+#: src/Classes/ItemDBControl.lua:32 control-constructor
+msgid "Jewellery"
+msgstr "饰品"
+
+#. Source: reviewed item-db residual UI chrome
+#: src/Classes/ItemDBControl.lua:32 control-constructor
+msgid "One Handed Melee"
+msgstr "单手近战"
+
+#. Source: reviewed item-db residual UI chrome
+#: src/Classes/ItemDBControl.lua:32 control-constructor
+msgid "Two Handed Melee"
+msgstr "双手近战"
+
+#. Source: reviewed item-db residual UI chrome
+#: src/Classes/ItemDBControl.lua:33 control-constructor
+msgid "Any slot"
+msgstr "任意栏位"
+
+#. Source: reviewed item-db residual UI chrome
+#: src/Classes/ItemDBControl.lua:33 control-constructor
+msgid "Ring"
+msgstr "戒指"
+
+#. Source: reviewed item-db residual UI chrome
+#: src/Classes/ItemDBControl.lua:33 control-constructor
+msgid "Jewel"
+msgstr "珠宝"
+
+#. Source: reviewed item-db residual UI chrome
+#: src/Classes/ItemDBControl.lua:51 control-constructor
+msgid "Corruption"
+msgstr "腐化"
+
+#. Source: reviewed item-db residual UI chrome
+#: src/Classes/ItemDBControl.lua:260 default-text
+msgid "Sorting... (%d%%)"
+msgstr "排序中... (%d%%)"
+
+#. Source: reviewed item-db residual UI chrome
+#: src/Classes/ItemDBControl.lua:313 default-text
+msgid "Loading..."
+msgstr "载入中..."
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:11 label-field
+msgid "Active Minion Limit"
+msgstr "启用召唤物上限"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:79 label-field
+msgid "Activations per Brand"
+msgstr "每个烙印激活次数"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:78 label-field
+msgid "Attachment Range"
+msgstr "附着范围"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:223 label-field
+msgid "Attack/Cast Rate"
+msgstr "攻击/施放速率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:16 label-field
+msgid "Average Burst Damage"
+msgstr "平均爆发伤害"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:51 label-field
+msgid "Burning Ground DPS"
+msgstr "燃烧地面 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:55 label-field
+msgid "Caustic Ground DPS"
+msgstr "腐蚀地面 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:21 label-field
+msgid "Cast Time"
+msgstr "施放时间"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:112 label-field
+msgid "Chaos Max Hit"
+msgstr "混沌最大承受击中"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:186 label-field
+#: src/Modules/BuildDisplayStats.lua:188 label-field
+msgid "Chaos Resistance"
+msgstr "混沌抗性"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:22 label-field
+msgid "Channel Time"
+msgstr "引导时间"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:110 label-field
+msgid "Cold Max Hit"
+msgstr "冰霜最大承受击中"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:182 label-field
+msgid "Cold Resistance"
+msgstr "冰霜抗性"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:70 label-field
+msgid "Combined Total Damage"
+msgstr "合计总伤害"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:46 label-field
+msgid "Corrupting Blood DPS"
+msgstr "腐化之血 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:33 label-field
+msgid "Crit Chance"
+msgstr "暴击几率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:35 label-field
+msgid "Crit Bifurcate Chance"
+msgstr "暴击分叉几率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:36 label-field
+msgid "Crit Multiplier"
+msgstr "暴击伤害倍率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:67 label-field
+msgid "Culling DPS"
+msgstr "终结 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:62 label-field
+msgid "Damage inc. Impale"
+msgstr "包含穿刺的伤害"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:167 label-field
+msgid "Deflection Rating"
+msgstr "偏斜值"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:168 label-field
+msgid "Deflect Chance"
+msgstr "偏斜几率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:97 label-field
+msgid "Dexterity"
+msgstr "敏捷"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:102 label-field
+msgid "Devotion"
+msgstr "奉献"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:147 label-field
+#: src/Modules/BuildDisplayStats.lua:248 label-field
+msgid "ES Recovery"
+msgstr "能量护盾恢复"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:146 label-field
+msgid "ES Regen"
+msgstr "能量护盾回复"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:89 label-field
+msgid "ES Cost per second"
+msgstr "每秒能量护盾消耗"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:149 label-field
+msgid "ES Leech/Gain per Hit"
+msgstr "能量护盾偷取/每次击中获得"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:148 label-field
+msgid "ES Leech/On Hit Rate"
+msgstr "能量护盾偷取/击中获得速率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:34 label-field
+msgid "Effective Crit Chance"
+msgstr "有效暴击几率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:20 label-field
+#: src/Modules/BuildDisplayStats.lua:225 label-field
+msgid "Effective Trigger Rate"
+msgstr "有效触发频率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:108 label-field
+msgid "Elemental Max Hit"
+msgstr "元素最大承受击中"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:143 label-field
+msgid "Energy Shield"
+msgstr "能量护盾"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:88 label-field
+msgid "Energy Shield Cost"
+msgstr "能量护盾消耗"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:72 label-field
+msgid "Enemy Life Equivalent"
+msgstr "等效敌人生命"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:162 label-field
+msgid "Evade Chance"
+msgstr "闪避几率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:109 label-field
+msgid "Fire Max Hit"
+msgstr "火焰最大承受击中"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:180 label-field
+msgid "Fire Resistance"
+msgstr "火焰抗性"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:31 label-field
+msgid "Firing Rate"
+msgstr "开火频率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:217 label-field
+msgid "Full Dot DPS"
+msgstr "完整持续伤害 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:61 label-field
+msgid "Impale Damage"
+msgstr "穿刺伤害"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:63 label-field
+msgid "Impale DPS"
+msgstr "穿刺 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:99 label-field
+msgid "Intelligence"
+msgstr "智慧"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:84 label-field
+msgid "Life Cost"
+msgstr "生命消耗"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:86 label-field
+msgid "Life Cost per second"
+msgstr "每秒生命消耗"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:128 label-field
+msgid "Life Leech/Gain per Hit"
+msgstr "生命偷取/每次击中获得"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:127 label-field
+msgid "Life Leech/On Hit Rate"
+msgstr "生命偷取/击中获得速率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:123 label-field
+msgid "Life Recoverable"
+msgstr "可恢复生命"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:126 label-field
+#: src/Modules/BuildDisplayStats.lua:245 label-field
+msgid "Life Recovery"
+msgstr "生命恢复"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:125 label-field
+msgid "Life Regen"
+msgstr "生命回复"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:111 label-field
+msgid "Lightning Max Hit"
+msgstr "闪电最大承受击中"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:184 label-field
+msgid "Lightning Resistance"
+msgstr "闪电抗性"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:80 label-field
+msgid "Mana Cost"
+msgstr "魔力消耗"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:82 label-field
+msgid "Mana Cost per second"
+msgstr "每秒魔力消耗"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:137 label-field
+msgid "Mana Leech/Gain per Hit"
+msgstr "魔力偷取/每次击中获得"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:136 label-field
+msgid "Mana Leech/On Hit Rate"
+msgstr "魔力偷取/击中获得速率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:135 label-field
+msgid "Mana Recovery"
+msgstr "魔力恢复"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:75 label-field
+msgid "Max Number of Seals"
+msgstr "最大封印数量"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:163 label-field
+msgid "Melee Evade Chance"
+msgstr "近战闪避几率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/Build.lua:2256 sidebar-section
+msgid "Minion:"
+msgstr "召唤物："
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:52 label-field
+msgid "Mirage Burning Ground DPS"
+msgstr "幻影燃烧地面 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:56 label-field
+msgid "Mirage Caustic Ground DPS"
+msgstr "幻影腐蚀地面 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:27 label-field
+msgid "Mine Throwing Time"
+msgstr "地雷投掷时间"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:157 label-field
+msgid "Net Mana Recovery"
+msgstr "净魔力恢复"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:156 label-field
+msgid "Net Life Recovery"
+msgstr "净生命恢复"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:158 label-field
+msgid "Net ES Recovery"
+msgstr "净能量护盾恢复"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:115 label-field
+msgid "OH Accuracy"
+msgstr "副手命中值"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:114 label-field
+msgid "MH Accuracy"
+msgstr "主手命中值"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:17 label-field
+msgid "PvP Average Damage"
+msgstr "PvP 平均伤害"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:13 label-field
+msgid "PvP Average Hit"
+msgstr "PvP 平均击中"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:41 label-field
+msgid "PvP Hit DPS"
+msgstr "PvP 击中 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:106 label-field
+msgid "PvP Hit Taken"
+msgstr "PvP 承受击中"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:107 label-field
+msgid "Phys Max Hit"
+msgstr "物理最大承受击中"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/Build.lua:2272 sidebar-section
+msgid "Player:"
+msgstr "玩家："
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:164 label-field
+msgid "Projectile Evade Chance"
+msgstr "投射物闪避几率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:91 label-field
+msgid "Rage Cost"
+msgstr "盛怒消耗"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:92 label-field
+msgid "Rage Cost per second"
+msgstr "每秒盛怒消耗"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:151 label-field
+msgid "Rage"
+msgstr "盛怒"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:152 label-field
+msgid "Rage Regen"
+msgstr "盛怒回复"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:144 label-field
+msgid "Recoverable ES"
+msgstr "可恢复能量护盾"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:68 label-field
+msgid "Reservation DPS"
+msgstr "保留 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:32 label-field
+msgid "Reload Time"
+msgstr "装填时间"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:74 label-field
+msgid "Seal Gain Frequency"
+msgstr "封印获得频率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/Build.lua:2275 sidebar-section
+msgid "Skill disabled:"
+msgstr "技能已禁用："
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:73 label-field
+msgid "Skill Cooldown"
+msgstr "技能冷却"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:191 label-field
+msgid "Skill Movement Speed"
+msgstr "技能移动速度"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:93 label-field
+msgid "Soul Cost"
+msgstr "灵魂消耗"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:165 label-field
+msgid "Spell Evade Chance"
+msgstr "法术闪避几率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:166 label-field
+msgid "Spell Proj. Evade Chance"
+msgstr "法术投射物闪避几率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:95 label-field
+msgid "Strength"
+msgstr "力量"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:76 label-field
+msgid "Time to Gain Max Seals"
+msgstr "获得最大封印时间"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:154 label-field
+msgid "Total Degen"
+msgstr "总持续损失"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:47 label-field
+msgid "Total Damage per Bleed"
+msgstr "每层流血总伤害"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:60 label-field
+msgid "Total DoT DPS"
+msgstr "总持续伤害 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:71 label-field
+msgid "Total Explode Chance"
+msgstr "总爆炸几率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:65 label-field
+msgid "Total Mirage DPS"
+msgstr "总幻影 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:155 label-field
+msgid "Total Net Recovery"
+msgstr "总净恢复"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:139 label-field
+msgid "Total Spirit"
+msgstr "总精魂"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:66 label-field
+msgid "Total Wisp DPS"
+msgstr "总精魂 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:48 label-field
+msgid "Total DPS inc. Bleed"
+msgstr "包含流血的总 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:44 label-field
+msgid "Total DPS inc. DoT"
+msgstr "包含持续伤害的总 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:64 label-field
+msgid "Total DPS inc. Impale"
+msgstr "包含穿刺的总 DPS"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:117 label-field
+msgid "Total Darkness"
+msgstr "总黑暗值"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:118 label-field
+msgid "Reserved Darkness"
+msgstr "已保留黑暗值"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:103 label-field
+msgid "Tribute"
+msgstr "贡品"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:39 label-field
+msgid "Uncap. Hit Chance"
+msgstr "未封顶命中几率"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:140 label-field
+msgid "Unreserved Spirit"
+msgstr "未保留精魂"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:121 label-field
+msgid "%Inc Life"
+msgstr "生命提高%"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:28 label-field
+msgid "Avg. Traps per Throw"
+msgstr "每次投掷平均陷阱数"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:29 label-field
+msgid "Avg. Mines per Throw"
+msgstr "每次投掷平均地雷数"
+
+#. Source: reviewed sidebar stat labels
+#: src/Modules/BuildDisplayStats.lua:193 label-field
+msgid "Presence Radius"
+msgstr "存在半径"
+
+#. Source: reviewed CompareEntry fallback chrome
+#: src/Classes/CompareEntry.lua:27 label-field
+msgid "Comparison Build"
+msgstr "比较构筑"
+
+#. Source: reviewed CompareEntry tooltip chrome
+#: src/Classes/CompareEntry.lua:581 tooltip-template
+msgid "Requires %s"
+msgstr "需求 %s"
+
+#. Source: reviewed CompareTab fallback chrome
+#: src/Classes/CompareTab.lua draw-label
+msgid "Compare Build"
+msgstr "比较构筑"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Phys DPS: %s%.1f"
+msgstr "物理 DPS: %s%.1f"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Ele DPS: %s%.1f"
+msgstr "元素 DPS: %s%.1f"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Chaos DPS: %s%.1f"
+msgstr "混沌 DPS: %s%.1f"
+
+#. Source: reviewed CompareTab jewel-socket suffix chrome
+#: src/Classes/CompareTab.lua formatted-label
+msgid "%s (best socket)"
+msgstr "%s (最佳插槽)"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Total DPS: %s%.1f"
+msgstr "总 DPS: %s%.1f"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Crit: %s%.2f%%"
+msgstr "暴击: %s%.2f%%"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "APS: %s%.2f"
+msgstr "每秒攻击: %s%.2f"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Armour: %s%d"
+msgstr "护甲: %s%d"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Evasion: %s%d"
+msgstr "闪避: %s%d"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "ES: %s%d"
+msgstr "能量护盾: %s%d"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Ward: %s%d"
+msgstr "结界: %s%d"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Block: %s%d%%"
+msgstr "格挡: %s%d%%"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Life: %s%d ^x7F7F7F(%.1fs)"
+msgstr "生命: %s%d ^x7F7F7F(%.1f 秒)"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Mana: %s%d ^x7F7F7F(%.1fs)"
+msgstr "魔力: %s%d ^x7F7F7F(%.1f 秒)"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Duration: %s%.2fs"
+msgstr "持续时间: %s%.2f 秒"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Charges: %s%d/%d"
+msgstr "充能: %s%d/%d"
+
+#. Source: reviewed CompareTab item-detail chrome
+#: src/Classes/CompareTab.lua draw-template
+msgid "Quality: %s+%d%%"
+msgstr "品质: %s+%d%%"
+
+#. Source: reviewed CompareTab Calcs header chrome
+#: src/Classes/CompareTab.lua draw-label
+msgid "Socket Group"
+msgstr "插槽群组"
+
+#. Source: reviewed CompareTab Calcs header chrome
+#: src/Classes/CompareTab.lua draw-label
+msgid "Active Skill"
+msgstr "主动技能"
+
+#. Source: reviewed CompareTab Calcs header chrome
+#: src/Classes/CompareTab.lua draw-label
+msgid "Stat Set"
+msgstr "属性组"
+
+#. Source: reviewed CompareTab Calcs header chrome
+#: src/Classes/CompareTab.lua draw-label
+msgid "Skill Part"
+msgstr "技能部分"
+
+#. Source: reviewed CompareTab Calcs header chrome
+#: src/Classes/CompareTab.lua draw-label
+msgid "Stages"
+msgstr "阶段"
+
+#. Source: reviewed CompareTab Calcs header chrome
+#: src/Classes/CompareTab.lua draw-label
+msgid "Show Minion Stats"
+msgstr "显示召唤物属性"
+
+#. Source: reviewed CompareTab Calcs header chrome
+#: src/Classes/CompareTab.lua draw-label
+msgid "Minion"
+msgstr "召唤物"
+
+#. Source: reviewed CompareTab Calcs header chrome
+#: src/Classes/CompareTab.lua draw-label
+msgid "Minion Skill"
+msgstr "召唤物技能"
+
+#. Source: reviewed CompareTab Calcs header chrome
+#: src/Classes/CompareTab.lua draw-label
+msgid "Minion Skill Stat Set"
+msgstr "召唤物技能属性组"
+
+#. Source: reviewed CompareTab Calcs header chrome
+#: src/Classes/CompareTab.lua draw-label
+msgid "Calc Mode"
+msgstr "计算模式"
+
+#. Source: reviewed CompareTab Calcs header chrome
+#: src/Classes/CompareTab.lua info-line-prefix
+msgid "Aura/Buff Skills"
+msgstr "光环/增益技能"
+
+#. Source: reviewed CompareTab Calcs header chrome
+#: src/Classes/CompareTab.lua info-line-prefix
+msgid "Combat Buffs"
+msgstr "战斗增益"
+
+#. Source: reviewed CompareTab Calcs header chrome
+#: src/Classes/CompareTab.lua info-line-prefix
+msgid "Curses/Debuffs"
+msgstr "诅咒/减益"

@@ -46,7 +46,7 @@ function PopupDialogClass:Draw(viewPort)
 	SetDrawColor(0.1, 0.1, 0.1)
 	DrawImage(nil, x + 2, y + 2, width - 4, height - 4)
 	-- Draw dialog title box
-	local title = self:GetProperty("title")
+	local title = self:TranslateLabel(self:GetProperty("title"))
 	local titleWidth = DrawStringWidth(16, "VAR", title)
 	local titleX = x + m_floor((width - titleWidth - 8) / 2)
 	SetDrawColor(1, 1, 1)

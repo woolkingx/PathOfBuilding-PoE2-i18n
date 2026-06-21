@@ -13,8 +13,25 @@ local m_max = math.max
 local m_floor = math.floor
 local m_abs = math.abs
 local s_format = string.format
-local function firstToUpper(str)
-	return (str:gsub("^%l", string.upper))
+
+local function translateUI(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
+
+local function trSkill(text)
+	return TranslateSkill and TranslateSkill(text) or text
+end
+
+local function trPassive(text)
+	return TranslatePassive and TranslatePassive(text) or text
+end
+
+local function statSectionLabel(text)
+	return "^7" .. translateUI(text)
 end
 
 local buildMode = new("ControlHost")
@@ -147,7 +164,7 @@ function buildMode:Init(dbFileName, buildName, buildXML, convertBuild, importLin
 		DrawImage(nil, x + 92, y + 1, self.strWidth + 4, 18)
 		SetDrawColor(1, 1, 1)
 		SetViewport(x, y + 2, self.strWidth + 94, 16)
-		DrawString(0, 0, "LEFT", 16, "VAR", "Current build:  "..self.buildName)
+		DrawString(0, 0, "LEFT", 16, "VAR", (TranslateUI and TranslateUI("Current build:") or "Current build:").."  "..self.buildName)
 		SetViewport()
 		if control:IsMouseInBounds() then
 			SetDrawLayer(nil, 10)
@@ -195,9 +212,9 @@ function buildMode:Init(dbFileName, buildName, buildXML, convertBuild, importLin
 			SetDrawLayer(nil, 0)
 		end
 	end
-	self.controls.levelScalingButton = new("ButtonControl", {"LEFT",self.controls.pointDisplay,"RIGHT"}, {8, 0, 50, 20}, self.characterLevelAutoMode and "Auto" or "Manual", function()
+	self.controls.levelScalingButton = new("ButtonControl", {"LEFT",self.controls.pointDisplay,"RIGHT"}, {8, 0, 50, 20}, self.characterLevelAutoMode and translateUI("Auto") or translateUI("Manual"), function()
 		self.characterLevelAutoMode = not self.characterLevelAutoMode
-		self.controls.levelScalingButton.label = self.characterLevelAutoMode and "Auto" or "Manual"
+		self.controls.levelScalingButton.label = self.characterLevelAutoMode and translateUI("Auto") or translateUI("Manual")
 		self.configTab:BuildModList()
 		self.modFlag = true
 		self.buildFlag = true
@@ -208,12 +225,12 @@ function buildMode:Init(dbFileName, buildName, buildXML, convertBuild, importLin
 		self.modFlag = true
 		self.buildFlag = true
 		self.characterLevelAutoMode = false
-		self.controls.levelScalingButton.label = "Manual"
+		self.controls.levelScalingButton.label = translateUI("Manual")
 	end)
 	self.controls.characterLevel:SetText(self.characterLevel)
 	self.controls.characterLevel.tooltipFunc = function(tooltip)
 		if tooltip:CheckForUpdate(self.characterLevel) then
-			tooltip:AddLine(16, "Experience multiplier:")
+			tooltip:AddLine(16, translateUI("Experience multiplier:"))
 			local playerLevel = self.characterLevel
 			local safeZone = 3 + m_floor(playerLevel / 16)
 			for level, expLevel in ipairs(self.data.monsterExperienceLevelMap) do
@@ -248,7 +265,7 @@ function buildMode:Init(dbFileName, buildName, buildXML, convertBuild, importLin
 				self.buildFlag = true
 				self.treeTab.viewer.searchStrCached = ""
 			else
-				main:OpenConfirmPopup("Class Change", "Changing class to "..value.label.." will reset your passive tree.\nThis can be avoided by connecting one of the "..value.label.." starting nodes to your tree.", "Continue", function()
+				main:OpenConfirmPopup("Class Change", formatUI("Changing class to %s will reset your passive tree.\nThis can be avoided by connecting one of the %s starting nodes to your tree.", value.label, value.label), "Continue", function()
 					self.spec:SelectClass(value.classId)
 					self.spec:AddUndoState()
 					self.spec:SetWindowTitleWithBuildClass()
@@ -449,7 +466,7 @@ function buildMode:Init(dbFileName, buildName, buildXML, convertBuild, importLin
 		if value.itemSetId then
 			self.itemsTab:AddItemSetTooltip(tooltip, self.itemsTab.itemSets[value.itemSetId])
 			tooltip:AddSeparator(14)
-			tooltip:AddLine(14, colorCodes.TIP.."Tip: You can drag items from the Items tab onto this dropdown to equip them onto the minion.")
+			tooltip:AddLine(14, translateUI(colorCodes.TIP.."Tip: You can drag items from the Items tab onto this dropdown to equip them onto the minion."))
 		end
 	end
 	self.controls.mainSkillMinionLibrary = new("ButtonControl", {"LEFT",self.controls.mainSkillMinion,"RIGHT"}, {2, 0, 120, 18}, "Manage Spectres...", function()
@@ -490,7 +507,7 @@ function buildMode:Init(dbFileName, buildName, buildXML, convertBuild, importLin
 		if #self.controls.warnings.lines > 0 then
 			local count = 0
 			for _ in pairs(self.controls.warnings.lines) do count = count + 1 end
-			control.str = string.format(colorCodes.NEGATIVE.."%d Warnings", count)
+			control.str = FormatUI and FormatUI(colorCodes.NEGATIVE.."%d Warnings", count) or string.format(colorCodes.NEGATIVE.."%d Warnings", count)
 			local x, y = control:GetPos()
 			local width, height = control:GetSize()
 			DrawString(x, y + 2, "LEFT", 16, "FIXED", control.str)
@@ -1068,7 +1085,10 @@ function buildMode:EstimatePlayerProgress()
 			AscUsed > ascMax and colorCodes.NEGATIVE or "^7",
 			AscUsed, ascMax
 		)
-		self.controls.pointDisplay.req = string.format(
+		self.controls.pointDisplay.req = FormatUI and FormatUI(
+			"Required Level: %d\nEstimated Progress:\nAct: %s\nExtra Skillpoints: %d%s",
+			level, self.Act, extra, labSuggest
+		) or string.format(
 			"Required Level: %d\nEstimated Progress:\nAct: %s\nExtra Skillpoints: %d%s",
 			level, self.Act, extra, labSuggest
 		)
@@ -1402,12 +1422,14 @@ function buildMode:UpdateClassDropdowns(treeVersion)
 		for i = 0, #class.classes do
 			local ascendClass = class.classes[i]
 			t_insert(ascendancies, {
-				label = ascendClass.name,
+				label = trPassive(ascendClass.name),
+				rawLabel = ascendClass.name,
 				ascendClassId = i,
 			})
 		end
 		t_insert(self.controls.classDrop.list, {
-			label = class.name,
+			label = trPassive(class.name),
+			rawLabel = class.name,
 			classId = classId,
 			ascendancies = ascendancies,
 		})
@@ -1431,7 +1453,7 @@ Warning:^7 Converting a build to a different game version may have side effects.
 For example, if the passive tree has changed, then some passives may be deallocated.
 You should create a backup copy of the build before proceeding.
 ]])
-	controls.convert = new("ButtonControl", nil, {-40, 170, 120, 20}, "Convert to ".. currentVersion, function()
+	controls.convert = new("ButtonControl", nil, {-40, 170, 120, 20}, formatUI("Convert to %s", currentVersion), function()
 		main:ClosePopup()
 		self:Shutdown()
 		self:Init(self.dbFileName, self.buildName, nil, true)
@@ -1444,13 +1466,13 @@ You should create a backup copy of the build before proceeding.
 end
 
 function buildMode:OpenSavePopup(mode)
-	local modeDesc = {
-		["LIST"] = "now?",
-		["EXIT"] = "before exiting?",
-		["UPDATE"] = "before updating?",
+	local savePrompt = {
+		["LIST"] = "^7This build has unsaved changes.\nDo you want to save them now?",
+		["EXIT"] = "^7This build has unsaved changes.\nDo you want to save them before exiting?",
+		["UPDATE"] = "^7This build has unsaved changes.\nDo you want to save them before updating?",
 	}
 	local controls = { }
-	controls.label = new("LabelControl", nil, {0, 20, 0, 16}, "^7This build has unsaved changes.\nDo you want to save them "..modeDesc[mode])
+	controls.label = new("LabelControl", nil, {0, 20, 0, 16}, savePrompt[mode] or savePrompt.LIST)
 	controls.save = new("ButtonControl", nil, {-90, 70, 80, 20}, "Save", function()
 		main:ClosePopup()
 		self.actionOnSave = mode
@@ -1666,12 +1688,13 @@ function buildMode:OpenSpectreLibrary(library)
 		controls.movementSpeedLabel.movementSpeedValue = movementSpeed
 	end
 
-	local label = (library == "beast" and "Beasts" or "Spectres")
-	controls.list = new("MinionListControl", nil, {-230, 40, 210, 270}, self.data, destList, nil, label.." in Build:")
+	local buildListLabel = library == "beast" and "Beasts in Build:" or "Spectres in Build:"
+	local availableListLabel = library == "beast" and "^7Available Beasts:" or "^7Available Spectres:"
+	controls.list = new("MinionListControl", nil, {-230, 40, 210, 270}, self.data, destList, nil, buildListLabel)
 	controls.list.OnSelect = function()
 			UpdateMinionDisplay(controls.list.selValue)
 	end
-	controls.source = new("MinionSearchListControl", nil, {0, 80, 210, 230}, self.data, sourceList, controls.list, "^7Available "..label..":")
+	controls.source = new("MinionSearchListControl", nil, {0, 80, 210, 230}, self.data, sourceList, controls.list, availableListLabel)
 	controls.source.OnSelect = function()
 			UpdateMinionDisplay(controls.source.selValue)
 	end
@@ -1721,8 +1744,10 @@ function buildMode:OpenSpectreLibrary(library)
 		checkbox.shown = library ~= "beast"
 		controls[controlName] = checkbox
 	end
-	controls.sortMonsterCheckboxShowAll = new("CheckBoxControl", {"TOPLEFT", controls.source, "BOTTOMLEFT"}, {153, 2, 26, 26}, "", monsterTypeCheckboxChange("recommendedList"), "^7Show All " .. firstToUpper(library) .. "s", false)
-	controls.showAllLabel = new("LabelControl", {"RIGHT",controls.sortMonsterCheckboxShowAll,"LEFT"}, {-5, 0, 0, 16}, "^7Show All " .. firstToUpper(library) .. "s:")
+	local showAllLabel = library == "beast" and "Show All Beasts" or "Show All Spectres"
+	local showAllTextLabel = library == "beast" and "^7Show All Beasts:" or "^7Show All Spectres:"
+	controls.sortMonsterCheckboxShowAll = new("CheckBoxControl", {"TOPLEFT", controls.source, "BOTTOMLEFT"}, {153, 2, 26, 26}, "", monsterTypeCheckboxChange("recommendedList"), "^7" .. showAllLabel, false)
+	controls.showAllLabel = new("LabelControl", {"RIGHT",controls.sortMonsterCheckboxShowAll,"LEFT"}, {-5, 0, 0, 16}, showAllTextLabel)
 	controls.save = new("ButtonControl", nil, {-45, 420, 80, 20}, "Save", function()
 		if library == "beast" then
 			self.beastList = destList
@@ -1756,7 +1781,7 @@ function buildMode:OpenSpectreLibrary(library)
 		SetDrawColor(0,0,0,1)
 		DrawImage(nil, xPos-76, yPos-8, 241, 34)
 		SetDrawColor(1, 1, 1)
-		DrawString(xPos + 45, yPos, "CENTER_X", 18, "VAR BOLD", self.labelText or "Monster Stats")
+		DrawString(xPos + 45, yPos, "CENTER_X", 18, "VAR BOLD", self.labelText or translateUI("Monster Stats"))
 	end
 	controls.minionGemLevelLabel = new("LabelControl", {"BOTTOM", controls.minionNameLabel, "TOP"}, {24, 271, 0, 16}, "Gem Level:")
 	controls.minionGemLevel = new("EditControl", {"LEFT", controls.minionGemLevelLabel, "RIGHT"}, {4, 0, 60, 20}, 20, nil, "%D", 3, function()
@@ -1768,7 +1793,8 @@ function buildMode:OpenSpectreLibrary(library)
 	controls.lifeLabel.Draw = function(self, view)
 		local xPos, yPos = self:GetPos()
 		local boxWidth, boxHeight = 120, 50
-		local labelWidth = DrawStringWidth(16, "VAR BOLD", "LIFE")
+		local label = translateUI("LIFE")
+		local labelWidth = DrawStringWidth(16, "VAR BOLD", label)
 		SetDrawColor(colorCodes.LIFE)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos - 3, boxWidth, boxHeight)
 		SetDrawColor(0, 0, 0, 1)
@@ -1776,7 +1802,7 @@ function buildMode:OpenSpectreLibrary(library)
 		SetDrawColor(colorCodes.LIFE)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos + 16, boxWidth, 2)
 		SetDrawColor(1, 1, 1)
-		DrawString(xPos + (labelWidth / 2), yPos, "CENTER_X", 16, "VAR BOLD", "LIFE")
+		DrawString(xPos + (labelWidth / 2), yPos, "CENTER_X", 16, "VAR BOLD", label)
 		if self.lifeValue then
 			DrawString(xPos + (labelWidth / 2), yPos + 24, "CENTER_X", 16, "VAR", self.lifeValue)
 		end
@@ -1785,7 +1811,8 @@ function buildMode:OpenSpectreLibrary(library)
 	controls.energyshieldLabel.Draw = function(self, view)
 		local xPos, yPos = self:GetPos()
 		local boxWidth, boxHeight = 120, 50
-		local labelWidth = DrawStringWidth(16, "VAR BOLD", "ENERGY SHIELD")
+		local label = translateUI("ENERGY SHIELD")
+		local labelWidth = DrawStringWidth(16, "VAR BOLD", label)
 		SetDrawColor(colorCodes.ES)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos - 3, boxWidth, boxHeight)
 		SetDrawColor(0, 0, 0, 1)
@@ -1793,7 +1820,7 @@ function buildMode:OpenSpectreLibrary(library)
 		SetDrawColor(colorCodes.ES)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos + 16, boxWidth, 2)
 		SetDrawColor(1, 1, 1)
-		DrawString(xPos + (labelWidth / 2), yPos, "CENTER_X", 16, "VAR BOLD", "ENERGY SHIELD")
+		DrawString(xPos + (labelWidth / 2), yPos, "CENTER_X", 16, "VAR BOLD", label)
 		if self.energyShieldValue then
 			DrawString(xPos + (labelWidth / 2), yPos + 24, "CENTER_X", 16, "VAR", self.energyShieldValue)
 		end
@@ -1802,7 +1829,8 @@ function buildMode:OpenSpectreLibrary(library)
 	controls.armourLabel.Draw = function(self, view)
 		local xPos, yPos = self:GetPos()
 		local boxWidth, boxHeight = 120, 50
-		local labelWidth = DrawStringWidth(16, "VAR BOLD", "ARMOUR")
+		local label = translateUI("ARMOUR")
+		local labelWidth = DrawStringWidth(16, "VAR BOLD", label)
 		SetDrawColor(colorCodes.NORMAL)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos - 3, boxWidth, boxHeight)
 		SetDrawColor(0, 0, 0, 1)
@@ -1810,7 +1838,7 @@ function buildMode:OpenSpectreLibrary(library)
 		SetDrawColor(colorCodes.NORMAL)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos + 16, boxWidth, 2)
 		SetDrawColor(1, 1, 1)
-		DrawString(xPos + (labelWidth / 2), yPos, "CENTER_X", 16, "VAR BOLD", "ARMOUR")
+		DrawString(xPos + (labelWidth / 2), yPos, "CENTER_X", 16, "VAR BOLD", label)
 		if self.armourValue then
 			DrawString(xPos + (labelWidth / 2), yPos + 24, "CENTER_X", 16, "VAR", self.armourValue)
 		end
@@ -1819,7 +1847,8 @@ function buildMode:OpenSpectreLibrary(library)
 	controls.evasionLabel.Draw = function(self, view)
 		local xPos, yPos = self:GetPos()
 		local boxWidth, boxHeight = 120, 50
-		local labelWidth = DrawStringWidth(16, "VAR BOLD", "EVASION")
+		local label = translateUI("EVASION")
+		local labelWidth = DrawStringWidth(16, "VAR BOLD", label)
 		SetDrawColor(colorCodes.EVASION)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos - 3, boxWidth, boxHeight)
 		SetDrawColor(0, 0, 0, 1)
@@ -1827,7 +1856,7 @@ function buildMode:OpenSpectreLibrary(library)
 		SetDrawColor(colorCodes.EVASION)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos + 16, boxWidth, 2)
 		SetDrawColor(1, 1, 1)
-		DrawString(xPos + (labelWidth / 2), yPos, "CENTER_X", 16, "VAR BOLD", "EVASION")
+		DrawString(xPos + (labelWidth / 2), yPos, "CENTER_X", 16, "VAR BOLD", label)
 		if self.evasionValue then
 			DrawString(xPos + (labelWidth / 2), yPos + 24, "CENTER_X", 16, "VAR", self.evasionValue)
 		end
@@ -1836,7 +1865,8 @@ function buildMode:OpenSpectreLibrary(library)
 	controls.blockLabel.Draw = function(self, view)
 		local xPos, yPos = self:GetPos()
 		local boxWidth, boxHeight = 120, 50
-		local labelWidth = DrawStringWidth(16, "VAR BOLD", "BLOCK")
+		local label = translateUI("BLOCK")
+		local labelWidth = DrawStringWidth(16, "VAR BOLD", label)
 		SetDrawColor(colorCodes.NORMAL)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos - 3, boxWidth, boxHeight)
 		SetDrawColor(0, 0, 0, 1)
@@ -1844,7 +1874,7 @@ function buildMode:OpenSpectreLibrary(library)
 		SetDrawColor(colorCodes.NORMAL)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos + 16, boxWidth, 2)
 		SetDrawColor(1, 1, 1)
-		DrawString(xPos + labelWidth / 2, yPos, "CENTER_X", 16, "VAR BOLD", "BLOCK")
+		DrawString(xPos + labelWidth / 2, yPos, "CENTER_X", 16, "VAR BOLD", label)
 		if self.blockValue then
 			DrawString(xPos + (labelWidth / 2), yPos + 24, "CENTER_X", 16, "VAR", self.blockValue)
 		end
@@ -1853,7 +1883,8 @@ function buildMode:OpenSpectreLibrary(library)
 	controls.resistsLabel.Draw = function(self, view)
 		local xPos, yPos = self:GetPos()
 		local boxWidth, boxHeight = 120, 50
-		local labelWidth = DrawStringWidth(16, "VAR BOLD", "RESISTS")
+		local label = translateUI("RESISTS")
+		local labelWidth = DrawStringWidth(16, "VAR BOLD", label)
 		SetDrawColor(colorCodes.DEFENCE)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos - 3, boxWidth, boxHeight)
 		SetDrawColor(0, 0, 0, 1)
@@ -1861,7 +1892,7 @@ function buildMode:OpenSpectreLibrary(library)
 		SetDrawColor(colorCodes.DEFENCE)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos + 16, boxWidth, 2)
 		SetDrawColor(1, 1, 1)
-		DrawString(xPos + labelWidth / 2, yPos, "CENTER_X", 16, "VAR BOLD", "RESISTS")
+		DrawString(xPos + labelWidth / 2, yPos, "CENTER_X", 16, "VAR BOLD", label)
 		if self.resistsValue then
 			DrawString(xPos + (labelWidth / 2), yPos + 24, "CENTER_X", 16, "VAR", self.resistsValue)
 		end
@@ -1870,7 +1901,8 @@ function buildMode:OpenSpectreLibrary(library)
 	controls.movementSpeedLabel.Draw = function(self, view)
 		local xPos, yPos = self:GetPos()
 		local boxWidth, boxHeight = 244, 50
-		local labelWidth = DrawStringWidth(16, "VAR BOLD", "MOVEMENT SPEED")
+		local label = translateUI("MOVEMENT SPEED")
+		local labelWidth = DrawStringWidth(16, "VAR BOLD", label)
 		SetDrawColor(colorCodes.DEFENCE)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos - 3, boxWidth, boxHeight)
 		SetDrawColor(0, 0, 0, 1)
@@ -1878,7 +1910,7 @@ function buildMode:OpenSpectreLibrary(library)
 		SetDrawColor(colorCodes.DEFENCE)
 		DrawImage(nil, xPos + (labelWidth / 2) - (boxWidth / 2), yPos + 16, boxWidth, 2)
 		SetDrawColor(1, 1, 1)
-		DrawString(xPos + labelWidth / 2, yPos, "CENTER_X", 16, "VAR BOLD", "MOVEMENT SPEED")
+		DrawString(xPos + labelWidth / 2, yPos, "CENTER_X", 16, "VAR BOLD", label)
 		if self.movementSpeedValue then
 			DrawString(xPos + (labelWidth / 2), yPos + 24, "CENTER_X", 16, "VAR", self.movementSpeedValue)
 		end
@@ -1955,7 +1987,7 @@ function buildMode:RefreshSkillSelectControls(controls, mainGroup, suffix)
 			local explodeSource = activeSkill.activeEffect.srcInstance.explodeSource
 			local explodeSourceName = explodeSource and (explodeSource.name or explodeSource.dn)
 			local colourCoded = explodeSourceName and ("From "..colorCodes[explodeSource.rarity or "NORMAL"]..explodeSourceName)
-			t_insert(controls.mainSkill.list, { val = i, label = colourCoded or activeSkill.activeEffect.grantedEffect.name })
+			t_insert(controls.mainSkill.list, { val = i, label = colourCoded or trSkill(activeSkill.activeEffect.grantedEffect.name) })
 		end
 		controls.mainSkill.enabled = #displaySkillList > 1
 		controls.mainSkill.selIndex = mainActiveSkill
@@ -2042,7 +2074,7 @@ function buildMode:RefreshSkillSelectControls(controls, mainGroup, suffix)
 					wipeTable(controls.mainSkillMinionSkill.list)
 					if activeSkill.minion then
 						for _, minionSkill in ipairs(activeSkill.minion.activeSkillList) do
-							t_insert(controls.mainSkillMinionSkill.list, minionSkill.activeEffect.grantedEffect.name)
+							t_insert(controls.mainSkillMinionSkill.list, trSkill(minionSkill.activeEffect.grantedEffect.name))
 						end
 						controls.mainSkillMinionSkill.selIndex = activeEffect.srcInstance["skillMinionSkill"..suffix] or 1
 						controls.mainSkillMinionSkill.shown = true
@@ -2132,7 +2164,7 @@ function buildMode:AddDisplayStatList(statList, actor)
 								t_insert(statBoxList, {
 									height = 14,
 									align = "CENTER_X", x = 140,
-									colorCodes.WARNING.."from " ..skillData.source,
+									colorCodes.WARNING..formatUI("from %s", skillData.source),
 								})
 							end
 						end
@@ -2144,7 +2176,7 @@ function buildMode:AddDisplayStatList(statList, actor)
 						end
 						t_insert(statBoxList, {
 							height = 16,
-							labelColor..statData.label..":",
+							labelColor..translateUI(statData.label)..":",
 							self:FormatStat(statData, statVal, overCapStatVal, colorOverride),
 						})
 					end
@@ -2157,7 +2189,7 @@ function buildMode:AddDisplayStatList(statList, actor)
 				end
 			elseif statData.label and statData.condFunc and statData.condFunc(actor.output) then
 				t_insert(statBoxList, {
-					height = 16, labelColor..statData.label..":",
+					height = 16, labelColor..translateUI(statData.label)..":",
 					"^7"..actor.output[statData.labelStat].."%^x808080" .. " (" .. statData.val  .. ")",})
 			elseif not statBoxList[#statBoxList] or statBoxList[#statBoxList][1] then
 				t_insert(statBoxList, { height = 6 })
@@ -2166,54 +2198,56 @@ function buildMode:AddDisplayStatList(statList, actor)
 	end
 	for pool, warningFlag in pairs({["Life"] = "LifeCostWarningList", ["Mana"] = "ManaCostWarningList", ["Rage"] = "RageCostWarningList", ["Energy Shield"] = "ESCostWarningList"}) do
 		if actor.output[warningFlag] then
-			local line = "You do not have enough "..(actor.output.EnergyShieldProtectsMana and pool == "Mana" and "Energy Shield and Mana" or pool).." to use: "
+			local poolLabel = actor.output.EnergyShieldProtectsMana and pool == "Mana" and "Energy Shield and Mana" or pool
+			local skills = ""
 			for _, skill in ipairs(actor.output[warningFlag]) do
-				line = line..skill..", "
+				skills = skills..skill..", "
 			end
-			line = line:sub(1, -3)
-			InsertIfNew(self.controls.warnings.lines, line)
+			skills = skills:sub(1, -3)
+			InsertIfNew(self.controls.warnings.lines, formatUI("You do not have enough %s to use: %s", translateUI(poolLabel), skills))
 		end
 	end
 	for pool, warningFlag in pairs({["Unreserved life"] = "LifePercentCostPercentCostWarningList", ["Unreserved Mana"] = "ManaPercentCostPercentCostWarningList"}) do
 		if actor.output[warningFlag] then
-			local line = "You do not have enough ".. pool .."% to use: "
+			local skills = ""
 			for _, skill in ipairs(actor.output[warningFlag]) do
-				line = line..skill..", "
+				skills = skills..skill..", "
 			end
-			line = line:sub(1, -3)
-			InsertIfNew(self.controls.warnings.lines, line)
+			skills = skills:sub(1, -3)
+			InsertIfNew(self.controls.warnings.lines, formatUI("You do not have enough %s%% to use: %s", translateUI(pool), skills))
 		end
 	end
 	if actor.output.EternalLifeWarning then
-		InsertIfNew(self.controls.warnings.lines, "You cannot pay Life costs of skills while You have Energy Shield and have Eternal Life allocated")
+		InsertIfNew(self.controls.warnings.lines, translateUI("You cannot pay Life costs of skills while you have Energy Shield and Eternal Life allocated"))
 	end
 	if actor.output.VixensTooMuchCastSpeedWarn then
-		InsertIfNew(self.controls.warnings.lines, "You may have too much cast speed or too little cooldown reduction to effectively use Vixen's Curse replacement")
+		InsertIfNew(self.controls.warnings.lines, formatUI("You may have too much cast speed or too little cooldown reduction to effectively use %s replacement", "Vixen's Curse"))
 	end
 	if actor.output.VixenModeNoVixenGlovesWarn then
-		InsertIfNew(self.controls.warnings.lines, "Vixen's calculation mode for Doom Blast is selected but you do not have Vixen's Entrapment Embroidered Gloves equipped")
+		InsertIfNew(self.controls.warnings.lines, formatUI("%s calculation mode for %s is selected but you do not have %s equipped", "Vixen's", "Doom Blast", "Vixen's Entrapment Embroidered Gloves"))
 	end
 end
 
 function buildMode:InsertItemWarnings()
 	if self.calcsTab.mainEnv.itemWarnings.jewelLimitWarning then
 		for _, warning in ipairs(self.calcsTab.mainEnv.itemWarnings.jewelLimitWarning) do
-			InsertIfNew(self.controls.warnings.lines, "You are exceeding jewel limit with the jewel "..warning)
+			InsertIfNew(self.controls.warnings.lines, formatUI("You are exceeding jewel limit with the jewel %s", warning))
 		end
 	end
 	if self.calcsTab.mainEnv.itemWarnings.socketLimitWarning then
 		for _, warning in ipairs(self.calcsTab.mainEnv.itemWarnings.socketLimitWarning) do
-			InsertIfNew(self.controls.warnings.lines, "You have too many gems in your "..warning.." socket group")
+			InsertIfNew(self.controls.warnings.lines, formatUI("You have too many gems in your %s socket group", warning))
 		end
 	end
 	if self.calcsTab.mainEnv.itemWarnings.lineageSupportGemLimitWarning then
 		for _, warning in ipairs(self.calcsTab.mainEnv.itemWarnings.lineageSupportGemLimitWarning) do
-			InsertIfNew(self.controls.warnings.lines, "You have too many "..warning[1].." lineage support gems allocated. Max allowed is "..warning[2].."."..(warning[3] and " Locations: "..table.concat(warning[3], ", ") or ""))
+			local locations = warning[3] and formatUI(" Locations: %s", table.concat(warning[3], ", ")) or ""
+			InsertIfNew(self.controls.warnings.lines, formatUI("You have too many %s lineage support gems allocated. Max allowed is %s.%s", warning[1], warning[2], locations))
 		end
 	end
 	if self.calcsTab.mainEnv.itemWarnings.gemGroupCountWarning then
 		for _, warning in ipairs(self.calcsTab.mainEnv.itemWarnings.gemGroupCountWarning) do
-			InsertIfNew(self.controls.warnings.lines, "You have too many gem groups allocated. Max allowed is "..warning[1]..". You have "..warning[2].." non-item/non-granted gem groups allocated.")
+			InsertIfNew(self.controls.warnings.lines, formatUI("You have too many gem groups allocated. Max allowed is %s. You have %s non-item/non-granted gem groups allocated.", warning[1], warning[2]))
 		end
 	end
 end
@@ -2235,7 +2269,7 @@ function buildMode:RefreshStatList()
 		end
 	end
 	if self.calcsTab.mainEnv.minion then
-		t_insert(statBoxList, { height = 18, "^7Minion:" })
+		t_insert(statBoxList, { height = 18, statSectionLabel("Minion:") })
 		if self.calcsTab.mainEnv.minion.mainSkill.infoMessage then
 			-- Split the line if too long
 			if #self.calcsTab.mainEnv.minion.mainSkill.infoMessage > 40 then
@@ -2251,10 +2285,10 @@ function buildMode:RefreshStatList()
 		end
 		self:AddDisplayStatList(self.minionDisplayStats, self.calcsTab.mainEnv.minion)
 		t_insert(statBoxList, { height = 10 })
-		t_insert(statBoxList, { height = 18, "^7Player:" })
+		t_insert(statBoxList, { height = 18, statSectionLabel("Player:") })
 	end
 	if self.calcsTab.mainEnv.player.mainSkill.activeEffect.statSet.skillFlags.disable then
-		t_insert(statBoxList, { height = 16, "^7Skill disabled:" })
+		t_insert(statBoxList, { height = 16, statSectionLabel("Skill disabled:") })
 		t_insert(statBoxList, { height = 14, align = "CENTER_X", x = 140, self.calcsTab.mainEnv.player.mainSkill.disableReason })
 	end
 	self:AddDisplayStatList(self.displayStats, self.calcsTab.mainEnv.player)
@@ -2282,7 +2316,7 @@ function buildMode:CompareStatList(tooltip, statList, actor, baseOutput, compare
 
 				valStr = formatNumSep(valStr)
 
-				local line = s_format("%s%s %s", color, valStr, statData.label)
+				local line = s_format("%s%s %s", color, valStr, translateUI(statData.label))
 				local pcPerPt = ""
 				if statData.compPercent and statVal1 ~= 0 and statVal2 ~= 0 then
 					local pc = statVal1 / statVal2 * 100 - 100
@@ -2308,11 +2342,11 @@ end
 function buildMode:AddStatComparesToTooltip(tooltip, baseOutput, compareOutput, header, nodeCount)
 	local count = 0
 	if self.calcsTab.mainEnv.player.mainSkill.minion and baseOutput.Minion and compareOutput.Minion then
-		count = count + self:CompareStatList(tooltip, self.minionDisplayStats, self.calcsTab.mainEnv.minion, baseOutput.Minion, compareOutput.Minion, header.."\n^7Minion:", nodeCount)
+		count = count + self:CompareStatList(tooltip, self.minionDisplayStats, self.calcsTab.mainEnv.minion, baseOutput.Minion, compareOutput.Minion, header.."\n"..statSectionLabel("Minion:"), nodeCount)
 		if count > 0 then
-			header = "^7Player:"
+			header = statSectionLabel("Player:")
 		else
-			header = header.."\n^7Player:"
+			header = header.."\n"..statSectionLabel("Player:")
 		end
 	end
 	count = count + self:CompareStatList(tooltip, self.displayStats, self.calcsTab.mainEnv.player, baseOutput, compareOutput, header, nodeCount)
@@ -2358,10 +2392,10 @@ do
 		if req[1] then
 			local fontSizeBig = main.showFlavourText and 18 or 16
 			if tooltip.tooltipHeader ~= "GEM" then
-				tooltip:AddLine(fontSizeBig, "^x7F7F7FRequires "..table.concat(req, "^x7F7F7F, "), "FONTIN SC")
+				tooltip:AddLine(fontSizeBig, formatUI("^x7F7F7FRequires %s", table.concat(req, "^x7F7F7F, ")), "FONTIN SC")
 				tooltip:AddSeparator(10)
 			else
-				tooltip:AddLine(fontSizeBig, "   ^x7F7F7FRequires: "..table.concat(req, "^7, "), "FONTIN SC")
+				tooltip:AddLine(fontSizeBig, formatUI("   ^x7F7F7FRequires: %s", table.concat(req, "^7, ")), "FONTIN SC")
 			end
 		end
 		wipeTable(req)
@@ -2461,7 +2495,7 @@ function buildMode:SaveDBFile()
 	end
 	local file = io.open(self.dbFileName, "w+")
 	if not file then
-		main:OpenMessagePopup("Error", "Couldn't save the build file:\n"..self.dbFileName.."\nMake sure the save folder exists and is writable.")
+		main:OpenMessagePopup("Error", formatUI("Couldn't save the build file:\n%s\nMake sure the save folder exists and is writable.", self.dbFileName))
 		return true
 	end
 	file:write(xmlText)

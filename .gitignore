@@ -18,6 +18,19 @@ luajit/
 spec/test_results.log
 spec/test_generation.log
 src/luacov.stats.out
+work/
+.cleanup/
+.backup/
+logs/
+__pycache__/
+*.pyc
+
+# Agent-local planning and workflow files
+.codex/
+.agents/
+CLAUDE.md
+AGENTS.md
+docs/plan/
 
 # Release
 manifest-updated.xml

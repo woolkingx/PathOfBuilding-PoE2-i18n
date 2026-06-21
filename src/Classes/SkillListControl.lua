@@ -6,6 +6,16 @@
 local ipairs = ipairs
 local t_insert = table.insert
 local t_remove = table.remove
+local s_format = string.format
+
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
+
 local slot_map = {
 	["Weapon 1"] 		= { icon = NewImageHandle(), path = "Assets/icon_weapon.png" },
 	["Weapon 2"] 		= { icon = NewImageHandle(), path = "Assets/icon_weapon_2.png" },
@@ -37,7 +47,7 @@ local SkillListClass = newClass("SkillListControl", "ListControl", function(self
 		return self.selValue ~= nil and self.selValue.source == nil
 	end
 	self.controls.deleteAll = new("ButtonControl", {"RIGHT",self.controls.delete,"LEFT"}, {-4, 0, 70, 18}, "Delete All", function()
-		main:OpenConfirmPopup("Delete All", "Are you sure you want to delete all socket groups in this build?", "Delete", function()
+		main:OpenConfirmPopup("Delete All", tr("Are you sure you want to delete all socket groups in this build?"), "Delete", function()
 			wipeTable(self.list)
 			skillsTab:SetDisplayGroup()
 			skillsTab:AddUndoState()
@@ -75,14 +85,14 @@ function SkillListClass:GetRowValue(column, index, socketGroup)
 		local disabled = not socketGroup.enabled or not socketGroup.slotEnabled
 		if disabled then
 			local colour = currentMainSkill and "" or "^x7F7F7F"
-			label = colour .. label .. " (Disabled)"
+			label = colour .. label .. " " .. tr("(Disabled)")
 		end
 		if currentMainSkill then 
-			local activeLabel = disabled and " (Forced Active)" or " (Active)"
-			label = label .. colorCodes.RELIC .. activeLabel
+			local activeLabel = disabled and tr("(Forced Active)") or tr("(Active)")
+			label = label .. colorCodes.RELIC .. " " .. activeLabel
 		end
 		if socketGroup.includeInFullDPS then 
-			label = label .. colorCodes.CUSTOM .. " (FullDPS)"
+			label = label .. colorCodes.CUSTOM .. " " .. tr("(FullDPS)")
 		end
 		return label
 	end
@@ -141,7 +151,7 @@ function SkillListClass:OnSelDelete(index, socketGroup)
 		end
 	end
 	if socketGroup.source then
-		main:OpenMessagePopup("Delete Socket Group", "This socket group cannot be deleted as it is created by an equipped item.")
+		main:OpenMessagePopup("Delete Socket Group", tr("This socket group cannot be deleted as it is created by an equipped item."))
 	elseif not socketGroup.gemList[1] then
 		t_remove(self.list, index)
 		if self.skillsTab.displayGroup == socketGroup then
@@ -152,7 +162,7 @@ function SkillListClass:OnSelDelete(index, socketGroup)
 		self.skillsTab.build.buildFlag = true
 		self.selValue = nil
 	else
-		main:OpenConfirmPopup("Delete Socket Group", "Are you sure you want to delete '"..socketGroup.displayLabel.."'?", "Delete", function()
+		main:OpenConfirmPopup("Delete Socket Group", formatUI("Are you sure you want to delete '%s'?", socketGroup.displayLabel), "Delete", function()
 			t_remove(self.list, index)
 			if self.skillsTab.displayGroup == socketGroup then
 				self.skillsTab:SetDisplayGroup()

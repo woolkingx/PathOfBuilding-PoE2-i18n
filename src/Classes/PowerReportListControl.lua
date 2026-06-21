@@ -8,6 +8,14 @@ local t_insert = table.insert
 local t_remove = table.remove
 local t_sort = table.sort
 
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or string.format(text, ...)
+end
+
 local PowerReportListClass = newClass("PowerReportListControl", "ListControl", function(self, anchor, rect, nodeSelectCallback)
 	self.ListControl(anchor, rect, 16, "VERTICAL", false)
 
@@ -24,7 +32,7 @@ local PowerReportListClass = newClass("PowerReportListControl", "ListControl", f
 	self.nodeSelectCallback = nodeSelectCallback
 	self.showClusters = false
 	self.allocated = false
-	self.label = "Building Tree..."
+	self.label = tr("Building Tree...")
 	
 	self.controls.filterSelect = new("DropDownControl", {"BOTTOMRIGHT", self, "TOPRIGHT"}, {0, -2, 200, 20},
 		{ "Show Unallocated", "Show Unallocated & Clusters", "Show Allocated" },
@@ -41,9 +49,9 @@ function PowerReportListClass:SetReport(stat, report)
 	self.originalList = report or {}
 
 	if stat and stat.stat then
-		self.label = report and "Click to focus node on tree" or "Building Tree..."
+		self.label = report and tr("Click to focus node on tree") or tr("Building Tree...")
 	else
-		self.label = "^7\""..self.powerColumn.label.."\" not supported.  Select a specific stat from the dropdown."
+		self.label = formatUI("^7\"%s\" not supported.  Select a specific stat from the dropdown.", self.powerColumn.label)
 	end
 
 	self:ReList()

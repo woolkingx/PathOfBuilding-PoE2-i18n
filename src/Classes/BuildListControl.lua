@@ -6,6 +6,14 @@
 local ipairs = ipairs
 local s_format = string.format
 
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
+
+local function ui(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
 local BuildListClass = newClass("BuildListControl", "ListControl", function(self, anchor, rect, listMode)
 	self.ListControl(anchor, rect, 20, "VERTICAL", false, listMode.list)
 	self.listMode = listMode
@@ -74,7 +82,8 @@ end
 
 function BuildListClass:RenameBuild(build, copyOnName)
 	local controls = { }
-	controls.label = new("LabelControl", nil, {0, 20, 0, 16}, "^7Enter the new name for this "..(build.folderName and "folder:" or "build:"))
+	local prompt = build.folderName and "^7Enter the new name for this folder:" or "^7Enter the new name for this build:"
+	controls.label = new("LabelControl", nil, {0, 20, 0, 16}, prompt)
 	controls.edit = new("EditControl", nil, {0, 40, 350, 20}, build.folderName or build.buildName, nil, "\\/:%*%?\"<>|%c", 100, function(buf)
 		controls.save.enabled = false
 		if build.folderName then
@@ -105,7 +114,8 @@ function BuildListClass:RenameBuild(build, copyOnName)
 			else
 				local res, msg = os.rename(build.fullFileName, main.buildPath..build.subPath..newBuildName)
 				if not res then
-					main:OpenMessagePopup("Error", "Couldn't rename '"..build.fullFileName.."' to '"..newBuildName.."': "..msg)
+					local err = formatUI("Couldn't rename '%s' to '%s': %s", build.fullFileName, newBuildName, msg)
+					main:OpenMessagePopup("Error", err)
 					return
 				end
 			end
@@ -115,13 +125,15 @@ function BuildListClass:RenameBuild(build, copyOnName)
 			if copyOnName then
 				local res, msg = copyFile(build.fullFileName, main.buildPath..build.subPath..newFileName)
 				if not res then
-					main:OpenMessagePopup("Error", "Couldn't copy build: "..msg)
+					local err = formatUI("Couldn't copy build: %s", msg)
+					main:OpenMessagePopup("Error", err)
 					return
 				end
 			else
 				local res, msg = os.rename(build.fullFileName, main.buildPath..build.subPath..newFileName)
 				if not res then
-					main:OpenMessagePopup("Error", "Couldn't rename '"..build.fullFileName.."' to '"..newFileName.."': "..msg)
+					local err = formatUI("Couldn't rename '%s' to '%s': %s", build.fullFileName, newFileName, msg)
+					main:OpenMessagePopup("Error", err)
 					return
 				end
 			end
@@ -136,13 +148,15 @@ function BuildListClass:RenameBuild(build, copyOnName)
 		main:ClosePopup()
 		self.listMode:SelectControl(self)
 	end)
-	main:OpenPopup(370, 100, (copyOnName and "Copy " or "Rename ")..(build.folderName and "Folder" or "Build"), controls, "save", "edit")	
+	local title = copyOnName and (build.folderName and "Copy Folder" or "Copy Build") or (build.folderName and "Rename Folder" or "Rename Build")
+	main:OpenPopup(370, 100, title, controls, "save", "edit")
 end
 
 function BuildListClass:DeleteBuild(build)
 	if build.folderName then
 		if NewFileSearch(build.fullFileName.."/*") or NewFileSearch(build.fullFileName.."/*", true) then
-			main:OpenConfirmPopup("Confirm Folder Delete", "The folder is not empty.\nAre you sure you want to delete folder:\n"..build.folderName.."\nThis cannot be undone.", "Delete", function()
+			local msg = formatUI("The folder is not empty.\nAre you sure you want to delete folder:\n%s\nThis cannot be undone.", build.folderName)
+			main:OpenConfirmPopup("Confirm Folder Delete", msg, "Delete", function()
 				RemoveDir(build.fullFileName, true)
 				self.listMode:BuildList()
 				self.selIndex = nil
@@ -151,7 +165,8 @@ function BuildListClass:DeleteBuild(build)
 		else
 			local res, msg = RemoveDir(build.fullFileName)
 			if not res then
-				main:OpenMessagePopup("Error", "Couldn't delete '"..build.fullFileName.."': "..msg)
+				local err = formatUI("Couldn't delete '%s': %s", build.fullFileName, msg)
+				main:OpenMessagePopup("Error", err)
 				return
 			end
 			self.listMode:BuildList()
@@ -159,7 +174,8 @@ function BuildListClass:DeleteBuild(build)
 			self.selValue = nil
 		end
 	else
-		main:OpenConfirmPopup("Confirm Delete", "Are you sure you want to delete build:\n"..build.buildName.."\nThis cannot be undone.", "Delete", function()
+		local msg = formatUI("Are you sure you want to delete build:\n%s\nThis cannot be undone.", build.buildName)
+		main:OpenConfirmPopup("Confirm Delete", msg, "Delete", function()
 			os.remove(build.fullFileName)
 			self.listMode:BuildList()
 			self.selIndex = nil
@@ -183,10 +199,11 @@ function BuildListClass:GetRowValue(column, index, build)
 		end
 	elseif column == 2 then
 		if build.buildName then
-			return s_format("%sLevel %d %s", 
+			local rawClassName = (build.ascendClassName ~= "None" and build.ascendClassName) or build.className
+			return formatUI("%sLevel %d %s",
 				build.className and colorCodes[build.className:upper()] or "^7", 
 				build.level or 1, 
-				(build.ascendClassName ~= "None" and build.ascendClassName) or build.className or "?"
+				rawClassName and ui(rawClassName) or "?"
 			)
 		else
 			return ""

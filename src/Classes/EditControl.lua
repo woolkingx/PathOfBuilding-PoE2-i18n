@@ -211,7 +211,8 @@ function EditClass:UpdateScrollBars()
 		self.controls.scrollBarH:SetContentDimension(DrawStringWidth(textHeight, self.font, self.buf) + 2, width - 18)
 		self.controls.scrollBarV:SetContentDimension(newlineCount(self.buf.."\n") * textHeight, height - (self.controls.scrollBarH.enabled and 18 or 4))
 	else
-		self.controls.scrollBarH:SetContentDimension(DrawStringWidth(textHeight, self.font, self.buf) + 2, width - 4 - (self.prompt and DrawStringWidth(textHeight, self.font, self.prompt) + textHeight/2 or 0))
+		local prompt = self:TranslateLabel(self.prompt)
+		self.controls.scrollBarH:SetContentDimension(DrawStringWidth(textHeight, self.font, self.buf) + 2, width - 4 - (prompt and DrawStringWidth(textHeight, self.font, prompt) + textHeight/2 or 0))
 	end
 end
 
@@ -269,13 +270,14 @@ function EditClass:Draw(viewPort, noTooltip)
 	local textX = x + 2
 	local textY = y + 2
 	local textHeight = self.lineHeight or (height - 4)
-	if self.prompt then
+	local prompt = self:TranslateLabel(self.prompt)
+	if prompt then
 		if not enabled then
-			DrawString(textX, textY, "LEFT", textHeight, self.font, self.disableCol..self.prompt)
+			DrawString(textX, textY, "LEFT", textHeight, self.font, self.disableCol..prompt)
 		else
-			DrawString(textX, textY, "LEFT", textHeight, self.font, self.textCol..self.prompt..":")
+			DrawString(textX, textY, "LEFT", textHeight, self.font, self.textCol..prompt..":")
 		end
-		textX = textX + DrawStringWidth(textHeight, self.font, self.prompt) + textHeight/2
+		textX = textX + DrawStringWidth(textHeight, self.font, prompt) + textHeight/2
 	end
 	if not enabled then
 		return
@@ -488,8 +490,9 @@ function EditClass:OnKeyDown(key, doubleClick)
 			local textX = x + 2
 			local textY = y + 2
 			local textHeight = self.lineHeight or (height - 4)
-			if self.prompt then
-				textX = textX + DrawStringWidth(textHeight, self.font, self.prompt) + textHeight/2
+			local prompt = self:TranslateLabel(self.prompt)
+			if prompt then
+				textX = textX + DrawStringWidth(textHeight, self.font, prompt) + textHeight/2
 			end
 			local cursorX, cursorY = GetCursorPos()
 			self.caret = DrawStringCursorIndex(textHeight, self.font, self.buf, cursorX - textX + self.controls.scrollBarH.offset, cursorY - textY + self.controls.scrollBarV.offset)

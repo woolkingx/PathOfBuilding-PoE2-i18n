@@ -6,6 +6,14 @@
 -- This defines the stats in the side bar, and also which stats show in node/item comparisons
 -- This may be user-customisable in the future
 
+local function trItem(text)
+	return TranslateItem and TranslateItem(text) or text
+end
+
+local function trSkill(text)
+	return TranslateSkill and TranslateSkill(text) or text
+end
+
 
 local displayStats = {
 	{ stat = "ActiveMinionLimit", label = "Active Minion Limit", fmt = "d" },
@@ -93,11 +101,11 @@ local displayStats = {
 	{ stat = "SoulCost", label = "Soul Cost", fmt = "d", color = colorCodes.RAGE, pool = "Soul", compPercent = true, lowerIsBetter = true, condFunc = function(v,o) return o.SoulHasCost end },
 	{ },
 	{ stat = "Str", label = "Strength", color = colorCodes.STRENGTH, fmt = "d" },
-	{ stat = "ReqStr", label = "Strength Required", color = colorCodes.STRENGTH, fmt = "d", lowerIsBetter = true, condFunc = function(v,o) return v > o.Str end, warnFunc = function(v,o) return "You do not meet the Strength requirement of " .. (o.ReqStrItem.source == "Item" and o.ReqStrItem.sourceItem.name or o.ReqStrItem.source == "Gem" and o.ReqStrItem.sourceGem.nameSpec or o.ReqStrItem.source == "Support Gems" and "your total Strength support gems.") end },
+	{ stat = "ReqStr", label = "Strength Required", color = colorCodes.STRENGTH, fmt = "d", lowerIsBetter = true, condFunc = function(v,o) return v > o.Str end, warnFunc = function(v,o) return "You do not meet the Strength requirement of " .. (o.ReqStrItem.source == "Item" and trItem(o.ReqStrItem.sourceItem.name) or o.ReqStrItem.source == "Gem" and trSkill(o.ReqStrItem.sourceGem.nameSpec) or o.ReqStrItem.source == "Support Gems" and "your total Strength support gems.") end },
 	{ stat = "Dex", label = "Dexterity", color = colorCodes.DEXTERITY, fmt = "d" },
-	{ stat = "ReqDex", label = "Dexterity Required", color = colorCodes.DEXTERITY, fmt = "d", lowerIsBetter = true, condFunc = function(v,o) return v > o.Dex end, warnFunc = function(v,o) return "You do not meet the Dexterity requirement of " .. (o.ReqDexItem.source == "Item" and o.ReqDexItem.sourceItem.name or o.ReqDexItem.source == "Gem" and o.ReqDexItem.sourceGem.nameSpec or o.ReqDexItem.source == "Support Gems" and "your total Dexterity support gems.") end },
+	{ stat = "ReqDex", label = "Dexterity Required", color = colorCodes.DEXTERITY, fmt = "d", lowerIsBetter = true, condFunc = function(v,o) return v > o.Dex end, warnFunc = function(v,o) return "You do not meet the Dexterity requirement of " .. (o.ReqDexItem.source == "Item" and trItem(o.ReqDexItem.sourceItem.name) or o.ReqDexItem.source == "Gem" and trSkill(o.ReqDexItem.sourceGem.nameSpec) or o.ReqDexItem.source == "Support Gems" and "your total Dexterity support gems.") end },
 	{ stat = "Int", label = "Intelligence", color = colorCodes.INTELLIGENCE, fmt = "d" },
-	{ stat = "ReqInt", label = "Intelligence Required", color = colorCodes.INTELLIGENCE, fmt = "d", lowerIsBetter = true, condFunc = function(v,o) return v > o.Int end, warnFunc = function(v,o) return "You do not meet the Intelligence requirement of " .. (o.ReqIntItem.source == "Item" and o.ReqIntItem.sourceItem.name or o.ReqIntItem.source == "Gem" and o.ReqIntItem.sourceGem.nameSpec or o.ReqIntItem.source == "Support Gems" and "your total Intelligence support gems.") end },
+	{ stat = "ReqInt", label = "Intelligence Required", color = colorCodes.INTELLIGENCE, fmt = "d", lowerIsBetter = true, condFunc = function(v,o) return v > o.Int end, warnFunc = function(v,o) return "You do not meet the Intelligence requirement of " .. (o.ReqIntItem.source == "Item" and trItem(o.ReqIntItem.sourceItem.name) or o.ReqIntItem.source == "Gem" and trSkill(o.ReqIntItem.sourceGem.nameSpec) or o.ReqIntItem.source == "Support Gems" and "your total Intelligence support gems.") end },
 	{ },
 	{ stat = "Devotion", label = "Devotion", color = colorCodes.RARE, fmt = "d" },
 	{ stat = "Tribute", label = "Tribute", color = colorCodes.RARE, fmt = "d" },

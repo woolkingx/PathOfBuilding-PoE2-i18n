@@ -14,6 +14,10 @@ local s_format = string.format
 
 local emotionList = {"Ire", "Guilt", "Greed", "Paranoia", "Envy", "Disgust", "Despair", "Fear", "Suffering", "Isolation" }
 
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
+
 ---@param node table
 ---@return boolean
 local function IsAnointableNode(node)
@@ -58,7 +62,7 @@ local NotableDBClass = newClass("NotableDBControl", "ListControl", function(self
 	end
 	self.emotionImages = getEmotionImages()
 
-	self.controls.emotionLabel = new("LabelControl", {"TOPLEFT", self.controls.search, "BOTTOMLEFT"}, {0, 6, 100, 16}, "Emotions: ")
+	self.controls.emotionLabel = new("LabelControl", {"TOPLEFT", self.controls.search, "BOTTOMLEFT"}, {0, 6, 100, 16}, "Emotions:")
 	self.emotionsAvailable = { }
 	local function emoCheckOnChange(name)
 		self.emotionsAvailable[name] = true
@@ -201,7 +205,7 @@ function NotableDBClass:ListBuilder()
 			end
 			local now = GetTime()
 			if now - start > 50 then
-				self.defaultText = "^7Sorting... ("..m_floor(nodeIndex/#list*100).."%)"
+				self.defaultText = formatUI("^7Sorting... (%d%%)", m_floor(nodeIndex/#list*100))
 				coroutine.yield()
 				start = now
 			end

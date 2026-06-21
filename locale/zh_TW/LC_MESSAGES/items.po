@@ -1,0 +1,6983 @@
+msgid ""
+msgstr "Project-Id-Version: Path of Building PoE2 Item translation\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nLanguage: zh_TW\n"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ab Aeterno"
+msgstr "源於永恆"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Aberrant Sledge"
+msgstr "怪異攻城錘"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Absent Amulet"
+msgstr "虛無護身符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Abyssal Cuirass"
+msgstr "深淵胸甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Abyssal Flail"
+msgstr "深淵鏈錘"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Abyssal Signet"
+msgstr "深淵之記"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Acrid Wand"
+msgstr "刺鼻法杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Adherent Bow"
+msgstr "信徒之弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Adherent Cuffs"
+msgstr "追隨者腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Adherent Leggings"
+msgstr "信徒護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Adherent's Raiment"
+msgstr "信徒之衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Adonia's Ego"
+msgstr "艾多尼亞的自負"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Adorned Gloves"
+msgstr "奢華手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Adorned Wraps"
+msgstr "裝飾裹手"
+
+msgid "Aegis Buckler"
+msgstr "神禦輕盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Aegis Quarterstaff"
+msgstr "神禦細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Aerisvane's Wings"
+msgstr "艾瑞斯凡恩之翼"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Aged Cuffs"
+msgstr "陳舊腕帶"
+
+msgid "Aged Tower Shield"
+msgstr "陳舊塔盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Akoyan Club"
+msgstr "艾古亞棍棒"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Akoyan Spear"
+msgstr "艾古亞長矛"
+
+#. Source: PoeCharm2 Uniques.txt.csv
+msgid "Alkem Eira"
+msgstr "神諭"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Alloy Crossbow"
+msgstr "合金十字弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Alpha Talisman"
+msgstr "統領魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Alpha's Howl"
+msgstr "極地之嗥"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Altar Robe"
+msgstr "祭壇長袍"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Amber Amulet"
+msgstr "琥珀護身符"
+
+msgid "Amethyst Charm"
+msgstr "紫晶護符"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Amethyst Ring"
+msgstr "紫晶戒指"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Amor Mandragora"
+msgstr "阿莫爾．曼德拉戈拉"
+
+msgid "Ancestor Tower Shield"
+msgstr "先祖塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ancestral Mail"
+msgstr "先祖鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ancestral Tiara"
+msgstr "先祖頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Anchorite Garb"
+msgstr "隱者裝束"
+
+msgid "Ancient Buckler"
+msgstr "遠古輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ancient Cuffs"
+msgstr "遠古腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ancient Gauntlets"
+msgstr "遠古護手"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ancient Greatblade"
+msgstr "遠古巨刃"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ancient Leggings"
+msgstr "遠古護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ancient Mail"
+msgstr "遠古鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ancient Mitts"
+msgstr "遠古長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ancient Visor"
+msgstr "遠古護面盔"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Andvarius"
+msgstr "貪慾之記"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Anima Quarterstaff"
+msgstr "靈魂細杖"
+
+msgid "Antidote Charm"
+msgstr "解毒護符"
+
+msgid "Antler Focus"
+msgstr "靈鹿法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Anvil Maul"
+msgstr "鐵砧重錘"
+
+#. Source: PoeCharm2 Uniques.txt.csv
+msgid "Apep's Supremacy"
+msgstr "艾普霸權"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Apostle Leggings"
+msgstr "使徒護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Apron of Emiran"
+msgstr "埃米蘭之裙"
+
+#. Source: PoeCharm2 Uniques.txt.csv
+msgid "Arakaali's Gift"
+msgstr "艾爾卡莉的贈禮"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Arcane Dirk"
+msgstr "奧術短刀"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Arcane Raiment"
+msgstr "奧術之衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Arced Claw"
+msgstr "弧形爪"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Arced Longsword"
+msgstr "弧形長劍"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Arched Greataxe"
+msgstr "拱形巨斧"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Archon Crown"
+msgstr "統治者之冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Arcing Quarterstaff"
+msgstr "電弧細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Armoured Cap"
+msgstr "裝甲便帽"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Armoured Claw"
+msgstr "裝甲爪"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Armoured Vest"
+msgstr "裝甲背心"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Aromatic Sceptre"
+msgstr "芳香權杖"
+
+msgid "Array Buckler"
+msgstr "排列輕盾"
+
+msgid "Arrayed Focus"
+msgstr "陣列法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Artillery Bow"
+msgstr "砲火弓"
+
+#. Source: PoeCharm2 Uniques.txt.csv
+msgid "Arvil's Wheel"
+msgstr "阿瓦爾之輪"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ascetic Garb"
+msgstr "苦行者裝束"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ashbark Talisman"
+msgstr "燼木魔符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ashen Staff"
+msgstr "灰燼長杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ashrend"
+msgstr "拂燼"
+
+#. Source: PoeCharm2 Uniques.txt.csv
+msgid "Asphyxia's Wrath"
+msgstr "冰靈之吼"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Assailum"
+msgstr "刺殺"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Assassin Garb"
+msgstr "刺客裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Atsak's Sight"
+msgstr "阿札克之瞳"
+
+msgid "Attuned Focus"
+msgstr "調和法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Attuned Wand"
+msgstr "調和法杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Atziri's Acuity"
+msgstr "阿茲里的捷思"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Atziri's Contempt"
+msgstr "阿茲里的輕視"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Atziri's Disdain"
+msgstr "阿茲里的蔑視"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Atziri's Rule"
+msgstr "阿茲里的統御"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Atziri's Splendour"
+msgstr "阿茲里的威權"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Atziri's Step"
+msgstr "阿茲里的金履"
+
+msgid "Aureate Targe"
+msgstr "鍍金圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Austere Garb"
+msgstr "樸素裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Avian Mask"
+msgstr "飛羽之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Avian Robe"
+msgstr "飛羽長袍"
+
+msgid "Avian Targe"
+msgstr "飛羽圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Avian Tiara"
+msgstr "飛羽頭冠"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Azure Amulet"
+msgstr "蒼藍項鍊"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bandage Wraps"
+msgstr "繃帶裹手"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Bandit Hatchet"
+msgstr "強盜斧"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Bandit Mace"
+msgstr "盜賊之錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bandit Mask"
+msgstr "盜賊之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bangled Sandals"
+msgstr "鐲子便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Barbarian Plate"
+msgstr "野蠻人鎧甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Barbarous Quarterstaff"
+msgstr "野蠻細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Barbed Bracers"
+msgstr "鉤刺護腕"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Barbed Spear"
+msgstr "鉤刺長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Baroque Gloves"
+msgstr "巴洛克手套"
+
+msgid "Baroque Targe"
+msgstr "巴洛克圓盾"
+
+msgid "Barricade Tower Shield"
+msgstr "障壁塔盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Barrier Quarterstaff"
+msgstr "屏障細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bastion Sabatons"
+msgstr "堅堡鎧靴"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Battle Axe"
+msgstr "戰斧"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Battle Pick"
+msgstr "戰鬥鎬"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Beaded Circlet"
+msgstr "串珠頭環"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Bearded Axe"
+msgstr "鉤刺斧"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bearskin Mantle"
+msgstr "熊皮披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Beetlebite"
+msgstr "甲蟲噬咬"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Bijouborne"
+msgstr "寶石之源"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Biostatic Ring"
+msgstr "恆生之戒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bitterbloom"
+msgstr "苦心花"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Black Sun Crest"
+msgstr "黑陽之冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Blackfire Crossbow"
+msgstr "黑火十字弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Blacksmith Maul"
+msgstr "鐵匠重錘"
+
+msgid "Blacksteel Crest Shield"
+msgstr "烏鋼紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Blacksteel Gauntlets"
+msgstr "烏鐵護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Blacksteel Sabatons"
+msgstr "烏鋼鎧靴"
+
+msgid "Blacksteel Tower Shield"
+msgstr "黑鋼塔盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Bladed Quarterstaff"
+msgstr "帶刃細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bladed Shoes"
+msgstr "片狀輕鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Bladed Trap"
+msgstr "刀刃陷阱"
+
+msgid "Bladeguard Buckler"
+msgstr "刃衛輕盾"
+
+msgid "Blazon Crest Shield"
+msgstr "家徽紋章盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Bleak Crossbow"
+msgstr "無情十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Blessed Bonds"
+msgstr "祝福之絆"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Blessed Claymore"
+msgstr "祝福大劍"
+
+#. Source: PoeCharm2 Uniques.txt.csv
+msgid "Blood of the Warrior"
+msgstr "戰士之血"
+
+#. Source: PoeCharm2 Uniques.txt.csv
+msgid "Bloodbarrier"
+msgstr "鮮血屏障"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Bloodletting Dagger"
+msgstr "出血匕首"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Bloodstone Amulet"
+msgstr "血石項鍊"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Blueflame Bracers"
+msgstr "藍焰護腕"
+
+msgid "Blunt Quiver"
+msgstr "鈍箭袋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Boarding Hatchet"
+msgstr "登船斧"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bold Sabatons"
+msgstr "醒目鎧靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bolstered Mitts"
+msgstr "加固長手套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Bolting Quarterstaff"
+msgstr "雷霆細杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Bombard Crossbow"
+msgstr "轟擊十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bone Raiment"
+msgstr "骸骨之衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Bone Wand"
+msgstr "骸骨法杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bones of Ullr"
+msgstr "烏勒爾之骨"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bound Boots"
+msgstr "綑綁長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bound Bracers"
+msgstr "緊縛護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bound Cuffs"
+msgstr "綑綁腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bound Leggings"
+msgstr "綑綁護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bound Sandals"
+msgstr "綑綁便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Braced Sabatons"
+msgstr "加固鎧靴"
+
+msgid "Braced Tower Shield"
+msgstr "加固塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Braided Cuffs"
+msgstr "編織腕帶"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Brain Rattler"
+msgstr "腦亂者"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Branched Spear"
+msgstr "分支長矛"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Breach Ring"
+msgstr "裂痕戒指"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Briarpatch"
+msgstr "薔薇眼罩"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Brigand Mace"
+msgstr "強盜之錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Brigand Mask"
+msgstr "強盜之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Brimmed Helm"
+msgstr "邊緣之盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Broad Greatsword"
+msgstr "闊刃巨劍"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Broad Spear"
+msgstr "闊刃長矛"
+
+msgid "Broadhead Quiver"
+msgstr "寬頭箭袋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Broadsword"
+msgstr "闊劍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bronze Greaves"
+msgstr "青銅脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bronzebeard"
+msgstr "銅鬚"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Brynhand's Mark"
+msgstr "布林漢的印記"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Buckled Wraps"
+msgstr "帶扣裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Bulwark Greaves"
+msgstr "壁壘脛甲"
+
+msgid "Bulwark Tower Shield"
+msgstr "守護塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Burnished Gauntlets"
+msgstr "拋光護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cabalist Helm"
+msgstr "秘術師之盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Calescent Hammer"
+msgstr "升溫之錘"
+
+msgid "Calm Leg"
+msgstr "沉著之腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cambric Wraps"
+msgstr "棉布裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Candlemaker"
+msgstr "製燭者"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Cannonade Crossbow"
+msgstr "砲擊十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Captain Gauntlets"
+msgstr "隊長護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Carved Greaves"
+msgstr "雕刻脛甲"
+
+msgid "Carved Targe"
+msgstr "雕刻圓盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Carving Hatchet"
+msgstr "雕刻斧"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cassis Helm"
+msgstr "卡賽斯之盔"
+
+msgid "Caster Arm"
+msgstr "施法之臂"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cavalry Boots"
+msgstr "騎兵長靴"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Cavalry Bow"
+msgstr "騎兵之弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ceremonial Halberd"
+msgstr "儀式斧槍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ceremonial Robe"
+msgstr "儀式長袍"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Chain Flail"
+msgstr "鎖鏈鏈錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Chain Mail"
+msgstr "鎖鍊鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Chain Tiara"
+msgstr "鎖鍊頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Chain Vestments"
+msgstr "鎖鏈法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Champion Cuirass"
+msgstr "冠軍胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Champion Helm"
+msgstr "勇士之盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Changeling Talisman"
+msgstr "變形魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Charmed Shoes"
+msgstr "護符輕鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Charred Shortsword"
+msgstr "焦黑短劍"
+
+#. Source: PoeCharm2 Uniques.txt.csv
+msgid "Chernobog's Pillar"
+msgstr "五芒屏障"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Chieftain Cuirass"
+msgstr "酋長胸甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Chiming Staff"
+msgstr "鳴響長杖"
+
+msgid "Chiseled Targe"
+msgstr "鑿刻圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cinched Boots"
+msgstr "繫帶長靴"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Cinderbark Talisman"
+msgstr "灰樹皮魔符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Cinquedea"
+msgstr "五指短劍"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Clamping Trap"
+msgstr "猛夾陷阱"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Clandestine Jacket"
+msgstr "隱蔽外衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Clasped Sceptre"
+msgstr "握扣權杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Clay Trap"
+msgstr "黏土陷阱"
+
+msgid "Cleansing Charm"
+msgstr "淨化護符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cleric Vestments"
+msgstr "教士法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cloaked Mail"
+msgstr "斗篷鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Closed Helm"
+msgstr "緊閉之盔"
+
+msgid "Coiled Buckler"
+msgstr "盤繞輕盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Coiled Trap"
+msgstr "纏繞陷阱"
+
+msgid "Colossal Life Flask"
+msgstr "高階生命藥劑"
+
+msgid "Colossal Mana Flask"
+msgstr "高階魔力藥劑"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Colosseum Plate"
+msgstr "決鬥之鎧"
+
+msgid "Combat Arm"
+msgstr "戰鬥之臂"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Commander Gauntlets"
+msgstr "指揮官護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Commander Greathelm"
+msgstr "指揮官巨盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Commander Sword"
+msgstr "指揮官劍"
+
+msgid "Commanding Arm"
+msgstr "指揮之臂"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Composite Bow"
+msgstr "合成弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Condemned Talisman"
+msgstr "譴責魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Conjurer Mantle"
+msgstr "巫術師披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Conqueror Plate"
+msgstr "征服者鎧甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Construct Crossbow"
+msgstr "絕命十字弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Construct Hammer"
+msgstr "建造錘"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Corona Amulet"
+msgstr "日冕護身符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Corroded Greathelm"
+msgstr "腐蝕巨盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Corroded Longsword"
+msgstr "腐蝕長劍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Corsair Cap"
+msgstr "海盜便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Corsair Coat"
+msgstr "海盜外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Corsair Vest"
+msgstr "海盜背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Corvus Mantle"
+msgstr "烏鴉披肩"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Coursing Spear"
+msgstr "追獵長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Couture of Crimson"
+msgstr "緋紅訂製服"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Covered Sabatons"
+msgstr "遮蓋鎧靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Covert Hood"
+msgstr "隱蔽兜帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cowled Helm"
+msgstr "斗篷之盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Crackling Quarterstaff"
+msgstr "裂紋細杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Crescent Axe"
+msgstr "新月斧"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Crescent Quarterstaff"
+msgstr "新月細杖"
+
+msgid "Crescent Targe"
+msgstr "新月圓盾"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Crimson Amulet"
+msgstr "赤紅項鍊"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Critical Wand"
+msgstr "致命法杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Crone Knife"
+msgstr "巫婆小刀"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Crossblade Spear"
+msgstr "十字刃長矛"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Crown Mace"
+msgstr "皇冠之錘"
+
+msgid "Crucible Tower Shield"
+msgstr "磨煉塔盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Crude Bow"
+msgstr "粗製弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Crude Claw"
+msgstr "簡陋爪"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Cruel Talisman"
+msgstr "殘酷魔符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Crumbling Maul"
+msgstr "崩毀重錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cryptic Crown"
+msgstr "隱祕之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cryptic Helm"
+msgstr "隱秘之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cryptic Leggings"
+msgstr "隱祕護腿"
+
+msgid "Crystal Focus"
+msgstr "水晶法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Cultist Bow"
+msgstr "教徒之弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cultist Crown"
+msgstr "教徒之冠"
+
+msgid "Cultist Focus"
+msgstr "教徒法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cultist Gauntlets"
+msgstr "教徒護手"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Cultist Greathammer"
+msgstr "教徒巨錘"
+
+msgid "Cultist Tower Shield"
+msgstr "教徒塔盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Cumbrous Crossbow"
+msgstr "笨重十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Cursespeaker's Robe"
+msgstr "詛咒語者長袍"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Cutlass"
+msgstr "軍用長刃"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Daggerfoot Shoes"
+msgstr "捷足輕鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Dark Blade"
+msgstr "黑暗之刃"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Dark Staff"
+msgstr "黑暗長杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Darkray Vectors"
+msgstr "暗雷"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Dart Trap"
+msgstr "飛鏢陷阱"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Dastard Armour"
+msgstr "惡徒護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Death Mail"
+msgstr "死亡鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Death Mantle"
+msgstr "死亡披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Death Mask"
+msgstr "死亡之面"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Death's Harp"
+msgstr "冥使之琴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Decorated Helm"
+msgstr "裝飾之盔"
+
+msgid "Decrepifying Arm"
+msgstr "衰老之臂"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Dedalian Crossbow"
+msgstr "精巧十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Deerstalker Hood"
+msgstr "獵鹿者之兜"
+
+msgid "Defiant Tower Shield"
+msgstr "忤逆塔盾"
+
+msgid "Deflective Arm"
+msgstr "偏轉之臂"
+
+msgid "Deified Crest Shield"
+msgstr "神化紋章盾"
+
+msgid "Dekharan Crest Shield"
+msgstr "部下紋章盾"
+
+msgid "Descry Crest Shield"
+msgstr "遠見紋章盾"
+
+msgid "Desert Buckler"
+msgstr "沙漠輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Desert Cap"
+msgstr "沙漠便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Desert Circlet"
+msgstr "沙漠頭環"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Desolate Crossbow"
+msgstr "蒼涼十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Detailed Mitts"
+msgstr "精細長手套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Devotional Sceptre"
+msgstr "虔誠權杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Devouring Sceptre"
+msgstr "吞噬權杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Devout Garb"
+msgstr "虔誠裝束"
+
+#. Source: PoeCharm2 Items_Jewels.txt.csv
+msgid "Diamond"
+msgstr "鑽石"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Disintegrating Maul"
+msgstr "崩解重錘"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Distorted Amulet"
+msgstr "歪曲護身符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Divine Crown"
+msgstr "神聖之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Domed Helm"
+msgstr "圓頂之盔"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Double Belt"
+msgstr "雙層腰帶"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Double Limb Bow"
+msgstr "雙肢弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Double Vision"
+msgstr "雙重視界"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Doubled Gauntlets"
+msgstr "雙層護手"
+
+msgid "Dousing Charm"
+msgstr "滅火護符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Dragonscale Boots"
+msgstr "龍鱗長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Drakeskin Boots"
+msgstr "龍膚長靴"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Dread Hatchet"
+msgstr "驚懼符文"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Dreaming Quarterstaff"
+msgstr "夢境細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Druidic Circlet"
+msgstr "德魯伊頭環"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Druidic Crown"
+msgstr "德魯伊之冠"
+
+msgid "Druidic Focus"
+msgstr "德魯伊法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Dualstring Bow"
+msgstr "雙弦弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Dueling Wand"
+msgstr "單挑法杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Dull Hatchet"
+msgstr "鈍斧"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Dunerunner Sandals"
+msgstr "沙丘行者便鞋"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Dusk Amulet"
+msgstr "幽暗項鍊"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Dusk Ring"
+msgstr "幽暗戒指"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Dyad Crossbow"
+msgstr "雙生十字弓"
+
+msgid "Edged Buckler"
+msgstr "刃緣輕盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Edged Claw"
+msgstr "鋒利爪"
+
+msgid "Effigial Tower Shield"
+msgstr "靈像塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Elaborate Sandals"
+msgstr "精美便鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Elegant Crossbow"
+msgstr "優雅十字弓"
+
+msgid "Elegant Focus"
+msgstr "高雅法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Elegant Glaive"
+msgstr "優雅長柄刀"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Elegant Greathelm"
+msgstr "優雅巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Elegant Greaves"
+msgstr "優雅脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Elegant Mitts"
+msgstr "優雅長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Elegant Plate"
+msgstr "優雅鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Elegant Slippers"
+msgstr "優雅便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Elegant Wraps"
+msgstr "優雅裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Elementalist Robe"
+msgstr "元素使長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Elite Greathelm"
+msgstr "菁英巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Embellished Gloves"
+msgstr "點綴手套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ember Greataxe"
+msgstr "餘燼巨斧"
+
+msgid "Emblem Crest Shield"
+msgstr "徽印紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Embossed Boots"
+msgstr "浮雕長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Embroidered Boots"
+msgstr "刺繡長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Embroidered Gloves"
+msgstr "刺繡手套"
+
+#. Source: PoeCharm2 Items_Jewels.txt.csv
+msgid "Emerald"
+msgstr "綠寶石"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Emerald Ring"
+msgstr "綠寶石戒指"
+
+msgid "Empyreal Crest Shield"
+msgstr "蒼天紋章盾"
+
+msgid "Energy Blade One Handed"
+msgstr "能量刃（單手）"
+
+msgid "Energy Blade Two Handed"
+msgstr "能量刃（雙手）"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Engraved Bracers"
+msgstr "紋刻護腕"
+
+msgid "Engraved Crest Shield"
+msgstr "紋刻紋章盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Engraved Crossbow"
+msgstr "紋刻十字弓"
+
+msgid "Engraved Focus"
+msgstr "紋刻法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Engraved Helm"
+msgstr "紋刻之盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Engraved Knife"
+msgstr "紋刻小刀"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Enlightened Robe"
+msgstr "啟蒙長袍"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Esoteric Crossbow"
+msgstr "秘傳十字弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ethereal Blade"
+msgstr "虛空刀刃"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Evangelist Garb"
+msgstr "傳道者裝束"
+
+msgid "Evasive Leg"
+msgstr "閃避之腿"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Execratus Hammer"
+msgstr "詛咒之錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Executioner Greataxe"
+msgstr "處刑者巨斧"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Explorer Armour"
+msgstr "探索者護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Exquisite Vest"
+msgstr "精美背心"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Extended Cleaver"
+msgstr "加長砍斧"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Face Mask"
+msgstr "護臉之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Faithful Leggings"
+msgstr "信仰護腿"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Falchion"
+msgstr "彎刃劍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Falconer's Jacket"
+msgstr "訓鷹者外衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Familial Talisman"
+msgstr "家族魔符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Fanatic Bow"
+msgstr "盲信之弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Fanatic Greathammer"
+msgstr "盲信巨錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Fang Talisman"
+msgstr "銳爪魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Faridun Mask"
+msgstr "法里登之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Feathered Mitts"
+msgstr "羽毛長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Feathered Raiment"
+msgstr "羽絨之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Feathered Robe"
+msgstr "羽毛長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Feathered Sandals"
+msgstr "羽毛便鞋"
+
+msgid "Feathered Targe"
+msgstr "羽毛圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Feathered Tiara"
+msgstr "羽毛頭冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Felled Greatclub"
+msgstr "墮落巨棍棒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Felt Cap"
+msgstr "毛氈便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Fierce Greathelm"
+msgstr "兇猛巨盔"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Fine Belt"
+msgstr "精良腰帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Fine Bracers"
+msgstr "精良護腕"
+
+msgid "Fire Quiver"
+msgstr "火焰箭袋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Firm Bracers"
+msgstr "穩固護腕"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Fishing Rod"
+msgstr "魚竿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Fists of Stone"
+msgstr "磐石之拳"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Flanged Greatblade"
+msgstr "凸緣巨刃"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Flanged Mace"
+msgstr "輪緣之錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Flared Boots"
+msgstr "閃耀長靴"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Flared Mace"
+msgstr "閃光之錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Flax Sandals"
+msgstr "亞麻便鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Flexed Crossbow"
+msgstr "屈曲十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Flexile Sabatons"
+msgstr "易曲鎧靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Flowing Raiment"
+msgstr "奔流之衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Flying Spear"
+msgstr "翱翔長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Forest Crown"
+msgstr "森林之冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Forge Maul"
+msgstr "鍛造重錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Forked Claw"
+msgstr "叉狀爪"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Forked Spear"
+msgstr "叉狀長矛"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Forking Belt"
+msgstr "歧路腰帶"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Fortified Hammer"
+msgstr "強化之錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Fortress Sabatons"
+msgstr "要塞鎧靴"
+
+msgid "Fortress Tower Shield"
+msgstr "要塞塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Frayed Shoes"
+msgstr "磨損輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Freebooter Cap"
+msgstr "劫掠者便帽"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Frenzied Talisman"
+msgstr "狂亂魔符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Frigid Wand"
+msgstr "冰冷法杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Full Plate"
+msgstr "連身鎧甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Fungal Talisman"
+msgstr "真菌魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Fur Plate"
+msgstr "毛皮鎧甲"
+
+msgid "Fur-lined Targe"
+msgstr "皮襯圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Furtive Wraps"
+msgstr "隱秘裹手"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Fury Cleaver"
+msgstr "狂怒砍斧"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Fury Talisman"
+msgstr "怒火魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Gallant Helm"
+msgstr "無畏之盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Galvanic Wand"
+msgstr "電能法杖"
+
+msgid "Gargantuan Life Flask"
+msgstr "巨大生命藥劑"
+
+msgid "Gargantuan Mana Flask"
+msgstr "巨大魔力藥劑"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Garment"
+msgstr "服裝"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Gauze Wraps"
+msgstr "紗布裹手"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Gelid Staff"
+msgstr "極寒長杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Gemini Bow"
+msgstr "雙子之弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Gemini Crossbow"
+msgstr "雙子十字弓"
+
+msgid "Giant Life Flask"
+msgstr "巨型生命藥劑"
+
+msgid "Giant Mana Flask"
+msgstr "巨型魔力藥劑"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Giant Maul"
+msgstr "巨型重錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Gilded Vestments"
+msgstr "鍍金法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Gilt Leggings"
+msgstr "鍍金護腿"
+
+msgid "Glacial Fortress"
+msgstr "冰川堡壘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Gladiator Armour"
+msgstr "衛士護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Gladiatorial Helm"
+msgstr "衛士之盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Glass Shank"
+msgstr "玻璃利片"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Gleaming Cuffs"
+msgstr "輝光腕帶"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Gloam Amulet"
+msgstr "黃昏項鍊"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Gloam Ring"
+msgstr "黃昏戒指"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Glorious Plate"
+msgstr "榮耀戰鎧"
+
+msgid "Glowering Crest Shield"
+msgstr "怒視紋章盾"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Gold Amulet"
+msgstr "帝金護身符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Gold Circlet"
+msgstr "黃金頭環"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Gold Gloves"
+msgstr "黃金手套"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Gold Ring"
+msgstr "金光戒指"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Goldcast Cuffs"
+msgstr "金鑄腕帶"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Golden Blade"
+msgstr "黃金之刃"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Golden Caligae"
+msgstr "黃金纏鞋"
+
+msgid "Golden Charm"
+msgstr "黃金護符"
+
+msgid "Golden Flame"
+msgstr "黃金聖炎"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Golden Hoop"
+msgstr "金環"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Golden Mail"
+msgstr "耀金鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Golden Mantle"
+msgstr "黃金戰甲"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Golden Obi"
+msgstr "金羽腰帶"
+
+msgid "Golden Targe"
+msgstr "耀金圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Golden Visage"
+msgstr "黃金面紗"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Golden Wreath"
+msgstr "金黃花環"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Goldwork Sabatons"
+msgstr "金刺繡鎧靴"
+
+msgid "Goldworked Tower Shield"
+msgstr "黃金塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Goliath Greathelm"
+msgstr "巨靈巨盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Gothic Quarterstaff"
+msgstr "歌德細杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Graceful Quarterstaff"
+msgstr "優雅細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Grand Bracers"
+msgstr "宏偉護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Grand Cuisses"
+msgstr "宏偉腿甲"
+
+msgid "Grand Life Flask"
+msgstr "優質生命藥劑"
+
+msgid "Grand Mana Flask"
+msgstr "優質魔力藥劑"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Grand Manchettes"
+msgstr "宏偉手鐲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Grand Mitts"
+msgstr "宏偉長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Grand Regalia"
+msgstr "宏偉華服"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Grand Spear"
+msgstr "宏偉長矛"
+
+#. Source: PoeCharm2 Items_Jewels.txt.csv
+msgid "Grand Spectrum"
+msgstr "巨光譜"
+
+msgid "Grand Targe"
+msgstr "宏偉圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Grand Visage"
+msgstr "宏偉面紗"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Grasping Mail"
+msgstr "貪婪鎧甲"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Grasping Ring"
+msgstr "抓取之戒"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Great Flail"
+msgstr "大型鏈錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Greatbow"
+msgstr "巨弓"
+
+msgid "Greater Life Flask"
+msgstr "良質生命藥劑"
+
+msgid "Greater Mana Flask"
+msgstr "良質魔力藥劑"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Greatmace"
+msgstr "巨釘錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Grim Gloves"
+msgstr "冷酷手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Grinning Mask"
+msgstr "獰笑之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Grip of Winter"
+msgstr "凜冬之握"
+
+msgid "Grounding Charm"
+msgstr "接地護符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Guarded Flail"
+msgstr "警惕鏈錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Guarded Helm"
+msgstr "警惕之盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Guardian Bow"
+msgstr "防衛者之弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Guardian Greathelm"
+msgstr "守護者巨盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Guardian Quarterstaff"
+msgstr "守護細杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Guardian Spear"
+msgstr "衛者長矛"
+
+msgid "Guarding Arm"
+msgstr "守護之臂"
+
+msgid "Gutspike Buckler"
+msgstr "挑腸輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Hallowed Crown"
+msgstr "聖潔之冠"
+
+msgid "Hallowed Focus"
+msgstr "聖潔法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Hallowed Sceptre"
+msgstr "聖潔權杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Hardened Bracers"
+msgstr "硬化護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Hardleather Coat"
+msgstr "硬皮外套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Hardwood Spear"
+msgstr "硬木長矛"
+
+msgid "Hardwood Targe"
+msgstr "硬木圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Hatungo Garb"
+msgstr "靈語者裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Havoc Raiment"
+msgstr "禍害之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Hawker's Jacket"
+msgstr "飼鷹者外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Heartcarver Mantle"
+msgstr "雕心者披肩"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Heartwood Shortbow"
+msgstr "赤木之弓"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Heavy Belt"
+msgstr "重革腰帶"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Heavy Bow"
+msgstr "重弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Heavy Crown"
+msgstr "沉重之冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Heavy Greathammer"
+msgstr "重型巨錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Heavy Plate"
+msgstr "重型鎧甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Hefty Quarterstaff"
+msgstr "堅固細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Heirloom Cuffs"
+msgstr "家傳腕帶"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Helix Spear"
+msgstr "螺旋長矛"
+
+msgid "Heraldric Tower Shield"
+msgstr "紋章塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Hermit Garb"
+msgstr "隱士裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Heroic Armour"
+msgstr "英雄護甲"
+
+#. Source: PoeCharm2 Items_Jewels.txt.csv
+msgid "Heroic Tragedy"
+msgstr "英雄悲劇"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Hewn Mask"
+msgstr "粗製之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Hexer's Robe"
+msgstr "咒術師長袍"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Holy Flail"
+msgstr "神聖鏈錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Homeguard Greathelm"
+msgstr "家園守衛巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Hooded Mask"
+msgstr "風帽之面"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Hook Axe"
+msgstr "鉤斧"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Hooked Claw"
+msgstr "鉤爪"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Horned Crown"
+msgstr "犄角之冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Howling Talisman"
+msgstr "狂嚎魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Hunter Hood"
+msgstr "獵者之兜"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Hunting Bracers"
+msgstr "狩獵護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Hunting Coat"
+msgstr "狩獵外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Hunting Shoes"
+msgstr "狩獵輕鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Hunting Spear"
+msgstr "狩獵長矛"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Icicle Flail"
+msgstr "冰錐鏈錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Icicle Staff"
+msgstr "冰錐長杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Imperial Greathelm"
+msgstr "帝國巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Imperial Robe"
+msgstr "帝國長袍"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Incense Trap"
+msgstr "香爐陷阱"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Inquisitor Crown"
+msgstr "判官之冠"
+
+msgid "Intricate Crest Shield"
+msgstr "錯綜紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Intricate Gloves"
+msgstr "精妙手套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Intricate Trap"
+msgstr "複雜陷阱"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Invoking Belt"
+msgstr "祈喚腰帶"
+
+msgid "Iron Buckler"
+msgstr "鍛鐵輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Iron Crown"
+msgstr "鍛鐵之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Iron Cuirass"
+msgstr "鍛鐵胸甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Iron Flail"
+msgstr "鋼鐵鏈錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Iron Greatsword"
+msgstr "鍛鐵巨劍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Iron Greaves"
+msgstr "鐵鍛脛甲"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Iron Ring"
+msgstr "鍛鐵戒指"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ironclad Vestments"
+msgstr "鐵甲法衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ironhead Spear"
+msgstr "鐵木長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ironmail Gauntlets"
+msgstr "鐵鎖護手"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ironwood Greathammer"
+msgstr "鐵木巨錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ironwood Shortbow"
+msgstr "鐵木短弓"
+
+msgid "Ironwood Targe"
+msgstr "鐵木圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Itinerant Jacket"
+msgstr "遊歷者外衣"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Jade Amulet"
+msgstr "翠玉護身符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Jade Club"
+msgstr "玉製棍棒"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Jade Talisman"
+msgstr "翠玉魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Jade Tiara"
+msgstr "翠玉頭冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Jagged Greataxe"
+msgstr "鋸齒巨斧"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Jagged Spear"
+msgstr "鋸齒長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Jewelled Gloves"
+msgstr "寶石手套"
+
+msgid "Jingling Buckler"
+msgstr "響聲輕盾"
+
+msgid "Jingling Crest Shield"
+msgstr "響聲紋章盾"
+
+msgid "Jingling Focus"
+msgstr "響聲法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Juggernaut Plate"
+msgstr "勇士鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Jungle Tiara"
+msgstr "叢林頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Kalguuran Cuffs"
+msgstr "卡爾葛腕帶"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Kalguuran Forgehammer"
+msgstr "卡爾葛鍛造錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Kamasan Tiara"
+msgstr "卡瑪薩頭冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Keen Greatsword"
+msgstr "鋒利巨劍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Keth Raiment"
+msgstr "凱斯之衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Keyblade"
+msgstr "寶鑰之刃"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Kinetic Ring"
+msgstr "動力之戒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Knight Armour"
+msgstr "騎士護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Knightly Mitts"
+msgstr "騎士長手套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Kris Knife"
+msgstr "波刃刀"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Lace Hood"
+msgstr "綁帶兜帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Laced Boots"
+msgstr "飾帶長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Laced Sandals"
+msgstr "飾帶便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Lamellar Mail"
+msgstr "分層鎖甲"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Lament Amulet"
+msgstr "悼亡護身符"
+
+msgid "Laminate Buckler"
+msgstr "層壓輕盾"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Lapis Amulet"
+msgstr "海玉護身符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Lattice Sandals"
+msgstr "格子便鞋"
+
+#. Source: PoeCharm2 Uniques.txt.csv
+msgid "Lavianga's Spirits"
+msgstr "拉維安加之泉"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Lavish Crown"
+msgstr "奢華之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Layered Gauntlets"
+msgstr "層板護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Layered Vest"
+msgstr "分層背心"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Lazuli Ring"
+msgstr "青金石戒指"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Lead Trap"
+msgstr "誘導陷阱"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Leaden Greathammer"
+msgstr "麻木巨錘"
+
+msgid "Leather Buckler"
+msgstr "皮革輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Leather Vest"
+msgstr "皮革背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Leatherbound Hood"
+msgstr "皮革兜帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Leatherplate Boots"
+msgstr "皮甲長靴"
+
+msgid "Lesser Life Flask"
+msgstr "低階生命藥劑"
+
+msgid "Lesser Mana Flask"
+msgstr "低階魔力藥劑"
+
+msgid "Leyline Focus"
+msgstr "地脈法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Light Halberd"
+msgstr "輕巧斧槍"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Linen Belt"
+msgstr "麻布腰帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Linen Wraps"
+msgstr "麻布裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Lionheart Greaves"
+msgstr "獅心脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Lizardscale Boots"
+msgstr "蜥蜴鱗長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Lizardscale Coat"
+msgstr "蜥蜴鱗外套"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Long Belt"
+msgstr "長腰帶"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Long Quarterstaff"
+msgstr "加長細杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Lumbering Talisman"
+msgstr "笨重魔符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Lumen Mace"
+msgstr "流明之錘"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Lunar Amulet"
+msgstr "月神項鍊"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Lunar Quarterstaff"
+msgstr "月神細杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Lupine Sceptre"
+msgstr "兇殘權杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Luxurious Robe"
+msgstr "奢華長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Luxurious Slippers"
+msgstr "奢華便鞋"
+
+msgid "Magus Focus"
+msgstr "瑪格思法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Magus Tiara"
+msgstr "瑪格思頭冠"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Mail Belt"
+msgstr "鎖甲腰帶"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Mail Breaker"
+msgstr "鎖甲破壞者"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Mail Coat"
+msgstr "鎖甲外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Mail Sabatons"
+msgstr "鎖甲鎧靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Mail Vestments"
+msgstr "鎖甲法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Mailed Crown"
+msgstr "鎖甲之冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Maji Talisman"
+msgstr "聖賢魔符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Makeshift Crossbow"
+msgstr "臨時十字弓"
+
+msgid "Mammoth Targe"
+msgstr "猛獁圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Mantled Mail"
+msgstr "披風鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Marabout Garb"
+msgstr "修士裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Maraketh Cuirass"
+msgstr "馬拉克斯胸甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Marauding Mace"
+msgstr "劫掠之錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Marching Mace"
+msgstr "行軍之錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Martyr Crown"
+msgstr "殉難之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Masked Greathelm"
+msgstr "假面巨盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Massive Greathammer"
+msgstr "巨型巨錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Massive Mitts"
+msgstr "巨型長手套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Massive Spear"
+msgstr "巨型長矛"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Medallion Trap"
+msgstr "獎章陷阱"
+
+msgid "Medium Life Flask"
+msgstr "中型生命藥劑"
+
+msgid "Medium Mana Flask"
+msgstr "中型魔力藥劑"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Mercenary Greathelm"
+msgstr "傭兵巨盔"
+
+msgid "Mercenary Targe"
+msgstr "傭兵圓盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Messer"
+msgstr "單手刀"
+
+msgid "Metalworked Tower Shield"
+msgstr "金屬塔盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Militant Bow"
+msgstr "好戰者之弓"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Mnemonic Ring"
+msgstr "憶念之戒"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Molten Hammer"
+msgstr "熔火之錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Monastic Garb"
+msgstr "僧侶裝束"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Monument Greataxe"
+msgstr "豐碑巨斧"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Monument Greaves"
+msgstr "豐碑脛甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Moon Dagger"
+msgstr "月之匕首"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Morior Invictus"
+msgstr "不敗亡者"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Morning Star"
+msgstr "晨星"
+
+msgid "Mosaic Targe"
+msgstr "鑲嵌圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Moulded Mitts"
+msgstr "鑄模長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Mystic Raiment"
+msgstr "神秘之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Narrow Hood"
+msgstr "狹窄兜帽"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Nettle Talisman"
+msgstr "蕁麻魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Noble Circlet"
+msgstr "貴族頭環"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Noble Greathelm"
+msgstr "高貴巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Noble Sabatons"
+msgstr "高貴鎧靴"
+
+msgid "Noble Tower Shield"
+msgstr "高貴塔盾"
+
+msgid "Oak Buckler"
+msgstr "橡木輕盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Oak Greathammer"
+msgstr "橡木巨錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Oak Mask"
+msgstr "橡木之面"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Obliterator Bow"
+msgstr "毀滅者之弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Obsidian Dagger"
+msgstr "黑曜石匕首"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Obsidian Greatsword"
+msgstr "黑曜石巨劍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Occultist Mantle"
+msgstr "秘術披肩"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ochre Sceptre"
+msgstr "赤色權杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Offering Wand"
+msgstr "奉獻法杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Oiled Jacket"
+msgstr "上油外衣"
+
+msgid "Omen Crest Shield"
+msgstr "預兆紋章盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Omen Sceptre"
+msgstr "徵兆權杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ominous Gloves"
+msgstr "惡兆手套"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Oneiric Ring"
+msgstr "夢境之戒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Opulent Gloves"
+msgstr "奢靡手套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Orichalcum Spear"
+msgstr "山銅長矛"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Ornate Belt"
+msgstr "華麗腰帶"
+
+msgid "Ornate Buckler"
+msgstr "華麗輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ornate Cuffs"
+msgstr "華麗腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ornate Gauntlets"
+msgstr "華麗護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ornate Greaves"
+msgstr "華麗脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ornate Mitts"
+msgstr "華麗長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ornate Plate"
+msgstr "華麗鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ornate Ringmail"
+msgstr "華貴環甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Padded Leggings"
+msgstr "襯墊護腿"
+
+msgid "Painted Buckler"
+msgstr "彩繪輕盾"
+
+msgid "Painted Crest Shield"
+msgstr "彩繪紋章盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Painted Crossbow"
+msgstr "彩繪十字弓"
+
+msgid "Painted Tower Shield"
+msgstr "彩繪塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Paragon Greathelm"
+msgstr "楷模巨盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Paralysing Staff"
+msgstr "麻木長杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Pariah Mask"
+msgstr "輕蔑之面"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Parrying Dagger"
+msgstr "格擋匕首"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Patchwork Vest"
+msgstr "拼湊背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Pathfinder Coat"
+msgstr "追獵者外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Pauascale Gloves"
+msgstr "海靈鱗手套"
+
+msgid "Pearl Buckler"
+msgstr "珍珠輕盾"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Pearl Ring"
+msgstr "珍珠戒指"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Pearlescent Amulet"
+msgstr "珠光項鍊"
+
+msgid "Pelage Targe"
+msgstr "毛皮圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Pelt Leggings"
+msgstr "堅皮護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Pelt Mantle"
+msgstr "堅皮披肩"
+
+msgid "Penetrating Quiver"
+msgstr "穿透箭袋"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Penumbra Amulet"
+msgstr "半影項鍊"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Penumbra Ring"
+msgstr "半影戒指"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Perching Staff"
+msgstr "棲羽長杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Permafrost Staff"
+msgstr "永凍長杖"
+
+msgid "Phalanx Tower Shield"
+msgstr "方陣塔盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Pict Claw"
+msgstr "皮克特爪"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Piercing Claw"
+msgstr "穿刺爪"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Piercing Crossbow"
+msgstr "穿刺十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Pilgrim Vestments"
+msgstr "朝聖者法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Pious Leggings"
+msgstr "虔誠護腿"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Pious Sceptre"
+msgstr "敬神權杖"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Plate Belt"
+msgstr "板甲腰帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Plate Gauntlets"
+msgstr "鎧甲護手"
+
+msgid "Plated Buckler"
+msgstr "鋼板輕盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Plated Claw"
+msgstr "華麗爪"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Plated Greaves"
+msgstr "鎧甲脛甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Plated Mace"
+msgstr "華麗之錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Plated Mitts"
+msgstr "鎧甲長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Plated Raiment"
+msgstr "鎧甲之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Plated Vestments"
+msgstr "鎧甲法衣"
+
+msgid "Plumed Focus"
+msgstr "羽飾法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Pointed Maul"
+msgstr "尖銳重錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Polished Bracers"
+msgstr "亮澤護腕"
+
+msgid "Polished Targe"
+msgstr "拋光圓盾"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Portent Amulet"
+msgstr "惡兆護身符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Precise Greathammer"
+msgstr "精準巨錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Primal Markings"
+msgstr "野性標記"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Primal Talisman"
+msgstr "原始魔符"
+
+msgid "Primed Quiver"
+msgstr "灌注箭袋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Primordial Wand"
+msgstr "原始法杖"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Prismatic Ring"
+msgstr "三相戒指"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Profane Cleaver"
+msgstr "粗劣砍斧"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Pronged Spear"
+msgstr "尖叉長矛"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Protector Bow"
+msgstr "保衛者之弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Pyrophyte Staff"
+msgstr "炎植長杖"
+
+msgid "Quartered Crest Shield"
+msgstr "四分紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Quickslip Shoes"
+msgstr "速行輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Quilted Vest"
+msgstr "襯墊背心"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Rabid Talisman"
+msgstr "狂暴魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Raider Plate"
+msgstr "俠客鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Rambler Jacket"
+msgstr "漫步者外衣"
+
+msgid "Rampart Tower Shield"
+msgstr "壁壘塔盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Rattling Sceptre"
+msgstr "雜響權杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ravenous Staff"
+msgstr "貪婪長杖"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Rawhide Belt"
+msgstr "生皮腰帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Rawhide Boots"
+msgstr "生皮長靴"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Razor Quarterstaff"
+msgstr "剃刃細杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Razorglass Claw"
+msgstr "剃刀玻璃爪"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Reaching Quarterstaff"
+msgstr "延伸細杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Reaping Staff"
+msgstr "死神長杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Reaver Glaive"
+msgstr "收割者長柄刀"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Recurve Bow"
+msgstr "反曲弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Reefsteel Greaves"
+msgstr "礁鋼脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Refined Bracers"
+msgstr "精製護腕"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Refined Breach Ring"
+msgstr "精製裂痕戒指"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Refined Trap"
+msgstr "精製陷阱"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Reflecting Staff"
+msgstr "映像長杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Regalia Longsword"
+msgstr "王權長劍"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Rending Halberd"
+msgstr "撕扯斧槍"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Rending Staff"
+msgstr "撕裂長杖"
+
+msgid "Restorative Leg"
+msgstr "恢復之腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Revered Vestments"
+msgstr "尊敬法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Rhoahide Coat"
+msgstr "恐喙鳥皮外套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Rider Bow"
+msgstr "騎士之弓"
+
+msgid "Ridged Buckler"
+msgstr "脊狀輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Riding Coat"
+msgstr "騎乘外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Righteous Cuffs"
+msgstr "正義腕帶"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Ring"
+msgstr "戒指"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ring Flail"
+msgstr "圓環鏈錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ring Mail"
+msgstr "鐵環鎖甲"
+
+msgid "Ringed Buckler"
+msgstr "環紋輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Ringmail Gauntlets"
+msgstr "環鎖護手"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Rippled Greatsword"
+msgstr "波紋巨劍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "River Raiment"
+msgstr "河流之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Riveted Mitts"
+msgstr "鉚接長手套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Roaring Staff"
+msgstr "咆哮長杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Roaring Talisman"
+msgstr "咆哮魔符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Robust Crossbow"
+msgstr "強健十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Rogue Armour"
+msgstr "盜賊護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Rope Cuffs"
+msgstr "繩索腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Rotted Hood"
+msgstr "破爛兜帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Rough Greaves"
+msgstr "粗糙脛甲"
+
+msgid "Royal Tower Shield"
+msgstr "皇族塔盾"
+
+#. Source: PoeCharm2 Items_Jewels.txt.csv
+msgid "Ruby"
+msgstr "紅寶石"
+
+msgid "Ruby Charm"
+msgstr "紅玉護符"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Ruby Ring"
+msgstr "紅玉戒指"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Rugged Cuirass"
+msgstr "堅實胸甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ruination Maul"
+msgstr "毀滅重錘"
+
+msgid "Runed Focus"
+msgstr "符紋法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runefather's Grasping Mail"
+msgstr "符文之父的貪婪鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Abyssal Cuirass"
+msgstr "符鍛深淵胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Adherent Cuffs"
+msgstr "符鍛追隨者腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Adherent's Raiment"
+msgstr "符鍛信徒之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Adorned Gloves"
+msgstr "符鍛奢華手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Adorned Wraps"
+msgstr "符鍛裝飾裹手"
+
+msgid "Runeforged Aegis Buckler"
+msgstr "符鍛神禦輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Aged Cuffs"
+msgstr "符鍛陳舊腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Altar Robe"
+msgstr "符鍛祭壇長袍"
+
+msgid "Runeforged Ancestor Tower Shield"
+msgstr "符鍛先祖塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Ancestral Mail"
+msgstr "符鍛先祖鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Ancestral Tiara"
+msgstr "符鍛先祖頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Anchorite Garb"
+msgstr "符鍛隱者裝束"
+
+msgid "Runeforged Ancient Buckler"
+msgstr "符鍛遠古輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Ancient Cuffs"
+msgstr "符鍛遠古腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Ancient Mitts"
+msgstr "符鍛遠古長手套"
+
+msgid "Runeforged Antler Focus"
+msgstr "符鍛靈鹿法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Apostle Leggings"
+msgstr "符鍛使徒護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Arcane Raiment"
+msgstr "符鍛奧術之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Archon Crown"
+msgstr "符鍛統治者之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Armoured Cap"
+msgstr "符鍛裝甲便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Armoured Vest"
+msgstr "符鍛裝甲背心"
+
+msgid "Runeforged Array Buckler"
+msgstr "符鍛排列輕盾"
+
+msgid "Runeforged Arrayed Focus"
+msgstr "符鍛陣列法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Ascetic Garb"
+msgstr "符鍛苦行者裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Assassin Garb"
+msgstr "符鍛刺客裝束"
+
+msgid "Runeforged Attuned Focus"
+msgstr "符鍛調和法器"
+
+msgid "Runeforged Aureate Targe"
+msgstr "符鍛鍍金圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Austere Garb"
+msgstr "符鍛樸素裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Avian Mask"
+msgstr "符鍛飛羽之面"
+
+msgid "Runeforged Avian Targe"
+msgstr "符鍛飛羽圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Barbed Bracers"
+msgstr "符鍛鉤刺護腕"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Barbed Spear"
+msgstr "符鍛鉤刺長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Baroque Gloves"
+msgstr "符鍛巴洛克手套"
+
+msgid "Runeforged Baroque Targe"
+msgstr "符鍛巴洛克圓盾"
+
+msgid "Runeforged Barricade Tower Shield"
+msgstr "符鍛障壁塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Bastion Sabatons"
+msgstr "符鍛堅堡鎧靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Beaded Circlet"
+msgstr "符鍛串珠頭環"
+
+msgid "Runeforged Blacksteel Crest Shield"
+msgstr "符鍛烏鋼紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Blacksteel Gauntlets"
+msgstr "符鍛烏鐵護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Blacksteel Sabatons"
+msgstr "符鍛烏鋼鎧靴"
+
+msgid "Runeforged Blacksteel Tower Shield"
+msgstr "符鍛黑鋼塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Bladed Shoes"
+msgstr "符鍛片狀輕鞋"
+
+msgid "Runeforged Bladeguard Buckler"
+msgstr "符鍛刃衛輕盾"
+
+msgid "Runeforged Blazon Crest Shield"
+msgstr "符鍛家徽紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Bold Sabatons"
+msgstr "符鍛醒目鎧靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Bolstered Mitts"
+msgstr "符鍛加固長手套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Bombard Crossbow"
+msgstr "符鍛轟擊十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Bone Raiment"
+msgstr "符鍛骸骨之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Bound Bracers"
+msgstr "符鍛緊縛護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Bound Cuffs"
+msgstr "符鍛綑綁腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Bound Sandals"
+msgstr "符鍛綑綁便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Braced Sabatons"
+msgstr "符鍛加固鎧靴"
+
+msgid "Runeforged Braced Tower Shield"
+msgstr "符鍛加固塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Brigand Mask"
+msgstr "符鍛強盜之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Brimmed Helm"
+msgstr "符鍛邊緣之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Bronze Greaves"
+msgstr "符鍛青銅脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Buckled Wraps"
+msgstr "符鍛帶扣裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Bulwark Greaves"
+msgstr "符鍛壁壘脛甲"
+
+msgid "Runeforged Bulwark Tower Shield"
+msgstr "符鍛守護塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Burnished Gauntlets"
+msgstr "符鍛拋光護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Cabalist Helm"
+msgstr "符鍛秘術師之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Carved Greaves"
+msgstr "符鍛雕刻脛甲"
+
+msgid "Runeforged Carved Targe"
+msgstr "符鍛雕刻圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Cavalry Boots"
+msgstr "符鍛騎兵長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Ceremonial Robe"
+msgstr "符鍛儀式長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Chain Mail"
+msgstr "符鍛鎖鍊鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Chain Tiara"
+msgstr "符鍛鎖鍊頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Champion Cuirass"
+msgstr "符鍛冠軍胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Champion Helm"
+msgstr "符鍛勇士之盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Changeling Talisman"
+msgstr "符鍛變形魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Charmed Shoes"
+msgstr "符鍛護符輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Chieftain Cuirass"
+msgstr "符鍛酋長胸甲"
+
+msgid "Runeforged Chiseled Targe"
+msgstr "符鍛鑿刻圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Cinched Boots"
+msgstr "符鍛繫帶長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Clandestine Jacket"
+msgstr "符鍛隱蔽外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Cleric Vestments"
+msgstr "符鍛教士法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Cloaked Mail"
+msgstr "符鍛斗篷鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Closed Helm"
+msgstr "符鍛緊閉之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Colosseum Plate"
+msgstr "符鍛決鬥之鎧"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Commander Gauntlets"
+msgstr "符鍛指揮官護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Commander Greathelm"
+msgstr "符鍛指揮官巨盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Composite Bow"
+msgstr "符鍛合成弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Conjurer Mantle"
+msgstr "符鍛巫術師披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Conqueror Plate"
+msgstr "符鍛征服者鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Corsair Cap"
+msgstr "符鍛海盜便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Corsair Coat"
+msgstr "符鍛海盜外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Corsair Vest"
+msgstr "符鍛海盜背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Corvus Mantle"
+msgstr "符鍛烏鴉披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Covered Sabatons"
+msgstr "符鍛遮蓋鎧靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Covert Hood"
+msgstr "符鍛隱蔽兜帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Cowled Helm"
+msgstr "符鍛斗篷之盔"
+
+msgid "Runeforged Crescent Targe"
+msgstr "符鍛新月圓盾"
+
+msgid "Runeforged Crucible Tower Shield"
+msgstr "符鍛磨煉塔盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Crude Bow"
+msgstr "符鍛粗製弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Crumbling Maul"
+msgstr "符鍛崩毀重錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Cryptic Crown"
+msgstr "符鍛隱祕之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Cryptic Helm"
+msgstr "符鍛隱秘之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Cryptic Leggings"
+msgstr "符鍛隱祕護腿"
+
+msgid "Runeforged Crystal Focus"
+msgstr "符鍛水晶法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Cultist Crown"
+msgstr "符鍛教徒之冠"
+
+msgid "Runeforged Cultist Focus"
+msgstr "符鍛教徒法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Cultist Gauntlets"
+msgstr "符鍛教徒護手"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Cultist Greathammer"
+msgstr "符鍛教徒巨錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Daggerfoot Shoes"
+msgstr "符鍛捷足輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Dastard Armour"
+msgstr "符鍛惡徒護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Death Mail"
+msgstr "符鍛死亡鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Death Mantle"
+msgstr "符鍛死亡披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Death Mask"
+msgstr "符鍛死亡之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Decorated Helm"
+msgstr "符鍛裝飾之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Deerstalker Hood"
+msgstr "符鍛獵鹿者之兜"
+
+msgid "Runeforged Defiant Tower Shield"
+msgstr "符鍛忤逆塔盾"
+
+msgid "Runeforged Deified Crest Shield"
+msgstr "符鍛神化紋章盾"
+
+msgid "Runeforged Dekharan Crest Shield"
+msgstr "符鍛部下紋章盾"
+
+msgid "Runeforged Desert Buckler"
+msgstr "符鍛沙漠輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Desert Cap"
+msgstr "符鍛沙漠便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Detailed Mitts"
+msgstr "符鍛精細長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Devout Garb"
+msgstr "符鍛虔誠裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Divine Crown"
+msgstr "符鍛神聖之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Doubled Gauntlets"
+msgstr "符鍛雙層護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Dragonscale Boots"
+msgstr "符鍛龍鱗長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Drakeskin Boots"
+msgstr "符鍛龍膚長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Druidic Crown"
+msgstr "符鍛德魯伊之冠"
+
+msgid "Runeforged Druidic Focus"
+msgstr "符鍛德魯伊法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Dualstring Bow"
+msgstr "符鍛雙弦弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Dunerunner Sandals"
+msgstr "符鍛沙丘行者便鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Dyad Crossbow"
+msgstr "符鍛雙生十字弓"
+
+msgid "Runeforged Edged Buckler"
+msgstr "符鍛刃緣輕盾"
+
+msgid "Runeforged Effigial Tower Shield"
+msgstr "符鍛靈像塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Elaborate Sandals"
+msgstr "符鍛精美便鞋"
+
+msgid "Runeforged Elegant Focus"
+msgstr "符鍛高雅法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Elegant Greathelm"
+msgstr "符鍛優雅巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Elegant Greaves"
+msgstr "符鍛優雅脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Elegant Plate"
+msgstr "符鍛優雅鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Elegant Slippers"
+msgstr "符鍛優雅便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Elegant Wraps"
+msgstr "符鍛優雅裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Elementalist Robe"
+msgstr "符鍛元素使長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Elite Greathelm"
+msgstr "符鍛菁英巨盔"
+
+msgid "Runeforged Emblem Crest Shield"
+msgstr "符鍛徽印紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Embossed Boots"
+msgstr "符鍛浮雕長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Embroidered Boots"
+msgstr "符鍛刺繡長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Embroidered Gloves"
+msgstr "符鍛刺繡手套"
+
+msgid "Runeforged Empyreal Crest Shield"
+msgstr "符鍛蒼天紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Engraved Bracers"
+msgstr "符鍛紋刻護腕"
+
+msgid "Runeforged Engraved Focus"
+msgstr "符鍛紋刻法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Enlightened Robe"
+msgstr "符鍛啟蒙長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Explorer Armour"
+msgstr "符鍛探索者護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Exquisite Vest"
+msgstr "符鍛精美背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Face Mask"
+msgstr "符鍛護臉之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Faithful Leggings"
+msgstr "符鍛信仰護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Falconer's Jacket"
+msgstr "符鍛訓鷹者外衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Familial Talisman"
+msgstr "符鍛家族魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Faridun Mask"
+msgstr "符鍛法里登之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Feathered Mitts"
+msgstr "符鍛羽毛長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Feathered Raiment"
+msgstr "符鍛羽絨之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Feathered Robe"
+msgstr "符鍛羽毛長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Feathered Sandals"
+msgstr "符鍛羽毛便鞋"
+
+msgid "Runeforged Feathered Targe"
+msgstr "符鍛羽毛圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Feathered Tiara"
+msgstr "符鍛羽毛頭冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Felled Greatclub"
+msgstr "符鍛墮落巨棍棒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Felt Cap"
+msgstr "符鍛毛氈便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Fierce Greathelm"
+msgstr "符鍛兇猛巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Fine Bracers"
+msgstr "符鍛精良護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Firm Bracers"
+msgstr "符鍛穩固護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Fists of Stone"
+msgstr "符鍛磐石之拳"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Flared Boots"
+msgstr "符鍛閃耀長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Flax Sandals"
+msgstr "符鍛亞麻便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Flexile Sabatons"
+msgstr "符鍛易曲鎧靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Flowing Raiment"
+msgstr "符鍛奔流之衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Forge Maul"
+msgstr "符鍛鍛造重錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Forked Spear"
+msgstr "符鍛叉狀長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Fortress Sabatons"
+msgstr "符鍛要塞鎧靴"
+
+msgid "Runeforged Fortress Tower Shield"
+msgstr "符鍛要塞塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Frayed Shoes"
+msgstr "符鍛磨損輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Freebooter Cap"
+msgstr "符鍛符鍛劫掠者便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Full Plate"
+msgstr "符鍛連身鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Fur Plate"
+msgstr "符鍛毛皮鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Furtive Wraps"
+msgstr "符鍛隱秘裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Gallant Helm"
+msgstr "符鍛無畏之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Garment"
+msgstr "符鍛服裝"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Gauze Wraps"
+msgstr "符鍛紗布裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Gilded Vestments"
+msgstr "符鍛鍍金法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Gilt Leggings"
+msgstr "符鍛鍍金護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Gladiator Armour"
+msgstr "符鍛衛士護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Gladiatorial Helm"
+msgstr "符鍛衛士之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Gleaming Cuffs"
+msgstr "符鍛輝光腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Glorious Plate"
+msgstr "符鍛榮耀戰鎧"
+
+msgid "Runeforged Glowering Crest Shield"
+msgstr "符鍛怒視紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Gold Circlet"
+msgstr "符鍛黃金頭環"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Gold Gloves"
+msgstr "符鍛黃金手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Goldcast Cuffs"
+msgstr "符鍛金鑄腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Golden Mail"
+msgstr "符鍛耀金鎖甲"
+
+msgid "Runeforged Golden Targe"
+msgstr "符鍛耀金圓盾"
+
+msgid "Runeforged Goldworked Tower Shield"
+msgstr "符鍛黃金塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Goliath Greathelm"
+msgstr "符鍛巨靈巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Grand Bracers"
+msgstr "符鍛宏偉護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Grand Cuisses"
+msgstr "符鍛宏偉腿甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Grand Manchettes"
+msgstr "符鍛宏偉手鐲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Grand Mitts"
+msgstr "符鍛宏偉長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Grand Regalia"
+msgstr "符鍛宏偉華服"
+
+msgid "Runeforged Grand Targe"
+msgstr "符鍛宏偉圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Grand Visage"
+msgstr "符鍛宏偉面紗"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Grasping Mail"
+msgstr "符鍛貪婪鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Grim Gloves"
+msgstr "符鍛冷酷手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Grinning Mask"
+msgstr "符鍛獰笑之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Guarded Helm"
+msgstr "符鍛警惕之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Guardian Greathelm"
+msgstr "符鍛守護者巨盔"
+
+msgid "Runeforged Gutspike Buckler"
+msgstr "符鍛挑腸輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Hallowed Crown"
+msgstr "符鍛聖潔之冠"
+
+msgid "Runeforged Hallowed Focus"
+msgstr "符鍛聖潔法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Hardened Bracers"
+msgstr "符鍛硬化護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Hardleather Coat"
+msgstr "符鍛硬皮外套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Hardwood Spear"
+msgstr "符鍛硬木長矛"
+
+msgid "Runeforged Hardwood Targe"
+msgstr "符鍛硬木圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Hatungo Garb"
+msgstr "符鍛靈語者裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Havoc Raiment"
+msgstr "符鍛禍害之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Hawker's Jacket"
+msgstr "符鍛飼鷹者外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Heartcarver Mantle"
+msgstr "符鍛雕心者披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Heavy Crown"
+msgstr "符鍛沉重之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Heavy Plate"
+msgstr "符鍛重型鎧甲"
+
+msgid "Runeforged Heraldric Tower Shield"
+msgstr "符鍛紋章塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Hermit Garb"
+msgstr "符鍛隱士裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Heroic Armour"
+msgstr "符鍛英雄護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Hewn Mask"
+msgstr "符鍛粗製之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Hexer's Robe"
+msgstr "符鍛咒術師長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Hooded Mask"
+msgstr "符鍛風帽之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Horned Crown"
+msgstr "符鍛犄角之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Hunter Hood"
+msgstr "符鍛獵者之兜"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Hunting Shoes"
+msgstr "符鍛狩獵輕鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Hunting Spear"
+msgstr "符鍛狩獵長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Imperial Greathelm"
+msgstr "符鍛帝國巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Imperial Robe"
+msgstr "符鍛帝國長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Inquisitor Crown"
+msgstr "符鍛判官之冠"
+
+msgid "Runeforged Intricate Crest Shield"
+msgstr "符鍛錯綜紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Intricate Gloves"
+msgstr "符鍛精妙手套"
+
+msgid "Runeforged Iron Buckler"
+msgstr "符鍛鍛鐵輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Iron Crown"
+msgstr "符鍛鍛鐵之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Iron Cuirass"
+msgstr "符鍛鍛鐵胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Iron Greaves"
+msgstr "符鍛鐵鍛脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Ironclad Vestments"
+msgstr "符鍛鐵甲法衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Ironhead Spear"
+msgstr "符鍛鐵木長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Itinerant Jacket"
+msgstr "符鍛遊歷者外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Jade Tiara"
+msgstr "符鍛翠玉頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Jewelled Gloves"
+msgstr "符鍛寶石手套"
+
+msgid "Runeforged Jingling Buckler"
+msgstr "符鍛響聲輕盾"
+
+msgid "Runeforged Jingling Crest Shield"
+msgstr "符鍛響聲紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Juggernaut Plate"
+msgstr "符鍛勇士鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Jungle Tiara"
+msgstr "符鍛叢林頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Kalguuran Cuffs"
+msgstr "符鍛卡爾葛腕帶"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Kalguuran Forgehammer"
+msgstr "符鍛卡爾葛鍛造錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Kamasan Tiara"
+msgstr "符鍛卡瑪薩頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Keth Raiment"
+msgstr "符鍛凱斯之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Knight Armour"
+msgstr "符鍛騎士護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Knightly Mitts"
+msgstr "符鍛騎士長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Lace Hood"
+msgstr "符鍛綁帶兜帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Laced Boots"
+msgstr "符鍛飾帶長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Lamellar Mail"
+msgstr "符鍛分層鎖甲"
+
+msgid "Runeforged Laminate Buckler"
+msgstr "符鍛層壓輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Lattice Sandals"
+msgstr "符鍛格子便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Lavish Crown"
+msgstr "符鍛奢華之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Layered Gauntlets"
+msgstr "符鍛層板護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Layered Vest"
+msgstr "符鍛分層背心"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Leaden Greathammer"
+msgstr "符鍛麻木巨錘"
+
+msgid "Runeforged Leather Buckler"
+msgstr "符鍛皮革輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Leather Vest"
+msgstr "符鍛皮革背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Leatherbound Hood"
+msgstr "符鍛皮革兜帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Leatherplate Boots"
+msgstr "符鍛皮甲長靴"
+
+msgid "Runeforged Leyline Focus"
+msgstr "符鍛地脈法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Linen Wraps"
+msgstr "符鍛麻布裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Lizardscale Boots"
+msgstr "符鍛蜥蜴鱗長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Lizardscale Coat"
+msgstr "符鍛蜥蜴鱗外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Luxurious Slippers"
+msgstr "符鍛奢華便鞋"
+
+msgid "Runeforged Magus Focus"
+msgstr "符鍛瑪格思法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Magus Tiara"
+msgstr "符鍛瑪格思頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Mail Coat"
+msgstr "符鍛鎖甲外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Mail Sabatons"
+msgstr "符鍛鎖甲鎧靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Mail Vestments"
+msgstr "符鍛鎖甲法衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Makeshift Crossbow"
+msgstr "符鍛臨時十字弓"
+
+msgid "Runeforged Mammoth Targe"
+msgstr "符鍛猛獁圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Mantled Mail"
+msgstr "符鍛披風鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Marabout Garb"
+msgstr "符鍛修士裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Maraketh Cuirass"
+msgstr "符鍛馬拉克斯胸甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Marching Mace"
+msgstr "符鍛行軍之錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Martyr Crown"
+msgstr "符鍛殉難之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Masked Greathelm"
+msgstr "符鍛假面巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Massive Mitts"
+msgstr "符鍛巨型長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Monastic Garb"
+msgstr "符鍛僧侶裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Monument Greaves"
+msgstr "符鍛豐碑脛甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Morning Star"
+msgstr "符鍛晨星"
+
+msgid "Runeforged Mosaic Targe"
+msgstr "符鍛鑲嵌圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Moulded Mitts"
+msgstr "符鍛鑄模長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Mystic Raiment"
+msgstr "符鍛神秘之衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Nettle Talisman"
+msgstr "符鍛蕁麻魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Noble Circlet"
+msgstr "符鍛貴族頭環"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Noble Greathelm"
+msgstr "符鍛高貴巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Noble Sabatons"
+msgstr "符鍛高貴鎧靴"
+
+msgid "Runeforged Noble Tower Shield"
+msgstr "符鍛高貴塔盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Oak Greathammer"
+msgstr "符鍛橡木巨錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Occultist Mantle"
+msgstr "符鍛秘術披肩"
+
+msgid "Runeforged Omen Crest Shield"
+msgstr "符鍛預兆紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Opulent Gloves"
+msgstr "符鍛奢靡手套"
+
+msgid "Runeforged Ornate Buckler"
+msgstr "符鍛華麗輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Ornate Cuffs"
+msgstr "符鍛華麗腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Ornate Gauntlets"
+msgstr "符鍛華麗護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Ornate Greaves"
+msgstr "符鍛華麗脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Ornate Mitts"
+msgstr "符鍛華麗長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Ornate Plate"
+msgstr "符鍛華麗鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Padded Leggings"
+msgstr "符鍛襯墊護腿"
+
+msgid "Runeforged Painted Tower Shield"
+msgstr "符鍛彩繪塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Paragon Greathelm"
+msgstr "符鍛楷模巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Pariah Mask"
+msgstr "符鍛輕蔑之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Pathfinder Coat"
+msgstr "符鍛追獵者外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Pauascale Gloves"
+msgstr "符鍛海靈鱗手套"
+
+msgid "Runeforged Pearl Buckler"
+msgstr "符鍛珍珠輕盾"
+
+msgid "Runeforged Pelage Targe"
+msgstr "符鍛毛皮圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Pelt Leggings"
+msgstr "符鍛堅皮護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Pelt Mantle"
+msgstr "符鍛堅皮披肩"
+
+msgid "Runeforged Phalanx Tower Shield"
+msgstr "符鍛方陣塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Pilgrim Vestments"
+msgstr "符鍛朝聖者法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Pious Leggings"
+msgstr "符鍛虔誠護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Plate Gauntlets"
+msgstr "符鍛鎧甲護手"
+
+msgid "Runeforged Plated Buckler"
+msgstr "符鍛鋼板輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Plated Raiment"
+msgstr "符鍛鎧甲之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Plated Vestments"
+msgstr "符鍛鎧甲法衣"
+
+msgid "Runeforged Plumed Focus"
+msgstr "符鍛羽飾法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Pointed Maul"
+msgstr "符鍛尖銳重錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Polished Bracers"
+msgstr "符鍛亮澤護腕"
+
+msgid "Runeforged Polished Targe"
+msgstr "符鍛拋光圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Primal Markings"
+msgstr "符鍛原始印記"
+
+msgid "Runeforged Quartered Crest Shield"
+msgstr "符鍛四分紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Quickslip Shoes"
+msgstr "符鍛速行輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Quilted Vest"
+msgstr "符鍛襯墊背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Raider Plate"
+msgstr "符鍛俠客鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Rambler Jacket"
+msgstr "符鍛漫步者外衣"
+
+msgid "Runeforged Rampart Tower Shield"
+msgstr "符鍛壁壘塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Rawhide Boots"
+msgstr "符鍛生皮長靴"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Recurve Bow"
+msgstr "符鍛反曲弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Reefsteel Greaves"
+msgstr "符鍛礁鋼脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Refined Bracers"
+msgstr "符鍛精製護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Revered Vestments"
+msgstr "符鍛尊敬法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Rhoahide Coat"
+msgstr "符鍛恐喙鳥皮外套"
+
+msgid "Runeforged Ridged Buckler"
+msgstr "符鍛脊狀輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Righteous Cuffs"
+msgstr "符鍛正義腕帶"
+
+msgid "Runeforged Ringed Buckler"
+msgstr "符鍛環紋輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Ringmail Gauntlets"
+msgstr "符鍛環鎖護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged River Raiment"
+msgstr "符鍛河流之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Riveted Mitts"
+msgstr "符鍛鉚接長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Rogue Armour"
+msgstr "符鍛盜賊護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Rope Cuffs"
+msgstr "符鍛繩索腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Rough Greaves"
+msgstr "符鍛粗糙脛甲"
+
+msgid "Runeforged Royal Tower Shield"
+msgstr "符鍛皇族塔盾"
+
+msgid "Runeforged Runed Focus"
+msgstr "符鍛符紋法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Runner Vest"
+msgstr "符鍛奔走者背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Rusted Cuirass"
+msgstr "符鍛生鏽胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Rusted Greathelm"
+msgstr "符鍛鏽蝕巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Sacramental Robe"
+msgstr "符鍛聖禮長袍"
+
+msgid "Runeforged Sacred Focus"
+msgstr "符鍛神聖法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Sacrificial Mantle"
+msgstr "符鍛獻祭披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Sacrificial Regalia"
+msgstr "符鍛獻祭法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Saintly Crown"
+msgstr "符鍛聖徒之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Sandsworn Sandals"
+msgstr "符鍛沙誓便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Sandsworn Tiara"
+msgstr "符鍛沙誓頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Scale Mail"
+msgstr "符鍛鱗片鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Scalper's Jacket"
+msgstr "符鍛投機者外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Scoundrel Jacket"
+msgstr "符鍛流氓外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Scout's Vest"
+msgstr "符鍛斥侯背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Seastorm Mantle"
+msgstr "符鍛海洋風暴披肩"
+
+msgid "Runeforged Sectarian Crest Shield"
+msgstr "符鍛宗派紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Sectioned Bracers"
+msgstr "符鍛分段護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Secured Leggings"
+msgstr "符鍛牢固護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Secured Wraps"
+msgstr "符鍛牢固裹手"
+
+msgid "Runeforged Seer Crest Shield"
+msgstr "符鍛先知紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Sekhema Sandals"
+msgstr "符鍛絲克瑪便鞋"
+
+msgid "Runeforged Sekheman Crest Shield"
+msgstr "符鍛塞喀曼紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Sentinel Greathelm"
+msgstr "符鍛守望巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Serpentscale Boots"
+msgstr "符鍛蛇鱗長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Serpentscale Coat"
+msgstr "符鍛蛇鱗外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Shabby Hood"
+msgstr "符鍛破舊兜帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Shaded Mask"
+msgstr "符鍛陰影之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Shaman Mantle"
+msgstr "符鍛薩滿披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Shamanistic Leggings"
+msgstr "符鍛薩滿護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Shielded Helm"
+msgstr "符鍛庇護之盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Shortbow"
+msgstr "符鍛短弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Shrouded Mail"
+msgstr "符鍛遮蔽鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Shrouded Vest"
+msgstr "符鍛籠罩背心"
+
+msgid "Runeforged Sigil Crest Shield"
+msgstr "符鍛符印紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Signet Cuffs"
+msgstr "符鍛徽印腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Silk Robe"
+msgstr "符鍛絲質之袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Silk Slippers"
+msgstr "符鍛絲綢便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Sirenscale Gloves"
+msgstr "符鍛海妖鱗手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Skycrown Tiara"
+msgstr "符鍛天冠頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Slayer Armour"
+msgstr "符鍛處刑者護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Sleek Jacket"
+msgstr "符鍛光滑外衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Slim Mace"
+msgstr "符鍛纖細之錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Slipstrike Vest"
+msgstr "符鍛快速打擊背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Smuggler Coat"
+msgstr "符鍛走私者外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Soaring Mask"
+msgstr "符鍛翱翔之面"
+
+msgid "Runeforged Soaring Targe"
+msgstr "符鍛翱翔圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Soldier Cuirass"
+msgstr "符鍛士兵胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Soldier Greathelm"
+msgstr "符鍛士兵巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Solid Mask"
+msgstr "符鍛堅固之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Sombre Gloves"
+msgstr "符鍛暗淡手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Sorcerous Tiara"
+msgstr "符鍛巫術頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Spiked Bracers"
+msgstr "符鍛尖刺護腕"
+
+msgid "Runeforged Spiked Buckler"
+msgstr "符鍛刺紋輕盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Spiked Club"
+msgstr "符鍛鈍釘木棒"
+
+msgid "Runeforged Spikeward Buckler"
+msgstr "符鍛刺衛輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Spined Bracers"
+msgstr "符鍛棘刺護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Spiral Wraps"
+msgstr "符鍛盤繞裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Spired Greathelm"
+msgstr "符鍛尖頂巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Spiritbone Crown"
+msgstr "符鍛魂骨之冠"
+
+msgid "Runeforged Splintered Tower Shield"
+msgstr "符鍛裂片塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Stacked Sabatons"
+msgstr "符鍛疊層鎧靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Stalking Bracers"
+msgstr "符鍛潛獵護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Steel Plate"
+msgstr "符鍛堅鋼鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Steelmail Gauntlets"
+msgstr "符鍛鋼鎖護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Steelpoint Shoes"
+msgstr "符鍛鋼尖輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Steeltoe Boots"
+msgstr "符鍛鐵趾長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Stitched Gloves"
+msgstr "符鍛縫合手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Stocky Mitts"
+msgstr "符鍛結實長手套"
+
+msgid "Runeforged Stoic Crest Shield"
+msgstr "符鍛堅毅紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Stone Cuirass"
+msgstr "符鍛岩石胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Stone Greaves"
+msgstr "符鍛岩石脛甲"
+
+msgid "Runeforged Stone Targe"
+msgstr "符鍛石紋圓盾"
+
+msgid "Runeforged Stone Tower Shield"
+msgstr "符鍛石製塔盾"
+
+msgid "Runeforged Stratified Targe"
+msgstr "符鍛分層圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Straw Sandals"
+msgstr "符鍛乾草便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Strider Vest"
+msgstr "符鍛疾行者背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Studded Boots"
+msgstr "符鍛鑲釘長靴"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Studded Greatclub"
+msgstr "符鍛鑲釘巨棍棒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Studded Sandals"
+msgstr "符鍛鑲釘便鞋"
+
+msgid "Runeforged Studded Targe"
+msgstr "符鍛釘紋圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Studded Vest"
+msgstr "符鍛鑲釘背心"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Sturdy Crossbow"
+msgstr "符鍛堅固十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Suede Bracers"
+msgstr "符鍛麂皮護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Swathed Cap"
+msgstr "符鍛裹頭便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Swiftstalker Coat"
+msgstr "符鍛迅疾潛獵者外套"
+
+msgid "Runeforged Tasalian Focus"
+msgstr "符鍛塔沙里安法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Tasalian Greaves"
+msgstr "符鍛塔薩里奧脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Tattered Robe"
+msgstr "符鍛殘破長袍"
+
+msgid "Runeforged Tawhoan Tower Shield"
+msgstr "符鍛塔瓦安塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Tempered Mitts"
+msgstr "符鍛淬鍊長手套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Temple Maul"
+msgstr "符鍛神殿重錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Tense Crossbow"
+msgstr "符鍛緊繃十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Thane Mail"
+msgstr "符鍛領主鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Threaded Shoes"
+msgstr "符鍛縫紉輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Tideseer Mantle"
+msgstr "符鍛潮汐先知披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Titan Mitts"
+msgstr "符鍛泰坦長手套"
+
+msgid "Runeforged Tonal Focus"
+msgstr "符鍛音律法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Torment Jacket"
+msgstr "符鍛苦難外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Torn Gloves"
+msgstr "符鍛撕裂手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Totemic Greaves"
+msgstr "符鍛圖騰脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Tournament Mail"
+msgstr "符鍛競技鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Trailblazer Armour"
+msgstr "符鍛開拓者護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Trapper Hood"
+msgstr "符鍛符鍛捕獵者之兜"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Treerunner Shoes"
+msgstr "符鍛樹行者輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Tribal Mask"
+msgstr "符鍛部落之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Trimmed Greaves"
+msgstr "符鍛鑲邊脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Twig Circlet"
+msgstr "符鍛嫩枝頭環"
+
+msgid "Runeforged Twig Focus"
+msgstr "符鍛樹枝法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Twilight Tiara"
+msgstr "符鍛暮光頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Utility Wraps"
+msgstr "符鍛實用裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Utzaal Cuirass"
+msgstr "符鍛奧札爾胸甲"
+
+msgid "Runeforged Vaal Crest Shield"
+msgstr "符鍛瓦爾紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Vaal Cuirass"
+msgstr "符鍛瓦爾胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Vaal Gloves"
+msgstr "符鍛瓦爾手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Vaal Greaves"
+msgstr "符鍛瓦爾脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Vaal Mitts"
+msgstr "符鍛瓦爾長手套"
+
+msgid "Runeforged Vaal Tower Shield"
+msgstr "符鍛瓦爾塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Vaal Wraps"
+msgstr "符鍛瓦爾裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Vagabond Armour"
+msgstr "符鍛流浪者護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Veiled Mask"
+msgstr "符鍛隱匿之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Velour Shoes"
+msgstr "符鍛絲絨輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Velvet Cap"
+msgstr "符鍛天鵝絨便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Venerated Mantle"
+msgstr "符鍛崇敬披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Vermeil Circlet"
+msgstr "符鍛鍍金頭環"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Veteran Sabatons"
+msgstr "符鍛老兵鎧靴"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Vicious Talisman"
+msgstr "符鍛惡毒魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Vile Robe"
+msgstr "符鍛惡毒長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Viper Cap"
+msgstr "符鍛毒蛇便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Visored Helm"
+msgstr "符鍛假面之盔"
+
+msgid "Runeforged Voodoo Focus"
+msgstr "符鍛巫毒法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Votive Raiment"
+msgstr "符鍛還願之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Wanderer Shoes"
+msgstr "符鍛漫遊者輕鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged War Spear"
+msgstr "符鍛戰爭長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged War Wraps"
+msgstr "符鍛戰爭裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Warded Helm"
+msgstr "符鍛保衛之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Warlock Leggings"
+msgstr "符鍛術士護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Warlord Cuirass"
+msgstr "符鍛總督胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Warmonger Greathelm"
+msgstr "符鍛狂戰者巨盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Warpick"
+msgstr "符鍛戰鎬"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Warrior Greathelm"
+msgstr "符鍛戰士巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Waxed Jacket"
+msgstr "符鍛打蠟外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Wayfarer Jacket"
+msgstr "符鍛旅人外衣"
+
+msgid "Runeforged Wayward Crest Shield"
+msgstr "符鍛離道紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Weaver Leggings"
+msgstr "符鍛編織者護腿"
+
+msgid "Runeforged Whorl Focus"
+msgstr "符鍛螺旋法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Wicker Tiara"
+msgstr "符鍛枝條頭冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Winged Spear"
+msgstr "符鍛羽翅長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Wolfskin Mantle"
+msgstr "符鍛狼皮披肩"
+
+msgid "Runeforged Wooden Buckler"
+msgstr "符鍛木頭輕盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Wooden Club"
+msgstr "符鍛木製棍棒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Woven Cap"
+msgstr "符鍛編織便帽"
+
+msgid "Runeforged Woven Focus"
+msgstr "符鍛編織法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Wrapped Cap"
+msgstr "符鍛纏繞便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Wrapped Greathelm"
+msgstr "符鍛纏繞巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Wrapped Sandals"
+msgstr "符鍛裹腳便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Wyrmscale Coat"
+msgstr "符鍛龍鱗外套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runeforged Zealot Bow"
+msgstr "符鍛狂熱者之弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Zealot Gauntlets"
+msgstr "符鍛狂熱護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runeforged Zenith Vestments"
+msgstr "符鍛極盛法衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runemastered Aberrant Sledge"
+msgstr "符煉怪異攻城錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Aged Cuffs"
+msgstr "符煉陳舊腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Altar Robe"
+msgstr "符煉祭壇長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Ancestral Mail"
+msgstr "符煉先祖鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Anchorite Garb"
+msgstr "符煉隱者裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Ancient Leggings"
+msgstr "符煉遠古護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Ancient Mail"
+msgstr "符煉遠古鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Ancient Visor"
+msgstr "符煉遠古護面盔"
+
+msgid "Runemastered Antler Focus"
+msgstr "符煉靈鹿法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Armoured Cap"
+msgstr "符煉裝甲便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Armoured Vest"
+msgstr "符煉裝甲背心"
+
+msgid "Runemastered Array Buckler"
+msgstr "符煉排列輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Assassin Garb"
+msgstr "符煉刺客裝束"
+
+msgid "Runemastered Barricade Tower Shield"
+msgstr "符煉障壁塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Beaded Circlet"
+msgstr "符煉串珠頭環"
+
+msgid "Runemastered Blacksteel Tower Shield"
+msgstr "符煉黑鋼塔盾"
+
+msgid "Runemastered Blazon Crest Shield"
+msgstr "符煉家徽紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Bolstered Mitts"
+msgstr "符煉加固長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Bone Raiment"
+msgstr "符煉骸骨之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Braced Sabatons"
+msgstr "符煉加固鎧靴"
+
+msgid "Runemastered Braced Tower Shield"
+msgstr "符煉加固塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Brimmed Helm"
+msgstr "符煉邊緣之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Bronze Greaves"
+msgstr "符煉青銅脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Burnished Gauntlets"
+msgstr "符煉拋光護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Chain Mail"
+msgstr "符煉鎖鍊鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Chain Tiara"
+msgstr "符煉鎖鍊頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Cinched Boots"
+msgstr "符煉繫帶長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Cleric Vestments"
+msgstr "符煉教士法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Cloaked Mail"
+msgstr "符煉斗篷鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Corsair Cap"
+msgstr "符煉海盜便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Corvus Mantle"
+msgstr "符煉烏鴉披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Covered Sabatons"
+msgstr "符煉遮蓋鎧靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Covert Hood"
+msgstr "符煉隱蔽兜帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Cowled Helm"
+msgstr "符煉斗篷之盔"
+
+msgid "Runemastered Crescent Targe"
+msgstr "符煉新月圓盾"
+
+msgid "Runemastered Crucible Tower Shield"
+msgstr "符煉磨煉塔盾"
+
+msgid "Runemastered Crystal Focus"
+msgstr "符煉水晶法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Cultist Crown"
+msgstr "符煉教徒之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Death Mask"
+msgstr "符煉死亡之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Decorated Helm"
+msgstr "符煉裝飾之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Doubled Gauntlets"
+msgstr "符煉雙層護手"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runemastered Dyad Crossbow"
+msgstr "符煉雙生十字弓"
+
+msgid "Runemastered Effigial Tower Shield"
+msgstr "符煉靈像塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Elementalist Robe"
+msgstr "符煉元素使長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Elite Greathelm"
+msgstr "符煉菁英巨盔"
+
+msgid "Runemastered Emblem Crest Shield"
+msgstr "符煉徽印紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Embossed Boots"
+msgstr "符煉浮雕長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Embroidered Gloves"
+msgstr "符煉刺繡手套"
+
+msgid "Runemastered Engraved Focus"
+msgstr "符煉紋刻法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Enlightened Robe"
+msgstr "符煉啟蒙長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Explorer Armour"
+msgstr "符煉探索者護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Exquisite Vest"
+msgstr "符煉精美背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Face Mask"
+msgstr "符煉護臉之面"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runemastered Familial Talisman"
+msgstr "符煉家族魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Feathered Robe"
+msgstr "符煉羽毛長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Feathered Sandals"
+msgstr "符煉羽毛便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Feathered Tiara"
+msgstr "符煉羽毛頭冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runemastered Felled Greatclub"
+msgstr "符煉墮落巨棍棒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Felt Cap"
+msgstr "符煉毛氈便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Fierce Greathelm"
+msgstr "符煉兇猛巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Fine Bracers"
+msgstr "符煉精良護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Firm Bracers"
+msgstr "符煉穩固護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Full Plate"
+msgstr "符煉連身鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Furtive Wraps"
+msgstr "符煉隱秘裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Garment"
+msgstr "符煉服裝"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Gauze Wraps"
+msgstr "符煉紗布裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Gilded Vestments"
+msgstr "符煉鍍金法衣"
+
+msgid "Runemastered Glacial Fortress"
+msgstr "符煉冰川堡壘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Gold Circlet"
+msgstr "符煉黃金頭環"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Goldcast Cuffs"
+msgstr "符煉金鑄腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Grand Cuisses"
+msgstr "符煉宏偉腿甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Grand Manchettes"
+msgstr "符煉宏偉手鐲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Grand Regalia"
+msgstr "符煉宏偉華服"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Grand Visage"
+msgstr "符煉宏偉面紗"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Grasping Mail"
+msgstr "符煉貪婪鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Guarded Helm"
+msgstr "符煉警惕之盔"
+
+msgid "Runemastered Hardwood Targe"
+msgstr "符煉硬木圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Havoc Raiment"
+msgstr "符煉禍害之衣"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Runemastered Heavy Belt"
+msgstr "符煉重革腰帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Heavy Crown"
+msgstr "符煉沉重之冠"
+
+msgid "Runemastered Heraldric Tower Shield"
+msgstr "符煉紋章塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Hermit Garb"
+msgstr "符煉隱士裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Heroic Armour"
+msgstr "符煉英雄護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Hewn Mask"
+msgstr "符煉粗製之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Hexer's Robe"
+msgstr "符煉咒術師長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Hooded Mask"
+msgstr "符煉風帽之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Horned Crown"
+msgstr "符煉犄角之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Hunter Hood"
+msgstr "符煉獵者之兜"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Hunting Shoes"
+msgstr "符煉狩獵輕鞋"
+
+msgid "Runemastered Intricate Crest Shield"
+msgstr "符煉錯綜紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Intricate Gloves"
+msgstr "符煉精妙手套"
+
+msgid "Runemastered Iron Buckler"
+msgstr "符煉鍛鐵輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Iron Crown"
+msgstr "符煉鍛鐵之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Iron Cuirass"
+msgstr "符煉鍛鐵胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Iron Greaves"
+msgstr "符煉鐵鍛脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Ironclad Vestments"
+msgstr "符煉鐵甲法衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runemastered Ironhead Spear"
+msgstr "符煉鐵木長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Jade Tiara"
+msgstr "符煉翠玉頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Jewelled Gloves"
+msgstr "符煉寶石手套"
+
+msgid "Runemastered Jingling Crest Shield"
+msgstr "符煉響聲紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Keth Raiment"
+msgstr "符煉凱斯之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Knight Armour"
+msgstr "符煉騎士護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Laced Boots"
+msgstr "符煉飾帶長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Lattice Sandals"
+msgstr "符煉格子便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Layered Gauntlets"
+msgstr "符煉層板護手"
+
+msgid "Runemastered Leather Buckler"
+msgstr "符煉皮革輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Leather Vest"
+msgstr "符煉皮革背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Leatherbound Hood"
+msgstr "符煉皮革兜帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Linen Wraps"
+msgstr "符煉麻布裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Lizardscale Boots"
+msgstr "符煉蜥蜴鱗長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Magus Tiara"
+msgstr "符煉瑪格思頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Mail Sabatons"
+msgstr "符煉鎖甲鎧靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Mail Vestments"
+msgstr "符煉鎖甲法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Marabout Garb"
+msgstr "符煉修士裝束"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Maraketh Cuirass"
+msgstr "符煉馬拉克斯胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Martyr Crown"
+msgstr "符煉殉難之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Moulded Mitts"
+msgstr "符煉鑄模長手套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runemastered Nettle Talisman"
+msgstr "符煉蕁麻魔符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runemastered Oak Greathammer"
+msgstr "符煉橡木巨錘"
+
+msgid "Runemastered Omen Crest Shield"
+msgstr "符煉預兆紋章盾"
+
+msgid "Runemastered Ornate Buckler"
+msgstr "符煉華麗輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Ornate Ringmail"
+msgstr "符煉華貴環甲"
+
+msgid "Runemastered Painted Tower Shield"
+msgstr "符煉彩繪塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Pathfinder Coat"
+msgstr "符煉追獵者外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Pauascale Gloves"
+msgstr "符煉海靈鱗手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Pilgrim Vestments"
+msgstr "符煉朝聖者法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Plate Gauntlets"
+msgstr "符煉鎧甲護手"
+
+msgid "Runemastered Plated Buckler"
+msgstr "符煉鋼板輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Plated Raiment"
+msgstr "符煉鎧甲之衣"
+
+msgid "Runemastered Plumed Focus"
+msgstr "符煉羽飾法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Primal Markings"
+msgstr "符煉野性標記"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Quilted Vest"
+msgstr "符煉襯墊背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Raider Plate"
+msgstr "符煉俠客鎧甲"
+
+msgid "Runemastered Rampart Tower Shield"
+msgstr "符煉壁壘塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Revered Vestments"
+msgstr "符煉尊敬法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Rhoahide Coat"
+msgstr "符煉恐喙鳥皮外套"
+
+msgid "Runemastered Ridged Buckler"
+msgstr "符煉脊狀輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Ringmail Gauntlets"
+msgstr "符煉環鎖護手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Riveted Mitts"
+msgstr "符煉鉚接長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Rogue Armour"
+msgstr "符煉盜賊護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Rope Cuffs"
+msgstr "符煉繩索腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Rough Greaves"
+msgstr "符煉粗糙脛甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runemastered Runic Fork"
+msgstr "符煉符文尖叉"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Rusted Cuirass"
+msgstr "符煉生鏽胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Rusted Greathelm"
+msgstr "符煉鏽蝕巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Sacrificial Mantle"
+msgstr "符煉獻祭披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Sacrificial Regalia"
+msgstr "符煉獻祭法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Scale Mail"
+msgstr "符煉鱗片鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Scalper's Jacket"
+msgstr "符煉投機者外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Scout's Vest"
+msgstr "符煉斥侯背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Sectioned Bracers"
+msgstr "符煉分段護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Secured Leggings"
+msgstr "符煉牢固護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Serpentscale Coat"
+msgstr "符煉蛇鱗外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Shabby Hood"
+msgstr "符煉破舊兜帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Shaman Mantle"
+msgstr "符煉薩滿披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Shielded Helm"
+msgstr "符煉庇護之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Shrouded Vest"
+msgstr "符煉籠罩背心"
+
+msgid "Runemastered Sigil Crest Shield"
+msgstr "符煉符印紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Silk Robe"
+msgstr "符煉絲質之袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Silk Slippers"
+msgstr "符煉絲綢便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Smuggler Coat"
+msgstr "符煉走私者外套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Soldier Greathelm"
+msgstr "符煉士兵巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Solid Mask"
+msgstr "符煉堅固之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Sombre Gloves"
+msgstr "符煉暗淡手套"
+
+msgid "Runemastered Spiked Buckler"
+msgstr "符煉刺紋輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Spined Bracers"
+msgstr "符煉棘刺護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Spiral Wraps"
+msgstr "符煉盤繞裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Spired Greathelm"
+msgstr "符煉尖頂巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Spiritbone Crown"
+msgstr "符煉魂骨之冠"
+
+msgid "Runemastered Splintered Tower Shield"
+msgstr "符煉裂片塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Stacked Sabatons"
+msgstr "符煉疊層鎧靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Steel Plate"
+msgstr "符煉堅鋼鎧甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Steeltoe Boots"
+msgstr "符煉鐵趾長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Stitched Gloves"
+msgstr "符煉縫合手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Stocky Mitts"
+msgstr "符煉結實長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Stone Greaves"
+msgstr "符煉岩石脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Straw Sandals"
+msgstr "符煉乾草便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Strider Vest"
+msgstr "符煉疾行者背心"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runemastered Studded Greatclub"
+msgstr "符煉鑲釘巨棍棒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Studded Vest"
+msgstr "符煉鑲釘背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Suede Bracers"
+msgstr "符煉麂皮護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Tattered Robe"
+msgstr "符煉殘破長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Tempered Mitts"
+msgstr "符煉淬鍊長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Tenebrous Crown"
+msgstr "符煉黑暗之冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runemastered Tense Crossbow"
+msgstr "符煉緊繃十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Threaded Shoes"
+msgstr "符煉縫紉輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Tideseer Mantle"
+msgstr "符煉潮汐先知披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Titan Mitts"
+msgstr "符煉泰坦長手套"
+
+msgid "Runemastered Tonal Focus"
+msgstr "符煉音律法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runemastered Torment Club"
+msgstr "符煉磨難棍棒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Torn Gloves"
+msgstr "符煉撕裂手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Tribal Mask"
+msgstr "符煉部落之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Trimmed Greaves"
+msgstr "符煉鑲邊脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Twig Circlet"
+msgstr "符煉嫩枝頭環"
+
+msgid "Runemastered Twig Focus"
+msgstr "符煉枝條法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Twilight Tiara"
+msgstr "符煉暮光頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Utility Wraps"
+msgstr "符煉實用裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Vaal Cuirass"
+msgstr "符煉瓦爾胸甲"
+
+msgid "Runemastered Vaal Tower Shield"
+msgstr "符煉瓦爾塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Vagabond Armour"
+msgstr "符煉流浪者護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Veiled Mask"
+msgstr "符煉隱匿之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Velour Shoes"
+msgstr "符煉絲絨輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Velvet Cap"
+msgstr "符煉天鵝絨便帽"
+
+msgid "Runemastered Venerable Defender"
+msgstr "符煉古老護衛盾"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Runemastered Veridical Chain"
+msgstr "符煉幻象鎖鏈"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Verisium Cuffs"
+msgstr "符煉維里西姆腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Vermeil Circlet"
+msgstr "符煉鍍金頭環"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Viper Cap"
+msgstr "符煉毒蛇便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Visored Helm"
+msgstr "符煉假面之盔"
+
+msgid "Runemastered Voodoo Focus"
+msgstr "符煉巫毒法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Votive Raiment"
+msgstr "符煉還願之衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runemastered Warding Quarterstaff"
+msgstr "符煉庇護細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Warrior Greathelm"
+msgstr "符煉戰士巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Waxed Jacket"
+msgstr "符煉打蠟外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Wayfarer Jacket"
+msgstr "符煉旅人外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Wicker Tiara"
+msgstr "符煉枝條頭冠"
+
+msgid "Runemastered Wooden Buckler"
+msgstr "符煉木頭輕盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runemastered Wooden Club"
+msgstr "符煉木製棍棒"
+
+msgid "Runemastered Woven Focus"
+msgstr "符煉編織法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Wrapped Greathelm"
+msgstr "符煉纏繞巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runemastered Wrapped Sandals"
+msgstr "符煉裹腳便鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runic Fork"
+msgstr "符文尖叉"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Runic Shortsword"
+msgstr "符文短劍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Runner Vest"
+msgstr "奔走者背心"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Rusted Cuirass"
+msgstr "生鏽胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Rusted Greathelm"
+msgstr "鏽蝕巨盔"
+
+msgid "Sacral Quiver"
+msgstr "聖禮箭袋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sacramental Robe"
+msgstr "聖禮長袍"
+
+msgid "Sacred Focus"
+msgstr "神聖法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Sacred Maul"
+msgstr "神聖重錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Sacrificial Axe"
+msgstr "獻祭斧"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sacrificial Mantle"
+msgstr "獻祭披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sacrificial Regalia"
+msgstr "獻祭法衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Saintly Crown"
+msgstr "聖徒之冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Sanctified Staff"
+msgstr "神化長杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sandsworn Cuirass"
+msgstr "沙誓胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sandsworn Sandals"
+msgstr "沙誓便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sandsworn Tiara"
+msgstr "沙誓頭冠"
+
+#. Source: PoeCharm2 Items_Jewels.txt.csv
+msgid "Sapphire"
+msgstr "藍寶石"
+
+msgid "Sapphire Charm"
+msgstr "藍寶石護符"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Sapphire Ring"
+msgstr "藍玉戒指"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Savage Greataxe"
+msgstr "野蠻巨斧"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Scale Mail"
+msgstr "鱗片鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Scalper's Jacket"
+msgstr "投機者外衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Scimitar"
+msgstr "彎刀"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Scoundrel Armour"
+msgstr "惡棍護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Scoundrel Jacket"
+msgstr "流氓外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Scout's Vest"
+msgstr "斥侯背心"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Seaglass Spear"
+msgstr "海玻璃長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Seastorm Mantle"
+msgstr "海洋風暴披肩"
+
+msgid "Sectarian Crest Shield"
+msgstr "宗派紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sectioned Bracers"
+msgstr "分段護腕"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Secured Leggings"
+msgstr "牢固護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Secured Wraps"
+msgstr "牢固裹手"
+
+msgid "Seer Crest Shield"
+msgstr "先知紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sekhema Sandals"
+msgstr "絲克瑪便鞋"
+
+msgid "Sekheman Crest Shield"
+msgstr "塞喀曼紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sentinel Greathelm"
+msgstr "守望巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Serpentscale Boots"
+msgstr "蛇鱗長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Serpentscale Coat"
+msgstr "蛇鱗外套"
+
+msgid "Serrated Quiver"
+msgstr "鋸齒箭袋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Shabby Hood"
+msgstr "破舊兜帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Shaded Mask"
+msgstr "陰影之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Shaman Mantle"
+msgstr "薩滿披肩"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Shamanistic Leggings"
+msgstr "薩滿護腿"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Sharktooth Claw"
+msgstr "鯊顎爪"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Shielded Helm"
+msgstr "庇護之盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Shortbow"
+msgstr "短弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Shortsword"
+msgstr "短劍"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Shrapnel Trap"
+msgstr "彈片陷阱"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Shrine Sceptre"
+msgstr "神殿權杖"
+
+msgid "Shrine Sceptre (Purity of Cold)"
+msgstr "神殿權杖（冰霜淨化）"
+
+msgid "Shrine Sceptre (Purity of Fire)"
+msgstr "神殿權杖（火焰淨化）"
+
+msgid "Shrine Sceptre (Purity of Lighting)"
+msgstr "神殿權杖（閃電淨化）"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Shrouded Mail"
+msgstr "遮蔽鎖甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Shrouded Vest"
+msgstr "籠罩背心"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Sickle Sword"
+msgstr "鐮劍"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Siege Crossbow"
+msgstr "攻城十字弓"
+
+msgid "Sigil Crest Shield"
+msgstr "符印紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Signet Cuffs"
+msgstr "徽印腕帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Silk Robe"
+msgstr "絲質之袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Silk Slippers"
+msgstr "絲綢便鞋"
+
+msgid "Silver Charm"
+msgstr "銀護符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Silverbuckled Shoes"
+msgstr "銀扣輕鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Simple Dagger"
+msgstr "簡易匕首"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sine Aequo"
+msgstr "無與倫比"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Sinew Belt"
+msgstr "韌筋腰帶"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Sinister Quarterstaff"
+msgstr "邪惡細杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Siphoning Wand"
+msgstr "虹吸法杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sirenscale Gloves"
+msgstr "海妖鱗手套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Skinning Knife"
+msgstr "剝皮刀"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Skulking Mask"
+msgstr "潛伏之面"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Skullcrusher Quarterstaff"
+msgstr "碎顱細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Skycrown Tiara"
+msgstr "天冠頭冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Slayer Armour"
+msgstr "處刑者護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sleek Boots"
+msgstr "光滑長靴"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sleek Jacket"
+msgstr "光滑外衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Slender Flail"
+msgstr "纖細鏈錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Slicing Quarterstaff"
+msgstr "斬割細杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Slim Mace"
+msgstr "纖細之錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Slipstrike Vest"
+msgstr "快速打擊背心"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Smithing Hammer"
+msgstr "鍛造錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Smooth Quarterstaff"
+msgstr "平滑細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Smuggler Coat"
+msgstr "走私者外套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Snakewood Greathammer"
+msgstr "蛇木巨錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Snakewood Shortbow"
+msgstr "蛇木短弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Soaring Mask"
+msgstr "翱翔之面"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Soaring Spear"
+msgstr "展翼長矛"
+
+msgid "Soaring Targe"
+msgstr "翱翔圓盾"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Solar Amulet"
+msgstr "日耀項鍊"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Soldier Cuirass"
+msgstr "士兵胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Soldier Greathelm"
+msgstr "士兵巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Soldier Helm"
+msgstr "士兵之盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Soldiering Sabatons"
+msgstr "軍旅鎧靴"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Solemn Maul"
+msgstr "莊嚴重錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Solid Mask"
+msgstr "堅固之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Solus Ipse"
+msgstr "唯我論"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sombre Gloves"
+msgstr "暗淡手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Sorcerous Tiara"
+msgstr "巫術頭冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Spike Trap"
+msgstr "尖刺陷阱"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Spiked Bracers"
+msgstr "尖刺護腕"
+
+msgid "Spiked Buckler"
+msgstr "刺紋輕盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Spiked Club"
+msgstr "鈍釘木棒"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Spiked Spear"
+msgstr "尖刺長矛"
+
+msgid "Spikeward Buckler"
+msgstr "刺衛輕盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Spined Bracers"
+msgstr "棘刺護腕"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Spiny Talisman"
+msgstr "尖錐魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Spiral Wraps"
+msgstr "盤繞裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Spired Greathelm"
+msgstr "尖頂巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Spiritbone Crown"
+msgstr "魂骨之冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Splintered Flail"
+msgstr "分裂鏈錘"
+
+msgid "Splintered Tower Shield"
+msgstr "朽木塔盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Splitting Greataxe"
+msgstr "分裂巨斧"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Spriggan Staff"
+msgstr "狡詐長杖"
+
+msgid "Sprinters Leg"
+msgstr "疾速之腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Stacked Sabatons"
+msgstr "疊層鎧靴"
+
+msgid "Staghorn Focus"
+msgstr "鹿角法器"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Stalking Belt"
+msgstr "獵跡腰帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Stalking Bracers"
+msgstr "潛獵護腕"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Stalking Spear"
+msgstr "潛獵長矛"
+
+msgid "Staunching Charm"
+msgstr "止血護符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Steel Plate"
+msgstr "堅鋼鎧甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Steelhead Spear"
+msgstr "鋼尖長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Steelmail Gauntlets"
+msgstr "鋼鎖護手"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Steelpoint Quarterstaff"
+msgstr "鋼尖細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Steelpoint Shoes"
+msgstr "鋼尖輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Steeltoe Boots"
+msgstr "鐵趾長靴"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Stellar Amulet"
+msgstr "恆星項鍊"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Stitched Gloves"
+msgstr "縫合手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Stocky Mitts"
+msgstr "結實長手套"
+
+msgid "Stoic Crest Shield"
+msgstr "堅毅紋章盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Stoic Sceptre"
+msgstr "魔道權杖"
+
+msgid "Stone Charm"
+msgstr "石護符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Stone Cuirass"
+msgstr "岩石胸甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Stone Flail"
+msgstr "岩石鏈錘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Stone Greatsword"
+msgstr "岩石巨劍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Stone Greaves"
+msgstr "岩石脛甲"
+
+msgid "Stone Targe"
+msgstr "石紋圓盾"
+
+msgid "Stone Tower Shield"
+msgstr "石製塔盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Stout Crossbow"
+msgstr "牢固十字弓"
+
+msgid "Stratified Targe"
+msgstr "分層圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Straw Sandals"
+msgstr "乾草便鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Strider Vest"
+msgstr "疾行者背心"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Strife Pick"
+msgstr "鬥爭鎬"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Striking Quarterstaff"
+msgstr "打擊細杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Striking Spear"
+msgstr "突擊長矛"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Structured Hammer"
+msgstr "建構之錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Studded Boots"
+msgstr "鑲釘長靴"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Studded Greatclub"
+msgstr "鑲釘巨棍棒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Studded Sandals"
+msgstr "鑲釘便鞋"
+
+msgid "Studded Targe"
+msgstr "釘紋圓盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Studded Vest"
+msgstr "鑲釘背心"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Sturdy Crossbow"
+msgstr "堅固十字弓"
+
+msgid "Sturdy Leg"
+msgstr "堅實之腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Suede Bracers"
+msgstr "麂皮護腕"
+
+msgid "Surefooted Leg"
+msgstr "穩健之腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Swathed Cap"
+msgstr "裹頭便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Swift Bracers"
+msgstr "迅疾護腕"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Swift Spear"
+msgstr "迅疾長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Swiftstalker Coat"
+msgstr "迅疾潛獵者外套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Sword Spear"
+msgstr "劍刃長矛"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Talon Claw"
+msgstr "猛禽爪"
+
+msgid "Tasalian Focus"
+msgstr "塔沙里安法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Tasalian Greaves"
+msgstr "塔薩里奧脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Tattered Robe"
+msgstr "殘破長袍"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Taut Crossbow"
+msgstr "緊繃十字弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Tawhoan Greatclub"
+msgstr "塔赫亞巨棍棒"
+
+msgid "Tawhoan Tower Shield"
+msgstr "塔瓦安塔盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Tearing Flail"
+msgstr "撕裂鏈錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Tempered Mitts"
+msgstr "淬鍊長手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Templar Vestments"
+msgstr "聖騎士法衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Temple Maul"
+msgstr "神殿重錘"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Tenebrous Amulet"
+msgstr "黑暗項鍊"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Tenebrous Crown"
+msgstr "幽暗寶冠"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Tenebrous Ring"
+msgstr "黑暗戒指"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Tense Crossbow"
+msgstr "緊繃十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Thane Mail"
+msgstr "領主鎖甲"
+
+msgid "Thawing Charm"
+msgstr "融化護符"
+
+#. Source: PoeCharm2 Items_Jewels.txt.csv
+msgid "The Adorned"
+msgstr "朝氣之靈"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "The Anvil"
+msgstr "信念之砧"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "The Barrow Dweller"
+msgstr "遺塚居民"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "The Blood Thorn"
+msgstr "血棘"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "The Dark Defiler"
+msgstr "黑暗玷汙者"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Threaded Shoes"
+msgstr "縫紉輕鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Thunder Talisman"
+msgstr "天雷魔符"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Tideseer Mantle"
+msgstr "潮汐先知披肩"
+
+#. Source: PoeCharm2 Items_Jewels.txt.csv
+msgid "Time-Lost Diamond"
+msgstr "時迭鑽石"
+
+#. Source: PoeCharm2 Items_Jewels.txt.csv
+msgid "Time-Lost Emerald"
+msgstr "時迭綠寶石"
+
+#. Source: PoeCharm2 Items_Jewels.txt.csv
+msgid "Time-Lost Ruby"
+msgstr "時迭紅寶石"
+
+#. Source: PoeCharm2 Items_Jewels.txt.csv
+msgid "Time-Lost Sapphire"
+msgstr "時迭藍寶石"
+
+#. Source: PoeCharm2 Items_Jewels.txt.csv
+msgid "Timeless Jewel"
+msgstr "永恆珠寶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Titan Mitts"
+msgstr "泰坦長手套"
+
+msgid "Tonal Focus"
+msgstr "音律法器"
+
+msgid "Topaz Charm"
+msgstr "黃玉護符"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Topaz Ring"
+msgstr "黃玉戒指"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Torment Club"
+msgstr "磨難棍棒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Torment Jacket"
+msgstr "苦難外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Torn Gloves"
+msgstr "撕裂手套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Torture Wand"
+msgstr "暴虐法杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Totemic Greatclub"
+msgstr "圖騰巨棍棒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Totemic Greaves"
+msgstr "圖騰脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Tournament Mail"
+msgstr "競技鎖甲"
+
+msgid "Toxic Quiver"
+msgstr "毒素箭袋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Trailblazer Armour"
+msgstr "開拓者護甲"
+
+msgid "Transcendent Life Flask"
+msgstr "超凡生命藥劑"
+
+msgid "Transcendent Mana Flask"
+msgstr "超凡魔力藥劑"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Trapper Hood"
+msgstr "捕獵者之兜"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Trarthan Cannon"
+msgstr "特拉特斯巨砲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Treasured Blade"
+msgstr "貴重刀刃"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Treerunner Shoes"
+msgstr "樹行者輕鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Tribal Bow"
+msgstr "部落弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Tribal Mask"
+msgstr "部落之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Trimmed Greaves"
+msgstr "鑲邊脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Twig Circlet"
+msgstr "嫩枝頭環"
+
+msgid "Twig Focus"
+msgstr "樹枝法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Twilight Tiara"
+msgstr "暮光頭冠"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Twin Bow"
+msgstr "雙生之弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Twin Crossbow"
+msgstr "成雙十字弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Twin Flail"
+msgstr "雙生鏈錘"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Twisted Amulet"
+msgstr "扭曲項鍊"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Twisted Wand"
+msgstr "扭曲法杖"
+
+msgid "Two-Point Quiver"
+msgstr "雙尖箭袋"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Two-Stone Ring"
+msgstr "雙玉戒指"
+
+msgid "Ultimate Life Flask"
+msgstr "終極生命藥劑"
+
+msgid "Ultimate Mana Flask"
+msgstr "終極魔力藥劑"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Ultra Greatsword"
+msgstr "終極巨劍"
+
+#. Source: PoeCharm2 Items_Jewels.txt.csv
+msgid "Undying Hate"
+msgstr "不朽恨意"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Unset Ring"
+msgstr "潛能之戒"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Urn Trap"
+msgstr "甕陷阱"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Utility Belt"
+msgstr "實用腰帶"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Utility Wraps"
+msgstr "實用裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Utzaal Cuirass"
+msgstr "奧札爾胸甲"
+
+msgid "Vaal Crest Shield"
+msgstr "瓦爾紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Vaal Cuirass"
+msgstr "瓦爾胸甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Vaal Gloves"
+msgstr "瓦爾手套"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Vaal Greaves"
+msgstr "瓦爾脛甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Vaal Mitts"
+msgstr "瓦爾長手套"
+
+msgid "Vaal Tower Shield"
+msgstr "瓦爾塔盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Vaal Wraps"
+msgstr "瓦爾裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Vagabond Armour"
+msgstr "流浪者護甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Vampiric Blade"
+msgstr "嗜血之刃"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Varnished Crossbow"
+msgstr "亮漆十字弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Veiled Mask"
+msgstr "隱匿之面"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Velour Shoes"
+msgstr "絲絨輕鞋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Velvet Cap"
+msgstr "天鵝絨便帽"
+
+msgid "Venerable Defender"
+msgstr "古老護衛盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Venerated Mantle"
+msgstr "崇敬披肩"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Veridical Chain"
+msgstr "幻象鎖鏈"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Vermeil Circlet"
+msgstr "鍍金頭環"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Veteran Sabatons"
+msgstr "老兵鎧靴"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Vicious Talisman"
+msgstr "惡毒魔符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Vile Greataxe"
+msgstr "邪惡巨斧"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Vile Robe"
+msgstr "惡毒長袍"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Viper Cap"
+msgstr "毒蛇便帽"
+
+msgid "Visceral Quiver"
+msgstr "內臟箭袋"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Visored Helm"
+msgstr "假面之盔"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Vitalic Ring"
+msgstr "維生之戒"
+
+msgid "Volant Quiver"
+msgstr "速射箭袋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Volatile Wand"
+msgstr "失衡法杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Voltaic Staff"
+msgstr "電流長杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Voltfang Talisman"
+msgstr "伏特之牙魔符"
+
+msgid "Voodoo Focus"
+msgstr "巫毒法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Votive Raiment"
+msgstr "還願之衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Wake of Destruction"
+msgstr "覆滅之兆"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Wanderer Armour"
+msgstr "漫遊者護甲"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Wanderer Shoes"
+msgstr "漫遊者輕鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "War Spear"
+msgstr "戰爭長矛"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "War Wraps"
+msgstr "戰爭裹手"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Warded Helm"
+msgstr "保衛之盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Warden Bow"
+msgstr "守護者之弓"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Warding Quarterstaff"
+msgstr "庇護細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Warlock Leggings"
+msgstr "術士護腿"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Warlord Cuirass"
+msgstr "總督胸甲"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Warmonger Bow"
+msgstr "狂戰者之弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Warmonger Greathelm"
+msgstr "狂戰者巨盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Warpick"
+msgstr "戰鎬"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Warrior Greathelm"
+msgstr "戰士巨盔"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Waxed Jacket"
+msgstr "打蠟外衣"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Waxing Quarterstaff"
+msgstr "白蠟細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Wayfarer Jacket"
+msgstr "旅人外衣"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Wayfarer Shoes"
+msgstr "旅行者輕鞋"
+
+msgid "Wayward Crest Shield"
+msgstr "離道紋章盾"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Weaver Leggings"
+msgstr "編織者護腿"
+
+msgid "Whorl Focus"
+msgstr "螺旋法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Wicker Tiara"
+msgstr "枝條頭冠"
+
+#. Source: PoeCharm2 Items_Accessories.txt.csv
+msgid "Wide Belt"
+msgstr "寬大腰帶"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Wildwood Talisman"
+msgstr "荒林魔符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Wingbeat Talisman"
+msgstr "振翼魔符"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Winged Spear"
+msgstr "羽翅長矛"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Withered Wand"
+msgstr "凋零法杖"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Wolfbone Claw"
+msgstr "狼骨爪"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Wolfskin Mantle"
+msgstr "狼皮披肩"
+
+msgid "Wooden Buckler"
+msgstr "木頭輕盾"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Wooden Club"
+msgstr "木製棍棒"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Wool Cap"
+msgstr "羊毛便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Woven Cap"
+msgstr "編織便帽"
+
+msgid "Woven Focus"
+msgstr "編織法器"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Wrapped Cap"
+msgstr "纏繞便帽"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Wrapped Greathelm"
+msgstr "纏繞巨盔"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Wrapped Quarterstaff"
+msgstr "纏繞細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Wrapped Sandals"
+msgstr "裹腳便鞋"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Wrath Sceptre"
+msgstr "暴怒權杖"
+
+msgid "Wreath Focus"
+msgstr "花環法器"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Wyrm Quarterstaff"
+msgstr "蠕蟲細杖"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Wyrmscale Coat"
+msgstr "龍鱗外套"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Zealot Bow"
+msgstr "狂熱者之弓"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Zealot Crown"
+msgstr "狂熱之冠"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Zealot Gauntlets"
+msgstr "狂熱護手"
+
+#. Source: PoeCharm2 Items_Weapons.txt.csv
+msgid "Zealot Greathammer"
+msgstr "狂熱巨錘"
+
+#. Source: PoeCharm2 Items_Armour.txt.csv
+msgid "Zenith Vestments"
+msgstr "極盛法衣"

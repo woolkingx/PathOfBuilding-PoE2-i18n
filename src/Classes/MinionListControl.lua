@@ -9,6 +9,10 @@ local t_remove = table.remove
 local s_format = string.format
 local m_max = math.max
 
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
+
 local MinionListClass = newClass("MinionListControl", "ListControl", function(self, anchor, rect, data, list, dest, label)
 	self.ListControl(anchor, rect, 16, "VERTICAL", not dest, list)
 	self.data = data
@@ -53,34 +57,34 @@ function MinionListClass:AddValueTooltip(tooltip, index, minionId)
 		tooltip:AddLine(20, "^7"..minion.name, "FONTIN SC")
 		tooltip.center = false
 		tooltip:AddSeparator(10)
-		tooltip:AddLine(14, s_format("^7Spectre Reservation: %s%d", colorCodes.SPIRIT, tostring(minion.spectreReservation)))
-		tooltip:AddLine(14, s_format("^7Companion Reservation: %s%s%%", colorCodes.SPIRIT, tostring(minion.companionReservation)))
-		tooltip:AddLine(14, "^7Category: "..minion.monsterCategory)
-		tooltip:AddLine(14, s_format("^7Life Multiplier: x%.2f", minion.life))
+		tooltip:AddLine(14, formatUI("^7Spectre Reservation: %s%d", colorCodes.SPIRIT, minion.spectreReservation))
+		tooltip:AddLine(14, formatUI("^7Companion Reservation: %s%s%%", colorCodes.SPIRIT, tostring(minion.companionReservation)))
+		tooltip:AddLine(14, formatUI("^7Category: %s", minion.monsterCategory))
+		tooltip:AddLine(14, formatUI("^7Life Multiplier: x%.2f", minion.life))
 		if minion.energyShield then
-			tooltip:AddLine(14, s_format("^7Energy Shield: %d%% of base Life", minion.energyShield * 100))
+			tooltip:AddLine(14, formatUI("^7Energy Shield: %d%% of base Life", minion.energyShield * 100))
 		end
 		if minion.armour then
-			tooltip:AddLine(14, s_format("^7Armour Multiplier: x%.2f", 1 + minion.armour))
+			tooltip:AddLine(14, formatUI("^7Armour Multiplier: x%.2f", 1 + minion.armour))
 		end
 		if minion.evasion then
-			tooltip:AddLine(14, s_format("^7Evasion Multiplier: x%.2f", 1 + minion.evasion))
+			tooltip:AddLine(14, formatUI("^7Evasion Multiplier: x%.2f", 1 + minion.evasion))
 		end
-		tooltip:AddLine(14, s_format("^7Resistances: %s%d ^7/ %s%d ^7/ %s%d ^7/ %s%d",
+		tooltip:AddLine(14, formatUI("^7Resistances: %s%d ^7/ %s%d ^7/ %s%d ^7/ %s%d",
 			colorCodes.FIRE, minion.fireResist,
 			colorCodes.COLD, minion.coldResist,
 			colorCodes.LIGHTNING, minion.lightningResist,
 			colorCodes.CHAOS, minion.chaosResist
 		))
-		tooltip:AddLine(14, s_format("^7Base Damage: x%.2f", minion.damage))
-		tooltip:AddLine(14, s_format("^7Base Attack Speed: %.2f", 1 / minion.attackTime))
-		tooltip:AddLine(14, s_format("^7Base Movement Speed: %.2f", minion.baseMovementSpeed / 10))
+		tooltip:AddLine(14, formatUI("^7Base Damage: x%.2f", minion.damage))
+		tooltip:AddLine(14, formatUI("^7Base Attack Speed: %.2f", 1 / minion.attackTime))
+		tooltip:AddLine(14, formatUI("^7Base Movement Speed: %.2f", minion.baseMovementSpeed / 10))
 		if #minion.skillList > 0 then
 			tooltip:AddSeparator(10)
 			for _, skillId in ipairs(minion.skillList) do
 				if self.data.skills[skillId] then
 					local color = data.skillColorMap[self.data.skills[skillId].color] or colorCodes.NORMAL
-					tooltip:AddLine(14, "^7Skill: " .. color .. self.data.skills[skillId].name)
+					tooltip:AddLine(14, formatUI("^7Skill: %s%s", color, self.data.skills[skillId].name))
 				end
 			end
 		end
@@ -93,9 +97,9 @@ function MinionListClass:AddValueTooltip(tooltip, index, minionId)
 			end
 			for i, spawn in ipairs(coloredLocations) do
 				if i == 1 then
-					tooltip:AddLine(14, s_format("^7Spawn: %s", spawn))
+					tooltip:AddLine(14, formatUI("^7Spawn: %s", spawn))
 				else
-					tooltip:AddLine(14, s_format("^7%s%s", "            ", spawn)) -- Indented so all locations line up vertically in tooltip
+					tooltip:AddLine(14, formatUI("^7%s%s", "            ", spawn)) -- Indented so all locations line up vertically in tooltip
 				end
 			end
 		end
@@ -152,9 +156,9 @@ function SpawnListClass:AddValueTooltip(tooltip, index, value)
 				tooltip:AddLine(14, colorCodes.CURRENCY .. '"' .. foundArea.description .. '"')
 			end
 			if foundArea.bossVarieties and #foundArea.bossVarieties > 0 then
-				tooltip:AddLine(14, colorCodes.UNIQUE.. "Bosses: ^7" .. table.concat(foundArea.bossVarieties, ", "))
+				tooltip:AddLine(14, formatUI("%sBosses: ^7%s", colorCodes.UNIQUE, table.concat(foundArea.bossVarieties, ", ")))
 			end
-			tooltip:AddLine(14, "^7Area Level: "..foundArea.level)
+			tooltip:AddLine(14, formatUI("^7Area Level: %d", foundArea.level))
 			local biomeNameMap = {
 				water_biome = "Water",
 				mountain_biome = "Mountain",
@@ -175,7 +179,7 @@ function SpawnListClass:AddValueTooltip(tooltip, index, value)
 					end
 				end
 				if #biomeNameList > 0 then
-					tooltip:AddLine(14, "^7Biome: " .. table.concat(biomeNameList, ", "))
+					tooltip:AddLine(14, formatUI("^7Biome: %s", table.concat(biomeNameList, ", ")))
 				end
 			end
 			tooltip:AddSeparator(10)
@@ -186,7 +190,7 @@ function SpawnListClass:AddValueTooltip(tooltip, index, value)
 		elseif value == "Found in Maps" then
 			-- no tooltip
 		else
-			tooltip:AddLine(18, "^7World area not found: " .. tostring(value))
+			tooltip:AddLine(18, formatUI("^7World area not found: %s", tostring(value)))
 		end
 	end
 end

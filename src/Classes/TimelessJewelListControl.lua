@@ -8,6 +8,15 @@ local m_random = math.random
 local m_min = math.min
 local m_max = math.max
 local t_concat = table.concat
+local s_format = string.format
+
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
 
 local TimelessJewelListControlClass = newClass("TimelessJewelListControl", "ListControl", function(self, anchor, rect, build)
 	self.build = build
@@ -62,9 +71,9 @@ function TimelessJewelListControlClass:AddValueTooltip(tooltip, index, data)
 	tooltip:Clear()
 	if not self.noTooltip then
 		if self.list[index].label:match("B2B2B2") == nil then
-			tooltip:AddLine(16, "^7Double click to add this jewel to your build.")
+			tooltip:AddLine(16, tr("^7Double click to add this jewel to your build."))
 		else
-			tooltip:AddLine(16, "^7" .. self.sharedList.type.label .. " " .. data.seed .. " was successfully added to your build.")
+			tooltip:AddLine(16, formatUI("^7%s %s was successfully added to your build.", self.sharedList.type.label, data.seed))
 		end
 		local treeData = self.build.spec.tree
 		local sortedNodeLists = { }
@@ -78,13 +87,13 @@ function TimelessJewelListControlClass:AddValueTooltip(tooltip, index, data)
 			end
 		end
 		if next(sortedNodeLists) then
-			tooltip:AddLine(16, "^7Node List:")
+			tooltip:AddLine(16, tr("^7Node List:"))
 			for _, sortedNodeList in pairs(sortedNodeLists) do
 				tooltip:AddLine(16, sortedNodeList)
 			end
 		end
 		if data.total > 0 then
-			tooltip:AddLine(16, "^7Combined Node Weight: " .. data.total)
+			tooltip:AddLine(16, formatUI("^7Combined Node Weight: %s", data.total))
 		end
 	end
 end

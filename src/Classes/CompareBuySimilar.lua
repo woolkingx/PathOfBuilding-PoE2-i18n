@@ -5,10 +5,27 @@
 --
 local t_insert = table.insert
 local m_floor = math.floor
+local s_format = string.format
 local dkjson = require "dkjson"
 local tradeHelpers = LoadModule("Classes/TradeHelpers")
 
 local M = {}
+
+local function tr(text)
+	return TranslateUI and TranslateUI(text) or text
+end
+
+local function formatUI(text, ...)
+	return FormatUI and FormatUI(text, ...) or s_format(text, ...)
+end
+
+local function trItem(text)
+	return TranslateItem and TranslateItem(text) or text
+end
+
+local function trItemName(item)
+	return TranslateItemDisplayName and TranslateItemDisplayName(item) or item.name
+end
 
 -- Realm display name to API id mapping
 local REALM_API_IDS = {
@@ -208,7 +225,7 @@ function M.openPopup(item, slotName, primaryBuild)
 					-- remove unsupported data. the formatting of unsupported
 					-- mods is confusing here
 					modLine.extra = nil
-					local formatted = itemLib.formatModLine(modLine)
+					local formatted = itemLib.formatModLine(modLine, nil, true)
 					if formatted then
 						-- Use range-resolved text for matching
 						local resolvedLine = (modLine.range and itemLib.applyRange(modLine.line, modLine.range, modLine.valueScalar)) or
@@ -344,17 +361,17 @@ function M.openPopup(item, slotName, primaryBuild)
 	end
 	if isUnique then
 		-- Unique item name label
-		controls.nameLabel = new("LabelControl", nil, {0, ctrlY, 0, 16}, "^x" .. (colorCodes[item.rarity] or "FFFFFF"):gsub("%^x","") .. item.name)
+		controls.nameLabel = new("LabelControl", nil, {0, ctrlY, 0, 16}, "^x" .. (colorCodes[item.rarity] or "FFFFFF"):gsub("%^x","") .. trItemName(item))
 		ctrlY = ctrlY + rowHeight
 	else
 		-- Category label
 		local categoryLabel = tradeHelpers.getTradeCategoryLabel(slotName, item)
-		controls.categoryLabel = new("LabelControl", {"TOPLEFT", nil, "TOPLEFT"}, {leftMargin, ctrlY, 0, 16}, "^7Category: " .. categoryLabel)
+		controls.categoryLabel = new("LabelControl", {"TOPLEFT", nil, "TOPLEFT"}, {leftMargin, ctrlY, 0, 16}, formatUI("^7Category: %s", categoryLabel))
 		ctrlY = ctrlY + rowHeight
 
 		-- Base type checkbox
 		controls.baseTypeCheck = new("CheckBoxControl", nil, {-popupWidth/2 + leftMargin + checkboxSize/2, ctrlY, checkboxSize}, "", rebuildUrl)
-		controls.baseTypeLabel = new("LabelControl", {"LEFT", controls.baseTypeCheck, "RIGHT"}, {4, 0, 0, 16}, "^7Use specific base: " .. (item.baseName or "Unknown"))
+		controls.baseTypeLabel = new("LabelControl", {"LEFT", controls.baseTypeCheck, "RIGHT"}, {4, 0, 0, 16}, formatUI("^7Use specific base: %s", item.baseName and trItem(item.baseName) or tr("Unknown")))
 		ctrlY = ctrlY + rowHeight
 
 		-- Item level

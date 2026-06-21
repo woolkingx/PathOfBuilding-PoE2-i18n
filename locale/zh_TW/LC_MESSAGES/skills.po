@@ -1,0 +1,4262 @@
+msgid ""
+msgstr "Project-Id-Version: Path of Building PoE2 Skill translation\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nLanguage: zh_TW\n"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Abiding Hex"
+msgstr "永久咒術"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Abyssal Apparition"
+msgstr "深淵幻象"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Accelerated Growth"
+msgstr "飛速生長"
+
+msgid "Accelerated Growth II"
+msgstr "飛速生長II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Acidic Concoction"
+msgstr "酸性靈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Acrimony"
+msgstr "毒辣"
+
+msgid "Adhesive Grenades I"
+msgstr "黏性擲彈 I"
+
+msgid "Adhesive Grenades II"
+msgstr "黏性擲彈 II"
+
+msgid "Admixture"
+msgstr "混合劑"
+
+msgid "Advancing Storm"
+msgstr "推進風暴"
+
+msgid "Aftershock I"
+msgstr "餘震 I"
+
+msgid "Aftershock II"
+msgstr "餘震 II"
+
+msgid "Ahn's Citadel"
+msgstr "漢恩的城塞"
+
+msgid "Ailith's Chimes"
+msgstr "艾里絲的管鐘"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Alchemist's Boon"
+msgstr "煉金師恩惠"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Align Fate"
+msgstr "命運同調"
+
+msgid "Alignment I"
+msgstr "聯合 I"
+
+msgid "Alignment II"
+msgstr "聯合 II"
+
+msgid "Alignment III"
+msgstr "聯合 III"
+
+msgid "Amanamu's Tithe"
+msgstr "阿姆那姆的稅賦"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ambrosia"
+msgstr "艾布蘿西雅"
+
+msgid "Ambrosia II"
+msgstr "仙饌蜜酒 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ambush"
+msgstr "伏擊"
+
+msgid "Ammo Conservation I"
+msgstr "彈藥保存 I"
+
+msgid "Ammo Conservation II"
+msgstr "彈藥保存 II"
+
+msgid "Ammo Conservation III"
+msgstr "彈藥保存 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ancestral Aid"
+msgstr "先祖援助"
+
+msgid "Ancestral Call I"
+msgstr "先祖怒嚎 I"
+
+msgid "Ancestral Call II"
+msgstr "先祖怒嚎 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ancestral Cry"
+msgstr "先祖戰吼"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ancestral Spirits"
+msgstr "先祖之魂"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ancestral Warrior Totem"
+msgstr "先祖戰士圖騰"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Animus Exchange"
+msgstr "意志轉換"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Animus Splinters"
+msgstr "意志裂片"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Annihilation"
+msgstr "湮滅"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Apocalypse"
+msgstr "壞滅災變"
+
+msgid "Arakaali's Lust"
+msgstr "艾爾卡莉之慾"
+
+msgid "Arbiter's Ignition"
+msgstr "仲裁者的燃灼"
+
+msgid "Arbiter's Reach"
+msgstr "仲裁者的延伸"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Arc"
+msgstr "電弧"
+
+msgid "Arcane Surge"
+msgstr "秘能波動輔助"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Archmage"
+msgstr "大法師"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Archon of Chayula"
+msgstr "夏烏拉統治者"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Arctic Armour"
+msgstr "極地裝甲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Arctic Howl"
+msgstr "極地狂嚎"
+
+msgid "Arjun's Medal"
+msgstr "亞瓊的獎章"
+
+msgid "Armour Break I"
+msgstr "護甲破壞 I"
+
+msgid "Armour Break II"
+msgstr "護甲破壞 II"
+
+msgid "Armour Break III"
+msgstr "護甲破壞 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Armour Breaker"
+msgstr "護甲碎擊"
+
+msgid "Armour Demolisher I"
+msgstr "護甲破壞者 I"
+
+msgid "Armour Demolisher II"
+msgstr "護甲破壞者 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Armour Explosion"
+msgstr "護甲爆破"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Armour Piercing Rounds"
+msgstr "穿甲彈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Arms Length"
+msgstr "伸手可及"
+
+msgid "Artillery"
+msgstr "火砲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Artillery Ballista"
+msgstr "火砲砲塔"
+
+msgid "Artillery Impact"
+msgstr "火砲衝擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Astral Projection"
+msgstr "星空投影"
+
+msgid "Atalui's Bloodletting"
+msgstr "阿特路伊的出血"
+
+msgid "Attack"
+msgstr "攻擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Attrition"
+msgstr "損耗"
+
+msgid "Atziri's Allure"
+msgstr "阿茲里的魅惑"
+
+msgid "Atziri's Impatience"
+msgstr "阿茲里的不耐"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Auto Reload"
+msgstr "自動裝填"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Azmerian Swarms"
+msgstr "阿茲莫里群落"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Azmerian Wolf"
+msgstr "阿茲莫里巨狼"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ball Lightning"
+msgstr "天雷之珠"
+
+msgid "Ballista Bolt"
+msgstr "弩矢"
+
+msgid "Banner"
+msgstr "戰旗"
+
+msgid "Barbs I"
+msgstr "倒刺 I"
+
+msgid "Barbs II"
+msgstr "倒刺 II"
+
+msgid "Barbs III"
+msgstr "倒刺 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Barkskin"
+msgstr "木質外膚"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Barrage"
+msgstr "彈幕"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Barrier Invocation"
+msgstr "屏障祈願"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Basic Attack"
+msgstr "基礎攻擊"
+
+msgid "Basic Attack (Cold)"
+msgstr "基礎攻擊（冰）"
+
+msgid "Basic Attack (Fire)"
+msgstr "基礎攻擊（火）"
+
+msgid "Basic Attack (Lightning)"
+msgstr "基礎攻擊（雷）"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Basic Bolt"
+msgstr "基礎弩箭"
+
+msgid "Basic Spell"
+msgstr "基礎法術"
+
+msgid "Basic Spell (Chaos)"
+msgstr "基礎法術（混沌）"
+
+msgid "Basic Spell (Cold)"
+msgstr "基礎法術（冰）"
+
+msgid "Basic Spell (Fire)"
+msgstr "基礎法術（火）"
+
+msgid "Basic Spell (Lightning)"
+msgstr "基礎法術（雷）"
+
+msgid "Basic Spell (Physical)"
+msgstr "基礎法術（物理）"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Battershout"
+msgstr "猛擊吶喊"
+
+msgid "Beam"
+msgstr "光束"
+
+msgid "Beam Impact"
+msgstr "光束衝擊"
+
+msgid "Behead I"
+msgstr "斬首 I"
+
+msgid "Behead II"
+msgstr "斬首 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Berserk"
+msgstr "狂戰"
+
+msgid "Bhatair's Vengeance"
+msgstr "瓦特爾的復仇"
+
+msgid "Bidding I"
+msgstr "出價 I"
+
+msgid "Bidding II"
+msgstr "出價 II"
+
+msgid "Bidding III"
+msgstr "出價 III"
+
+msgid "Bite"
+msgstr "慧齒"
+
+msgid "Biting Frost I"
+msgstr "刺骨冰霜I"
+
+msgid "Biting Frost II"
+msgstr "刺骨冰霜II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bitter Dead"
+msgstr "苦澀衰亡"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Black Powder Blitz"
+msgstr "火藥疾行"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Blasphemy"
+msgstr "瀆神"
+
+msgid "Blazing Critical"
+msgstr "燃焰暴擊"
+
+msgid "Bleed I"
+msgstr "流血 I"
+
+msgid "Bleed II"
+msgstr "流血 II"
+
+msgid "Bleed III"
+msgstr "流血 III"
+
+msgid "Bleed IV"
+msgstr "流血 IV"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bleeding Concoction"
+msgstr "流血混合物"
+
+msgid "Blind I"
+msgstr "致盲 I"
+
+msgid "Blind II"
+msgstr "致盲 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Blindside"
+msgstr "偷襲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Blink"
+msgstr "閃現"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Blood Boil"
+msgstr "鮮血沸騰"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Blood Explosion"
+msgstr "鮮血爆炸"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Blood Hunt"
+msgstr "鮮血狩獵"
+
+msgid "Blood Projectile"
+msgstr "鮮血投射物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bloodhound's Mark"
+msgstr "鮮血獵犬印記"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bloodlust"
+msgstr "嗜血"
+
+msgid "Blow Dart"
+msgstr "吹矢"
+
+msgid "Boiling Blood"
+msgstr "沸血"
+
+msgid "Bolt Impact"
+msgstr "箭矢衝擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bone Blast"
+msgstr "骨之爆破"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bone Cage"
+msgstr "骨牢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bone Offering"
+msgstr "骸骨奉獻"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bone Shrapnel"
+msgstr "骨片"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bone Shrapnel Explosion"
+msgstr "骨片爆炸"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bonebreaker"
+msgstr "裂骨者"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Boneshatter"
+msgstr "碎骨"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bonestorm"
+msgstr "骸骨風暴"
+
+msgid "Boundless Energy I"
+msgstr "無盡能量 I"
+
+msgid "Boundless Energy II"
+msgstr "無盡能量 II"
+
+msgid "Bounty I"
+msgstr "寶物 I"
+
+msgid "Bounty II"
+msgstr "寶物 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bow Shot"
+msgstr "弓箭射擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Brambles"
+msgstr "荊棘"
+
+msgid "Brambleslam"
+msgstr "荊棘猛擊"
+
+msgid "Branching Fissures I"
+msgstr "分岔裂縫 I"
+
+msgid "Branching Fissures II"
+msgstr "分岔裂縫 II"
+
+msgid "Breachlord's Amalgam"
+msgstr "裂痕領主的融合"
+
+msgid "Breachlord's Rift"
+msgstr "裂痕領主的裂隙"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Briarpatch"
+msgstr "荊棘叢"
+
+msgid "Brink I"
+msgstr "邊緣 I"
+
+msgid "Brink II"
+msgstr "邊緣 II"
+
+msgid "Brittle Armour"
+msgstr "易碎鎧甲"
+
+msgid "Brutality I"
+msgstr "野性殘暴 I"
+
+msgid "Brutality II"
+msgstr "野性殘暴 II"
+
+msgid "Brutality III"
+msgstr "野性殘暴 III"
+
+msgid "Brutus' Brain"
+msgstr "布魯特斯的腦"
+
+msgid "Burgeon I"
+msgstr "萌發 I"
+
+msgid "Burgeon II"
+msgstr "萌發 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Burning Arrow"
+msgstr "燃燒箭矢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Burning Inscription"
+msgstr "爆燃銘文"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bursting Fen Toad"
+msgstr "爆發沼地蟾蜍"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Bursting Plague"
+msgstr "爆裂瘟疫"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cackling Companions"
+msgstr "奸笑鬣狗群"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cadence"
+msgstr "終止"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Called Shots"
+msgstr "預告射擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Caltrops"
+msgstr "蒺藜"
+
+msgid "Cannibalism I"
+msgstr "食人 I"
+
+msgid "Cannibalism II"
+msgstr "食人 II"
+
+msgid "Cannon"
+msgstr "加農炮"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cast on Block"
+msgstr "格擋時施放"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cast on Charm Use"
+msgstr "使用護符時施放"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cast on Critical"
+msgstr "暴擊時施放"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cast on Dodge"
+msgstr "閃避時施放"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cast on Elemental Ailment"
+msgstr "元素異常狀態時施放"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cast on Melee Kill"
+msgstr "近戰擊殺時施放"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cast on Melee Stun"
+msgstr "近戰擊暈時施放"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cast on Minion Death"
+msgstr "召喚物死亡時施放"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Catalysing Discharge"
+msgstr "催化解放"
+
+msgid "Catalysing Elements"
+msgstr "催化元素"
+
+msgid "Catha's Brilliance"
+msgstr "凱莎的輝煌"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Catharsis"
+msgstr "宣洩"
+
+msgid "Chain I"
+msgstr "連鎖 I"
+
+msgid "Chain II"
+msgstr "連鎖 II"
+
+msgid "Chain III"
+msgstr "連鎖 III"
+
+msgid "Chaos Attunement"
+msgstr "混沌同調"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Chaos Bolt"
+msgstr "混沌弩箭"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Chaos Mastery"
+msgstr "混沌專精"
+
+msgid "Chaos Spark"
+msgstr "混沌電球"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Chaotic Freeze"
+msgstr "混沌冰凍"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Chaotic Surge"
+msgstr "混沌波動"
+
+msgid "Charge"
+msgstr "重盾衝鋒"
+
+msgid "Charge Impact"
+msgstr "衝擊衝擊"
+
+msgid "Charge Profusion I"
+msgstr "充能滿盈 I"
+
+msgid "Charge Profusion II"
+msgstr "充能滿盈 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Charge Regulation"
+msgstr "充能調節"
+
+msgid "Charged Mark"
+msgstr "蓄電印記"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Charged Shockwave"
+msgstr "充能震波"
+
+msgid "Charged Shots I"
+msgstr "充能射擊 I"
+
+msgid "Charged Shots II"
+msgstr "充能射擊 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Charged Staff"
+msgstr "充能長杖"
+
+msgid "Charged Sunder"
+msgstr "帶電劈擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Charm Bounty"
+msgstr "護符恩惠"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Chayula's Will"
+msgstr "夏烏拉之志"
+
+msgid "Cirel's Cultivation"
+msgstr "西瑞爾的耕植"
+
+msgid "Clarity I"
+msgstr "清晰 I"
+
+msgid "Clarity II"
+msgstr "清晰 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Clash"
+msgstr "交鋒"
+
+msgid "Close Combat I"
+msgstr "近身戰 I"
+
+msgid "Close Combat II"
+msgstr "近身戰 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cluster Grenade"
+msgstr "集束擲彈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Coiling Bolts"
+msgstr "寂纏彈"
+
+msgid "Cold Attunement"
+msgstr "冰冷同調"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cold Exposure"
+msgstr "冰冷曝曬"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cold Mastery"
+msgstr "冰冷專精"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cold Penetration"
+msgstr "冰冷穿透"
+
+msgid "Cold Spell"
+msgstr "冰霜法術"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Combat Frenzy"
+msgstr "戰鬥狂怒"
+
+msgid "Combo Finisher I"
+msgstr "連擊終結輔助 I"
+
+msgid "Combo Finisher II"
+msgstr "連擊終結輔助 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Combust"
+msgstr "戰燃"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Comet"
+msgstr "彗星"
+
+msgid "Command: {0} "
+msgstr "號令：{0}"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Commandment"
+msgstr "誡命"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Commiserate"
+msgstr "憐憫"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Companion: {0}"
+msgstr "盟友：{0}"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Compose Requiem"
+msgstr "安魂之奏"
+
+msgid "Compressed Duration I"
+msgstr "縮短持續時間 I"
+
+msgid "Compressed Duration II"
+msgstr "縮短持續時間 II"
+
+msgid "Concentrated Area"
+msgstr "集中範圍"
+
+msgid "Concoct I"
+msgstr "調製 I"
+
+msgid "Concoct II"
+msgstr "調製 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Concussive Runes"
+msgstr "震盪符文"
+
+msgid "Concussive Spells"
+msgstr "震盪法術"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Conductive Runes"
+msgstr "導電符文"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Consecrate"
+msgstr "奉獻"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Considered Casting"
+msgstr "細思施法"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Contagion"
+msgstr "瘟疫"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Controlled Destruction"
+msgstr "精準破壞"
+
+msgid "Controlled Hazard"
+msgstr "危險抑制"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Convalescence"
+msgstr "恢復期"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cool Headed"
+msgstr "冷靜"
+
+msgid "Cooldown Recovery I"
+msgstr "冷卻時間恢復 I"
+
+msgid "Cooldown Recovery II"
+msgstr "冷卻時間恢復 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Corpse Conservation"
+msgstr "屍體保存"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Corrosion"
+msgstr "衰敗"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Corrupted Cry"
+msgstr "汙染戰吼"
+
+msgid "Corrupting Cry I"
+msgstr "汙染戰吼 I"
+
+msgid "Corrupting Cry II"
+msgstr "汙染戰吼 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Coursing Current"
+msgstr "雷鳴湍流"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Crackling Barrier"
+msgstr "電流屏障"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Crackling Palm"
+msgstr "閃光掌"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Crash Lightning"
+msgstr "雷殞"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Crater"
+msgstr "隕石坑"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Crazed Minions"
+msgstr "發狂召喚物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Creeping Chill"
+msgstr "寒冰蔓延"
+
+msgid "Crescendo I"
+msgstr "逐漸增強 I"
+
+msgid "Crescendo II"
+msgstr "逐漸增強 II"
+
+msgid "Crescendo III"
+msgstr "逐漸增強 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cross Slash"
+msgstr "縱橫劈斬"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Crossbow Shot"
+msgstr "十字弓射擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Crushing Fear"
+msgstr "死懼碎擊"
+
+msgid "Crystalline Shards"
+msgstr "結晶碎片"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cull The Weak"
+msgstr "撲殺弱者"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cull the Weak"
+msgstr "撲殺弱者"
+
+msgid "Culling Strike I"
+msgstr "撲殺 I"
+
+msgid "Culling Strike II"
+msgstr "撲殺 II"
+
+msgid "Culmination I"
+msgstr "頂點 I"
+
+msgid "Culmination II"
+msgstr "頂點 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Curse on Block"
+msgstr "格擋時詛咒"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Cursed Ground"
+msgstr "詛咒地面"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Danse Macabre"
+msgstr "骷髏之舞"
+
+msgid "Daresso's Passion"
+msgstr "德瑞索的熱情"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Dark Consequences"
+msgstr "黑暗業報"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Dark Effigy"
+msgstr "黑暗雕像"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Dash"
+msgstr "幻步"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Dauntless"
+msgstr "無畏"
+
+msgid "Daze"
+msgstr "目眩"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Deadly Herald"
+msgstr "致命先驅"
+
+msgid "Deadly Poison I"
+msgstr "致命毒藥 I"
+
+msgid "Deadly Poison II"
+msgstr "致命毒藥 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Deadly Resolve"
+msgstr "致死決意"
+
+msgid "Death Explosion"
+msgstr "死亡爆炸"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Death From Above"
+msgstr "死從天降"
+
+msgid "Death Mortar"
+msgstr "死亡迫擊炮"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Death Storm"
+msgstr "死寂風暴"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Deathmarch"
+msgstr "死亡行進"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Decaying Hex"
+msgstr "腐朽咒術"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Decompose"
+msgstr "分解"
+
+msgid "Deep Cuts I"
+msgstr "深度切割 I"
+
+msgid "Deep Cuts II"
+msgstr "深度切割 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Deep Freeze"
+msgstr "深度冰凍"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Defiance Banner"
+msgstr "反抗之旗"
+
+msgid "Defy I"
+msgstr "違抗 I"
+
+msgid "Defy II"
+msgstr "違抗 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Delayed Gratification"
+msgstr "延遲滿足感"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Delayed Reaction"
+msgstr "延遲反應"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Deliberation"
+msgstr "審慎"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Demon Form"
+msgstr "惡魔變身"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Derange"
+msgstr "精神錯亂"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Despair"
+msgstr "絕望"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Detonate Dead"
+msgstr "屍體爆破"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Detonate Living"
+msgstr "活體引爆"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Detonate Minion"
+msgstr "引爆召喚物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Detonating Arrow"
+msgstr "爆破箭矢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Devour"
+msgstr "吞噬"
+
+msgid "Dialla's Desire"
+msgstr "達拉的渴望"
+
+msgid "Direstrike I"
+msgstr "極惡打擊 I"
+
+msgid "Direstrike II"
+msgstr "極惡打擊 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Discipline"
+msgstr "紀律"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Disengage"
+msgstr "脫離戰鬥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Doedre's Dark Design"
+msgstr "德瑞的黑暗謀略"
+
+msgid "Doedre's Undoing"
+msgstr "德瑞的毀滅"
+
+msgid "Dominus' Grasp"
+msgstr "神主的掌握"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Doom Blast"
+msgstr "厄運枯萎"
+
+msgid "Double Barrel I"
+msgstr "雙管 I"
+
+msgid "Double Barrel II"
+msgstr "雙管 II"
+
+msgid "Double Barrel III"
+msgstr "雙管 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Drain Ailments"
+msgstr "汲取異常狀態"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Dread Banner"
+msgstr "恐懼之旗"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Dual Strike"
+msgstr "雙持打擊"
+
+msgid "Durability"
+msgstr "耐久"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Earthquake"
+msgstr "震地"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Earthshatter"
+msgstr "碎地重擊"
+
+msgid "Echoing Cry"
+msgstr "迴響戰吼"
+
+msgid "Efficiency I"
+msgstr "效率 I"
+
+msgid "Efficiency II"
+msgstr "效率 II"
+
+msgid "Einhar's Beastrite"
+msgstr "埃哈的野獸儀式"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Electrocute"
+msgstr "電刑"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Electrocuting Arrow"
+msgstr "電極箭矢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Electromagnetism"
+msgstr "磁化電極"
+
+msgid "Elemental Armament I"
+msgstr "元素武裝 I"
+
+msgid "Elemental Armament II"
+msgstr "元素武裝 II"
+
+msgid "Elemental Armament III"
+msgstr "元素武裝 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Elemental Army"
+msgstr "元素軍隊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Elemental Conflux"
+msgstr "元素匯流"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Elemental Discharge"
+msgstr "元素解放"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Elemental Expression"
+msgstr "元素表現"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Elemental Focus"
+msgstr "元素專注"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Elemental Invocation"
+msgstr "元素祈願"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Elemental Storm"
+msgstr "元素風暴"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Elemental Sundering"
+msgstr "元素崩裂"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Elemental Surge"
+msgstr "元素波動"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Elemental Weakness"
+msgstr "元素要害"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ember Fusillade"
+msgstr "餘燼齊射"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Embitter"
+msgstr "激怒"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Embrace The Fall"
+msgstr "夜殞之擁"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Emergency Reload"
+msgstr "緊急裝填"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Empowered Sparks"
+msgstr "強化電球"
+
+msgid "Empowered Sparks I"
+msgstr "強化電球I"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Encase in Jade"
+msgstr "包覆於翠玉中"
+
+msgid "Encroaching Ground"
+msgstr "進逼地面"
+
+msgid "Enduring Impact I"
+msgstr "堅忍衝擊 I"
+
+msgid "Enduring Impact II"
+msgstr "堅忍衝擊 II"
+
+msgid "Energy Capacitor"
+msgstr "儲能"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Energy Retention"
+msgstr "能量保留"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Enervating Nova"
+msgstr "超能新星"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Enfeeble"
+msgstr "衰弱"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Enrage"
+msgstr "暴怒"
+
+msgid "Enraged Warcry I"
+msgstr "激怒戰吼 I"
+
+msgid "Enraged Warcry II"
+msgstr "激怒戰吼 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Entangle"
+msgstr "纏結"
+
+msgid "Eonyr's Thunder"
+msgstr "伊歐涅的雷霆"
+
+msgid "Escalating Poison"
+msgstr "遞增之毒"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Escape Shot"
+msgstr "逃脫之矢"
+
+msgid "Esh's Prowess"
+msgstr "艾許的威能"
+
+msgid "Esh's Radiance"
+msgstr "艾許的光芒"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Essence Drain"
+msgstr "靈魂吸取"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Essence Harvest"
+msgstr "精髓收割"
+
+msgid "Eternal Flame I"
+msgstr "永恆烈焰 I"
+
+msgid "Eternal Flame II"
+msgstr "永恆烈焰 II"
+
+msgid "Eternal Flame III"
+msgstr "永恆烈焰 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Eternal Hunt"
+msgstr "永恆狩獵"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Eternal March"
+msgstr "永恆行軍"
+
+msgid "Eternal Mark"
+msgstr "永恆印記"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Eternal Rage"
+msgstr "無盡怒火"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Excise"
+msgstr "切除"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Execrate"
+msgstr "咒怨"
+
+msgid "Execute I"
+msgstr "處刑 I"
+
+msgid "Execute II"
+msgstr "處刑 II"
+
+msgid "Execute III"
+msgstr "處刑 III"
+
+msgid "Expand"
+msgstr "擴展"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Expanse"
+msgstr "廣闊區域"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Exploit Weakness"
+msgstr "攻其之弱"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Explosive Concoction"
+msgstr "爆裂物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Explosive Demise"
+msgstr "爆炸之亡"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Explosive Grenade"
+msgstr "爆炸擲彈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Explosive Shot"
+msgstr "爆炸矢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Explosive Spear"
+msgstr "爆炸長矛"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Explosive Transmutation"
+msgstr "爆炸轉化"
+
+msgid "Exposing Cry"
+msgstr "暴露戰吼"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Exsanguinate"
+msgstr "抽血"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Extraction"
+msgstr "提取"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Eye of Winter"
+msgstr "凜冬之眼"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Falling Blade"
+msgstr "墜落刀刃"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Falling Thunder"
+msgstr "崩雷鳴"
+
+msgid "Fan The Flames"
+msgstr "灼炎扇舞I"
+
+msgid "Fan The Flames II"
+msgstr "灼炎扇舞II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fan the Flames"
+msgstr "灼炎扇舞"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fangs of Frost"
+msgstr "刺骨寒冰"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Feast of Flesh"
+msgstr "血肉盛宴"
+
+msgid "Feeding Frenzy I"
+msgstr "豢養狂熱 I"
+
+msgid "Feeding Frenzy II"
+msgstr "豢養狂熱 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Feral Invocation"
+msgstr "野性祈求"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ferocious Roar"
+msgstr "兇猛怒吼"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ferocity"
+msgstr "狂暴"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fiery Death"
+msgstr "火熱死寂"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fiery Reclamation"
+msgstr "燃炎回收"
+
+msgid "Fire Attunement"
+msgstr "火焰曲調"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fire Bomb"
+msgstr "火焰炸彈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fire Exposure"
+msgstr "火焰曝曬"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fire Mastery"
+msgstr "火焰專精"
+
+msgid "Fire Penetration I"
+msgstr "火焰穿透 I"
+
+msgid "Fire Penetration II"
+msgstr "火焰穿透 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fire Spell on Hit"
+msgstr "擊中時火焰法術"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fire Spell on Melee Hit"
+msgstr "近戰擊中時火焰法術"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fireball"
+msgstr "火球"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Firebolt"
+msgstr "火彈"
+
+msgid "Firehose"
+msgstr "火流"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Firestorm"
+msgstr "烈炎風暴"
+
+msgid "Fist Of Kalguur"
+msgstr "卡爾葛之拳"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fist of Kalguur"
+msgstr "卡爾葛之拳"
+
+msgid "Fist of War I"
+msgstr "拳霸 I"
+
+msgid "Fist of War II"
+msgstr "拳霸 II"
+
+msgid "Fist of War III"
+msgstr "拳霸 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Flame Breath"
+msgstr "火焰吐息"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Flame Pillar"
+msgstr "火炎之柱"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Flame Wall"
+msgstr "烈焰之牆"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Flameblast"
+msgstr "烈焰爆破"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Flamepierce"
+msgstr "烈焰穿透"
+
+msgid "Flamethrower"
+msgstr "火焰噴射"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Flash Grenade"
+msgstr "閃光擲彈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Flicker Strike"
+msgstr "閃現打擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fluke"
+msgstr "僥倖"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Focused Curse"
+msgstr "專注詛咒"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Font of Blood"
+msgstr "鮮血器皿"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Font of Mana"
+msgstr "魔力器皿"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Forge Hammer"
+msgstr "鍛造之錘"
+
+msgid "Fork"
+msgstr "分裂輔助"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fortifying Cry"
+msgstr "堅韌之吼"
+
+msgid "Fortress I"
+msgstr "堡壘 I"
+
+msgid "Fortress II"
+msgstr "堡壘 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fragment Self"
+msgstr "破碎仿身"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fragmentation Rounds"
+msgstr "分裂彈藥"
+
+msgid "Fragments Of The Past"
+msgstr "往昔碎片"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fragments of the Past"
+msgstr "往昔碎片"
+
+msgid "Freeze"
+msgstr "冰凍"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Freezefork"
+msgstr "冰凍之叉"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Freezing Explosion"
+msgstr "冷凍爆炸"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Freezing Mark"
+msgstr "冰凍印記"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Freezing Salvo"
+msgstr "凍結齊射"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Freezing Shards"
+msgstr "冰凍裂片"
+
+msgid "Frenzied Riposte"
+msgstr "狂亂反擊"
+
+msgid "Fresh Clip I"
+msgstr "全新彈夾 I"
+
+msgid "Fresh Clip II"
+msgstr "全新彈夾 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Frost Bomb"
+msgstr "寒霜爆"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Frost Darts"
+msgstr "寒霜之鏢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Frost Nexus"
+msgstr "冰霜匯聚"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Frost Wall"
+msgstr "冰牆"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Frostbolt"
+msgstr "寒冰彈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Frostfire"
+msgstr "霜火"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Frostflame Nova"
+msgstr "霜火新星"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Frozen Locus"
+msgstr "寒冰軌跡"
+
+msgid "Frozen Spite"
+msgstr "凍結怨恨"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fulminating Concoction"
+msgstr "烈性混合物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fulmination"
+msgstr "劇烈爆發"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Furious Slam"
+msgstr "狂暴重擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Fury of the Mountain"
+msgstr "山嶺之怒"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Future-Past"
+msgstr "未來昔日"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Gale Force"
+msgstr "颶風之力"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Galvanic Field"
+msgstr "電光領域"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Galvanic Shards"
+msgstr "電能碎片"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Gambleshot"
+msgstr "博弈射擊"
+
+msgid "Garukhan's Resolve"
+msgstr "卡洛翰的決心"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Gas Arrow"
+msgstr "毒氣箭矢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Gas Grenade"
+msgstr "毒氣擲彈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Gathering Storm"
+msgstr "風暴凝聚"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Gelid Palm"
+msgstr "冰冽掌"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Gemini Surge"
+msgstr "雙靈波動"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ghost Dance"
+msgstr "鬼魂之舞"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Glacial Bolt"
+msgstr "冰川弩箭"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Glacial Cascade"
+msgstr "冰川之刺"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Glacial Lance"
+msgstr "冰川之槍"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Glacier"
+msgstr "冰河"
+
+msgid "Gorge"
+msgstr "峽谷"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Grenade"
+msgstr "爆彈投擲"
+
+msgid "Grenade Explosion"
+msgstr "手榴彈爆炸"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Grim Feast"
+msgstr "冷酷之宴"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Grim Pillars"
+msgstr "恐怖之柱"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Grim Resurrection"
+msgstr "冷酷復活"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Grisly Pyre"
+msgstr "恐怖燃焰"
+
+msgid "Ground Laser"
+msgstr "地面雷射"
+
+msgid "Guatelitzi's Ablation"
+msgstr "瓜特利斯的消融"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Haemocrystals"
+msgstr "血晶"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Hailstorm"
+msgstr "冰雹"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Hailstorm Rounds"
+msgstr "冰雹彈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Hammer of the Gods"
+msgstr "眾神之錘"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Hand of Chayula"
+msgstr "夏烏拉之手"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Harbinger of Madness"
+msgstr "神諭之狂"
+
+msgid "Hardy Totems I"
+msgstr "堅韌圖騰 I"
+
+msgid "Hardy Totems II"
+msgstr "堅韌圖騰 II"
+
+msgid "Harmonic Remnants I"
+msgstr "和諧的痕跡 I"
+
+msgid "Harmonic Remnants II"
+msgstr "和諧的痕跡 II"
+
+msgid "Hayoxi's Fulmination"
+msgstr "荷霖蔡的轟鳴"
+
+msgid "Heal Buff"
+msgstr "治療增益"
+
+msgid "Healing Runes"
+msgstr "治癒符文"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Heart of Ice"
+msgstr "冰雪之心"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Heavy Swing"
+msgstr "沉重揮擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Heft"
+msgstr "分量"
+
+msgid "Heightened Accuracy I"
+msgstr "強化命中 I"
+
+msgid "Heightened Accuracy II"
+msgstr "強化命中 II"
+
+msgid "Heightened Charges"
+msgstr "能量球增強"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Heightened Curse"
+msgstr "增強詛咒"
+
+msgid "Helbrym's Hide"
+msgstr "海爾賓姆的躲藏"
+
+msgid "Her Declaration"
+msgstr "她的宣告"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Herald of Ash"
+msgstr "灰燼之捷"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Herald of Blood"
+msgstr "鮮血之捷"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Herald of Ice"
+msgstr "冰霜之捷"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Herald of Plague"
+msgstr "瘟疫之捷"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Herald of Thunder"
+msgstr "閃電之捷"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Herald of the Royal Queen"
+msgstr "女皇之捷"
+
+msgid "Herbalism I"
+msgstr "藥草學 I"
+
+msgid "Herbalism II"
+msgstr "藥草學 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Hex Bloom"
+msgstr "咒術綻放"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Hexblast"
+msgstr "咒術枯萎"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "High Velocity Rounds"
+msgstr "高速彈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "His Foul Emergence"
+msgstr "他的惡臭降臨"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "His Scattering Calamity"
+msgstr "他的散布災禍"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "His Vile Intrusion"
+msgstr "他的惡毒入侵"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "His Winnowing Flame"
+msgstr "他的飛舞烈焰"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Hit and Run"
+msgstr "打帶跑"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Hollow Focus"
+msgstr "空無專注"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Hollow Form"
+msgstr "空無型態"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Hollow Resonance"
+msgstr "空無共鳴"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Hollow Shell"
+msgstr "空無披甲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Holy Descent"
+msgstr "神聖血統"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Hourglass"
+msgstr "沙漏"
+
+msgid "Hulking Minions"
+msgstr "巨大召喚物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ice Armour"
+msgstr "寒冰護甲"
+
+msgid "Ice Beam"
+msgstr "冰霜光束"
+
+msgid "Ice Bite I"
+msgstr "霜咬 I"
+
+msgid "Ice Bite II"
+msgstr "霜咬 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ice Fragments"
+msgstr "寒冰碎片"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ice Nova"
+msgstr "冰霜新星"
+
+msgid "Ice Projectile"
+msgstr "冰霜投射"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ice Shard"
+msgstr "寒冰碎片"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ice Shards"
+msgstr "寒冰碎片"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ice Shot"
+msgstr "冰霜射擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ice Strike"
+msgstr "霜星連擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ice-Tipped Arrows"
+msgstr "冰鏃箭矢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Icestorm"
+msgstr "冰風暴"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Icicle"
+msgstr "冰柱"
+
+msgid "Ignite I"
+msgstr "點燃 I"
+
+msgid "Ignite II"
+msgstr "點燃 II"
+
+msgid "Ignite III"
+msgstr "點燃 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Immolate"
+msgstr "犧牲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Impact Shockwave"
+msgstr "衝擊震波"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Impale"
+msgstr "穿刺"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Impending Doom"
+msgstr "末日厄運"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Impurity"
+msgstr "不淨"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Incendiary Shot"
+msgstr "烈焰射擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Incinerate"
+msgstr "燒毀"
+
+msgid "Incision"
+msgstr "切割"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Inevitable Agony"
+msgstr "命定苦痛"
+
+msgid "Inexorable Critical I"
+msgstr "無情暴擊 I"
+
+msgid "Inexorable Critical II"
+msgstr "無情暴擊 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Infernal Cry"
+msgstr "煉獄戰吼"
+
+msgid "Infernal Legion I"
+msgstr "煉獄軍團 I"
+
+msgid "Infernal Legion II"
+msgstr "煉獄軍團 II"
+
+msgid "Infernal Legion III"
+msgstr "煉獄軍團 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Inhibitor"
+msgstr "抑制劑"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Innervate"
+msgstr "亢奮"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Intense Agony"
+msgstr "劇烈苦痛"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Into the Breach"
+msgstr "遁入裂痕"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Iron Ward"
+msgstr "鋼鐵守護"
+
+msgid "Ixchel's Torment"
+msgstr "薩雷許的折磨"
+
+msgid "Jagged Ground I"
+msgstr "碎裂地面 I"
+
+msgid "Jagged Ground II"
+msgstr "碎裂地面 II"
+
+msgid "Kalisa's Crescendo"
+msgstr "卡莉莎的漸強"
+
+msgid "Kaom's Madness"
+msgstr "岡姆的癲狂"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Kelari's Brutality"
+msgstr "克拉里的殘酷"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Kelari's Deception"
+msgstr "克拉里的欺瞞"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Kelari's Judgment"
+msgstr "克拉里的審判"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Kelari's Malediction"
+msgstr "克拉里的惡言"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Kelari, the Tainted Sands"
+msgstr "黯染飛砂．克拉里"
+
+msgid "Khatal's Rejuvenation"
+msgstr "卡塔爾的恢復"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Killing Palm"
+msgstr "摧命之掌"
+
+msgid "Knockback"
+msgstr "擊退輔助"
+
+msgid "Kulemak's Dominion"
+msgstr "骷髏馬克的支配"
+
+msgid "Kurgal's Leash"
+msgstr "柯戈的繩索"
+
+msgid "Large Ball Flame Geyser"
+msgstr "大型火球噴發"
+
+msgid "Large Ball Impact"
+msgstr "大型球體衝擊"
+
+msgid "Large Ball Spit"
+msgstr "大型球體吐息"
+
+msgid "Laser"
+msgstr "雷射"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Last Gasp"
+msgstr "臨終恐息"
+
+msgid "Lasting Ground"
+msgstr "持續性地面"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lasting Shock"
+msgstr "持續感電"
+
+msgid "Leap"
+msgstr "躍擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Leap Slam"
+msgstr "躍擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Leylines"
+msgstr "地脈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Life Bounty"
+msgstr "生命恩惠"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Life Drain"
+msgstr "生命吸取"
+
+msgid "Life Leech I"
+msgstr "生命偷取 I"
+
+msgid "Life Leech II"
+msgstr "生命偷取 II"
+
+msgid "Life Leech III"
+msgstr "生命偷取 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Life Remnants"
+msgstr "生命痕跡"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lifetap"
+msgstr "活栓"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lightning Arrow"
+msgstr "閃電箭矢"
+
+msgid "Lightning Attunement"
+msgstr "閃電同調"
+
+msgid "Lightning Blast"
+msgstr "閃電爆發"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lightning Bolt"
+msgstr "雷彈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lightning Conduit"
+msgstr "導雷"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lightning Exposure"
+msgstr "閃電曝曬"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lightning Mastery"
+msgstr "閃電專精"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lightning Penetration"
+msgstr "閃電穿透"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lightning Rod"
+msgstr "雷霆之杖"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lightning Spear"
+msgstr "閃電長矛"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lightning Storm"
+msgstr "閃電風暴"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lightning Warp"
+msgstr "閃電傳送"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lingering Illusion"
+msgstr "殘留幻象"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Living Bomb"
+msgstr "活體炸彈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Living Lightning"
+msgstr "活躍閃電"
+
+msgid "Living Lightning II"
+msgstr "活躍閃電 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Armour Piercing Rounds"
+msgstr "裝填穿甲彈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Explosive Shot"
+msgstr "裝填爆炸矢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Fragmentation Rounds"
+msgstr "裝填分裂彈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Galvanic Shards"
+msgstr "裝填電能碎片"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Glacial Bolt"
+msgstr "裝填冰川弩箭"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Hailstorm Rounds"
+msgstr "裝填冰雹彈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load High Velocity Rounds"
+msgstr "裝填高速彈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Ice Shards"
+msgstr "裝填寒冰碎片"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Incendiary Shot"
+msgstr "裝填烈焰射擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Permafrost Bolts"
+msgstr "裝填永凍弩箭"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Plasma Blast"
+msgstr "電漿強擊矢彈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Rapid Shot"
+msgstr "裝填疾射"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Shockburst Rounds"
+msgstr "裝填震爆彈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Siege Cascade"
+msgstr "裝填圍城爆發彈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Load Stormblast Bolts"
+msgstr "裝填雷暴彈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lockdown"
+msgstr "封鎖"
+
+msgid "Long Fuse I"
+msgstr "長引線 I"
+
+msgid "Long Fuse II"
+msgstr "長引線 II"
+
+msgid "Longshot I"
+msgstr "遠程射擊 I"
+
+msgid "Longshot II"
+msgstr "遠程射擊 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Loyalty"
+msgstr "忠誠"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lunar Assault"
+msgstr "月光突襲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Lunar Blessing"
+msgstr "月光賜福"
+
+msgid "Mace Slam"
+msgstr "錘擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mace Strike"
+msgstr "錘之打擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mad Flight"
+msgstr "狂亂翱翔"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Magma Barrier"
+msgstr "熔岩屏障"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Magma Spray"
+msgstr "岩漿噴濺"
+
+msgid "Magnetic Remnants"
+msgstr "磁性痕跡"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Magnetic Salvo"
+msgstr "電磁齊射"
+
+msgid "Magnified Area I"
+msgstr "增幅光環 I"
+
+msgid "Magnified Area II"
+msgstr "增幅光環 II"
+
+msgid "Maim"
+msgstr "癱瘓輔助"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Malady"
+msgstr "疾病"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Malice"
+msgstr "絕滅恨惡"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mana Bounty"
+msgstr "魔力恩惠"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mana Drain"
+msgstr "魔力吸取"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mana Flare"
+msgstr "魔力閃焰"
+
+msgid "Mana Leech"
+msgstr "魔力偷取輔助"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mana Remnants"
+msgstr "魔力痕跡"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mana Tempest"
+msgstr "魔力暴風"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Manifest Rune"
+msgstr "幻化符文"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Manifest Weapon"
+msgstr "幻化武器"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mantra of Destruction"
+msgstr "毀滅神咒"
+
+msgid "Mark for Death"
+msgstr "死亡標記"
+
+msgid "Mark for Death II"
+msgstr "死亡標記 II"
+
+msgid "Mark of Siphoning"
+msgstr "汲取印記"
+
+msgid "Mark of Siphoning II"
+msgstr "汲取印記 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Maul"
+msgstr "爪擊"
+
+msgid "Meat Shield I"
+msgstr "肉盾 I"
+
+msgid "Meat Shield II"
+msgstr "肉盾 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Meditate"
+msgstr "冥想"
+
+msgid "Medved's Felling"
+msgstr "梅德偉的殞落"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Meteor"
+msgstr "隕石"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Meteors"
+msgstr "隕石群"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Midnight Zenith"
+msgstr "午夜天頂"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Minion Instability"
+msgstr "復仇之靈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Minion Mastery"
+msgstr "召喚物專精"
+
+msgid "Minion Pact I"
+msgstr "召喚物契約 I"
+
+msgid "Minion Pact II"
+msgstr "召喚物契約 II"
+
+msgid "Minion Splash I"
+msgstr "召喚物擴散I"
+
+msgid "Minion Splash II"
+msgstr "召喚物擴散II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mirage Archer"
+msgstr "幻影射手"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mirage Deadeye"
+msgstr "幻影銳眼"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mirror of Refraction"
+msgstr "鏡面折射"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mist Raven"
+msgstr "迷霧渡鴉"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mobility"
+msgstr "機動性"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Molten Blast"
+msgstr "熔火爆破"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Molten Crash"
+msgstr "熔岩破滅"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Molten Shower"
+msgstr "熔火噴濺"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Moment of Vulnerability"
+msgstr "可趁之刻"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Momentum"
+msgstr "氣勢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Moonbeam"
+msgstr "映月光束"
+
+msgid "Morgana's Tempest"
+msgstr "魔甘娜的風暴"
+
+msgid "Morrigan's Insight"
+msgstr "莫莉甘洞悉"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mortar"
+msgstr "迫擊砲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Mortar Cannon"
+msgstr "迫擊砲"
+
+msgid "Multishot I"
+msgstr "多重射擊 I"
+
+msgid "Multishot II"
+msgstr "多重射擊 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Murderous Intent"
+msgstr "殺人意圖"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Muster"
+msgstr "召集"
+
+msgid "Mysticism I"
+msgstr "秘術 I"
+
+msgid "Mysticism II"
+msgstr "秘術 II"
+
+msgid "Napalm Cannon"
+msgstr "凝固汽油彈加農炮"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Nature's Exchange"
+msgstr "自然交換"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Navira's Calming"
+msgstr "納維拉的平撫"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Navira's Embrace"
+msgstr "納維拉的擁抱"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Navira's Fracturing"
+msgstr "納維拉的封凍"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Navira's Oasis"
+msgstr "納維拉的綠洲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Navira's Well"
+msgstr "納維拉的水井"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Navira, the Last Mirage"
+msgstr "最終幻象．納維拉"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Neural Overload"
+msgstr "神經超載"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Nimble Reload"
+msgstr "靈活裝填"
+
+msgid "Nova Projectiles I"
+msgstr "新星投射物I"
+
+msgid "Nova Projectiles II"
+msgstr "新星投射物II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Oil Barrage"
+msgstr "黏油轟擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Oil Grenade"
+msgstr "燃油擲彈"
+
+msgid "Oisin's Oath"
+msgstr "歐辛誓約"
+
+msgid "Olroth's Conviction"
+msgstr "奧爾羅斯的信念"
+
+msgid "Olroth's Hubris"
+msgstr "奧爾羅斯的傲慢"
+
+msgid "Omega Beam"
+msgstr "歐米茄光束"
+
+msgid "On Kill Monster Explosion"
+msgstr "擊殺怪物爆裂"
+
+msgid "Opening Move"
+msgstr "先聲奪人"
+
+msgid "Orb Charge"
+msgstr "寶珠蓄力"
+
+msgid "Orb Donut Explosion"
+msgstr "寶珠環形爆炸"
+
+msgid "Orb Explosion"
+msgstr "寶珠爆炸"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Orb of Storms"
+msgstr "風暴漩渦"
+
+msgid "Overabundance I"
+msgstr "過剩 I"
+
+msgid "Overabundance II"
+msgstr "過剩 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Overcharge"
+msgstr "強化聚能"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Overextend"
+msgstr "過分擴張"
+
+msgid "Overhead Slam"
+msgstr "上方重擊"
+
+msgid "Overreach"
+msgstr "無遠弗屆"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Overwhelming Presence"
+msgstr "壓倒性的存在"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Pain Offering"
+msgstr "劇痛獻祭"
+
+msgid "Paquate's Pact"
+msgstr "帕科特的協議"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Parry"
+msgstr "招架"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Payload"
+msgstr "承載"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Perfect Strike"
+msgstr "完美打擊"
+
+msgid "Perfected Endurance"
+msgstr "絕對堅毅"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Perfection"
+msgstr "完美"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Permafrost Bolts"
+msgstr "永凍弩箭"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Perpetual Charge"
+msgstr "永恆充能"
+
+msgid "Persistent Ground I"
+msgstr "持續地面 I"
+
+msgid "Persistent Ground II"
+msgstr "持續地面 II"
+
+msgid "Persistent Ground III"
+msgstr "持續地面 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Phantasmal Arrow"
+msgstr "幻影箭矢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Physical Mastery"
+msgstr "物理專精"
+
+msgid "Pierce I"
+msgstr "穿透 I"
+
+msgid "Pierce II"
+msgstr "穿透 II"
+
+msgid "Pierce III"
+msgstr "穿透 III"
+
+msgid "Pillar Slam"
+msgstr "柱狀重擊"
+
+msgid "Pin I"
+msgstr "釘身 I"
+
+msgid "Pin II"
+msgstr "釘身 II"
+
+msgid "Pin III"
+msgstr "釘身 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Pinnacle of Power"
+msgstr "力量巔峰"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Pinpoint Critical"
+msgstr "精確暴擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Plague Bearer"
+msgstr "病疫之難"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Plague Burst"
+msgstr "疫源爆發"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Plasma Blast"
+msgstr "電漿強擊矢"
+
+msgid "Poison I"
+msgstr "中毒 I"
+
+msgid "Poison II"
+msgstr "中毒 II"
+
+msgid "Poison III"
+msgstr "中毒 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Poison Spores"
+msgstr "劇毒孢子"
+
+msgid "Poison Spray"
+msgstr "毒液噴霧"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Poisonburst Arrow"
+msgstr "毒爆箭矢"
+
+msgid "Potent Exposure"
+msgstr "強力曝曬"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Pounce"
+msgstr "猛撲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Power Siphon"
+msgstr "力量抽取"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Powered by Verisium"
+msgstr "維里西姆強化"
+
+msgid "Practical Magic I"
+msgstr "實用魔法 I"
+
+msgid "Practical Magic II"
+msgstr "實用魔法 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Practiced Combo"
+msgstr "熟練連擊"
+
+msgid "Precision I"
+msgstr "精準 I"
+
+msgid "Precision II"
+msgstr "精準 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Predator's Mark"
+msgstr "掠食者印記"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Primal Bounty"
+msgstr "原始賞金"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Primal Strikes"
+msgstr "原始打擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Profane Decay"
+msgstr "瀆神衰敗"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Profane Ritual"
+msgstr "瀆神祭祀"
+
+msgid "Profanity I"
+msgstr "褻瀆 I"
+
+msgid "Profanity II"
+msgstr "褻瀆 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Projectile"
+msgstr "投射物"
+
+msgid "Projectile Acceleration I"
+msgstr "投射物加速 I"
+
+msgid "Projectile Acceleration II"
+msgstr "投射物加速 II"
+
+msgid "Projectile Acceleration III"
+msgstr "投射物加速 III"
+
+msgid "Projectile Deceleration I"
+msgstr "投射物減速 I"
+
+msgid "Projectile Deceleration II"
+msgstr "投射物減速 II"
+
+msgid "Projectile Spell"
+msgstr "投射物法術"
+
+msgid "Prolonged Duration I"
+msgstr "延長持續時間 I"
+
+msgid "Prolonged Duration II"
+msgstr "延長持續時間 II"
+
+msgid "Prototype Seventeen"
+msgstr "十七號原型機"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Punch"
+msgstr "正拳"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Punch Through"
+msgstr "透勁拳"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Puncture"
+msgstr "放血"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Purity of Fire"
+msgstr "火焰淨化"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Purity of Ice"
+msgstr "冰霜淨化"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Purity of Lightning"
+msgstr "閃電淨化"
+
+msgid "Pursuit I"
+msgstr "追擊 I"
+
+msgid "Pursuit II"
+msgstr "追擊 II"
+
+msgid "Pursuit III"
+msgstr "追擊 III"
+
+msgid "Pus Ground"
+msgstr "膿液地面"
+
+msgid "Pustule"
+msgstr "膿瘤"
+
+msgid "Pyramid Beam"
+msgstr "金字塔光束"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Quarterstaff Strike"
+msgstr "細杖打擊"
+
+msgid "Quarterstaff Sweep"
+msgstr "長棍橫掃"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Quill Burst"
+msgstr "驟羽爆發"
+
+msgid "Rage I"
+msgstr "盛怒 I"
+
+msgid "Rage II"
+msgstr "盛怒 II"
+
+msgid "Rage III"
+msgstr "盛怒 III"
+
+msgid "Rageforged I"
+msgstr "盛怒鍛造 I"
+
+msgid "Rageforged II"
+msgstr "盛怒鍛造 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Raging Cry"
+msgstr "憤怒戰吼"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Raging Spirits"
+msgstr "憤怒狂靈"
+
+msgid "Rail Shot"
+msgstr "軌道射擊"
+
+msgid "Railgun"
+msgstr "軌道炮"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rain of Arrows"
+msgstr "箭雨"
+
+msgid "Rain of Blades"
+msgstr "刀刃之雨"
+
+msgid "Raise Bugs"
+msgstr "召喚爬蟲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Raise Shield"
+msgstr "舉盾"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Raise Zombie"
+msgstr "殭屍復甦"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rake"
+msgstr "陰爪"
+
+msgid "Rakiata's Flow"
+msgstr "萊基亞塔的流動"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rampage"
+msgstr "暴怒"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rapid Assault"
+msgstr "極速進攻"
+
+msgid "Rapid Attacks I"
+msgstr "疾速攻擊 I"
+
+msgid "Rapid Attacks II"
+msgstr "疾速攻擊 II"
+
+msgid "Rapid Attacks III"
+msgstr "疾速攻擊 III"
+
+msgid "Rapid Casting I"
+msgstr "疾速施法 I"
+
+msgid "Rapid Casting II"
+msgstr "疾速施法 II"
+
+msgid "Rapid Casting III"
+msgstr "疾速施法 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rapid Shot"
+msgstr "疾射"
+
+msgid "Ratha's Assault"
+msgstr "菈妲的強襲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ravenous Swarm"
+msgstr "貪婪蟲群"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Reap"
+msgstr "收割"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Reaper's Invocation"
+msgstr "收割者的祈願"
+
+msgid "Rearm I"
+msgstr "重新佈署 I"
+
+msgid "Rearm II"
+msgstr "重新佈署 II"
+
+msgid "Refraction I"
+msgstr "折射 I"
+
+msgid "Refraction II"
+msgstr "折射 II"
+
+msgid "Refraction III"
+msgstr "折射 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Refutation"
+msgstr "駁斥"
+
+msgid "Reinforced Totems I"
+msgstr "強化圖騰 I"
+
+msgid "Reinforced Totems II"
+msgstr "強化圖騰 II"
+
+msgid "Relentless Rage"
+msgstr "無盡怒火"
+
+msgid "Remnant Potency I"
+msgstr "痕跡強度 I"
+
+msgid "Remnant Potency II"
+msgstr "痕跡強度 II"
+
+msgid "Remnant Potency III"
+msgstr "痕跡強度 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Remnants of Kalguur"
+msgstr "卡爾葛之痕"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rend"
+msgstr "撕扯"
+
+msgid "Rending Apex"
+msgstr "撕裂頂點"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Repulsion"
+msgstr "推斥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Repulsion Wave"
+msgstr "推斥波動"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Requiem"
+msgstr "安魂曲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Resonating Shield"
+msgstr "共鳴之盾"
+
+msgid "Retaliate I"
+msgstr "報復 I"
+
+msgid "Retaliate II"
+msgstr "報復 II"
+
+msgid "Retreat I"
+msgstr "撤退 I"
+
+msgid "Retreat II"
+msgstr "撤退 II"
+
+msgid "Retreat III"
+msgstr "撤退 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Reverberate"
+msgstr "回響"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rhoa Mount"
+msgstr "恐喙鳥坐騎"
+
+msgid "Ricochet I"
+msgstr "彈射 I"
+
+msgid "Ricochet II"
+msgstr "彈射 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Righteous Descent"
+msgstr "神翼懲降"
+
+msgid "Rigwald's Ferocity"
+msgstr "瑞佛的狂暴"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rip"
+msgstr "撕毀"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rising Tempest"
+msgstr "崛起風暴"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rite of Restoration"
+msgstr "新生之儀"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ritual Sacrifice"
+msgstr "儀式獻祭"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ritualistic Curse"
+msgstr "儀式詛咒"
+
+msgid "Rock Throw"
+msgstr "投石"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rolling Magma"
+msgstr "熔岩翻騰"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rolling Slam"
+msgstr "翻騰重擊"
+
+msgid "Romira's Requital"
+msgstr "羅米拉的報復"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rune Blast"
+msgstr "符文爆破"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Runeforged Blades"
+msgstr "符鍛刀刃"
+
+msgid "Runic Extraction"
+msgstr "符文提取"
+
+msgid "Runic Infusion"
+msgstr "符文灌注"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Runic Reprieve"
+msgstr "符文喘息"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Runic Tempering"
+msgstr "符文冶鍊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rupture"
+msgstr "殘破"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Rusted Spikes"
+msgstr "銹蝕尖刺"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ruthless"
+msgstr "殘暴"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ruzhan's Brand"
+msgstr "魯兹安的烙印"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ruzhan's Fury"
+msgstr "魯兹安的怒火"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ruzhan's Reckoning"
+msgstr "魯兹安的清算"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ruzhan's Trap"
+msgstr "魯兹安的陷阱"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ruzhan's Zealotry"
+msgstr "魯兹安的狂熱"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Ruzhan, the Blazing Sword"
+msgstr "赤炎利劍．魯兹安"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Sacrifice"
+msgstr "獻祭"
+
+msgid "Sacrificial Lamb I"
+msgstr "獻祭羔羊 I"
+
+msgid "Sacrificial Lamb II"
+msgstr "獻祭羔羊 II"
+
+msgid "Sacrificial Offering"
+msgstr "犧牲奉獻"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Salvo"
+msgstr "齊射"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Sandblast"
+msgstr "黃沙爆破"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Sanguine Revelry"
+msgstr "腥紅狂歡"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Savage Fury"
+msgstr "殘猛怒氣"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Scavenged Plating"
+msgstr "拾荒者護板"
+
+msgid "Scouring Flame"
+msgstr "淨化烈焰"
+
+msgid "Screech"
+msgstr "尖哮"
+
+msgid "Searing Flame I"
+msgstr "燒灼烈焰 I"
+
+msgid "Searing Flame II"
+msgstr "燒灼烈焰 II"
+
+msgid "Second Wind I"
+msgstr "恢復 I"
+
+msgid "Second Wind II"
+msgstr "恢復 II"
+
+msgid "Second Wind III"
+msgstr "恢復 III"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Seismic Cry"
+msgstr "裂地戰吼"
+
+msgid "Self-Destruct"
+msgstr "自爆"
+
+msgid "Selfless Remnants"
+msgstr "無私痕跡"
+
+msgid "Seraph's Heart"
+msgstr "神使之心"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shard Scavenger"
+msgstr "碎片清除者"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shattering Concoction"
+msgstr "粉碎混合物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shattering Palm"
+msgstr "粉碎之掌"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shattering Roar"
+msgstr "粉碎咆哮"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shattering Spite"
+msgstr "憎惡碎綻"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shield Charge"
+msgstr "重盾衝鋒"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shield Wall"
+msgstr "盾牆"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shield Wave"
+msgstr "盾之波動"
+
+msgid "Shock"
+msgstr "感電"
+
+msgid "Shock Conduction"
+msgstr "感電傳導"
+
+msgid "Shock Conduction II"
+msgstr "感電傳導II"
+
+msgid "Shock Rifle"
+msgstr "震盪步槍"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shock Siphon"
+msgstr "電擊虹吸"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shockburst Rounds"
+msgstr "震爆彈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shockchain Arrow"
+msgstr "電鍊箭矢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shocking Leap"
+msgstr "震擊之躍"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shockwave Slam"
+msgstr "震波重擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shockwave Totem"
+msgstr "震波圖騰"
+
+msgid "Short Fuse I"
+msgstr "易怒 I"
+
+msgid "Short Fuse II"
+msgstr "易怒 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Shred"
+msgstr "裂碎"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Siege Ballista"
+msgstr "攻城炮台"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Siege Cascade"
+msgstr "圍城爆發"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Sigil of Power"
+msgstr "咒符之力"
+
+msgid "Sione's Temper"
+msgstr "西奧妮的鍛鍊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Siphon Elements"
+msgstr "虹吸元素"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Siphoning Strike"
+msgstr "虹吸打擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Arsonist"
+msgstr "骷髏縱火者"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Arsonist Minion"
+msgstr "骷髏縱火者召喚物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Brute"
+msgstr "骷髏巨獸"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Brute Minion"
+msgstr "骷髏巨獸召喚物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Cleric"
+msgstr "骷髏牧師"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Cleric Minion"
+msgstr "骷髏牧師召喚物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Frost Mage"
+msgstr "骷髏霜寒法師"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Frost Mage Minion"
+msgstr "骷髏霜寒法師召喚物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Reaver"
+msgstr "骷髏掠奪者"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Reaver Minion"
+msgstr "骷髏掠奪者召喚物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Sniper"
+msgstr "骷髏狙擊手"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Sniper Minion"
+msgstr "骷髏狙擊手召喚物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Storm Mage"
+msgstr "骷髏風暴法師"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Storm Mage Minion"
+msgstr "骷髏風暴法師召喚物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Warrior"
+msgstr "骷髏戰士"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skeletal Warrior Minion"
+msgstr "骷髏戰士召喚物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skittering Stone"
+msgstr "飛掠之石"
+
+msgid "Skittering Stone I"
+msgstr "飛掠之石 I"
+
+msgid "Skittering Stone II"
+msgstr "飛掠之石 II"
+
+msgid "Skull Throw"
+msgstr "頭骨投擲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Skyfall"
+msgstr "天墜"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Slam"
+msgstr "重擊"
+
+msgid "Sling Rock"
+msgstr "彈弓投石"
+
+msgid "Slow Potency"
+msgstr "緩速強度"
+
+msgid "Small Ball Impact"
+msgstr "小球衝擊"
+
+msgid "Small Ball Spit"
+msgstr "小球吐息"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Smash to Smithereens"
+msgstr "轟碎重擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Smite"
+msgstr "雷鳴重擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Snap"
+msgstr "迸裂"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Snipe"
+msgstr "狙擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Sniper's Mark"
+msgstr "狙擊者印記"
+
+msgid "Snowball"
+msgstr "雪球"
+
+msgid "Snowball Impact"
+msgstr "雪球衝擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Soaring Midnight"
+msgstr "午夜飛掠"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Solar Orb"
+msgstr "日耀球"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Sorcery Ward"
+msgstr "巫術護盾"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Soul Drain"
+msgstr "靈魂吸取"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Soul Offering"
+msgstr "靈魂獻祭"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Soulrend"
+msgstr "靈體撕裂"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spar"
+msgstr "打擊練習"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spark"
+msgstr "電球"
+
+msgid "Spark Nova"
+msgstr "火花新星"
+
+msgid "Spear Dash"
+msgstr "穿刺衝刺"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spear Stab"
+msgstr "長矛刺擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spear Throw"
+msgstr "長矛投擲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spear of Solaris"
+msgstr "日耀長矛"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spearfield"
+msgstr "長矛之錐"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spectral Volley"
+msgstr "靈體齊射"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spectre: {0}"
+msgstr "幽魂：{0}"
+
+msgid "Spectre: {0} "
+msgstr "幽魂：{0}"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spell Cascade"
+msgstr "法術湧流"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spell Echo"
+msgstr "法術迴響"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spell Totem"
+msgstr "法術圖騰"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spellslinger"
+msgstr "拋法者"
+
+msgid "Spike Burst"
+msgstr "刺刺爆發"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spiral Volley"
+msgstr "螺旋之弦"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spiraling Conspiracy"
+msgstr "邪鴉旋纏"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Spirit Vessel"
+msgstr "魂靈容器"
+
+msgid "SpiritVesselSupport"
+msgstr "靈能容器（支援）"
+
+msgid "Spit"
+msgstr "噴射"
+
+msgid "Splinter Totem I"
+msgstr "殘片圖騰 I"
+
+msgid "Splinter Totem II"
+msgstr "殘片圖騰 II"
+
+msgid "Stab"
+msgstr "突刺"
+
+msgid "Stab Attack"
+msgstr "刺擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Staggering Palm"
+msgstr "撼敵之掌"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Stampede"
+msgstr "踐踏"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Starborn Onslaught"
+msgstr "星裔猛襲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Starfall"
+msgstr "星墜"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Static Shocks"
+msgstr "靜電震盪"
+
+msgid "Steadfast I"
+msgstr "穩若泰山 I"
+
+msgid "Steadfast II"
+msgstr "穩若泰山 II"
+
+msgid "Stoicism I"
+msgstr "堅忍 I"
+
+msgid "Stoicism II"
+msgstr "堅忍 II"
+
+msgid "Stomp"
+msgstr "踩踏"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Stomping Ground"
+msgstr "重踏地面"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Stomping Ground Shockwave"
+msgstr "重踏地面震波"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Storm Lance"
+msgstr "風暴之槍"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Storm Wave"
+msgstr "風暴浪湧"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Stormblast Bolts"
+msgstr "雷暴彈藥"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Stormcaller Arrow"
+msgstr "風暴呼喚箭矢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Stormchain"
+msgstr "風暴之鏈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Stormfire"
+msgstr "烈風暴"
+
+msgid "Streamlined Rounds"
+msgstr "子彈如流"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Strong Hearted"
+msgstr "不屈之心"
+
+msgid "Stun I"
+msgstr "暈眩 I"
+
+msgid "Stun II"
+msgstr "暈眩 II"
+
+msgid "Stun III"
+msgstr "暈眩 III"
+
+msgid "Styrn's Ferocity"
+msgstr "斯塔恩的暴行"
+
+msgid "Styrn's Mountain"
+msgstr "斯塔恩的山巔"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Summon Infernal Hound"
+msgstr "召喚獄炎獵犬"
+
+msgid "Summon Minions"
+msgstr "召喚召喚物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Summon Wolf"
+msgstr "召喚惡狼"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Sunder"
+msgstr "大地震擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Supercharged Slam"
+msgstr "超載重擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Supercritical"
+msgstr "超暴擊"
+
+msgid "SupportAncestralWarriorTotemPlayer"
+msgstr "先祖武士圖騰（支援）"
+
+msgid "SupportAnimusSplintersPlayer"
+msgstr "意志碎片（支援）"
+
+msgid "SupportBarrierInvocationPlayer"
+msgstr "屏障祈喚（支援）"
+
+msgid "SupportBlasphemyPlayer"
+msgstr "瀆神（支援）"
+
+msgid "SupportElementalInvocationPlayer"
+msgstr "元素祈喚（支援）"
+
+msgid "SupportFeralInvocationPlayer"
+msgstr "野性祈喚（支援）"
+
+msgid "SupportFerociousRoarPlayer"
+msgstr "狂暴怒吼（支援）"
+
+msgid "SupportHandOfChayulaPlayer"
+msgstr "夏烏拉之手（支援）"
+
+msgid "SupportHollowFormPlayer"
+msgstr "虛殼形態（支援）"
+
+msgid "SupportMetaCastCurseOnBlockPlayer"
+msgstr "格擋時施放詛咒（支援）"
+
+msgid "SupportMetaCastFireSpellOnHitPlayer"
+msgstr "命中時施放火焰法術（支援）"
+
+msgid "SupportMetaCastLightningSpellOnHitPlayer"
+msgstr "命中時施放雷電法術（支援）"
+
+msgid "SupportMetaCastOnBlockPlayer"
+msgstr "格擋時施放（支援）"
+
+msgid "SupportMetaCastOnCharmUsePlayer"
+msgstr "使用咒符時施放（支援）"
+
+msgid "SupportMetaCastOnCritPlayer"
+msgstr "暴擊時施放（支援）"
+
+msgid "SupportMetaCastOnDodgePlayer"
+msgstr "閃避時施放（支援）"
+
+msgid "SupportMetaCastOnElementalAilmentPlayer"
+msgstr "受到元素異常時施放（支援）"
+
+msgid "SupportMetaCastOnMeleeKillPlayer"
+msgstr "近戰擊殺時施放（支援）"
+
+msgid "SupportMetaCastOnMeleeStunPlayer"
+msgstr "近戰暈眩時施放（支援）"
+
+msgid "SupportMetaCastOnMinionDeathPlayer"
+msgstr "召喚物死亡時施放（支援）"
+
+msgid "SupportMetaDeadeyeMarksPlayer"
+msgstr "死眼印記（支援）"
+
+msgid "SupportMetaTotemSpellTotemPlayer"
+msgstr "法術圖騰（支援）"
+
+msgid "SupportMirageArcherPlayer"
+msgstr "幻影弓箭手（支援）"
+
+msgid "SupportMirageDeadeyePlayer"
+msgstr "幻影死眼（支援）"
+
+msgid "SupportMortarCannonPlayer"
+msgstr "迫擊炮（支援）"
+
+msgid "SupportReapersInvocationPlayer"
+msgstr "收割者祈喚（支援）"
+
+msgid "SupportSpellslingerPlayer"
+msgstr "施法射擊（支援）"
+
+msgid "SupportWolfPouncePlayer"
+msgstr "狼襲（支援）"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Supporting Fire"
+msgstr "支援火力"
+
+msgid "Swift Affliction I"
+msgstr "極速苦痛 I"
+
+msgid "Swift Affliction II"
+msgstr "極速苦痛 II"
+
+msgid "Swift Affliction III"
+msgstr "極速苦痛 III"
+
+msgid "Swipe"
+msgstr "揮擊"
+
+msgid "Sword Barrage"
+msgstr "劍刃狂濤"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Syzygy"
+msgstr "朔望"
+
+msgid "Tacati's Ire"
+msgstr "特卡蒂的憤怒"
+
+msgid "Tail Slam"
+msgstr "尾部重擊"
+
+msgid "Tail Swipe"
+msgstr "尾部揮擊"
+
+msgid "Tail Whip"
+msgstr "尾鞭"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Tame Beast"
+msgstr "馴獸"
+
+msgid "Tangmazu's Thurible"
+msgstr "湯馬祖的提爐"
+
+msgid "Tasalio's Rhythm"
+msgstr "塔薩里奧的律動"
+
+msgid "Tawhoa's Tending"
+msgstr "塔赫亞的照顧"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Tawhoa's Vengeance"
+msgstr "塔赫亞的復仇"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Tear"
+msgstr "撕裂"
+
+msgid "Tecrod's Revenge"
+msgstr "特克羅德的復仇"
+
+msgid "Tectonic Slams"
+msgstr "震波猛擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Temper Weapon"
+msgstr "鍛鍊武器"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Tempest Bell"
+msgstr "風暴之鐘"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Tempest Flurry"
+msgstr "暴風亂舞"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Temporal Chains"
+msgstr "時空鎖鏈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Temporal Rift"
+msgstr "時空裂隙"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "The Stars Answer"
+msgstr "群星回應"
+
+msgid "Thorns"
+msgstr "荊棘"
+
+msgid "Thornskin I"
+msgstr "荊棘之皮 I"
+
+msgid "Thornskin II"
+msgstr "荊棘之皮 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Thrashing Vines"
+msgstr "藤蔓痛打"
+
+msgid "Thrill of the Kill"
+msgstr "殺戮快感"
+
+msgid "Thrill of the Kill II"
+msgstr "殺戮渴望II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Thundergod's Wrath"
+msgstr "雷神之怒"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Thunderous Leap"
+msgstr "雷霆跳躍"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Thunderstorm"
+msgstr "閃電風暴"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Time Freeze"
+msgstr "時間凍結"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Time Snap"
+msgstr "時間短縮"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Time of Need"
+msgstr "緊急時刻"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Tireless"
+msgstr "孜孜不倦"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Tornado"
+msgstr "龍捲風"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Tornado Shot"
+msgstr "龍捲射擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Toxic Domain"
+msgstr "毒素領域"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Toxic Growth"
+msgstr "毒素植栽"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Toxic Rain"
+msgstr "腐蝕毒雨"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Trail of Caltrops"
+msgstr "蒺藜之徑"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Transmutation Explosion"
+msgstr "轉化爆炸"
+
+msgid "Trickster's Shard"
+msgstr "欺詐者的碎片"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Trinity"
+msgstr "三相"
+
+msgid "Triple Mortar"
+msgstr "三連迫擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Triskelion Cascade"
+msgstr "三曲爆發"
+
+msgid "Tul's Avalanche"
+msgstr "托沃的雪崩"
+
+msgid "Tul's Stillness"
+msgstr "托沃的寧靜"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Twisted Pact"
+msgstr "扭曲契約"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Twister"
+msgstr "旋風"
+
+msgid "Uhtred's Augury"
+msgstr "烏特雷的占卜術"
+
+msgid "Uhtred's Constellation"
+msgstr "烏特雷的星座"
+
+msgid "Uhtred's Exodus"
+msgstr "烏特雷的出走"
+
+msgid "Uhtred's Omen"
+msgstr "烏特雷的徵兆"
+
+msgid "Uhtred's Rite"
+msgstr "烏特雷的儀式"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Unbound Avatar"
+msgstr "無縛化身"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Undermine"
+msgstr "破壞"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Unearth"
+msgstr "屍術矢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Unerring Power"
+msgstr "精準力量"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Unleash"
+msgstr "釋放"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Untouchable"
+msgstr "無法觸碰"
+
+msgid "Upheaval I"
+msgstr "動亂 I"
+
+msgid "Upheaval II"
+msgstr "動亂 II"
+
+msgid "Upwelling I"
+msgstr "湧升流 I"
+
+msgid "Upwelling II"
+msgstr "湧升流 I"
+
+msgid "Urgent Totems I"
+msgstr "應急圖騰 I"
+
+msgid "Urgent Totems II"
+msgstr "應急圖騰 II"
+
+msgid "Urgent Totems III"
+msgstr "應急圖騰 III"
+
+msgid "Uruk's Smelting"
+msgstr "厄羅克的鍛鍊"
+
+msgid "Uul-Netol's Embrace"
+msgstr "烏爾尼多的擁抱"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Valako's Charge"
+msgstr "瓦拉庫的衝鋒"
+
+msgid "Vanguard I"
+msgstr "無懼先鋒 I"
+
+msgid "Vanguard II"
+msgstr "無懼先鋒 II"
+
+msgid "Varashta's Blessing"
+msgstr "瓦拉什塔的祝福"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Vaulting Impact"
+msgstr "跳躍衝擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Verglas"
+msgstr "冰淞"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Verisium Manifestations"
+msgstr "維里西姆顯化"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Vile Effusion"
+msgstr "惡劣凝聚"
+
+msgid "Vilenta's Propulsion"
+msgstr "范尼達的奮進"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Vine Arrow"
+msgstr "藤蔓箭矢"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Virtuous Barrier"
+msgstr "高尚禦盾"
+
+msgid "Vitality I"
+msgstr "活力 I"
+
+msgid "Vitality II"
+msgstr "活力 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Vivid Stampede"
+msgstr "靈現奔竄"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Void Illusion"
+msgstr "虛空幻影"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Volatile Dead"
+msgstr "致命之息"
+
+msgid "Volatile Mote"
+msgstr "揮發微粒"
+
+msgid "Volatility"
+msgstr "易爆"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Volcanic Eruption"
+msgstr "火山迸發"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Volcanic Fissure"
+msgstr "炎火脈動"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Volcanic Steps"
+msgstr "熔火步伐"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Volcano"
+msgstr "火山"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Volt"
+msgstr "電壓"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Voltaic Barrier"
+msgstr "伏打電盾"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Voltaic Fulmination"
+msgstr "伏打轟鳴"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Voltaic Grenade"
+msgstr "電流擲彈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Voltaic Mark"
+msgstr "電流印記"
+
+msgid "Vomit"
+msgstr "嘔吐"
+
+msgid "Vomit Ground"
+msgstr "嘔吐地面"
+
+msgid "Vomit Impact"
+msgstr "嘔吐衝擊"
+
+msgid "Vorana's Siege"
+msgstr "沃拉娜的圍攻"
+
+msgid "Vruun's Aftermath"
+msgstr "弗倫的餘波"
+
+msgid "Vruun's Inevitability"
+msgstr "弗倫的必然"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Vulnerability"
+msgstr "脆弱"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Walking Calamity"
+msgstr "行走災厄"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "War Banner"
+msgstr "戰爭之旗"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Wardbound Minions"
+msgstr "戰縛召喚物"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Warm Blooded"
+msgstr "滿腔熱血"
+
+msgid "Wave"
+msgstr "震波"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Wave of Frost"
+msgstr "寒冰波"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Whirling Assault"
+msgstr "迴旋擊"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Whirling Slash"
+msgstr "迴旋斬"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Whirlwind Lance"
+msgstr "旋風之槍"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Wild Protector"
+msgstr "荒野守護"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Wildfire"
+msgstr "野火"
+
+msgid "Wildshards I"
+msgstr "野性碎片 I"
+
+msgid "Wildshards II"
+msgstr "野性碎片 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Wildwood's Gifts"
+msgstr "荒林禮贈"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Wind Blast"
+msgstr "破風爆裂"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Wind Dancer"
+msgstr "風魔舞者"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Wind Serpent's Fury"
+msgstr "勁風蝮蛇之怒"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Wind Wave"
+msgstr "疾風之波"
+
+msgid "Window of Opportunity I"
+msgstr "機會之窗 I"
+
+msgid "Window of Opportunity II"
+msgstr "機會之窗 II"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Wing Blast"
+msgstr "翅翼猛襲"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Winged Entropy"
+msgstr "亂翼侵蝕"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Wither"
+msgstr "死亡凋零"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Withering Presence"
+msgstr "凋零光環"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Withering Touch"
+msgstr "凋零之觸"
+
+#. Source: PoeCharm2 Gems_data.txt.csv
+msgid "Wolf Pack"
+msgstr "召喚惡狼"
+
+msgid "Xibaqua's Rending"
+msgstr "賽巴昆的撕裂"
+
+msgid "Xoph's Pyre"
+msgstr "索伏的燃焰"
+
+msgid "Zap"
+msgstr "電擊"
+
+msgid "Zarokh's Refrain"
+msgstr "澤洛克的克制"
+
+msgid "Zarokh's Revolt"
+msgstr "澤洛克的反叛"
+
+msgid "Zenith I"
+msgstr "極盛 I"
+
+msgid "Zenith II"
+msgstr "極盛 II"
+
+msgid "Zerphi's Infamy"
+msgstr "澤佛伊的惡名"
