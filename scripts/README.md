@@ -1,9 +1,9 @@
-# i18n scripts / 中文化腳本說明
+# i18n scripts / i18n 腳本說明
 
-These helper scripts support the localization workflow. Run them from the repo
-root with `python3 scripts/<name>.py`. Most take `--help`.
+These helper scripts support the i18n / localization workflow. Run them from the
+repo root with `python3 scripts/<name>.py`. Most take `--help`.
 
-這些腳本輔助中文化流程。請從專案根目錄執行：`python3 scripts/<名稱>.py`，
+這些腳本輔助 i18n 多語言流程。請從專案根目錄執行：`python3 scripts/<名稱>.py`，
 多數支援 `--help`。
 
 ---

@@ -1,135 +1,95 @@
-# Path of Building 2 — Chinese Localization (i18n)
+# Path of Building 2 — i18n Mechanism
 
-[繁體中文說明請看 README.zh-TW.md](README.zh-TW.md)
+[繁體中文說明](README.zh-TW.md)
 
-A Chinese localization of
+This fork adds an **internationalization (i18n) mechanism** to
 [Path of Building 2 Community](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2),
-the popular build planner for Path of Exile 2.
+built into the engine itself rather than overlaid from outside. It is based on
+the upstream `dev` snapshot `b8048682` (`Update Uniques to 0.5 (#2116)`).
 
-- **Traditional Chinese (`zh_TW`)** — fully translated.
-- **Simplified Chinese (`zh_CN`)** — partial demo only, not complete.
+**The point of this project is the mechanism, not any single language.** Once
+the i18n layer is in place, any language can be translated through plain
+gettext-style **PO files** — no Lua and no engine internals required. Because the
+mechanism lives inside the engine, it also supports things an external overlay
+cannot: typing CJK text directly and searching by translated text.
 
-![Traditional Chinese screenshot](docs/assets/pob2-i18n.png)
+**Traditional Chinese (`zh_TW`) ships as the first reference localization** — a
+demonstration that the mechanism works end to end, not the focus of the project.
+The upstream project remains the owner of Path of Building 2 Community; this fork
+is published as a reusable i18n patch/release branch for maintainers or players
+who want to inspect, test, reuse, or extend the mechanism.
 
-## What this really does
+![Path of Building 2 i18n Traditional Chinese screenshot](docs/assets/pob2-i18n.png)
 
-The hard part of localizing Path of Building was never the difficulty — it was
-the sheer volume: tens of thousands of strings that no single maintainer can
-realistically translate. That's understandable, and it's why upstream never
-shipped translations.
+## What This Fork Adds
 
-This fork solves the part that actually needs a developer: it **adds the i18n
-mechanism** — covering all three sides that a real localization needs:
+- A display-boundary i18n mechanism in `src/Modules/Lang.lua` that any locale
+  can plug into.
+- Runtime locale selection for any PO-provided language (Traditional Chinese
+  ships as the reference locale).
+- Standard gettext-style PO catalogs (the reference set lives under
+  `locale/zh_TW/LC_MESSAGES/`).
+- Generated Lua translation tables under `src/Data/Lang/<locale>/`.
+- CJK runtime font support and direct CJK text input/search.
+- Scripted extraction, compilation, and audit gates for localization coverage.
 
-- **Display** — UI, items, skills, passives, and stat lines render in the chosen
-  language.
-- **Input** — the input fields are patched so you can **type Chinese (CJK)
-  directly** into search and name boxes — the base engine couldn't accept this
-  before.
-- **Search** — searching also matches the translated text, so you can find an
-  item or skill by its Chinese name.
+## Translating to Another Language
 
-Once that mechanism exists, the translation itself becomes ordinary text-editing
-work that **any user can do**, in any language, no programming required.
+You do not need the maintainer for the translation side, and you do not need to
+touch any Lua. The reference `zh_TW` PO catalogs are the template:
 
-Chinese is just the first demonstration. The same mechanism opens the door for
-every other language. The intent is for upstream to adopt the i18n layer so the
-community can fill in translations from there.
+1. Copy `locale/zh_TW/LC_MESSAGES/*.po` to your locale (e.g. `zh_CN`, `ko`, `ja`).
+2. Translate the entries — they are plain text; a translation tool or script can
+   give you a fast first pass to refine from.
+3. Compile to runtime tables with `scripts/compile-lang.py`.
 
----
+The maintainer focuses on the **i18n mechanism** (display, input, search), not on
+translation wording. Issues about rendering, IME/input, or search not matching
+are very welcome; translation content is best owned by each language's
+translators.
 
-## For players: just use it
+## Boundary
 
-A ready-to-run Windows build is attached to the
-[latest Release](../../releases/latest). Download the `.zip`, unpack it, and run
-Path of Building — no compiling required. Pick the language in the program's
-settings.
+The i18n layer is display-only. Raw build data stays compatible with upstream
+Path of Building:
 
-The Chinese layer is **localization-only, not a data change**: the interface,
-items, skills, passives and stat lines are shown in Chinese (and you can type and
-search in Chinese), while your builds, import/export codes, and trade data stay
-in the original English so they remain fully compatible with the upstream Path of
-Building.
+- Import/export payloads remain English/raw.
+- Saved build identities remain English/raw.
+- Trade API values and parser inputs remain English/raw.
+- Calculation internals remain English/raw.
+- UI labels, dropdown rows, tooltips, table labels, and visible item/skill/stat
+  names are translated at display boundaries.
 
----
+## Branch Model
 
-## For translators: how to fix or improve a translation
-
-All wording lives in plain-text **PO files** — the standard translation format.
-You don't need to know Lua or program internals to help; you only edit text.
-
-### Where the text lives
+The intended public branch shape is:
 
 ```text
-locale/zh_TW/LC_MESSAGES/    Traditional Chinese
-locale/zh_CN/LC_MESSAGES/    Simplified Chinese (partial)
-
-  pob.po        UI, menus, buttons, tooltips
-  items.po      item names
-  skills.po     skill / gem names
-  passives.po   passive tree nodes
-  stats.po      stat / modifier lines
+dev      -> upstream clone baseline b8048682
+release  -> i18n release branch
 ```
 
-### How to change a translation
+Use GitHub compare to inspect the patch:
 
-1. Open the relevant `.po` file in any text editor (or a PO editor such as
-   Poedit).
-2. Find the English text under `msgid` and edit the Chinese under `msgstr`:
+```text
+dev...release
+```
 
-   ```po
-   msgid "Total Life"
-   msgstr "總生命"
-   ```
+## Verification
 
-3. Save the file.
-
-### How to apply your change
-
-PO files are compiled into the tables the program reads. After editing, run:
+The current i18n release is checked with:
 
 ```bash
-python3 scripts/compile-lang.py locale/zh_TW/LC_MESSAGES/pob.po src/Data/Lang/zh_TW/pob.lua
+python3 scripts/compile-lang.py --check locale/zh_TW/LC_MESSAGES/pob.po src/Data/Lang/zh_TW/pob.lua
+python3 scripts/audit-zh-tw-display-closure.py --root . --format json --fail-on-open
+python3 scripts/audit-display-identity-i18n.py --root . --format json --output work/pob/display-identity-audit.json --fail-on-open
+python3 scripts/analyze-i18n-display-graph.py --root . --format md --output work/pob/dropdown-i18n-graph.md --fail-on-high
+python3 scripts/audit-ui-message-i18n.py --root . --domain ui --format json --output work/pob/ui-message-audit-ui.json --fail-on-open
 ```
 
-Repeat for whichever catalog you edited (`items`, `skills`, `passives`,
-`stats`). To check a file is up to date without writing, add `--check`.
-
-That's the whole loop: **edit the `.po`, run the compile script, done.** Then
-rebuild or rerun the program to see your change.
-
-### Contributing back
-
-Fork this repo, commit your edited `.po` files (and the regenerated `.lua`
-files), and open a pull request. Translation-only changes are welcome.
-
----
-
-## For developers: building it yourself
-
-This repo ships **source code only** — no compiled binaries or DLLs. You can
-inspect every change and build it yourself, which is the point: nothing to
-trust blindly.
-
-The `release` branch has two commits:
-
-```text
-commit 1  -> pristine upstream clone (b8048682, unmodified English)
-commit 2  -> the localization patch
-```
-
-View the second commit to see the entire localization diff against the clean
-upstream snapshot. The patch is display-layer only; build data, import/export
-payloads, trade values, and calculation internals are untouched.
-
-Helper scripts under `scripts/` cover extraction, compilation, and audits of
-translation coverage. The core one is `compile-lang.py` shown above.
-
----
-
-## Upstream & license
+## Upstream
 
 Original project:
-[PathOfBuildingCommunity/PathOfBuilding-PoE2](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2).
-Upstream owns Path of Building 2 Community; this is an unofficial localization
-fork. License: MIT — see [LICENSE.md](LICENSE.md).
+[PathOfBuildingCommunity/PathOfBuilding-PoE2](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2)
+
+Original license: MIT. See [LICENSE.md](LICENSE.md).
